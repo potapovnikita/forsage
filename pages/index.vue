@@ -15,6 +15,7 @@ export default {
 
 
 
-<style>
+<style lang="stylus">
+    @import '../assets/styles/colors.styl';
 </style>
 

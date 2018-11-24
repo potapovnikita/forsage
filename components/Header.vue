@@ -39,7 +39,7 @@
 <style lang="stylus">
     .header_container
         display flex
-        justify-content space-between
+        justify-content center
         flex-direction column
         background-image url('~assets/img/header-background.png')
         background-position center
@@ -48,9 +48,8 @@
         height 100vh
 
         .title
-            /*margin-top 160px*/
             font-size 53px
-            color #fff
+            color whiteMain
             text-align center
             font-family Futura
             font-weight bold
@@ -62,11 +61,13 @@
                 padding-bottom 20px
 
         .scroll-block
-            color #fff
+            color whiteMain
             text-align center
             position relative
-            bottom 10vh
+            top 20vh
     .menu
+        position absolute
+        top 0
         display flex
         width 100%
         justify-content space-between
@@ -74,15 +75,12 @@
         padding 0 118px
         font-family Futura
         font-size 13px
-        color #fff
+        color whiteMain
         font-weight bold
         font-style normal
         font-stretch normal
         line-height normal
         letter-spacing 0.3px
-        /*background-image url('~assets/img/logotip.png')*/
-        /*background-position center*/
-        /*background-repeat no-repeat*/
         height 164px
         &_icon
             padding 0
@@ -95,7 +93,7 @@
             position relative
 
             &:hover
-                color #e56b2e
+                color orangeMain
                 cursor pointer
 
             &-text
@@ -110,13 +108,12 @@
                 font-stretch normal
                 line-height normal
                 letter-spacing normal
-                color #ffffff
+                color whiteMain
 
         .menu_left, .menu_right
             width 40%
             display flex
             align-items center
-            /*flex-wrap wrap*/
         .menu_left
             justify-content flex-end
         .menu_right
