@@ -11,7 +11,7 @@
                 .menu_item НОВОСТИ
                 .menu_item ЦЕНЫ
                 .menu_item КОНТАКТЫ
-                .menu_item ПЕР.ОТДЕЛЬНЫЙ, 5
+                .menu_item НОВГОРОДЦЕВОЙ, 13Б
                     .menu_item-map
                     .menu_item-text Посмотреть на карте
 

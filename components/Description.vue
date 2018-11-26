@@ -1,8 +1,12 @@
 <template lang="pug">
     section.description_container
         .description_inner-container
-            .photo
-                img(src="~/assets/img/photo-winners.png")
+            .description_photo
+                img(src="~assets/img/photo-winners.png")
+                .photo_text
+                    | ПРЕПОДАВАТЕЛИ —
+                    br
+                    | ЧЕМПИОНЫ <span>РОССИИ</span> И <span>МИРА</span>
             .description
                 .description_title Мы - это
                 .description_text(v-html='description')
@@ -12,11 +16,6 @@
                         .text {{item}}
                 .descriprion_button
                     Button(name="Посмотреть цены" type="small")
-
-
-
-
-
 
 
 
@@ -40,7 +39,7 @@
             advantages: () => Data.Advantages.split('|')
         },
         created() {
-            console.log(Data)
+            // console.log(Data)
         }
     }
 
@@ -53,16 +52,40 @@
 
     .description_inner-container
         display flex
+        justify-content center
         width 80%
         background whiteMain
         padding 60px
 
-        .description
-            padding 27px 0 0 73px
+        .description_photo
+            position relative
+            display flex
+            justify-content center
+            padding 0 30px
+            width 400px
+            min-width 50%
 
-            &_photo
-                width 400px
-                height 600px
+            img
+                max-width 100%
+                max-height 100%
+
+            .photo_text
+                position absolute
+                bottom 40px
+                font-family Futura
+                font-size 18px
+                font-weight bold
+                font-style normal
+                font-stretch normal
+                line-height normal
+                letter-spacing 0.4px
+                color whiteMain
+
+                span
+                    color orangeMain
+
+        .description
+            padding 27px 30px 0 30px
 
             &_title
                 margin-bottom 30px
@@ -93,7 +116,7 @@
                         max-height 10px
                         border-radius 50px
                         margin-right 10px
-                        margin-top 5px
+                        margin-top 3px
 
                     .text
                         margin-bottom 15px
