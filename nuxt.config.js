@@ -52,6 +52,7 @@ module.exports = {
                     Object.assign(stylus.options, {
                         import: [
                             '~assets/styles/colors.styl',
+                            '~assets/styles/variables.styl',
                         ]
                     })
                 });

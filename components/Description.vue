@@ -2,7 +2,7 @@
     section.description_container
         .description_inner-container
             .description_photo
-                img(src="~assets/img/photo-winners.png")
+                img(src="~assets/img/photo-winners.png" alt="Преподаватели - чемпионы Росии и Мира")
                 .photo_text
                     | ПРЕПОДАВАТЕЛИ —
                     br
@@ -11,7 +11,7 @@
                 .description_title Мы - это
                 .description_text(v-html='description')
                 .description_advantages
-                    .item(v-for='item in advantages')
+                    .item(v-for='item, index in advantages')
                         .point
                         .text {{item}}
                 .descriprion_button
@@ -52,9 +52,10 @@
 
     .description_inner-container
         display flex
+        flex-wrap wrap
         justify-content center
-        width 80%
-        background whiteMain
+        width ContainersWidth
+        background whiteInnerBackground
         padding 60px
 
         .description_photo

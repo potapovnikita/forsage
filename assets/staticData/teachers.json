@@ -1,0 +1,60 @@
+{
+  "Teachers": [
+    {
+      "Name": "ИВАН КЕЛИК",
+      "Styles": "Hip-Hop, Dancehall, Popping, тренер команд",
+      "Description":"Танцует уличные направления с 2010 года. Чемпион ВСЕ ЧТО МОЖНО",
+      "ImagePath":"",
+      "SmallImagePath":""
+    },
+    {
+      "Name": "ДАНИЛ БУХАРОВ",
+      "Styles": "Break dance, Locking, Hip-Hop, тренер команд",
+      "Description":"Танцует уличные направления с 2010 года. Чемпион ВСЕ ЧТО МОЖНО",
+      "ImagePath":"",
+      "SmallImagePath":""
+    },
+    {
+      "Name": "ЛИЛИЯ ГАЙФУЛЛИНА",
+      "Styles": "Dancehall, Waacking, Vogue, тренер команд",
+      "Description":"Танцует уличные направления с 2010 года. Чемпион ВСЕ ЧТО МОЖНО",
+      "ImagePath":"",
+      "SmallImagePath":""
+    },
+    {
+      "Name": "Татьяна Сартакова",
+      "Styles": "Vogue, Mother kiki house of FORSAGE",
+      "Description":"Танцует уличные направления с 2010 года.",
+      "ImagePath":"",
+      "SmallImagePath":""
+    },
+    {
+      "Name": "ДАНИЛ БУХАРОВ",
+      "Styles": "Break dance, Locking, Hip-Hop, тренер команд",
+      "Description":"Танцует уличные направления с 2010 года. Чемпион ВСЕ ЧТО МОЖНО",
+      "ImagePath":"",
+      "SmallImagePath":""
+    },
+    {
+      "Name": "ЛИЛИЯ ГАЙФУЛЛИНА",
+      "Styles": "Dancehall, Waacking, Vogue, тренер команд",
+      "Description":"Танцует уличные направления с 2010 года. Чемпион ВСЕ ЧТО МОЖНО",
+      "ImagePath":"",
+      "SmallImagePath":""
+    },
+    {
+      "Name": "Татьяна Сартакова",
+      "Styles": "Vogue, Mother kiki house of FORSAGE",
+      "Description":"Танцует уличные направления с 2010 года.",
+      "ImagePath":"",
+      "SmallImagePath":""
+    },
+    {
+      "Name": "Татьяна Сартакова",
+      "Styles": "Vogue, Mother kiki house of FORSAGE",
+      "Description":"Танцует уличные направления с 2010 года.",
+      "ImagePath":"",
+      "SmallImagePath":""
+    }
+  ]
+}

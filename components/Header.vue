@@ -42,6 +42,7 @@
         justify-content center
         flex-direction column
         background-image url('~assets/img/header-background.png')
+        background-color #000
         background-position center
         background-repeat no-repeat
         background-size cover
