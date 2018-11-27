@@ -31,6 +31,20 @@
     export default {
         components: {
             Button
+        },
+        mounted() {
+            // for parallax effect
+            window.addEventListener('scroll', function(){
+                const scrollPosition = window.pageYOffset
+                let bgParallax = document.getElementsByClassName('header_container')[0]
+                const limit = bgParallax.offsetTop + bgParallax.offsetHeight
+
+                if (scrollPosition > bgParallax.offsetTop && scrollPosition <= limit){
+                    bgParallax.style.backgroundPositionY = (50 - 500 * scrollPosition/limit) + '%'
+                } else {
+                    bgParallax.style.backgroundPositionY = '50%'
+                }
+            });
         }
     }
 
@@ -43,7 +57,7 @@
         flex-direction column
         background-image url('~assets/img/header-background.png')
         background-color #000
-        background-position center
+        background-position 50%
         background-repeat no-repeat
         background-size cover
         height 100vh
