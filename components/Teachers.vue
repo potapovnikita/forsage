@@ -29,6 +29,7 @@
             return {
                 teachers: Data.Teachers,
                 selectedTeacher: Data.Teachers[0],
+                previousOffset: 0
             }
         },
         components: {
@@ -39,12 +40,20 @@
                 this.selectedTeacher = teacher
                 const offsetLeft = Array.from(document.getElementsByClassName('photo'))[index].offsetLeft
                 const offsetTop = Array.from(document.getElementsByClassName('photo'))[index].offsetTop
+                console.log('offsetTop', offsetTop)
+                console.log('previousOffset', this.previousOffset)
+                if (this.previousOffset !== offsetTop) {
+                    document.getElementById('active').style.opacity = '0'
+                    this.previousOffset = offsetTop
+                }
                 document.getElementById('active').style.transform = `translate(${offsetLeft}px, ${offsetTop-120}px)`
+                setTimeout(()=>{
+                    document.getElementById('active').style.opacity = '1'
+                }, 300)
             }
         },
         created() {
-            console.log(this.teachers)
-            console.log(this.selectedTeacher)
+
         },
         mounted() {
             let elems = Array.from(document.getElementsByClassName('photo-click'));
@@ -143,11 +152,10 @@
                     letter-spacing 0.4px
 
 
-
             #active
                 width 100px
                 height 15px
                 background-color orangeMain
-                transition 0.35s ease-in-out
+                transition transform 0.35s ease-in-out, opacity 0.1s
 
 </style>

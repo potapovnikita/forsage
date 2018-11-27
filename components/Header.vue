@@ -34,7 +34,7 @@
         },
         mounted() {
             // for parallax effect
-            window.addEventListener('scroll', function(){
+            window.addEventListener('scroll', () => {
                 const scrollPosition = window.pageYOffset
                 let bgParallax = document.getElementsByClassName('header_container')[0]
                 const limit = bgParallax.offsetTop + bgParallax.offsetHeight
