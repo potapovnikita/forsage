@@ -16,8 +16,10 @@
     "nuxt": "^2.0.0",
     "pug": "^2.0.3",
     "pug-plain-loader": "^1.0.0",
+    "scroll": "^2.0.3",
     "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.2"
+    "stylus-loader": "^3.0.2",
+    "zenscroll": "^4.0.2"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",

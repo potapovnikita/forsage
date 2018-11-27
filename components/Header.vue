@@ -2,7 +2,7 @@
     .header_container
         .menu
             .menu_left
-                .menu_item ПРЕПОДАВАТЕЛИ
+                .menu_item(@click="scrollToSection('teachers')") ПРЕПОДАВАТЕЛИ
                 .menu_item НАПРАВЛЕНИЯ
                 .menu_item РАСПИСАНИЕ
             .menu_icon-container
@@ -22,16 +22,24 @@
                 br
                 | прямо сейчас
             Button(name="ОСТАВИТЬ ЗАЯВКУ" type="default")
-        .scroll-block Arrow
+        .scroll-block
+            img(src="~/assets/img/arrow.svg")
 
 </template>
 
 <script>
+    import zenscroll from 'zenscroll'
     import Button from '~/components/Button.vue'
 
     export default {
         components: {
             Button
+        },
+        methods: {
+            scrollToSection(elem = '') {
+                const scrollElem = document.getElementById(elem)
+                zenscroll.to(scrollElem)
+            }
         },
         mounted() {
             // for parallax effect

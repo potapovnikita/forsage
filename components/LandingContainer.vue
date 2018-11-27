@@ -2,7 +2,8 @@
     .container
         Header
         Description
-        Teachers
+        #teachers
+            Teachers
 </template>
 
 <script>

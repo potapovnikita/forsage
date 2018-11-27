@@ -40,15 +40,17 @@
                 this.selectedTeacher = teacher
                 const offsetLeft = Array.from(document.getElementsByClassName('photo'))[index].offsetLeft
                 const offsetTop = Array.from(document.getElementsByClassName('photo'))[index].offsetTop
-                console.log('offsetTop', offsetTop)
-                console.log('previousOffset', this.previousOffset)
+                let activeSlider = document.getElementById('active').style
+
+                // Если сдвиг слайдера по вертикали, то скрываем его
                 if (this.previousOffset !== offsetTop) {
-                    document.getElementById('active').style.opacity = '0'
+                    activeSlider.opacity = '0'
                     this.previousOffset = offsetTop
                 }
-                document.getElementById('active').style.transform = `translate(${offsetLeft}px, ${offsetTop-120}px)`
-                setTimeout(()=>{
-                    document.getElementById('active').style.opacity = '1'
+
+                activeSlider.transform = `translate(${offsetLeft}px, ${offsetTop-115}px)`
+                setTimeout(() => {
+                    activeSlider.opacity = '1'
                 }, 300)
             }
         },
@@ -57,10 +59,12 @@
         },
         mounted() {
             let elems = Array.from(document.getElementsByClassName('photo-click'));
-            const photos = elems.slice(0, Math.floor(elems.length/2))
+            const halfElemsLength = elems.length/2
+            const photos = elems.slice(0, Math.floor(halfElemsLength))
             photos.forEach(item => {
-                item.style.margin = '0 0 20px 0'
+                item.style.marginBottom = '15px'
             })
+            photos[halfElemsLength-1].style.marginRight = '0'
 
             this.onTeacherClick(this.teachers[0])
         },
@@ -72,6 +76,7 @@
     .teachers_container
         display flex
         justify-content center
+        height 1000px
     .teachers_inner-container
         display flex
         flex-wrap wrap
@@ -99,27 +104,28 @@
                 letter-spacing 0.7px
 
         &_slider
-            max-width 435px
-            min-width 435px
+            max-width 436px
+            min-width 436px
 
             .photos
                 display flex
                 flex-wrap wrap
                 flex-direction row
-                justify-content space-between
+                /*justify-content space-between*/
                 position relative
 
                 .photo
                     width 100px
                     height 100px
                     background-color gray
-                    margin 0 0 0 0
+                    margin 0 12px 0 0
                     cursor pointer
                     font-size 14px
+                    z-index 2
                     &:last-child
                         margin-right 0
                     &_active
-                        background-color orangeMain
+                        background-color darkgray
 
             .teacher_description
                 min-height 270px
@@ -157,5 +163,6 @@
                 height 15px
                 background-color orangeMain
                 transition transform 0.35s ease-in-out, opacity 0.1s
+                z-index 1
 
 </style>

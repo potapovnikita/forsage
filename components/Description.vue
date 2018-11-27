@@ -4,6 +4,7 @@
             .description_photo
                 img(src="~assets/img/photo-winners.png" alt="Преподаватели - чемпионы Росии и Мира")
                 .photo_text
+                    img.photo_icon(src="~assets/img/cup.svg")
                     | ПРЕПОДАВАТЕЛИ —
                     br
                     | ЧЕМПИОНЫ <span>РОССИИ</span> И <span>МИРА</span>
@@ -69,6 +70,10 @@
             img
                 max-width 100%
                 max-height 100%
+
+            .photo_icon
+                position absolute
+                bottom 66px
 
             .photo_text
                 position absolute
