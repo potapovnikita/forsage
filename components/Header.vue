@@ -11,8 +11,9 @@
                 .menu_item НОВОСТИ
                 .menu_item ЦЕНЫ
                 .menu_item КОНТАКТЫ
-                .menu_item НОВГОРОДЦЕВОЙ, 13Б
-                    .menu_item-map
+                .menu_item.address
+                    img(src="~/assets/img/location.svg")
+                    |НОВГОРОДЦЕВОЙ, 13Б
                     .menu_item-text Посмотреть на карте
 
         .title
@@ -106,6 +107,12 @@
             padding 10px 15px
             white-space nowrap
             position relative
+            &.address
+                padding-left 25px
+                img
+                    position absolute
+                    left 0px
+                    top 8px
 
             &:hover
                 color orangeMain
