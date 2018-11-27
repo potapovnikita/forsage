@@ -40,7 +40,7 @@
                 const limit = bgParallax.offsetTop + bgParallax.offsetHeight
 
                 if (scrollPosition > bgParallax.offsetTop && scrollPosition <= limit){
-                    bgParallax.style.backgroundPositionY = (50 - 500 * scrollPosition/limit) + '%'
+                    bgParallax.style.backgroundPositionY = (50 - 100 * scrollPosition/limit) + '%'
                 } else {
                     bgParallax.style.backgroundPositionY = '50%'
                 }
