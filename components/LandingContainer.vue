@@ -4,18 +4,22 @@
         Description
         #teachers
             Teachers
+        #styles
+            Styles
 </template>
 
 <script>
     import Header from '~/components/Header.vue'
     import Description from '~/components/Description.vue'
     import Teachers from '~/components/Teachers.vue'
+    import Styles from '~/components/Styles.vue'
 
     export default {
         components: {
             Header,
             Description,
             Teachers,
+            Styles,
         }
     }
 </script>

@@ -3,7 +3,7 @@
         .menu
             .menu_left
                 .menu_item(@click="scrollToSection('teachers')") ПРЕПОДАВАТЕЛИ
-                .menu_item НАПРАВЛЕНИЯ
+                .menu_item(@click="scrollToSection('styles')") НАПРАВЛЕНИЯ
                 .menu_item РАСПИСАНИЕ
             .menu_icon-container
                 img.menu_icon(src="~/assets/img/logotip.png")
@@ -17,7 +17,7 @@
                     .menu_item-text Посмотреть на карте
 
         .title
-            .title-text
+            h1.title-text
                 | Начни танцевать
                 br
                 | прямо сейчас
@@ -72,6 +72,9 @@
         height 100vh
 
         .title
+            text-align center
+
+        h1.title-text
             font-size 53px
             color whiteMain
             text-align center
@@ -81,8 +84,7 @@
             font-stretch normal
             line-height 1.11
             letter-spacing 1px
-            &-text
-                padding-bottom 20px
+            padding-bottom 20px
 
         .scroll-block
             color whiteMain

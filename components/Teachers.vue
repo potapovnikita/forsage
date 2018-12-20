@@ -43,15 +43,15 @@
                 let activeSlider = document.getElementById('active').style
 
                 // Если сдвиг слайдера по вертикали, то скрываем его
-                if (this.previousOffset !== offsetTop) {
-                    activeSlider.opacity = '0'
-                    this.previousOffset = offsetTop
-                }
+                // if (this.previousOffset !== offsetTop) {
+                //     activeSlider.opacity = '0'
+                //     this.previousOffset = offsetTop
+                // }
 
                 activeSlider.transform = `translate(${offsetLeft}px, ${offsetTop-115}px)`
-                setTimeout(() => {
-                    activeSlider.opacity = '1'
-                }, 300)
+                // setTimeout(() => {
+                //     activeSlider.opacity = '1'
+                // }, 300)
             }
         },
         created() {
@@ -162,7 +162,7 @@
                 width 100px
                 height 15px
                 background-color orangeMain
-                transition transform 0.35s ease-in-out, opacity 0.1s
+                transition transform 0.35s ease-in-out
                 z-index 1
 
 </style>
