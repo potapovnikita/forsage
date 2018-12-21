@@ -30,6 +30,7 @@
 
         },
         methods: {
+            // выбор стиля
             selectStyle(index) {
                 this.activeStyle = index
             },
