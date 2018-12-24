@@ -119,7 +119,7 @@
 
     .styles_video
         margin 40px auto 0
-        width 75%
+        width 60%
         height 487px
 
 
