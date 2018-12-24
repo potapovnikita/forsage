@@ -9,6 +9,12 @@
                     :class="{active: index === activeStyle}",
                     @click="selectStyle(index)") {{item.StyleName}}
             .styles_video
+                iframe(width="100%"
+                    height="100%"
+                    :src="videoUrl"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen)
 
 
 
@@ -36,7 +42,11 @@
             },
         },
         computed: {
-            videoUrl: () => this.styles[this.activeStyle].YouTubeLink
+            videoUrl() {
+                console.log(this)
+                return this.styles[this.activeStyle].YouTubeLink
+                 // 'https://www.youtube.com/watch?v=K6tz-4d7XNk&list=PL1CI4EtzYD-5644wccxoj4w01jwd0mjSU'
+            }
         },
         created() {
 
@@ -57,7 +67,7 @@
     .styles_inner-container
         width ContainersWidth
         background-color whiteInnerBackground
-        background-image url('~assets/img/background-styles.png')
+        background-image url('~assets/img/background-styles@2x.png')
         height 824px
         background-position 50%
         background-repeat no-repeat
@@ -114,6 +124,12 @@
                 margin-left 0
         .active
             opacity 1
+
+    .styles_video
+        margin 40px auto 0
+        width 75%
+        height 487px
+
 
 
 

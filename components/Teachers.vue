@@ -1,5 +1,5 @@
 <template lang="pug">
-    section.teachers_container
+    .teachers_container
         .teachers_inner-container
             .teachers_photo Фотка
             .teachers_list

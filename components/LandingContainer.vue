@@ -1,10 +1,12 @@
 <template lang="pug">
     .container
-        Header
-        Description
-        #teachers
+        section#header
+            Header
+        section#description
+            Description
+        section#teachers
             Teachers
-        #styles
+        section#styles
             Styles
 </template>
 
