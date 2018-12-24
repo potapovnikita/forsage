@@ -43,9 +43,7 @@
         },
         computed: {
             videoUrl() {
-                console.log(this)
                 return this.styles[this.activeStyle].YouTubeLink
-                 // 'https://www.youtube.com/watch?v=K6tz-4d7XNk&list=PL1CI4EtzYD-5644wccxoj4w01jwd0mjSU'
             }
         },
         created() {
@@ -59,13 +57,7 @@
 </script>
 
 <style lang="stylus">
-    .styles_container
-        display flex
-        justify-content center
-
-
     .styles_inner-container
-        width ContainersWidth
         background-color whiteInnerBackground
         background-image url('~assets/img/background-styles@2x.png')
         height 824px
