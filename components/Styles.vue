@@ -70,7 +70,7 @@
             font-size 53px
             color whiteMain
             text-align center
-            font-family Futura
+            font-family $FuturaFont
             font-weight bold
             font-style normal
             font-stretch normal
@@ -95,7 +95,7 @@
         &-item
             color whiteMain
             cursor pointer
-            font-family Futura
+            font-family $FuturaFont
             font-size 13px
             font-weight bold
             font-style normal

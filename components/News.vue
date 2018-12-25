@@ -102,8 +102,6 @@
         cursor pointer
         width 170px
 
-
-
         &:hover
             span
                 opacity 1
@@ -112,7 +110,7 @@
         span
             margin-left 5px
             opacity 0.5
-            font-family LucidaGrande
+            font-family $LucidaGrandeFont
             font-size 11px
             font-weight bold
             font-style normal

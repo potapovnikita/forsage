@@ -76,7 +76,7 @@
             .photo_text
                 position absolute
                 bottom 40px
-                font-family Futura
+                font-family $FuturaFont
                 font-size 18px
                 font-weight bold
                 font-style normal
@@ -94,7 +94,7 @@
             &_title
                 margin-bottom 30px
                 font-size 28px
-                font-family Futura
+                font-family $FuturaFont
                 font-weight bold
                 font-style normal
                 font-stretch normal
@@ -103,12 +103,8 @@
 
             &_text
                 margin-bottom 40px
-                font-family: ProximaNova
+                font-family: $ProximaNovaFont
                 font-size: 16px
-                font-weight normal
-                font-style normal
-                font-stretch normal
-                line-height normal
                 letter-spacing 0.4px
             &_advantages
                 margin-bottom 50px
@@ -124,11 +120,8 @@
 
                     .text
                         margin-bottom 15px
-                        font-family ProximaNova
+                        font-family $ProximaNovaFont
                         font-size 16px
-                        font-weight normal
-                        font-style normal
-                        font-stretch normal
                         line-height 1
                         letter-spacing 0.4px
 

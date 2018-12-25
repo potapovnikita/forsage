@@ -16,7 +16,7 @@
         padding 12px 50px 12px
         border-radius 30px
         background-color orangeMain
-        font-family Futura
+        font-family $FuturaFont
         font-size 18px
         font-weight bold
         font-style normal
@@ -37,12 +37,9 @@
         padding 9px 46px 10px
         border-radius 30px
         background-color orangeMain
-        font-family ProximaNova
+        font-family $ProximaNovaFont
         font-size 18px
         /*font-weight bold*/
-        font-style normal
-        font-stretch normal
-        line-height normal
         letter-spacing 0.6px
         transition background-color .3s ease, color .3s ease
         outline none

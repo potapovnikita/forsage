@@ -95,7 +95,7 @@
             /*padding-right 130px*/
             .title
                 margin-bottom 42px
-                font-family Futura
+                font-family $FuturaFont
                 font-size 28px
                 font-weight bold
                 font-style normal
@@ -140,7 +140,7 @@
 
                 .name
                     margin-bottom 10px
-                    font-family Futura
+                    font-family $FuturaFont
                     font-size 18px
                     font-weight bold
                     letter-spacing 0.4px
@@ -148,13 +148,13 @@
                 .style
                     margin-bottom 22px
                     opacity 0.5
-                    font-family LucidaGrande
+                    font-family $LucidaGrandeFont
                     font-size 13px
                     font-weight bold
 
                 .description
                     font-size 16px
-                    font-family ProximaNova
+                    font-family $ProximaNovaFont
                     letter-spacing 0.4px
 
 

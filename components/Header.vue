@@ -78,7 +78,7 @@
             font-size 53px
             color whiteMain
             text-align center
-            font-family Futura
+            font-family $FuturaFont
             font-weight bold
             font-style normal
             font-stretch normal
@@ -99,7 +99,7 @@
         justify-content space-between
         margin-top 20px
         padding 0 118px
-        font-family Futura
+        font-family $FuturaFont
         font-size 13px
         color whiteMain
         font-weight bold
@@ -133,13 +133,9 @@
                 margin-top 4px
                 text-align center
                 opacity 0.5
-                font-family LucidaGrande
+                font-family $LucidaGrandeFont
                 font-size 11px
                 font-weight bold
-                font-style normal
-                font-stretch normal
-                line-height normal
-                letter-spacing normal
                 color whiteMain
 
         .menu_left, .menu_right
