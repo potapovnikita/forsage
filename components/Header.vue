@@ -121,7 +121,7 @@
                 padding-left 25px
                 img
                     position absolute
-                    left 0px
+                    left 0
                     top 8px
 
             &:hover
