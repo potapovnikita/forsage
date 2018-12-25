@@ -60,7 +60,7 @@
     .styles_inner-container
         background-color whiteInnerBackground
         background-image url('~assets/img/background-styles@2x.png')
-        height 824px
+        height 100vh
         background-position 50%
         background-repeat no-repeat
         background-size cover
@@ -120,7 +120,7 @@
     .styles_video
         margin 40px auto 0
         width 60%
-        height 487px
+        height 566px
 
 
 
