@@ -97,9 +97,11 @@
         align-items center
         justify-content center
         text-align center
-        margin 15px 0
+        margin 15px auto
         color #000
         cursor pointer
+        width 170px
+
 
 
         &:hover
