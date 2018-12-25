@@ -1,5 +1,5 @@
 <template lang="pug">
-    section.styles_container
+    .styles_container
         .styles_inner-container
             h1.title-text Направления
                 .line
