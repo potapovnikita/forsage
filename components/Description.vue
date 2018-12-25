@@ -39,9 +39,7 @@
         computed: {
             advantages: () => Data.Advantages.split('|')
         },
-        created() {
-            // console.log(Data)
-        }
+        created() {},
     }
 
 </script>
