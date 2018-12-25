@@ -49,6 +49,7 @@ module.exports = {
                         import: [
                             '~assets/styles/colors.styl',
                             '~assets/styles/variables.styl',
+                            '~assets/styles/global.styl',
                         ]
                     })
                 });

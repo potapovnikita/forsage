@@ -8,7 +8,7 @@
             .menu_icon-container
                 img.menu_icon(src="~/assets/img/logotip.png")
             .menu_right
-                .menu_item НОВОСТИ
+                .menu_item(@click="scrollToSection('news')") НОВОСТИ
                 .menu_item ЦЕНЫ
                 .menu_item КОНТАКТЫ
                 .menu_item.address

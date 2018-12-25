@@ -3,46 +3,28 @@
         .news_inner-container
             h2.title Последние новости
             a.news-vk_link(href="https://vk.com/forsage_dance_school" target="_blank")
-                img.icon-vk(src="~/assets/img/social/vk-logo.svg")
+                img(src="~/assets/img/social/vk-logo.svg")
                 span Посмотреть все события
             .news_list
-                .news_item
-                    img.photo(src="http://nsn.fm/upload/iblock/5c9/5c9c3ae3084d83e77d3f36885175f004.jpg", alt="Кубок России")
+                a.news_item(v-for="item in news", :href="item.PostLink", target="_blank")
+                    img.photo(:src="item.ImageLink", :alt="item.Name")
                     .text
-                        h3.head КУБОК РОССИИ
-                        .date 28 декабря 2018
-                        .description Начинается подготовка к чемпионату России по танцам. Подробности о записи команды на турнир читайте в группе в VK
-                .news_item
-                    img.photo(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEM2DysW5aFOjrz7YlyMBpsLDg8smrAtwv7604sgXQBWlIQ9DH", alt="Выиграли первое место")
-                    .text
-                        h3.head ВЫИГРАЛИ ПЕРВОЕ МЕСТО
-                        .date 28 декабря 2018
-                        .description Начинается подготовка к чемпионату России по танцам. Подробности о записи команды на турнир читайте в группе в VK
-
-                .news_item
-                    img.photo(src="http://fc-arsenal.by/uploads/posts/2014-09/1410440859_zp_512121025_sm_9641_89_1e9efd_3643.jpg", alt="Сборы")
-                    .text
-                        h3.head СБОРЫ
-                        .date 28 декабря 2018
-                        .description Начинается подготовка к чемпионату России по танцам. Подробности о записи команды на турнир читайте в группе в VK
-
-
-
-
+                        h3.head {{item.Name}}
+                        .date {{item.Date}}
+                        .description {{item.Description}}
 
 
 
 </template>
 
 <script>
-    import Data from '~/assets/staticData/styles.json'
+    import Data from '~/assets/staticData/news.json'
 
 
     export default {
         data() {
             return {
-                styles: Data.Styles,
-                activeStyle: 0,
+                news: Data.News,
             }
         },
         components: {
@@ -78,17 +60,6 @@
         background whiteInnerBackground
         padding 60px
 
-    h2.title
-        text-align center
-        font-family $FuturaFont
-        font-size 28px
-        font-weight bold
-        font-style normal
-        font-stretch normal
-        line-height normal
-        letter-spacing 0.7px
-        color #000
-
     a
         text-decoration none
 
@@ -120,7 +91,8 @@
     .news_list
         display flex
         justify-content center
-        flex-wrap nowrap
+        flex-wrap wrap-reverse
+
         .news_item
             background grayBackground
             margin 15px
@@ -153,7 +125,7 @@
                     font-weight bold
                     color #000
                     margin-bottom 20px
-
+                    opacity 0.5
 
                 .description
                     font-family $ProximaNovaFont
