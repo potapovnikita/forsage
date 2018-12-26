@@ -9,7 +9,7 @@
         .company FORSAGE DANCE SCHOOL, все права защищены
         .company
             span Разработка сайта
-            a(href="https://www.instagram.com/nikitapotapov93/")
+            a(href="https://www.instagram.com/nikitapotapov93/" target="_blank")
                 span potapovnikita93
                 img(src="~/assets/img/social/instagram-logo.svg")
 
