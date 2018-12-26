@@ -12,6 +12,8 @@
             News
         section#instagram
             Instagram
+        section#partners
+            Partners
 </template>
 
 <script>
@@ -21,6 +23,7 @@
     import Styles from '~/components/Styles.vue'
     import News from '~/components/News.vue'
     import Instagram from '~/components/Instagram.vue'
+    import Partners from '~/components/Partners.vue'
 
     export default {
         components: {
@@ -30,6 +33,7 @@
             Styles,
             News,
             Instagram,
+            Partners,
         }
     }
 </script>

@@ -33,15 +33,15 @@
         computed: {
 
         },
+        // de1341bf598a4f26ad8401379fce5535
         async created() {
-            const TOKEN = '289580347.5674cc4.8344c5c29ee247b59d1cd4c943928264' // токен для доступа к api
-            // const USER_ID = '5615810087' // id пользователя
-            const USER_ID = 'self' // id пользователя (свой аккаунт)
+            const TOKEN = '5615810087.b6a16de.79a0aed7cf134b6eb7fc0fa6e6014cfa' // токен для доступа к api
+            const USER_ID = 'self' // id пользователя
 
             await axios.get(`https://api.instagram.com/v1/users/${USER_ID}/media/recent/?access_token=${TOKEN}`)
                 .then((res) => {
-                    this.photos = res.data.data
-                    console.log("this.photos", this.photos)
+                    // оставляем только последние 6 фотографий профиля
+                    this.photos = res.data.data.splice(0, 6)
                 })
                 .catch((err) => {
                     this.error = err
