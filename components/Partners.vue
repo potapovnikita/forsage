@@ -57,7 +57,9 @@
                 display flex
                 justify-content center
                 flex-wrap wrap
-                margin 50px
+                margin 30px
+            &_item
+                margin 20px
 
 
     .company
