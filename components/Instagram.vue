@@ -96,6 +96,8 @@
         display flex
         justify-content center
         flex-wrap wrap
+        max-width 1000px
+        margin 0 auto
         .photo
             height 300px
             box-sizing border-box

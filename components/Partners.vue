@@ -52,7 +52,15 @@
         text-align center
         background-image linear-gradient(237deg, #0c1135, #080634)
 
-        .company
+        .partners
+            &_list
+                display flex
+                justify-content center
+                flex-wrap wrap
+                margin 50px
+
+
+    .company
             opacity 0.5
             font-family $LucidaGrandeFont
             font-size 11px
