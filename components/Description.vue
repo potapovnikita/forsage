@@ -4,17 +4,19 @@
             .description_photo
                 img(src="~assets/img/photo-winners.png" alt="Преподаватели - чемпионы Росии и Мира")
                 .photo_text
-                    img.photo_icon(src="~assets/img/cup.svg")
+                    .photo_icon
+                        Cup
+
                     | ПРЕПОДАВАТЕЛИ —
                     br
                     | ЧЕМПИОНЫ <span>РОССИИ</span> И <span>МИРА</span>
             .description
                 .description_title Мы - это
-                .description_text(v-html='description')
+                .description_text.text_default(v-html='description')
                 .description_advantages
                     .item(v-for='item, index in advantages')
                         .point
-                        .text {{item}}
+                        .text.text_default {{item}}
                 .descriprion_button
                     Button(name="Посмотреть цены" type="small")
 
@@ -25,6 +27,7 @@
 <script>
     import Data from '~/assets/staticData/title.json'
     import Button from '~/components/Button.vue'
+    import Cup from '~/assets/img/cup.svg'
 
 
     export default {
@@ -34,7 +37,8 @@
             }
         },
         components: {
-            Button
+            Button,
+            Cup,
         },
         computed: {
             advantages: () => Data.Advantages.split('|')
@@ -103,9 +107,6 @@
 
             &_text
                 margin-bottom 40px
-                font-family: $ProximaNovaFont
-                font-size: 16px
-                letter-spacing 0.4px
             &_advantages
                 margin-bottom 50px
                 .item
@@ -120,10 +121,6 @@
 
                     .text
                         margin-bottom 15px
-                        font-family $ProximaNovaFont
-                        font-size 16px
-                        line-height 1
-                        letter-spacing 0.4px
 
 
 

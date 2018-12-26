@@ -1,6 +1,6 @@
 <template lang="pug">
     .partners_container
-        h2.title-partners Партнеры
+        h2.title.title-partners Партнеры
         .partners_list
             .partners_item
                 img(src="http://www.hiphopunite.com/wp-content/uploads/2015/12/logo.png")
@@ -11,16 +11,12 @@
             span Разработка сайта
             a(href="https://www.instagram.com/nikitapotapov93/" target="_blank")
                 span potapovnikita93
-                img(src="~/assets/img/social/instagram-logo.svg")
-
-
-
-
+                InstaLogo
 
 </template>
 
 <script>
-    import axios from 'axios'
+    import InstaLogo from '~/assets/img/social/instagram-logo.svg'
 
     export default {
         data() {
@@ -28,7 +24,7 @@
             }
         },
         components: {
-
+            InstaLogo
         },
         methods: {
 
@@ -52,6 +48,9 @@
         text-align center
         background-image linear-gradient(237deg, #0c1135, #080634)
 
+        h2.title-partners
+            color whiteMain
+
         .partners
             &_list
                 display flex
@@ -70,7 +69,7 @@
             color whiteMain
             margin-bottom 5px
 
-            img
+            svg
                 bottom -3px
                 position relative
 
@@ -83,11 +82,6 @@
                 color whiteMain
                 &:hover
                     text-decoration none
-
-
-        h2.title-partners
-            @extend h2.title
-            color whiteMain
 
 
 

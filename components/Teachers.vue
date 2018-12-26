@@ -15,7 +15,7 @@
                     .teacher_description
                         .name {{selectedTeacher.Name}}
                         .style {{selectedTeacher.Styles}}
-                        .description {{selectedTeacher.Description}}
+                        .description.text_default {{selectedTeacher.Description}}
 
 
 
@@ -151,11 +151,6 @@
                     font-family $LucidaGrandeFont
                     font-size 13px
                     font-weight bold
-
-                .description
-                    font-size 16px
-                    font-family $ProximaNovaFont
-                    letter-spacing 0.4px
 
 
             #active

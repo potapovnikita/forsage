@@ -10,9 +10,9 @@
             .menu_right
                 .menu_item(@click="scrollToSection('news')") НОВОСТИ
                 .menu_item ЦЕНЫ
-                .menu_item КОНТАКТЫ
-                .menu_item.address
-                    img(src="~/assets/img/location.svg")
+                .menu_item(@click="scrollToSection('contacts')") КОНТАКТЫ
+                .menu_item.address(@click="scrollToSection('contacts')")
+                    Location
                     |НОВГОРОДЦЕВОЙ, 13Б
                     .menu_item-text Посмотреть на карте
 
@@ -23,17 +23,21 @@
                 | прямо сейчас
             Button(name="ОСТАВИТЬ ЗАЯВКУ" type="default")
         .scroll-block
-            img(src="~/assets/img/arrow.svg")
+            Arrow
 
 </template>
 
 <script>
     import zenscroll from 'zenscroll'
     import Button from '~/components/Button.vue'
+    import Location from '~/assets/img/location.svg'
+    import Arrow from '~/assets/img/arrow.svg'
 
     export default {
         components: {
-            Button
+            Button,
+            Location,
+            Arrow
         },
         methods: {
             scrollToSection(elem = '') {
@@ -119,7 +123,7 @@
             position relative
             &.address
                 padding-left 25px
-                img
+                svg
                     position absolute
                     left 0
                     top 8px

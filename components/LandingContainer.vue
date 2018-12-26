@@ -12,8 +12,11 @@
             News
         section#instagram
             Instagram
+        section#contacts
+            Contacts
         section#partners
             Partners
+
 </template>
 
 <script>
@@ -24,6 +27,7 @@
     import News from '~/components/News.vue'
     import Instagram from '~/components/Instagram.vue'
     import Partners from '~/components/Partners.vue'
+    import Contacts from '~/components/Contacts.vue'
 
     export default {
         components: {
@@ -34,6 +38,7 @@
             News,
             Instagram,
             Partners,
+            Contacts,
         }
     }
 </script>

@@ -3,7 +3,7 @@
         .news_inner-container
             h2.title Последние новости
             a.news-vk_link(href="https://vk.com/forsage_dance_school" target="_blank")
-                img(src="~/assets/img/social/vk-logo.svg")
+                VkLogo
                 span Посмотреть все события
             .news_list
                 a.news_item(v-for="item in news", :href="item.PostLink", target="_blank")
@@ -11,7 +11,7 @@
                     .text
                         h3.head {{item.Name}}
                         .date {{item.Date}}
-                        .description {{item.Description}}
+                        .description.text_default {{item.Description}}
 
 
 
@@ -19,6 +19,7 @@
 
 <script>
     import Data from '~/assets/staticData/news.json'
+    import VkLogo from '~/assets/img/social/vk-logo.svg'
 
 
     export default {
@@ -28,7 +29,7 @@
             }
         },
         components: {
-
+            VkLogo
         },
         methods: {
             selectStyle(index) {
@@ -77,6 +78,8 @@
             span
                 opacity 1
                 color orangeMain
+            svg
+                fill orangered
 
         span
             margin-left 5px
@@ -91,7 +94,7 @@
     .news_list
         display flex
         justify-content center
-        flex-wrap wrap-reverse
+        flex-wrap wrap
 
         .news_item
             background grayBackground
@@ -104,7 +107,6 @@
                 box-shadow 0 1px 4px 0 rgba(0, 0, 0, 0.4);
 
             .photo
-                background-color #47494e
                 min-height 150px
                 max-height 150px
                 min-width 100%
@@ -126,12 +128,6 @@
                     color #000
                     margin-bottom 20px
                     opacity 0.5
-
-                .description
-                    font-family $ProximaNovaFont
-                    font-size 16px
-                    letter-spacing 0.4px
-                    color #000
 
 
 </style>

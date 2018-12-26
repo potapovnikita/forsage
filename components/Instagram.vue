@@ -3,7 +3,7 @@
         .instagram_inner-container
             h2.title Наш инстаграм
             a.instagram_link(href="https://www.instagram.com/forsage_dance_school/" target="_blank")
-                img(src="~/assets/img/social/instagram-logo.svg")
+                InstaLogo
                 span Подписаться
             .instagram_photos
                 .photo(v-for="photo in photos")
@@ -16,6 +16,7 @@
 
 <script>
     import axios from 'axios'
+    import InstaLogo from '~/assets/img/social/instagram-logo.svg'
 
     export default {
         data() {
@@ -25,7 +26,7 @@
             }
         },
         components: {
-
+            InstaLogo
         },
         methods: {
 
