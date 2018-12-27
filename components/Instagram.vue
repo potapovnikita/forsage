@@ -75,6 +75,7 @@
         width ContainersWidth
         background whiteInnerBackground
         padding 60px
+        padding-right 32px // жосткий костыль из за выравнивания флекс-контейнера =(
 
     .instagram_link
         display flex
