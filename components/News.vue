@@ -74,12 +74,16 @@
         cursor pointer
         width 170px
 
+        svg
+            fill #7f7f7f
+
         &:hover
             span
                 opacity 1
                 color orangeMain
+
             svg
-                fill orangered
+                fill orangeMain
 
         span
             margin-left 5px

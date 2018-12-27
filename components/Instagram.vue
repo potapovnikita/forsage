@@ -6,8 +6,16 @@
                 InstaLogo
                 span Подписаться
             .instagram_photos
-                .photo(v-for="photo in photos")
-                    img(:src="photo.images.standard_resolution.url", :alt="photo.user.full_name")
+                a.photo(v-for="photo in photos" :href="photo.link" target="_blank")
+                    .blur
+                        .info
+                            .likes
+                                .info_img
+                                span {{photo.likes.count || 0}}
+                            .comments
+                                .info_img
+                                span {{photo.comments.count || 0}}
+                    img.photo_img(:src="photo.images.standard_resolution.url", :alt="photo.user.full_name")
 
 
 
@@ -43,6 +51,7 @@
                 .then((res) => {
                     // оставляем только последние 6 фотографий профиля
                     this.photos = res.data.data.splice(0, 6)
+                    console.log(res.data)
                 })
                 .catch((err) => {
                     this.error = err
@@ -77,10 +86,16 @@
         cursor pointer
         width 170px
 
+        svg
+            fill #7F7F7F
+
         &:hover
             span
                 opacity 1
                 color orangeMain
+
+            svg
+                fill orangeMain
 
         span
             margin-left 5px
@@ -99,15 +114,63 @@
         flex-wrap wrap
         max-width 1000px
         margin 0 auto
+
         .photo
             height 300px
+            position relative
             box-sizing border-box
-            img
-                box-sizing border-box
+            margin 0 28px 28px 0
+
+
+            &_img
                 max-width 300px
                 min-width 300px
                 min-height 300px
                 max-height 300px
+            .blur
+                position absolute
+                top 0
+                bottom 0
+                left 0
+                right 0
+                display flex
+                justify-content center
+                align-items center
+
+                &:hover
+                    background-color rgba(0,0,0, 0.3)
+
+                    .info
+                        display inline-flex
+                .info
+                    color whiteMain
+                    position absolute
+                    display none
+                    font-size 16px
+                    font-weight 800
+                    align-items center
+
+                    .likes
+                        display inline-flex
+                        margin-right 30px
+
+                        .info_img
+                            background-image url('~assets/img/social/instaPics.png')
+                            background-position -3px
+
+                    .comments
+                        display inline-flex
+                        .info_img
+                            background-image url('~assets/img/social/instaPics.png')
+                            background-position -23px
+
+                    .info_img
+                        width 19px
+                        height 19px
+                        margin-right 5px
+                        background-repeat no-repeat
+
+
 
 
 

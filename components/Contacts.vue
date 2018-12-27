@@ -4,11 +4,11 @@
             h2.title.title-contacts Наши контакты
             .caption.text_default Танцуйте вместе с нами, по всем вопросам обращайтесь:
             .icons
-                .item
+                .item.vk
                     vkLogo
-                .item
+                .item.youtube
                     youtubeLogo
-                .item
+                .item.insta
                     instaLogo
 
             h2.title.phone +7 (903) 081-23-53
@@ -20,15 +20,15 @@
                 :coords="madData.coords"
                 :zoom="madData.zoom"
                 :style="madData.style"
-                :placemarks="placemarks"
-                map-link="https://api-maps.yandex.ru/2.1/?apikey=c4f479c4-51d8-4415-8f4c-71c9ef78f1aa&lang=ru_RU"
+                :map-link="madData.apiLink"
             )
                 ymap-marker(
                     marker-id="1"
                     marker-type="placemark"
                     :coords="placemarks[0].coords"
-                    hint-content="Hint content 1")
-
+                    hint-content="НОВГОРОДЦЕВОЙ, 13Б"
+                    :icon="{color: 'orange', glyph: 'star'}"
+                    :balloon="{body: 'НОВГОРОДЦЕВОЙ, 13Б'}")
 
 </template>
 
@@ -42,20 +42,15 @@
         data() {
             return {
                 madData: {
-                    coords: [56.83352143328822,60.67580989840195],
+                    coords: [56.833184077060075,60.668699468200664], // координаты центра карты
                     zoom: 16,
-                    style: "width: 100%; height: 100%;"
+                    style: "width: 100%; height: 100%;",
+                    apiLink: 'https://api-maps.yandex.ru/2.1/?apikey=c4f479c4-51d8-4415-8f4c-71c9ef78f1aa&lang=ru_RU',
                 },
                 placemarks: [
                     {
-                        coords: [56.83352143328822,60.67580989840195],
-                        properties: {}, // define properties here
-                        options: {}, // define options here
-                        clusterName: "1",
-                        balloonTemplate: '<div>"Your custom template"</div>',
-                        callbacks: { click: function() {
-                            console.log('хзхз')}
-                        }
+                        coords: [56.83345461840599,60.675716126983616], // координаты метки
+                        clusterName: "1"
                     }
                 ]
             }
@@ -111,9 +106,19 @@
 
                 .item
                     margin-right 20px
+                    cursor pointer
 
                     &:last-child
                         margin-right 0
+                    &.vk > svg
+                        &:hover
+                            fill #4680C2
+                    &.youtube > svg
+                        &:hover
+                            fill #E62117
+                    &.insta > svg
+                        &:hover
+                            fill #DD2A7B
 
             .phone
                 font-size 18px
@@ -122,6 +127,4 @@
 
             .time
                 text-align center
-
-
 </style>
