@@ -1,20 +1,20 @@
 <template lang="pug">
     .styles_container
         .styles_inner-container
-            h1.title-text Направления
-                .line
-            .styles_list
-                .styles_list-item(
-                    v-for="(item, index) in styles",
-                    :class="{active: index === activeStyle}",
-                    @click="selectStyle(index)") {{item.StyleName}}
+            .styles-top
+                h1.title.title-text Направления
+                    .line
+                .styles_list
+                    .styles_list-item(
+                        v-for="(item, index) in styles",
+                        :class="{active: index === activeStyle}",
+                        @click="selectStyle(index)") {{item.StyleName}}
             .styles_video
-                iframe(width="100%"
-                    height="100%"
-                    :src="videoUrl"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen)
+                div
+                    iframe(:src="videoUrl"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen)
 
 
 
@@ -60,34 +60,28 @@
     .styles_inner-container
         background-color whiteInnerBackground
         background-image url('~assets/img/background-styles@2x.png')
-        height 100vh
         background-position 50%
         background-repeat no-repeat
         background-size cover
+        padding 60px
+        padding-bottom 80px
 
-        h1.title-text
-            max-width 430px
-            font-size 53px
-            color whiteMain
-            text-align center
-            font-family $FuturaFont
-            font-weight bold
-            font-style normal
-            font-stretch normal
-            line-height 1.11
-            letter-spacing 1px
-            padding-top 100px
-            padding-bottom 50px
-            position relative
-            margin 0 auto
+        .styles-top
+            margin-bottom 40px
+            .title-text
+                max-width 430px
+                padding-top 35px
+                padding-bottom 50px
+                position relative
+                margin 0 auto
 
-            .line
-                width 118px
-                height 5px
-                position absolute
-                background orangeMain
-                top 100px
-                right 0
+                .line
+                    width 118px
+                    height 5px
+                    position absolute
+                    background orangeMain
+                    top 100px
+                    right 0
     .styles_list
         display flex
         justify-content center
@@ -96,15 +90,18 @@
             color whiteMain
             cursor pointer
             font-family $FuturaFont
-            font-size 13px
+            font-size 15px
             font-weight bold
             font-style normal
             font-stretch normal
             line-height normal
             letter-spacing 0.3px
             opacity 0.5
-            margin 0 15px 0 15px
+            margin 0 30px 15px 0
             white-space nowrap
+            border-bottom 2px solid
+            border-color rgba(0, 0, 0, 0)
+
 
             &:hover
                 opacity 1
@@ -115,14 +112,39 @@
             &:first-child
                 margin-left 0
         .active
+            border-bottom 2px solid orangeMain
             opacity 1
 
     .styles_video
-        margin 40px auto 0
-        width 60%
-        height 566px
+        div
+            position relative
+            margin 0 auto
+            width 60%
+            padding-bottom 32%
+            padding-top 25px
+            height 0
 
+            iframe
+                position absolute
+                top 0
+                left 0
+                width 100%
+                height 100%
 
+    @media only screen and (max-width 1000px)
+        .styles_list
+            margin 0 auto
+            max-width 400px
+            flex-wrap wrap
+
+    @media only screen and (max-width 450px)
+        .styles_list-item
+            margin-right 15px
+
+        .styles_video
+            div
+                width 90%
+                padding-bottom 42%
 
 
 </style>

@@ -5,14 +5,17 @@
             .caption.text_default Танцуйте вместе с нами, по всем вопросам обращайтесь:
             .icons
                 .item.vk
-                    vkLogo
+                    a(:href="contacts.Vk", target="_blank")
+                        vkLogo
                 .item.youtube
-                    youtubeLogo
+                    a(:href="contacts.YouTube", target="_blank")
+                        youtubeLogo
                 .item.insta
-                    instaLogo
+                    a(:href="contacts.Instagram", target="_blank")
+                        instaLogo
 
-            h2.title.phone +7 (903) 081-23-53
-            .time пн-вс: 11:00 — 22:00
+            h2.title.phone {{contacts.Phone}}
+            .time {{contacts.WorkTime}}
 
 
         no-ssr
@@ -26,9 +29,9 @@
                     marker-id="1"
                     marker-type="placemark"
                     :coords="placemarks[0].coords"
-                    hint-content="НОВГОРОДЦЕВОЙ, 13Б"
+                    :hint-content="contacts.Address.toUpperCase()"
                     :icon="{color: 'orange', glyph: 'star'}"
-                    :balloon="{body: 'НОВГОРОДЦЕВОЙ, 13Б'}")
+                    :balloon="{body: contacts.Address.toUpperCase()}")
 
 </template>
 
@@ -38,9 +41,12 @@
     import youtubeLogo from '~/assets/img/social/youtube.svg'
     import instaLogo from '~/assets/img/social/instagram.svg'
 
+    import Data from '~/assets/staticData/contacts.json'
+
     export default {
         data() {
             return {
+                contacts: Data.Contacts,
                 madData: {
                     coords: [56.833184077060075,60.668699468200664], // координаты центра карты
                     zoom: 16,
@@ -108,15 +114,18 @@
                     margin-right 20px
                     cursor pointer
 
+                    a
+                        display block
+
                     &:last-child
                         margin-right 0
-                    &.vk > svg
+                    &.vk > a > svg
                         &:hover
                             fill #4680C2
-                    &.youtube > svg
+                    &.youtube > a > svg
                         &:hover
                             fill #E62117
-                    &.insta > svg
+                    &.insta > a > svg
                         &:hover
                             fill #DD2A7B
 

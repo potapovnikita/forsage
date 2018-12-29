@@ -1,11 +1,28 @@
+h1.title
+    font-family $FuturaFont
+    font-size 61px
+    color whiteMain
+    text-align center
+    font-weight bold
+    font-style normal
+    font-stretch normal
+    line-height 1.11
+    letter-spacing 1px
+
 h2.title
     text-align center
     font-family $FuturaFont
-    font-size 28px
+    font-size 33px
     font-weight bold
     letter-spacing 0.7px
     color #000
 
+h3.title
+    font-family $FuturaFont
+    font-size 22px
+    font-weight bold
+    letter-spacing 0.4px
+    color #000
 
 .text_default
     font-family $ProximaNovaFont
@@ -16,3 +33,19 @@ h2.title
     line-height normal
     letter-spacing 0.4px
     color #000
+
+
+@media only screen and (max-width 768px)
+    h1.title
+        font-size 50px
+    h2.title
+        font-size 18px
+    h3.title
+        font-size 14px
+
+
+@media only screen and (max-width 450px)
+    h1.title
+        font-size 40px
+
+

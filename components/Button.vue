@@ -17,11 +17,11 @@
         border-radius 30px
         background-color orangeMain
         font-family $FuturaFont
-        font-size 18px
+        font-size 21px
         font-weight bold
         font-style normal
         font-stretch normal
-        line-height normal
+        line-height 1.2
         letter-spacing 0.4px
         transition background-color .3s ease, color .3s ease
         outline none
@@ -34,12 +34,12 @@
     .button.small
         color whiteMain
         border 1px solid whiteMain
-        padding 9px 46px 10px
+        padding 10px 46px 11px
         border-radius 30px
         background-color orangeMain
         font-family $ProximaNovaFont
-        font-size 18px
-        /*font-weight bold*/
+        font-size 16px
+        font-weight bold
         letter-spacing 0.6px
         transition background-color .3s ease, color .3s ease
         outline none
@@ -50,4 +50,7 @@
             background whiteMain
             border 1px solid orangeMain
 
+    @media only screen and (max-width 450px)
+        .button.default
+            font-size 17px
 </style>

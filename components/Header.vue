@@ -13,14 +13,14 @@
                 .menu_item(@click="scrollToSection('contacts')") КОНТАКТЫ
                 .menu_item.address(@click="scrollToSection('contacts')")
                     Location
-                    |НОВГОРОДЦЕВОЙ, 13Б
+                    | {{contacts.Address.toUpperCase()}}
                     .menu_item-text Посмотреть на карте
 
-        .title
-            h1.title-text
-                | Начни танцевать
+        .title-container
+            h1.title.title-text
+                | Начни&thinsp;танцевать
                 br
-                | прямо сейчас
+                | прямо&thinsp;сейчас
             Button(name="ОСТАВИТЬ ЗАЯВКУ" type="default")
         .scroll-block
             Arrow
@@ -33,7 +33,14 @@
     import Location from '~/assets/img/location.svg'
     import Arrow from '~/assets/img/arrow.svg'
 
+    import Data from '~/assets/staticData/contacts.json'
+
     export default {
+        data() {
+            return {
+                contacts: Data.Contacts,
+            }
+        },
         components: {
             Button,
             Location,
@@ -75,20 +82,12 @@
         background-size cover
         height 100vh
 
-        .title
+        .title-container
             text-align center
 
         h1.title-text
-            font-size 53px
-            color whiteMain
-            text-align center
-            font-family $FuturaFont
-            font-weight bold
-            font-style normal
-            font-stretch normal
-            line-height 1.11
-            letter-spacing 1px
-            padding-bottom 20px
+            line-height 0.9
+            padding-bottom 50px
 
         .scroll-block
             color whiteMain
@@ -104,7 +103,7 @@
         margin-top 20px
         padding 0 118px
         font-family $FuturaFont
-        font-size 13px
+        font-size 15px
         color whiteMain
         font-weight bold
         font-style normal

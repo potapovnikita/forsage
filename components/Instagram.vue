@@ -2,7 +2,7 @@
     .instagram_container
         .instagram_inner-container
             h2.title Наш инстаграм
-            a.instagram_link(href="https://www.instagram.com/forsage_dance_school/" target="_blank")
+            a.instagram_link(:href="instaLink" target="_blank")
                 InstaLogo
                 span Подписаться
             .instagram_photos
@@ -26,11 +26,14 @@
     import axios from 'axios'
     import InstaLogo from '~/assets/img/social/instagram-logo.svg'
 
+    import Data from '~/assets/staticData/contacts.json'
+
     export default {
         data() {
             return {
                 photos: [],
                 error: null,
+                instaLink: Data.Instagram
             }
         },
         components: {
@@ -51,7 +54,6 @@
                 .then((res) => {
                     // оставляем только последние 6 фотографий профиля
                     this.photos = res.data.data.splice(0, 6)
-                    console.log(res.data)
                 })
                 .catch((err) => {
                     this.error = err

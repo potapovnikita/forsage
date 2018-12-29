@@ -1,9 +1,9 @@
 <template lang="pug">
     .teachers_container
         .teachers_inner-container
-            .teachers_photo Фотка
+            .teachers_photo
             .teachers_list
-                .title Преподаватели
+                h2.title.title-teachers Преподаватели
                 .teachers_slider
                     #photos.photos
                         .photo.photo-click(
@@ -16,6 +16,7 @@
                         .name {{selectedTeacher.Name}}
                         .style {{selectedTeacher.Styles}}
                         .description.text_default {{selectedTeacher.Description}}
+                        .social Найти в соцсетях: тут будут соцсети
 
 
 
@@ -76,32 +77,28 @@
     .teachers_container
         display flex
         justify-content center
-        height 1000px
     .teachers_inner-container
         display flex
         flex-wrap wrap
         width ContainersWidth
         background-color whiteInnerBackground
         padding 60px
+        padding-bottom 0
 
     .teachers
         &_photo
             min-width 50%
-            background black
-
+            background-image url('~assets/img/teachers/image-vanya@2x.png')
+            background-repeat no-repeat
+            background-size contain
+            background-position bottom
         &_list
             padding 27px 30px 0 30px
             width 50%
             /*padding-right 130px*/
-            .title
+            .title-teachers
                 margin-bottom 42px
-                font-family $FuturaFont
-                font-size 28px
-                font-weight bold
-                font-style normal
-                font-stretch normal
-                line-height normal
-                letter-spacing 0.7px
+                text-align left
 
         &_slider
             max-width 436px
@@ -141,7 +138,7 @@
                 .name
                     margin-bottom 10px
                     font-family $FuturaFont
-                    font-size 18px
+                    font-size 22px
                     font-weight bold
                     letter-spacing 0.4px
 
@@ -152,6 +149,9 @@
                     font-size 13px
                     font-weight bold
 
+                .description
+                    color whiteMain
+                    margin-bottom 20px
 
             #active
                 width 100px

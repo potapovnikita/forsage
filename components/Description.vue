@@ -3,7 +3,7 @@
         .description_inner-container
             .description_photo
                 img(src="~assets/img/photo-winners.png" alt="Преподаватели - чемпионы Росии и Мира")
-                .photo_text
+                h3.title.photo_text
                     .photo_icon
                         Cup
 
@@ -11,7 +11,7 @@
                     br
                     | ЧЕМПИОНЫ <span>РОССИИ</span> И <span>МИРА</span>
             .description
-                .description_title Мы - это
+                h2.title.description_title Мы&thinsp;-&thinsp;это
                 .description_text.text_default(v-html='description')
                 .description_advantages
                     .item(v-for='item, index in advantages')
@@ -75,18 +75,11 @@
 
             .photo_icon
                 position absolute
-                bottom 66px
+                bottom 59px
 
             .photo_text
                 position absolute
                 bottom 40px
-                font-family $FuturaFont
-                font-size 18px
-                font-weight bold
-                font-style normal
-                font-stretch normal
-                line-height normal
-                letter-spacing 0.4px
                 color whiteMain
 
                 span
@@ -97,13 +90,7 @@
 
             &_title
                 margin-bottom 30px
-                font-size 28px
-                font-family $FuturaFont
-                font-weight bold
-                font-style normal
-                font-stretch normal
-                line-height normal
-                letter-spacing 0.7px
+                text-align left
 
             &_text
                 margin-bottom 40px

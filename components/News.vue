@@ -2,14 +2,14 @@
     .news_container
         .news_inner-container
             h2.title Последние новости
-            a.news-vk_link(href="https://vk.com/forsage_dance_school" target="_blank")
+            a.news-vk_link(:href="vkLink" target="_blank")
                 VkLogo
                 span Посмотреть все события
             .news_list
                 a.news_item(v-for="item in news", :href="item.PostLink", target="_blank")
                     img.photo(:src="item.ImageLink", :alt="item.Name")
                     .text
-                        h3.head {{item.Name}}
+                        h3.title.head {{item.Name}}
                         .date {{item.Date}}
                         .description.text_default {{item.Description}}
 
@@ -19,6 +19,8 @@
 
 <script>
     import Data from '~/assets/staticData/news.json'
+    import DataContacts from '~/assets/staticData/contacts.json'
+
     import VkLogo from '~/assets/img/social/vk-logo.svg'
 
 
@@ -26,6 +28,7 @@
         data() {
             return {
                 news: Data.News,
+                vkLink: DataContacts.Vk,
             }
         },
         components: {
@@ -118,13 +121,9 @@
             .text
                 padding 24px
 
-                h3.head
-                    font-family $FuturaFont
-                    font-size 18px
-                    font-weight bold
-                    letter-spacing 0.4px
-                    color #000
+                .head
                     margin-bottom 7px
+
                 .date
                     font-family $LucidaGrandeFont
                     font-size 13px

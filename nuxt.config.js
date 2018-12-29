@@ -14,7 +14,8 @@ module.exports = {
     ]
     },
     css: [
-        '~assets/styles/global.styl'
+        '~assets/styles/fonts.styl',
+        '~assets/styles/global.styl',
     ],
     /*
     ** Build configuration
@@ -50,9 +51,7 @@ module.exports = {
             config.module.rules.push({
                 test: /\.svg$/,
                     loader: 'vue-svg-loader',
-            })
-
-            console.log(config.module.rules);
+            });
 
             [].concat(...config.module.rules
                 .find(e => e.test.toString().match(/\.styl/)).oneOf
