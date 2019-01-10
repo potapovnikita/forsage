@@ -74,7 +74,7 @@
         justify-content center
 
     .instagram_inner-container
-        width ContainersWidth
+        width $ContainersWidth
         background whiteInnerBackground
         padding 60px
         padding-right 32px // жосткий костыль из за выравнивания флекс-контейнера =(

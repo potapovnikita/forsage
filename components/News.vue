@@ -60,7 +60,7 @@
         justify-content center
 
     .news_inner-container
-        width ContainersWidth
+        width $ContainersWidth
         background whiteInnerBackground
         padding 60px
 

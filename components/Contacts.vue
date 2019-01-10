@@ -136,4 +136,8 @@
 
             .time
                 text-align center
+
+    @media only screen and (max-width 767px)
+        .contacts_sticker
+            display none
 </style>

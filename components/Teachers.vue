@@ -80,7 +80,7 @@
     .teachers_inner-container
         display flex
         flex-wrap wrap
-        width ContainersWidth
+        width $ContainersWidth
         background-color whiteInnerBackground
         padding 60px
         padding-bottom 0
@@ -159,5 +159,10 @@
                 background-color orangeMain
                 transition transform 0.35s ease-in-out
                 z-index 1
+
+    @media only screen and (max-width 767px)
+        .teachers_inner-container
+            display none
+
 
 </style>

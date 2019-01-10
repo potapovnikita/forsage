@@ -17,7 +17,7 @@
                     .item(v-for='item, index in advantages')
                         .point
                         .text.text_default {{item}}
-                .descriprion_button
+                .description_button
                     Button(name="Посмотреть цены" type="small")
 
 
@@ -56,8 +56,8 @@
     .description_inner-container
         display flex
         flex-wrap wrap
-        justify-content center
-        width ContainersWidth
+        justify-content space-between
+        width $ContainersWidth
         background whiteInnerBackground
         padding 60px
 
@@ -65,9 +65,7 @@
             position relative
             display flex
             justify-content center
-            padding 0 30px
-            width 400px
-            min-width 50%
+            margin 0 30px 0 0
 
             img
                 max-width 100%
@@ -86,7 +84,7 @@
                     color orangeMain
 
         .description
-            padding 27px 30px 0 30px
+            padding 30px 0 0 0
 
             &_title
                 margin-bottom 30px
@@ -108,6 +106,35 @@
 
                     .text
                         margin-bottom 15px
+
+    @media only screen and (max-width 1265px)
+        .description_inner-container
+            padding 30px
+            justify-content center
+
+            .description_photo
+                margin-left 30px
+
+            .description
+                .description_button
+                    text-align center
+
+    @media only screen and (max-width 767px)
+        .description_inner-container
+            width $ContainersWidthMobile
+
+    @media only screen and (max-width 450px)
+        .description_inner-container
+            padding 0
+
+            .description_photo
+                margin 0
+                width 100%
+                img
+                    width 100%
+
+            .description
+                padding 30px
 
 
 
