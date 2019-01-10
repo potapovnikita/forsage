@@ -62,7 +62,7 @@
     .news_inner-container
         width $ContainersWidth
         background whiteInnerBackground
-        padding 60px
+        padding $PaddingContainers
 
     a
         text-decoration none

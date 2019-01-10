@@ -82,7 +82,7 @@
         flex-wrap wrap
         width $ContainersWidth
         background-color whiteInnerBackground
-        padding 60px
+        padding $PaddingContainers
         padding-bottom 0
 
     .teachers

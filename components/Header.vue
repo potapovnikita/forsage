@@ -288,6 +288,10 @@
     @media only screen and (max-width 767px)
         label
             display block
+
+        .header_container
+            h1.title-text
+                padding-top 80px
         .menu
             justify-content space-around
 

@@ -63,7 +63,7 @@
         background-position 50%
         background-repeat no-repeat
         background-size cover
-        padding 60px
+        padding $PaddingContainers
         padding-bottom 80px
 
         .styles-top
@@ -143,8 +143,8 @@
 
         .styles_video
             div
-                width 90%
-                padding-bottom 42%
+                width 100%
+                padding-bottom 48%
 
 
 </style>

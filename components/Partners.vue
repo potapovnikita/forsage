@@ -6,12 +6,15 @@
                 img(src="http://www.hiphopunite.com/wp-content/uploads/2015/12/logo.png")
             .partners_item
                 img(src="http://www.hiphopunite.com/wp-content/uploads/2015/12/logo.png")
-        .company FORSAGE DANCE SCHOOL, все права защищены
         .company
-            span Разработка сайта
-            a(href="https://www.instagram.com/nikitapotapov93/" target="_blank")
-                span potapovnikita93
-                InstaLogo
+            | FORSAGE DANCE SCHOOL
+            br
+            | все права защищены (c)
+        <!--.company-->
+            <!--span Разработка сайта-->
+            <!--a(href="https://www.instagram.com/nikitapotapov93/" target="_blank")-->
+                <!--span potapovnikita93-->
+                <!--InstaLogo-->
 
 </template>
 
@@ -44,7 +47,7 @@
 
 <style lang="stylus">
     .partners_container
-        padding 50px 60px
+        padding $PaddingContainers
         text-align center
         background-image linear-gradient(237deg, #0c1135, #080634)
 

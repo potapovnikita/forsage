@@ -59,7 +59,7 @@
         justify-content space-between
         width $ContainersWidth
         background whiteInnerBackground
-        padding 60px
+        padding $PaddingContainers
 
         .description_photo
             position relative

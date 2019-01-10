@@ -76,7 +76,7 @@
     .instagram_inner-container
         width $ContainersWidth
         background whiteInnerBackground
-        padding 60px
+        padding $PaddingContainers
         padding-right 32px // жосткий костыль из за выравнивания флекс-контейнера =(
 
     .instagram_link
@@ -173,9 +173,10 @@
                         margin-right 5px
                         background-repeat no-repeat
 
-
-
-
+    @media only screen and (max-width 767px)
+        .instagram_photos
+            .photo:nth-child(n+4)
+                display none
 
 
 </style>
