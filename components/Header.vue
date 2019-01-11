@@ -304,7 +304,7 @@
                 position relative
                 top 100px
 
-    @media only screen and (max-device-height 600px)
+    @media only screen and (max-height 600px)
         .header_container
             h1.title-text
                 padding-top 210px
