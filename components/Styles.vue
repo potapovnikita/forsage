@@ -137,6 +137,10 @@
             max-width 400px
             flex-wrap wrap
 
+    @media only screen and (max-width 767px)
+        .styles_inner-container
+            width $ContainersWidthMobile
+
     @media only screen and (max-width 450px)
         .styles_list-item
             margin-right 15px

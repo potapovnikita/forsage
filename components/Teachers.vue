@@ -162,6 +162,8 @@
 
     @media only screen and (max-width 767px)
         .teachers_inner-container
+            width $ContainersWidthMobile
+            padding $PaddingContainersMobile
             display none
 
 

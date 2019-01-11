@@ -86,6 +86,8 @@
                 &:hover
                     text-decoration none
 
-
+    @media only screen and (max-width 767px)
+        .partners_container
+            padding $PaddingContainersMobile
 
 </style>

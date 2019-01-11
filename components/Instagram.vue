@@ -174,6 +174,11 @@
                         background-repeat no-repeat
 
     @media only screen and (max-width 767px)
+        .instagram_inner-container
+            width $ContainersWidthMobile
+            padding $PaddingContainersMobile
+
+
         .instagram_photos
             .photo:nth-child(n+4)
                 display none

@@ -6,7 +6,6 @@
                 h3.title.photo_text
                     .photo_icon
                         Cup
-
                     | ПРЕПОДАВАТЕЛИ —
                     br
                     | ЧЕМПИОНЫ <span>РОССИИ</span> И <span>МИРА</span>
@@ -107,6 +106,9 @@
                     .text
                         margin-bottom 15px
 
+    @media only screen and (min-width 1300px)
+        .description_inner-container
+            justify-content center
     @media only screen and (max-width 1265px)
         .description_inner-container
             padding 30px
@@ -122,6 +124,7 @@
     @media only screen and (max-width 767px)
         .description_inner-container
             width $ContainersWidthMobile
+            padding $PaddingContainersMobile
 
     @media only screen and (max-width 450px)
         .description_inner-container

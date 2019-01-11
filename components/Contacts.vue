@@ -112,8 +112,8 @@
             display none
             margin 0 auto
             background whiteMain
-            padding-bottom 60px
-            width 80%
+            padding-bottom $PaddingContainers
+            width $ContainersWidth
 
             h2.title-contacts
                 margin-bottom 15px
@@ -187,6 +187,8 @@
             .contacts_sticker
                 display none
             .contacts_sticker_mobile
+                padding-bottom $PaddingContainersMobile
+                width $ContainersWidthMobile
                 display block
 
 </style>

@@ -292,6 +292,7 @@
         .header_container
             h1.title-text
                 padding-top 80px
+
         .menu
             justify-content space-around
 
@@ -302,6 +303,19 @@
             button
                 position relative
                 top 100px
+
+    @media only screen and (max-device-height 600px)
+        .header_container
+            h1.title-text
+                padding-top 210px
+
+            .scroll-block
+                display none
+
+        .title-container
+            button
+                position relative
+                top -30px
 
 
 </style>

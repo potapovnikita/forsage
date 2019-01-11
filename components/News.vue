@@ -132,5 +132,10 @@
                     margin-bottom 20px
                     opacity 0.5
 
+    @media only screen and (max-width 767px)
+        .news_inner-container
+            width $ContainersWidthMobile
+            padding $PaddingContainersMobile
+
 
 </style>
