@@ -1,5 +1,5 @@
 <template lang="pug">
-    section.description_container
+    .description_container
         .description_inner-container
             .description_photo
                 img(src="~assets/img/photo-winners.png" alt="Преподаватели - чемпионы Росии и Мира")

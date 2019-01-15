@@ -47,7 +47,7 @@
         },
         // de1341bf598a4f26ad8401379fce5535
         async created() {
-            const TOKEN = '5615810087.b6a16de.79a0aed7cf134b6eb7fc0fa6e6014cfa' // токен для доступа к api
+            const TOKEN = '5615810087.b6a16de.e9f5397658b946afa8d21d135862fd63' // токен для доступа к api
             const USER_ID = 'self' // id пользователя
 
             await axios.get(`https://api.instagram.com/v1/users/${USER_ID}/media/recent/?access_token=${TOKEN}`)

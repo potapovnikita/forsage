@@ -10,6 +10,8 @@
             Styles
         section#news
             News
+        section#shedule
+            Schedule
         section#instagram
             Instagram
         section#contacts
@@ -28,6 +30,7 @@
     import Instagram from '~/components/Instagram.vue'
     import Partners from '~/components/Partners.vue'
     import Contacts from '~/components/Contacts.vue'
+    import Schedule from '~/components/Schedule.vue'
 
     export default {
         components: {
@@ -39,6 +42,7 @@
             Instagram,
             Partners,
             Contacts,
+            Schedule,
         }
     }
 </script>
