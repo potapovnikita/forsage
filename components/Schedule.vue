@@ -12,13 +12,20 @@
                 .halls-schedule
                     .schedule
                         .days
+                            .days-slider_mobile
+                                .item(v-for="(hall, indexDay) in shedule.Halls[activeHall].HallSchedule"
+                                    @click="selectDay(indexDay)"
+                                    :class="{active: indexDay === activeDay}") {{hall.WeekDay.slice(0,2)}}
                             .day.empty
                                 .cell.day_head
                                 .day_schedule(v-for="(time, index) in scheduleTimes")
                                     .cell.time {{time.time}}
 
-                            .day(v-if="scheduleHallByDay.length" v-for="(hall, indexDay) in shedule.Halls[activeHall].HallSchedule")
-                                .cell.day_head {{hall.WeekDay}}
+                            .day(v-if="scheduleHallByDay.length"
+                                v-for="(hall, indexDay) in shedule.Halls[activeHall].HallSchedule"
+                                :class="['day-'+indexDay, { visible: indexDay === activeDay}]")
+
+                                .cell.day_head(:class="{active: indexDay === activeDay}") {{hall.WeekDay}}
                                 .day_schedule(v-for="(daySchedule) in scheduleHallByDay[activeHall][indexDay].fullShedule")
                                     .cell.cell_schedule
                                         div(v-if="daySchedule.lesson"
@@ -55,15 +62,21 @@
             return {
                 shedule: Shedule,
                 activeHall: 0,
+                activeDay: new Date().getDay() - 1,
                 scheduleTimes: scheduleTimes,
                 scheduleHallByDay: [],
                 scheduleWeek: [],
             }
         },
         methods: {
+            // select active hall
             selectHall(index) {
                 this.activeHall = index
                 this.scheduleHallByDay = this.calculateScheduleTable(index)
+            },
+            // select active day in week
+            selectDay(index) {
+                this.activeDay = index
             },
             // Вычитание времени
             subtractiontime(h1, h2) {
@@ -80,7 +93,7 @@
                         break
                     case 270: diff = 2.5
                         break
-                    case 300 : diff = 3
+                    case 300: diff = 3
                         break
                     default: diff = 1
                         break
@@ -147,6 +160,7 @@
             color #c0c0c0
             border-bottom 2px solid #c0c0c0
             padding 5px 9px
+            text-align center
             cursor pointer
             &.active
                 color orangeMain
@@ -163,6 +177,12 @@
             .days
                 display inline-flex
                 font-size 12px
+                position relative
+                box-shadow 0 1px 10px 0 rgba(0, 0, 0, 0.4)
+
+                .days-slider_mobile
+                    display none
+
                 .cell
                     border-bottom $borderCell
                     border-left $borderCell
@@ -221,11 +241,47 @@
                         align-items center
                         justify-content center
                         height 47px
+                        &.active
+                            color orangeMain
 
 
     @media only screen and (max-width 1200px)
         .halls-schedule
-            display none
+            .schedule
+                .days
+                    .days-slider_mobile
+                        position absolute
+                        left 1px
+                        right 0
+                        top 1px
+                        background-color whiteMain
+                        display flex
+                        justify-content space-evenly
+                        align-items center
+                        height 45px
+                        .item
+                            display flex
+                            align-items center
+                            justify-content center
+                            width 30px
+                            height 30px
+                            color #d9d9d9
+                            border 1px solid #d9d9d9
+                            border-radius 50%
+                            cursor pointer
+                            font-family $FuturaFont
+                            &.active
+                                color orangeMain
+                                border-color orangeMain
+
+                    for index in 0..6
+                        .day-{index}
+                            width 300px
+                            display none
+                    .visible
+                        display block
+
+
 
 
     @media only screen and (max-width 767px)
@@ -233,6 +289,13 @@
             width $ContainersWidthMobile
             padding $PaddingContainersMobile
 
+    @media only screen and (max-width 480px)
+        .halls-schedule
+            .schedule
+                .days
+                    for index in 0..6
+                        .day-{index}
+                            width 200px
 
 
 
