@@ -13,7 +13,7 @@
         border none
     .button.default
         color whiteMain
-        padding 12px 50px 12px
+        padding 14px 50px 14px
         border-radius 30px
         background-color orangeMain
         font-family $FuturaFont

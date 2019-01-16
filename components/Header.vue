@@ -103,7 +103,6 @@
             text-align center
 
         h1.title-text
-            line-height 0.9
             padding 0 30px 50px
 
         .scroll-block

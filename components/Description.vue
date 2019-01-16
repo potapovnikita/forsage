@@ -109,6 +109,12 @@
     @media only screen and (min-width 1300px)
         .description_inner-container
             justify-content center
+
+    @media only screen and (max-width 1200px)
+        .description_inner-container
+            .description_title
+                text-align center
+
     @media only screen and (max-width 1265px)
         .description_inner-container
             padding 30px
