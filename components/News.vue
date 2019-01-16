@@ -63,6 +63,7 @@
         width $ContainersWidth
         background whiteInnerBackground
         padding $PaddingContainers
+        padding-bottom 0
 
     a
         text-decoration none
@@ -136,6 +137,7 @@
         .news_inner-container
             width $ContainersWidthMobile
             padding $PaddingContainersMobile
+            padding-bottom 0
 
 
 </style>
