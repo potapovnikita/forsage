@@ -141,6 +141,8 @@
                 width 100%
                 img
                     width 100%
+                .photo_text
+                    font-size $FontSize16
 
             .description
                 padding 30px

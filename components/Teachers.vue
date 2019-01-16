@@ -14,9 +14,18 @@
                     #active
                     .teacher_description
                         .name {{selectedTeacher.Name}}
+                            .social
+                                a.social-link(:href="selectedTeacher.Instagram", target="_blank")
+                                    InstaLogo
+                                a.social-link(:href="selectedTeacher.Vk", target="_blank")
+                                    VkLogo
                         .style {{selectedTeacher.Styles}}
                         .description.text_default {{selectedTeacher.Description}}
-                        .social Найти в соцсетях: тут будут соцсети
+                        <!--.social-->
+                            <!--a.social-link(:href="selectedTeacher.Instagram", target="_blank")-->
+                                <!--InstaLogo-->
+                            <!--a.social-link(:href="selectedTeacher.Vk", target="_blank")-->
+                                <!--VkLogo-->
 
 
 
@@ -24,35 +33,46 @@
 
 <script>
     import Data from '~/assets/staticData/teachers.json'
+    import InstaLogo from '~/assets/img/social/instagram-logo.svg'
+    import VkLogo from '~/assets/img/social/vk-logo.svg'
+
 
     export default {
         data() {
             return {
                 teachers: Data.Teachers,
                 selectedTeacher: Data.Teachers[0],
+                selectedTeacherIndex: 0,
                 previousOffset: 0
             }
         },
         components: {
-
+            InstaLogo,
+            VkLogo
         },
         methods: {
             onTeacherClick(teacher, index = 0) {
                 this.selectedTeacher = teacher
+                this.selectedTeacherIndex = index
                 const offsetLeft = Array.from(document.getElementsByClassName('photo'))[index].offsetLeft
                 const offsetTop = Array.from(document.getElementsByClassName('photo'))[index].offsetTop
+                document.getElementById('active').style.display = 'block' // костыль
                 let activeSlider = document.getElementById('active').style
 
                 // Если сдвиг слайдера по вертикали, то скрываем его
-                // if (this.previousOffset !== offsetTop) {
-                //     activeSlider.opacity = '0'
-                //     this.previousOffset = offsetTop
-                // }
+                if (this.previousOffset !== offsetTop) {
+                    activeSlider.opacity = '0'
+                    this.previousOffset = offsetTop
+                }
 
-                activeSlider.transform = `translate(${offsetLeft}px, ${offsetTop-115}px)`
-                // setTimeout(() => {
-                //     activeSlider.opacity = '1'
-                // }, 300)
+                // высота фото и слайдеера (могут отличаться в зависимости от разрешения экрана)
+                const heightPhoto = Array.from(document.getElementsByClassName('photo'))[index].clientHeight
+                const heightSlider = document.getElementById('active').clientHeight
+
+                activeSlider.transform = `translate(${offsetLeft}px, ${offsetTop-heightPhoto-heightSlider}px)`
+                setTimeout(() => {
+                    activeSlider.opacity = '1'
+                }, 300)
             }
         },
         created() {
@@ -68,6 +88,12 @@
             photos[halfElemsLength-1].style.marginRight = '0'
 
             this.onTeacherClick(this.teachers[0])
+
+            window.addEventListener('resize', () => {
+                document.getElementById('active').style.display = 'none'
+                this.onTeacherClick(this.selectedTeacher, this.selectedTeacherIndex)
+            });
+
         },
     }
 
@@ -128,7 +154,7 @@
                 min-height 270px
                 background-image linear-gradient(360deg, orangeGrad, orangeMain)
                 color whiteMain
-                padding 34px 28px
+                padding 25px 28px
                 font-weight normal
                 font-style normal
                 font-stretch normal
@@ -136,6 +162,8 @@
                 letter-spacing normal
 
                 .name
+                    display flex
+                    align-items center
                     margin-bottom 10px
                     font-family $FuturaFont
                     font-size $FontSize3
@@ -152,6 +180,21 @@
                 .description
                     color whiteMain
                     margin-bottom 20px
+
+                .social
+                    display flex
+                    .social-link
+                        cursor pointer
+                        margin-left 15px
+                        svg
+                            width 30px
+                            height 30px
+                            fill white
+                            opacity 0.5
+                        &:hover
+                            svg
+                                opacity 1
+
 
             #active
                 width 100px
@@ -197,6 +240,20 @@
                         .photo
                             width 80px
                             height 80px
+
+    @media only screen and (max-width 360px)
+        .teachers_inner-container
+            .teachers
+                &_slider
+                    max-width 316px
+                    min-width 316px
+                    #active
+                        width 70px
+
+                    .photos
+                        .photo
+                            width 70px
+                            height 70px
 
 
 

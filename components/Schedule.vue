@@ -304,6 +304,13 @@
                         .day-{index}
                             width 200px
 
+    @media only screen and (max-width 380px)
+        .halls-schedule
+            .schedule
+                .days
+                    .day.empty
+                        width 60px
+
 
 
 
