@@ -148,6 +148,7 @@
         width $ContainersWidth
         background whiteInnerBackground
         padding $PaddingContainers
+        padding-bottom 0
 
         h2.title
             margin-bottom 28px
@@ -293,6 +294,7 @@
         .schedule_inner-container
             width $ContainersWidthMobile
             padding $PaddingContainersMobile
+            padding-bottom 0
 
     @media only screen and (max-width 480px)
         .halls-schedule
