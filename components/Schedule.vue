@@ -15,7 +15,7 @@
                             .days-slider_mobile
                                 .item(v-for="(hall, indexDay) in shedule.Halls[activeHall].HallSchedule"
                                     @click="selectDay(indexDay)"
-                                    :class="{active: indexDay === activeDay}") {{hall.WeekDay.slice(0,2)}}
+                                    :class="{active: indexDay === activeDay}") {{dayShort[indexDay]}}
                             .day.empty
                                 .cell.day_head
                                 .day_schedule(v-for="(time, index) in scheduleTimes")
@@ -57,6 +57,8 @@
         { id: 11, time: '22:00', },
     ];
 
+    const dayShort = ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ', 'СБ', 'ВС']
+
     export default {
         data() {
             return {
@@ -66,6 +68,7 @@
                 scheduleTimes: scheduleTimes,
                 scheduleHallByDay: [],
                 scheduleWeek: [],
+                dayShort: dayShort,
             }
         },
         methods: {

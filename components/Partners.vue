@@ -4,12 +4,10 @@
         .partners_list
             .partners_item
                 img(src="http://www.hiphopunite.com/wp-content/uploads/2015/12/logo.png")
-            .partners_item
-                img(src="http://www.hiphopunite.com/wp-content/uploads/2015/12/logo.png")
         .company
             | FORSAGE DANCE SCHOOL
             br
-            | все права защищены (c)
+            | все права защищены
         <!--.company-->
             <!--span Разработка сайта-->
             <!--a(href="https://www.instagram.com/nikitapotapov93/" target="_blank")-->
@@ -64,7 +62,7 @@
                 margin 20px
 
 
-    .company
+    /*.company
             opacity 0.5
             font-family $LucidaGrandeFont
             font-size 11px
@@ -84,7 +82,7 @@
                 text-decoration underline
                 color whiteMain
                 &:hover
-                    text-decoration none
+                    text-decoration none*/
 
     @media only screen and (max-width 767px)
         .partners_container

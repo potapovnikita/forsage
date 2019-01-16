@@ -10,7 +10,7 @@
             Styles
         section#news
             News
-        section#shedule
+        section#schedule
             Schedule
         section#instagram
             Instagram

@@ -8,7 +8,7 @@
             .hamburger_menu-items_container
                 .menu_item(@click="scrollToSection('teachers')") ПРЕПОДАВАТЕЛИ
                 .menu_item(@click="scrollToSection('styles')") НАПРАВЛЕНИЯ
-                .menu_item РАСПИСАНИЕ
+                .menu_item(@click="scrollToSection('schedule')") РАСПИСАНИЕ
                 .menu_item(@click="scrollToSection('news')") НОВОСТИ
                 .menu_item ЦЕНЫ
                 .menu_item(@click="scrollToSection('contacts')") КОНТАКТЫ
@@ -20,7 +20,7 @@
             .menu_left
                 .menu_item(@click="scrollToSection('teachers')") ПРЕПОДАВАТЕЛИ
                 .menu_item(@click="scrollToSection('styles')") НАПРАВЛЕНИЯ
-                .menu_item РАСПИСАНИЕ
+                .menu_item(@click="scrollToSection('schedule')") РАСПИСАНИЕ
             .menu_icon-container
                 img.menu_icon(src="~/assets/img/logotip.png")
             .menu_right
