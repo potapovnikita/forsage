@@ -15,7 +15,7 @@
                             .days-slider_mobile
                                 .item(v-for="(hall, indexDay) in shedule.Halls[activeHall].HallSchedule"
                                     @click="selectDay(indexDay)"
-                                    :class="{active: indexDay === activeDay}") {{dayShort[indexDay]}}
+                                    :class="{active: indexDay === activeDay, current: indexDay === activeDayDesktop}") {{dayShort[indexDay]}}
                             .day.empty
                                 .cell.day_head
                                 .day_schedule(v-for="(time, index) in scheduleTimes")
@@ -273,6 +273,9 @@
                             border-radius 50%
                             cursor pointer
                             font-family $FuturaFont
+                            &.current
+                                color green
+                                border-color green
                             &.active
                                 color orangeMain
                                 border-color orangeMain
