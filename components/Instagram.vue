@@ -33,7 +33,7 @@
             return {
                 photos: [],
                 error: null,
-                instaLink: Data.Instagram
+                instaLink: Data.Contacts.Instagram
             }
         },
         components: {
@@ -178,8 +178,12 @@
             width $ContainersWidthMobile
             padding $PaddingContainersMobile
 
-
         .instagram_photos
+            flex-direction column
+            align-items center
+            .photo
+                margin 0 0 28px 0
+
             .photo:nth-child(n+4)
                 display none
 
