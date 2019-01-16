@@ -1,0 +1,15 @@
+kind: pipeline
+name: default
+
+steps:
+- name: frontend
+  image: node
+  commands:
+  - npm install
+  - npm nuxt build
+  - npm nuxt start
+  when:
+      event:
+      - push
+      branch:
+      - master
