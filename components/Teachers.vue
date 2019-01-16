@@ -10,7 +10,7 @@
                             v-for="(teacher, index) in teachers",
                             :key="teacher.name",
                             @click="onTeacherClick(teacher, index)",
-                            :class="{'photo_active': selectedTeacher === teacher}") {{teacher.Name}}</br>{{teacher.active}}
+                            :class="{'photo_active': selectedTeacher === teacher}")
                     #active
                     .teacher_description
                         .name {{selectedTeacher.Name}}
@@ -93,7 +93,7 @@
             background-size contain
             background-position bottom
         &_list
-            padding 27px 30px 0 30px
+            padding 27px 30px 30px 30px
             width 50%
             /*padding-right 130px*/
             .title-teachers
@@ -138,7 +138,7 @@
                 .name
                     margin-bottom 10px
                     font-family $FuturaFont
-                    font-size 22px
+                    font-size $FontSize3
                     font-weight bold
                     letter-spacing 0.4px
 
@@ -160,11 +160,44 @@
                 transition transform 0.35s ease-in-out
                 z-index 1
 
+    @media only screen and (max-width 1200px)
+        .teachers_inner-container
+            padding $PaddingContainersMobile
+            justify-content center
+
+            .teachers_list
+                display flex
+                flex-direction column
+                align-items center
+                width 100%
+
+            .teachers_photo
+                display none
+
+
     @media only screen and (max-width 767px)
         .teachers_inner-container
             width $ContainersWidthMobile
-            padding $PaddingContainersMobile
-            display none
+
+    @media only screen and (max-width 450px)
+        .teachers_inner-container
+            .teachers
+                &_list
+                    display flex
+                    flex-direction column
+                    align-items center
+                    width 100%
+                &_slider
+                    max-width 356px
+                    min-width 356px
+                    #active
+                        width 80px
+
+                    .photos
+                        .photo
+                            width 80px
+                            height 80px
+
 
 
 </style>

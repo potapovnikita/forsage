@@ -17,7 +17,7 @@
         border-radius 30px
         background-color orangeMain
         font-family $FuturaFont
-        font-size 21px
+        font-size $FontSize3
         font-weight bold
         font-style normal
         font-stretch normal

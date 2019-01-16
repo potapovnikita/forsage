@@ -129,7 +129,7 @@
         margin-top 20px
         padding 0 118px
         font-family $FuturaFont
-        font-size 15px
+        font-size $FontSizeMenu
         color whiteMain
         font-weight bold
         letter-spacing 0.3px
@@ -252,7 +252,7 @@
         width 100%
         top 200px
         font-family $FuturaFont
-        font-size 15px
+        font-size $FontSizeMenuMobile
         color whiteMain
         font-weight bold
         letter-spacing 0.3px

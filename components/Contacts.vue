@@ -122,7 +122,7 @@
                 text-align center
                 margin-bottom 15px
             .phone
-                font-size 18px
+                font-size $FontSize3
                 letter-spacing 0.4px
                 margin-bottom 7px
 
@@ -148,7 +148,7 @@
                 margin-bottom 30px
 
             .phone
-                font-size 18px
+                font-size $FontSize3
                 letter-spacing 0.4px
                 margin-bottom 7px
 

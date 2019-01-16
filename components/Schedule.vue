@@ -157,7 +157,7 @@
         display flex
         justify-content center
         .hall
-            font-size 16px
+            font-size $FontSize16
             font-family $FuturaFont
             font-weight bold
             letter-spacing 0.3px

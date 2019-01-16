@@ -80,7 +80,7 @@
                     height 5px
                     position absolute
                     background orangeMain
-                    top 100px
+                    top 35px
                     right 0
     .styles_list
         display flex
@@ -90,7 +90,7 @@
             color whiteMain
             cursor pointer
             font-family $FuturaFont
-            font-size 15px
+            font-size $FontSizeMenu
             font-weight bold
             font-style normal
             font-stretch normal
@@ -140,8 +140,17 @@
     @media only screen and (max-width 767px)
         .styles_inner-container
             width $ContainersWidthMobile
+            padding $PaddingContainersMobile
 
     @media only screen and (max-width 450px)
+        .styles_inner-container
+            .styles-top
+                .title-text
+                    padding-top 0
+
+                    .line
+                        top 0
+
         .styles_list-item
             margin-right 15px
 
