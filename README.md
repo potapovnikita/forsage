@@ -1,5 +1,7 @@
 # forsage
 
+[![Build Status](https://cloud.drone.io/api/badges/potapovnikita/forsage/status.svg)](https://cloud.drone.io/potapovnikita/forsage)
+
 > forsage site
 
 ## Build Setup
