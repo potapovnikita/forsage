@@ -25,7 +25,7 @@
                                 v-for="(hall, indexDay) in shedule.Halls[activeHall].HallSchedule"
                                 :class="['day-'+indexDay, { visible: indexDay === activeDay}]")
 
-                                .cell.day_head(:class="{active: indexDay === activeDay}") {{hall.WeekDay}}
+                                .cell.day_head(:class="{active: indexDay === activeDayDesktop}") {{hall.WeekDay}}
                                 .day_schedule(v-for="(daySchedule) in scheduleHallByDay[activeHall][indexDay].fullShedule")
                                     .cell.cell_schedule
                                         div(v-if="daySchedule.lesson"
@@ -65,6 +65,7 @@
                 shedule: Shedule,
                 activeHall: 0,
                 activeDay: new Date().getDay() - 1,
+                activeDayDesktop: new Date().getDay() - 1,
                 scheduleTimes: scheduleTimes,
                 scheduleHallByDay: [],
                 scheduleWeek: [],
@@ -205,8 +206,7 @@
                             padding 10px 5px
 
                             .name
-                                font-size 13px
-                                font-family $FuturaFont
+                                font-size 12px
                                 font-weight bold
                             .teacher
                                 opacity 0.5
