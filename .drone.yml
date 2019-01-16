@@ -6,8 +6,8 @@ steps:
   image: node
   commands:
   - npm install
-  - npm nuxt build
-  - npm nuxt start
+  - npm run build
+  - npm run start
   when:
       event:
       - push
