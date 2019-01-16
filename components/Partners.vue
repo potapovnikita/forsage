@@ -62,7 +62,7 @@
                 margin 20px
 
 
-    /*.company
+    .company
             opacity 0.5
             font-family $LucidaGrandeFont
             font-size 11px
@@ -82,7 +82,7 @@
                 text-decoration underline
                 color whiteMain
                 &:hover
-                    text-decoration none*/
+                    text-decoration none
 
     @media only screen and (max-width 767px)
         .partners_container
