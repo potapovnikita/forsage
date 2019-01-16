@@ -28,7 +28,7 @@
         data() {
             return {
                 news: Data.News,
-                vkLink: DataContacts.Vk,
+                vkLink: DataContacts.Contacts.Vk,
             }
         },
         components: {
