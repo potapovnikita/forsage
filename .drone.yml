@@ -1,18 +1,3 @@
-kind: pipeline
-name: default
-
-steps:
-- name: frontend
-  image: node
-  commands:
-  - npm install
-  - npm run build
-  when:
-      event:
-      - push
-      branch:
-      - master
-
 pipeline:
     install:
       image: node:alpine
@@ -31,7 +16,7 @@ pipeline:
         - NODE_ENV=production
       secrets: [ ssh_key ]
       commands:
-        - yarn build
+        - npm run generate
       when:
         branch:
           include: [ master, feature/* ]
@@ -50,3 +35,4 @@ pipeline:
           include: [ master ]
         event:
           - push
+          - pull_request
