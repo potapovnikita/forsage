@@ -12,3 +12,41 @@ steps:
       - push
       branch:
       - master
+
+pipeline:
+    install:
+      image: node:alpine
+      commands:
+        - npm install
+      when:
+        branch:
+          include: [ master ]
+        event:
+          - push
+          - pull_request
+
+    build/client:
+      image: node:alpine
+      environment:
+        - NODE_ENV=production
+      secrets: [ ssh_key ]
+      commands:
+        - yarn build
+      when:
+        branch:
+          include: [ master, feature/* ]
+        event:
+          - push
+          - pull_request
+
+    deploy:
+      image: node:alpine
+      secrets: [ ssh_key ]
+      commands:
+        - npm install -g gulp
+        - gulp deploy:production
+      when:
+        branch:
+          include: [ master ]
+        event:
+          - push
