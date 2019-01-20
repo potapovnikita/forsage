@@ -8,6 +8,6 @@ gulp.task('deploy:production', function () {
             // keyContents: '' ,// process.env.SSH_KEY,
             user: 'u0635367',
             pass: 'UoBU4yG_',
-            remotePath: '/www/forsagedanceschool.ru/'
+            remotePath: '/'
         }));
 });
