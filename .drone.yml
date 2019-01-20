@@ -28,8 +28,8 @@ pipeline:
       image: node:alpine
       secrets: [ ssh_key ]
       commands:
-        - npm install -g gulp
-        - gulp deploy:production
+        - npm install gulp
+        - npm run deploy
       when:
         branch:
           include: [ master ]
