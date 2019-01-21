@@ -58,7 +58,7 @@
 
 <style lang="stylus">
     .styles_inner-container
-        background-color whiteInnerBackground
+        background-color #000
         background-image url('~assets/img/background-styles@2x.png')
         background-position 50%
         background-repeat no-repeat
