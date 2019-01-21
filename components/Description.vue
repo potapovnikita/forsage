@@ -80,6 +80,7 @@
             .photo_text
                 position absolute
                 bottom 40px
+                left 45px
                 color whiteMain
 
                 span
