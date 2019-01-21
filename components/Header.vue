@@ -102,6 +102,9 @@
         .title-container
             text-align center
 
+            button
+                z-index 101
+
         h1.title-text
             padding 0 30px 50px
 
