@@ -102,9 +102,6 @@
         .title-container
             text-align center
 
-            button
-                z-index 101
-
         h1.title-text
             padding 0 30px 50px
 
@@ -295,6 +292,10 @@
             h1.title-text
                 padding-top 80px
 
+            .scroll-block
+                top 15vh
+
+
         .menu
             justify-content space-around
 
@@ -304,7 +305,7 @@
         .title-container
             button
                 position relative
-                top 100px
+                top 70px
 
     @media only screen and (max-height 500px)
         .header_container
