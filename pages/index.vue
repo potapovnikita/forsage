@@ -15,11 +15,11 @@ export default {
       meta: [
         { name: 'description', hid: 'description', content: 'Начни танцевать прямо сейчас' },
         // Open Graph
-        { name: 'og:title', content: 'Forsage Dance School' },
-        { name: 'og:description', content: 'Начни танцевать прямо сейчас' },
-        { name: 'og:type', content: 'website' },
-        { name: 'og:url', content: 'forsagedanceschool.ru' },
-        { name: 'og:image', content: 'https://forsagedanceschool.ru/favicon.png' }
+        { property: 'og:title', content: 'Forsage Dance School' },
+        { property: 'og:description', content: 'Начни танцевать прямо сейчас' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'forsagedanceschool.ru' },
+        { property: 'og:image', content: 'https://forsagedanceschool.ru/favicon.png' }
       ]
   }
 }
