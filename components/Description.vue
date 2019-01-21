@@ -143,6 +143,7 @@
 
             .description_photo
                 margin 0
+                min-width 100%
                 width 100%
                 img
                     width 100%
