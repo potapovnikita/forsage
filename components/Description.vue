@@ -65,6 +65,7 @@
             display flex
             justify-content center
             margin 0 30px 0 0
+            max-width: 100%
 
             img
                 max-width 100%
