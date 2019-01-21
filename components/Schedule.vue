@@ -302,7 +302,7 @@
                 .days
                     for index in 0..6
                         .day-{index}
-                            width 200px
+                            width 240px
 
     @media only screen and (max-width 380px)
         .halls-schedule
