@@ -3,7 +3,7 @@
         h2.title.title-partners Партнеры
         .partners_list
             .partners_item
-                img(src="http://www.hiphopunite.com/wp-content/uploads/2015/12/logo.png")
+                img(src="~assets/img/partners/HHU.png")
         .company
             | FORSAGE DANCE SCHOOL
             br
