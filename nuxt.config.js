@@ -7,7 +7,8 @@ module.exports = {
     meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { hid: 'description', name: 'description', content: 'Forsage Dance School' }
+        { hid: 'description', name: 'description', content: 'Forsage Dance School' },
+        { hid: 'og-image', property: 'og-image', name: 'description', content: '/favicon.ico' }
     ],
     link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
