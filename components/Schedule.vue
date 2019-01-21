@@ -308,6 +308,9 @@
         .halls-schedule
             .schedule
                 .days
+                    for index in 0..6
+                        .day-{index}
+                            width 200px
                     .day.empty
                         width 60px
 
