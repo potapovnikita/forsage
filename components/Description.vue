@@ -65,7 +65,9 @@
             display flex
             justify-content center
             margin 0 30px 0 0
-            max-width: 100%
+            min-width 400px
+            background-image $BackgroundPreloader
+            background-size cover
 
             img
                 max-width 100%
