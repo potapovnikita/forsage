@@ -6,9 +6,7 @@ module.exports = {
     title: 'Forsage Dance School',
     meta: [
         { charset: 'utf-8' },
-        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { hid: 'description', name: 'description', content: 'Forsage Dance School' },
-        { hid: 'og:image', property: 'og:image', name: 'og:image', content: '/favicon.ico' }
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' }
     ],
     link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
