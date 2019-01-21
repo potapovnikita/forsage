@@ -66,6 +66,7 @@
             justify-content center
             margin 0 30px 0 0
             min-width 400px
+            min-height 600px
             background-image $BackgroundPreloader
             background-size cover
 
