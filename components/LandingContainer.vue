@@ -14,6 +14,8 @@
             Schedule
         section#instagram
             Instagram
+        section#feedback
+            Feedback
         section#contacts
             Contacts
         section#partners
@@ -31,6 +33,7 @@
     import Partners from '~/components/Partners.vue'
     import Contacts from '~/components/Contacts.vue'
     import Schedule from '~/components/Schedule.vue'
+    import Feedback from '~/components/Feedback.vue'
 
     export default {
         components: {
@@ -43,6 +46,7 @@
             Partners,
             Contacts,
             Schedule,
+            Feedback,
         }
     }
 </script>

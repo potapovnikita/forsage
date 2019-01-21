@@ -16,6 +16,7 @@
 
             h2.title.phone {{contacts.Phone}}
             .time {{contacts.WorkTime}}
+            Button(name="ЗАПИСАТЬСЯ" type="small" clickAction="feedback")
 
         .contacts_sticker_mobile
             h2.title.title-contacts Наши контакты
@@ -33,6 +34,7 @@
 
             h2.title.phone {{contacts.Phone}}
             .time {{contacts.WorkTime}}
+            <!--Button(name="ЗАПИСАТЬСЯ" type="small", clickAction="feedback")-->
 
         no-ssr
             .map-container
@@ -59,6 +61,7 @@
     import instaLogo from '~/assets/img/social/instagram.svg'
 
     import Data from '~/assets/staticData/contacts.json'
+    import Button from '~/components/Button.vue'
 
     export default {
         data() {
@@ -79,6 +82,7 @@
             }
         },
         components: {
+            Button,
             yandexMap,
             ymapMarker,
             vkLogo,
@@ -112,8 +116,9 @@
             display none
             margin 0 auto
             background whiteMain
-            padding-bottom $PaddingContainers
+            padding $PaddingContainers
             width $ContainersWidth
+            text-align center
 
             h2.title-contacts
                 margin-bottom 15px
@@ -128,6 +133,7 @@
 
             .time
                 text-align center
+                margin-bottom 25px
 
 
         .contacts_sticker
@@ -139,6 +145,7 @@
             z-index 2
             bottom 0
             left 10%
+            text-align center
 
             h2.title-contacts
                 margin-bottom 40px
@@ -154,11 +161,15 @@
 
             .time
                 text-align center
+                margin-bottom 25px
+
+            button
+                margin 0 auto
 
         .contacts-icons
             display flex
             justify-content center
-            margin-bottom 50px
+            margin-bottom 30px
 
             .item
                 margin-right 20px
@@ -187,7 +198,7 @@
             .contacts_sticker
                 display none
             .contacts_sticker_mobile
-                padding-bottom $PaddingContainersMobile
+                padding $PaddingContainersMobile
                 width $ContainersWidthMobile
                 display block
 

@@ -37,7 +37,7 @@
                 | Начни&thinsp;танцевать
                 br
                 | прямо&thinsp;сейчас
-            Button(name="ОСТАВИТЬ ЗАЯВКУ" type="default")
+            Button(name="ОСТАВИТЬ ЗАЯВКУ" type="default" clickAction="feedback")
         .scroll-block
             span(@click="scrollToSection('description')")
                 Arrow

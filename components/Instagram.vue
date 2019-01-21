@@ -78,6 +78,8 @@
         background whiteInnerBackground
         padding $PaddingContainers
         padding-right 32px // жосткий костыль из за выравнивания флекс-контейнера =(
+        .title
+            padding-right 32px
 
     .instagram_link
         display flex
@@ -177,6 +179,9 @@
         .instagram_inner-container
             width $ContainersWidthMobile
             padding $PaddingContainersMobile
+
+            .title
+                padding 0
 
         .instagram_photos
             flex-direction column

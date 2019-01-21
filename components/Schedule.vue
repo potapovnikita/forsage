@@ -33,6 +33,8 @@
                                             span.name(v-html="daySchedule.lesson.Name")
                                             span.teacher(v-html="daySchedule.lesson.Teacher")
                                             span.start(v-html="daySchedule.lesson.LessonStart + '-' + daySchedule.lesson.LessonEnd")
+                    Button(name="ЗАПИСАТЬСЯ" type="small", clickAction="feedback")
+
 
 
 
@@ -41,6 +43,7 @@
 </template>
 
 <script>
+    import Button from '~/components/Button.vue'
     import Shedule from '~/assets/staticData/schedule.json'
 
     const scheduleTimes = [
@@ -70,6 +73,9 @@
                 scheduleWeek: [],
                 dayShort: dayShort,
             }
+        },
+        components: {
+            Button
         },
         methods: {
             // select active hall
@@ -173,6 +179,13 @@
     .halls-schedule
         text-align center
         margin-top 25px
+        display flex
+        flex-direction column
+        align-items center
+
+        button
+            margin-top 40px
+
         .schedule
             display inline-flex
             border-top $borderCell
@@ -194,6 +207,7 @@
 
                     &.cell_schedule
                         height 80px
+
                         div
                             position relative
                             height 100%
@@ -208,11 +222,13 @@
                             .name
                                 font-size 12px
                                 font-weight bold
+
                             .teacher
                                 opacity 0.5
                                 font-family $LucidaGrandeFont
                                 font-size 11px
                                 font-weight bold
+
                             .start
                             .finish
                                 font-size 11px
