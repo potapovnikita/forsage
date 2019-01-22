@@ -1,0 +1,82 @@
+{
+  "Categories": [
+    {
+      "Name": "ГРУППЫ БАЗОВОЙ ПОДГОТОВИК",
+      "Note": "Занятия проходят 3 раза в неделю. Изучаются такие направления как Hip-Hop, Dancehall, Locking, Break dance, Waacking, House dance и т.д.",
+      "Items": [
+        {
+          "Age": "5-6 лет",
+          "SinglePrice": "300 руб.",
+          "MonthPrice": "2100 руб.",
+          "Note": ""
+        },
+        {
+          "Age": "7-9 лет",
+          "SinglePrice": "300 руб.",
+          "MonthPrice": "2100 руб.",
+          "Note": ""
+        },
+        {
+          "Age": "10-12 лет",
+          "SinglePrice": "300 руб.",
+          "MonthPrice": "2100 руб.",
+          "Note": ""
+        },
+        {
+          "Age": "12 - 17 лет",
+          "SinglePrice": "300 руб.",
+          "MonthPrice": "2400 руб.",
+          "Note": ""
+        }
+      ]
+    },
+    {
+      "Name": "КОМАНДЫ",
+      "Note": "Занятия проходят 5-6 раз в неделю! Выезжаем на соревнования Российского и международного масштабов",
+      "Items": [
+        {
+          "Age": "7-9 лет",
+          "SinglePrice": "-",
+          "MonthPrice": "3100 руб.",
+          "Note": ""
+        },
+        {
+          "Age": "10-12 лет",
+          "SinglePrice": "-",
+          "MonthPrice": "3100 руб.",
+          "Note": ""
+        },
+        {
+          "Age": "12-17 лет",
+          "SinglePrice": "-",
+          "MonthPrice": "3100 руб.",
+          "Note": ""
+        }
+      ]
+    },
+    {
+      "Name": "ГРУППЫ отдельных ТАНЦЕВАЛЬНЫХ НАПРАВЛЕНИЙ (Hip-Hop, Dancehall, Vogue, Break dance)",
+      "Note": "",
+      "Items": [
+        {
+          "Age": "от 10 лет",
+          "SinglePrice": "350 руб.",
+          "MonthPrice": "2100 руб.",
+          "Note": "2 раза в неделю"
+        },
+        {
+          "Age": "1от 10 лет",
+          "SinglePrice": "350 руб.",
+          "MonthPrice": "2400 руб.",
+          "Note": "3 раза в неделю"
+        },
+        {
+          "Age": "от 10 лет",
+          "SinglePrice": "350 руб.",
+          "MonthPrice": "3100 руб.",
+          "Note": "Безлимит"
+        }
+      ]
+    }
+  ]
+}

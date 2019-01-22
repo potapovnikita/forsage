@@ -1,5 +1,5 @@
 <template lang="pug">
-    button.button(:class="classList",  @click="clickAction === 'feedback' ? feedback('feedback') : clickAction()") {{name}}
+    button.button(:class="classList",  @click="onClick()") {{name}}
 </template>
 
 <script>
@@ -20,6 +20,13 @@
         mounted() {
         },
         methods: {
+            onClick() {
+                this.clickAction
+                    ? this.clickAction === 'feedback'
+                        ? this.feedback('feedback')
+                        : this.clickAction()
+                    : false
+            },
             feedback: (elem = '') => {
                 const scrollElem = document.getElementById(elem)
                 zenscroll.to(scrollElem)

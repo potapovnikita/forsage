@@ -41,7 +41,7 @@
     export default {
         data() {
           return {
-              isOpenPricesPopup: true,
+              isOpenPricesPopup: false,
           }
         },
         methods: {

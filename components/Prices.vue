@@ -15,7 +15,7 @@
 <script>
     import Button from '~/components/Button.vue'
     import CloseLogo from '~/assets/img/close.svg'
-
+    import Prices from '~/assets/staticData/prices.json'
 
     export default {
         data() {
