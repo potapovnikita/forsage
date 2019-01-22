@@ -1,9 +1,9 @@
 <template lang="pug">
     .container
         section#header
-            Header(@open="openPricesPopup")
+            Header(@open="openPopup")
         section#description
-            Description(@open="openPricesPopup")
+            Description(@open="openPopup")
         section#teachers
             Teachers
         section#styles
@@ -17,11 +17,11 @@
         section#feedback
             Feedback
         section#contacts
-            Contacts(@open="openPricesPopup")
+            Contacts(@open="openPopup")
         section#partners
             Partners
-        section#prices
-            Prices(:isOpenPopup="isOpenPricesPopup", @close="closePricesPopup")
+        section#popup
+            Popup(:isOpenPopup="isOpenPopup", @close="closePopup")
 
 </template>
 
@@ -36,20 +36,20 @@
     import Contacts from '~/components/Contacts.vue'
     import Schedule from '~/components/Schedule.vue'
     import Feedback from '~/components/Feedback.vue'
-    import Prices from '~/components/Prices.vue'
+    import Popup from '~/components/Popup.vue'
 
     export default {
         data() {
           return {
-              isOpenPricesPopup: false,
+              isOpenPopup: false,
           }
         },
         methods: {
-            closePricesPopup() {
-                this.isOpenPricesPopup = false
+            closePopup() {
+                this.isOpenPopup = false
             },
-            openPricesPopup() {
-                this.isOpenPricesPopup = true
+            openPopup() {
+                this.isOpenPopup = true
             }
         },
         components: {
@@ -63,7 +63,7 @@
             Contacts,
             Schedule,
             Feedback,
-            Prices,
+            Popup,
         }
     }
 </script>

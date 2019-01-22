@@ -1,12 +1,17 @@
 <template lang="pug">
-    .prices-wrapper
-        .prices_overlay(:class="{'popup-close': !isOpenPopup}")
-        .prices_container(:class="{'popup-close': !isOpenPopup}")
-            .prices_inner-container
-                .prices_border-top
+    .popup-wrapper
+        .popup_overlay(:class="{'popup-close': !isOpenPopup}")
+        .popup_container(:class="{'popup-close': !isOpenPopup}")
+            .popup_inner-container
+                <!--div(v-if="isPrice")-->
+                    <!--Prices-->
+                <!--div(v-if="isForm")-->
+                    <!--Feedback-->
+
+                .popup_border-top
                 .close_btn(@click="$emit('close')")
                     CloseLogo
-                h2.title.title-prices Цены на абонементы
+                h2.title.title-popup Цены на абонементы
 
 
 
@@ -15,7 +20,6 @@
 <script>
     import Button from '~/components/Button.vue'
     import CloseLogo from '~/assets/img/close.svg'
-    import Prices from '~/assets/staticData/prices.json'
 
     export default {
         data() {
@@ -43,20 +47,25 @@
 </script>
 
 <style lang="stylus">
-    .prices-wrapper
+    .popup-wrapper
         .popup-close
-            transform translateY(-1000%)
+            transform translateY(30%) scale(.9)
+            visibility hidden
 
-    .prices_overlay
+            .popup_overlay
+                opacity 0
+
+    .popup_overlay
         z-index 1000
         position fixed
         top 0
         bottom 0
         left 0
         right 0
-        background-color rgba(0,0,0,0.52)
+        background-color rgba(0,0,0,0.6)
+        opacity 1
 
-    .prices_container
+    .popup_container
         text-align center
         z-index 1000
         position fixed
@@ -64,16 +73,18 @@
         left calc(50% - 300px)
         width 600px
         height 500px
+        opacity 1
         transition all .5s ease-in-out
-
-        .prices_inner-container
+        &.popup-close
+            opacity 0
+        .popup_inner-container
             position relative
             max-width 1080px
             background-color whiteMain
             height 100%
             padding $PaddingContainers
 
-            .prices_border-top
+            .popup_border-top
                 position absolute
                 top 0
                 left 0
@@ -92,11 +103,11 @@
                 opacity 1
                 fill orangeMain
 
-        h2.title-prices
+        h2.title-popup
             color #000
 
 
     @media only screen and (max-width 767px)
-        .prices_inner-container
+        .popup_inner-container
             padding $PaddingContainersMobile
 </style>
