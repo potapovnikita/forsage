@@ -75,7 +75,8 @@
             color orangeMain
             background whiteMain
             border 1px solid orangeMain
-
+        &.borderNone
+            border none
         &.reverse
             background-color whiteMain
             border 1px solid orangeMain
