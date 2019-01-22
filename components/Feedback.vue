@@ -10,6 +10,7 @@
                 input(type="text" :class="{error: !phone && errorPhone}" v-model="phone" placeholder="Номер телефона")
                 .error_text(v-if="!phone && errorPhone") Введите номер телефона
             Button(name="ЗАПИСАТЬСЯ" type="small borderNone", clickAction="submitForm()")
+            .message(v-if="emailStatus") {{ emailStatus }}
 
 
 
@@ -27,7 +28,7 @@
                 phone: '',
                 errorName: false,
                 errorPhone: false,
-                emailStatus: '',
+                emailStatus: 'Заявка отправлена, мы скоро с Вами свяжемся',
             }
         },
         components: {
@@ -36,7 +37,6 @@
         },
         methods: {
             submitForm() {
-                console.log(this.name, this.phone)
                 this.emailStatus = ''
 
                 const data = {
@@ -118,6 +118,7 @@
                 font-size 18px
                 border-radius 30px
                 width 60%
+                max-width 500px
                 padding 10px 20px 11px
                 cursor pointer
                 &.error
@@ -135,6 +136,10 @@
 
                 &:nth-child(2)
                     margin-bottom 50px
+            .message
+                position relative
+                top 10px
+                color whiteMain
 
 
 
