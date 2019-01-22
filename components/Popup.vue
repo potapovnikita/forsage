@@ -6,12 +6,12 @@
                 <!--div(v-if="isPrice")-->
                     <!--Prices-->
                 <!--div(v-if="isForm")-->
-                    <!--Feedback-->
+                    Feedback
 
                 .popup_border-top
                 .close_btn(@click="$emit('close')")
                     CloseLogo
-                h2.title.title-popup Цены на абонементы
+                <!--h2.title.title-popup Цены на абонементы-->
 
 
 
@@ -20,6 +20,8 @@
 <script>
     import Button from '~/components/Button.vue'
     import CloseLogo from '~/assets/img/close.svg'
+    import Feedback from '~/components/Feedback.vue'
+
 
     export default {
         data() {
@@ -31,6 +33,7 @@
         components: {
             Button,
             CloseLogo,
+            Feedback
         },
         methods: {
         },
@@ -49,7 +52,7 @@
 <style lang="stylus">
     .popup-wrapper
         .popup-close
-            transform translateY(30%) scale(.9)
+            transform translateY(55%) scale(.9)
             visibility hidden
 
             .popup_overlay
@@ -74,7 +77,7 @@
         width 600px
         height 500px
         opacity 1
-        transition all .5s ease-in-out
+        transition all .6s ease-in-out
         &.popup-close
             opacity 0
         .popup_inner-container
