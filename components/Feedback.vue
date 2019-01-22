@@ -9,7 +9,7 @@
             .input
                 input(type="text" :class="{error: !phone && errorPhone}" v-model="phone" placeholder="Номер телефона")
                 .error_text(v-if="!phone && errorPhone") Введите номер телефона
-            Button(name="ЗАПИСАТЬСЯ" type="small borderNone", clickAction="submitForm()")
+            Button(name="ЗАПИСАТЬСЯ" type="small borderNone")
             .message(v-if="emailStatus") {{ emailStatus }}
 
 

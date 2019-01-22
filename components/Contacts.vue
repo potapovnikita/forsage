@@ -16,7 +16,7 @@
 
             h2.title.phone {{contacts.Phone}}
             .time {{contacts.WorkTime}}
-            Button(name="ЗАПИСАТЬСЯ" type="small" clickAction="feedback")
+            Button(name="Посмотреть цены" type="small" :clickAction="() => {$emit('open')}")
 
         .contacts_sticker_mobile
             h2.title.title-contacts Наши контакты
@@ -34,7 +34,7 @@
 
             h2.title.phone {{contacts.Phone}}
             .time {{contacts.WorkTime}}
-            <!--Button(name="ЗАПИСАТЬСЯ" type="small", clickAction="feedback")-->
+            Button(name="Посмотреть цены" type="small" :clickAction="() => {$emit('open')}")
 
         no-ssr
             .map-container

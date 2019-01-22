@@ -17,7 +17,7 @@
                         .point
                         .text.text_default {{item}}
                 .description_button
-                    Button(name="Посмотреть цены" type="small")
+                    Button(name="Посмотреть цены" type="small" :clickAction="() => {$emit('open')}")
 
 
 
@@ -35,12 +35,17 @@
                 description: Data.Text,
             }
         },
+        props: ['open'],
         components: {
             Button,
             Cup,
         },
+        methods: {
+        },
         computed: {
             advantages: () => Data.Advantages.split('|')
+        },
+        mounted() {
         },
         created() {},
     }

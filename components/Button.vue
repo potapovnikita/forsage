@@ -1,10 +1,9 @@
 <template lang="pug">
-    button.button(:class="classList",  @click="clickAction === 'feedback' ? feedback('feedback') : clickAction") {{name}}
+    button.button(:class="classList",  @click="clickAction === 'feedback' ? feedback('feedback') : clickAction()") {{name}}
 </template>
 
 <script>
     import zenscroll from 'zenscroll'
-    import Button from '~/components/Button.vue'
 
     export default {
         props: ['name', 'type', 'clickAction'],
@@ -15,21 +14,16 @@
         },
         computed: {
             classList() {
-                console.log(this)
                 return [this.type]
             }
         },
-        components: {
-            Button
+        mounted() {
         },
         methods: {
             feedback: (elem = '') => {
                 const scrollElem = document.getElementById(elem)
                 zenscroll.to(scrollElem)
             },
-            onClick: () => {
-                console.log(11)
-            }
         }
     }
 </script>
