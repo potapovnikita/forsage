@@ -17,7 +17,6 @@
 </template>
 
 <script>
-    import InstaLogo from '~/assets/img/social/instagram-logo.svg'
     import Button from '~/components/Button.vue'
     import * as emailjs from 'emailjs-com/dist/email'
 
@@ -28,11 +27,10 @@
                 phone: '',
                 errorName: false,
                 errorPhone: false,
-                emailStatus: 'Заявка отправлена, мы скоро с Вами свяжемся',
+                emailStatus: '',
             }
         },
         components: {
-            InstaLogo,
             Button
         },
         methods: {
@@ -40,12 +38,12 @@
                 this.emailStatus = ''
 
                 const data = {
-                    service_id: '<YOUR SERVICE ID>',
-                    template_id: '<YOUR TEMPLATE ID>',
-                    user_id: '<YOUR USER ID>',
+                    service_id: 'forsage_service',
+                    template_id: 'template_5dGSiEff',
+                    user_id: 'user_JaUNu8x9vuWUpoOfjGNgp',
                     template_params: {
-                        name: this.name,
-                        phone: this.phone
+                        'name': this.name,
+                        'phone': this.phone
                     }
                 };
 
@@ -61,14 +59,14 @@
                     this.errorName = false
                     this.errorPhone = false
 
-                    // emailjs.send(data)
-                    //     .then((res) => {
-                    //         this.emailStatus = 'Заявка отправлена, мы скоро с Вами свяжемся'
-                    //         this.name = ''
-                    //         this.phone = ''
-                    //     }, (error) => {
-                    //         this.emailStatus = 'Что-то пошло не так, попробуйте позже или свяжитесь с нами по телефону'
-                    //     });
+                    emailjs.send(data.service_id, data.template_id, data.template_params, data.user_id)
+                        .then((res) => {
+                            this.emailStatus = 'Заявка отправлена, мы скоро с Вами свяжемся'
+                            this.name = ''
+                            this.phone = ''
+                        }, (error) => {
+                            this.emailStatus = 'Что-то пошло не так, попробуйте позже или свяжитесь с нами по телефону'
+                        });
                 }
 
 
@@ -82,8 +80,6 @@
 
         },
         mounted() {
-            // const userId = 'user_0qIsrdRv9hVhOoGLjqibi'
-            // emailjs.init(userId)
         },
     }
 
