@@ -45,7 +45,7 @@
 <style lang="stylus">
     .prices-wrapper
         .popup-close
-            transform translateX(-1000%)
+            transform translateY(-1000%)
 
     .prices_overlay
         z-index 1000
