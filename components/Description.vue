@@ -10,14 +10,14 @@
                     br
                     | ЧЕМПИОНЫ <span>РОССИИ</span> И <span>МИРА</span>
             .description
-                h2.title.description_title Мы&thinsp;-&thinsp;это
+                h2.title.description_title Современная школа танцев в Екатеринбурге
                 .description_text.text_default(v-html='description')
                 .description_advantages
                     .item(v-for='item, index in advantages')
                         .point
                         .text.text_default {{item}}
                 .description_button
-                    Button(name="Посмотреть цены" type="small" :clickAction="() => {$emit('open')}")
+                    Button(name="Посмотреть цены" type="small" :clickAction="() => {$emit('open', 'prices')}")
 
 
 

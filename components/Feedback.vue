@@ -5,11 +5,15 @@
         form(v-on:submit.prevent="submitForm()")
             .input
                 input(type="text" :class="{error: !name && errorName}" v-model="name" placeholder="Имя")
-                .error_text(v-if="!name && errorName") Введите имя
+                <!--.error_text(v-if="!name && errorName") Введите имя-->
+                    div
             .input
                 input(type="text" :class="{error: !phone && errorPhone}" v-model="phone" placeholder="Номер телефона")
-                .error_text(v-if="!phone && errorPhone") Введите номер телефона
-            Button(name="ЗАПИСАТЬСЯ" type="small borderNone")
+
+            .error_text(v-if="(!name && errorName) || (!phone && errorPhone)") Заполните обязательные поля
+                div
+            Button(name="ЗАПИСАТЬСЯ" type="small")
+            .lds-dual-ring(v-if="preload")
             .message(v-if="emailStatus") {{ emailStatus }}
 
 
@@ -19,6 +23,8 @@
 <script>
     import Button from '~/components/Button.vue'
     import * as emailjs from 'emailjs-com/dist/email'
+    import Contacts from '~/assets/staticData/contacts.json'
+
 
     export default {
         data() {
@@ -28,6 +34,8 @@
                 errorName: false,
                 errorPhone: false,
                 emailStatus: '',
+                phoneNumber: Contacts.Contacts.Phone,
+                preload: false,
             }
         },
         components: {
@@ -59,13 +67,16 @@
                     this.errorName = false
                     this.errorPhone = false
 
+                    this.preload = true
                     emailjs.send(data.service_id, data.template_id, data.template_params, data.user_id)
                         .then((res) => {
                             this.emailStatus = 'Заявка отправлена, мы скоро с Вами свяжемся'
                             this.name = ''
                             this.phone = ''
+                            this.preload = false
                         }, (error) => {
-                            this.emailStatus = 'Что-то пошло не так, попробуйте позже или свяжитесь с нами по телефону'
+                            this.emailStatus = `Что-то пошло не так, попробуйте позже или свяжитесь с нами по телефону ${phoneNumber}`
+                            this.preload = false
                         });
                 }
 
@@ -87,33 +98,34 @@
 
 <style lang="stylus">
     .feedback_container
-        padding $PaddingContainers
         text-align center
-        background-image linear-gradient(237deg, #0c1135, #080634)
 
         h2.title-feedback
-            color whiteMain
+            color #000
             margin-bottom 20px
 
         h3.title
             color orangeMain
-            margin-bottom 20px
+            margin-bottom 25px
 
         form
             display flex
             align-items center
             flex-direction column
+            position relative
 
             .error_text
-                margin-top 5px
+                position absolute
+                bottom 55px
                 color #e62117
+
             input
                 color #000
                 border 1px solid #c0c0c0
                 outline none
                 font-size 18px
                 border-radius 30px
-                width 60%
+                width 65%
                 max-width 500px
                 padding 10px 20px 11px
                 cursor pointer
@@ -138,6 +150,32 @@
                 color whiteMain
 
 
+    .lds-dual-ring {
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        position relative
+        top 10px
+    }
+    .lds-dual-ring:after {
+        content: " ";
+        display: block;
+        width: 25px;
+        height: 25px;
+        margin: 1px;
+        border-radius: 50%;
+        border: 5px solid orangeMain;
+        border-color: orangeMain transparent orangeMain transparent;
+        animation: lds-dual-ring 1.2s linear infinite;
+    }
+    @keyframes lds-dual-ring {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
 
     @media only screen and (max-width 767px)
         .feedback_container

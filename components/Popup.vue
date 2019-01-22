@@ -3,9 +3,9 @@
         .popup_overlay(:class="{'popup-close': !isOpenPopup}")
         .popup_container(:class="{'popup-close': !isOpenPopup}")
             .popup_inner-container
-                <!--div(v-if="isPrice")-->
+                div(v-if="component === 'prices'")
                     <!--Prices-->
-                <!--div(v-if="isForm")-->
+                div(v-if="component === 'feedback'")
                     Feedback
 
                 .popup_border-top
@@ -29,7 +29,7 @@
 
             }
         },
-        props: ['isOpenPopup', 'close'],
+        props: ['isOpenPopup', 'close', 'component'],
         components: {
             Button,
             CloseLogo,
@@ -52,7 +52,6 @@
 <style lang="stylus">
     .popup-wrapper
         .popup-close
-            transform translateY(55%) scale(.9)
             visibility hidden
 
             .popup_overlay
@@ -67,6 +66,7 @@
         right 0
         background-color rgba(0,0,0,0.6)
         opacity 1
+        transition opacity .3s linear
 
     .popup_container
         text-align center
@@ -77,12 +77,13 @@
         width 600px
         height 500px
         opacity 1
-        transition all .6s ease-in-out
+        transition all .5s ease-in-out
         &.popup-close
             opacity 0
+            transform translateY(55%) scale(.9)
+            visibility hidden
         .popup_inner-container
             position relative
-            max-width 1080px
             background-color whiteMain
             height 100%
             padding $PaddingContainers
@@ -111,6 +112,11 @@
 
 
     @media only screen and (max-width 767px)
-        .popup_inner-container
-            padding $PaddingContainersMobile
+        .popup_container
+            top 0
+            left 0
+            width 100%
+            height 100%
+            .popup_inner-container
+                padding $PaddingContainersMobile
 </style>

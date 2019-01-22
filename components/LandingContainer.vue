@@ -11,17 +11,15 @@
         section#news
             News
         section#schedule
-            Schedule
+            Schedule(@open="openPopup")
         section#instagram
             Instagram
-        section#feedback
-            Feedback
         section#contacts
             Contacts(@open="openPopup")
         section#partners
             Partners
         section#popup
-            Popup(:isOpenPopup="isOpenPopup", @close="closePopup")
+            Popup(:isOpenPopup="isOpenPopup", @close="closePopup", :component="component")
 
 </template>
 
@@ -35,21 +33,24 @@
     import Partners from '~/components/Partners.vue'
     import Contacts from '~/components/Contacts.vue'
     import Schedule from '~/components/Schedule.vue'
-    import Feedback from '~/components/Feedback.vue'
     import Popup from '~/components/Popup.vue'
 
     export default {
         data() {
           return {
               isOpenPopup: false,
+              component: '',
           }
         },
         methods: {
             closePopup() {
                 this.isOpenPopup = false
+                document.getElementsByTagName('body')[0].style.overflow = 'inherit'
             },
-            openPopup() {
+            openPopup(component = '') {
+                this.component = component
                 this.isOpenPopup = true
+                document.getElementsByTagName('body')[0].style.overflow = 'hidden'
             }
         },
         components: {
@@ -62,7 +63,6 @@
             Partners,
             Contacts,
             Schedule,
-            Feedback,
             Popup,
         }
     }

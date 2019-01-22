@@ -33,7 +33,7 @@
                                             span.name(v-html="daySchedule.lesson.Name")
                                             span.teacher(v-html="daySchedule.lesson.Teacher")
                                             span.start(v-html="daySchedule.lesson.LessonStart + '-' + daySchedule.lesson.LessonEnd")
-                    Button(name="ЗАПИСАТЬСЯ" type="small", clickAction="feedback")
+                    Button(name="ЗАПИСАТЬСЯ" type="small", :clickAction="() => {$emit('open', 'feedback')}")
 
 
 

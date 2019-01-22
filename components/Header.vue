@@ -10,7 +10,7 @@
                 .menu_item(@click="scrollToSection('styles')") НАПРАВЛЕНИЯ
                 .menu_item(@click="scrollToSection('schedule')") РАСПИСАНИЕ
                 .menu_item(@click="scrollToSection('news')") НОВОСТИ
-                .menu_item(@click="$emit('open')") ЦЕНЫ
+                .menu_item(@click="$emit('open', 'prices')") ЦЕНЫ
                 .menu_item(@click="scrollToSection('contacts')") КОНТАКТЫ
                 .menu_item(@click="scrollToSection('contacts')")
                     Location
@@ -25,7 +25,7 @@
                 img.menu_icon(src="~/assets/img/logotip.png")
             .menu_right
                 .menu_item(@click="scrollToSection('news')") НОВОСТИ
-                .menu_item(@click="$emit('open')") ЦЕНЫ
+                .menu_item(@click="$emit('open', 'prices')") ЦЕНЫ
                 .menu_item(@click="scrollToSection('contacts')") КОНТАКТЫ
                 .menu_item.address(@click="scrollToSection('contacts')")
                     Location
@@ -37,7 +37,7 @@
                 | Начни&thinsp;танцевать
                 br
                 | прямо&thinsp;сейчас
-            Button(name="ОСТАВИТЬ ЗАЯВКУ" type="default" clickAction="feedback")
+            Button(name="ОСТАВИТЬ ЗАЯВКУ" type="default" :clickAction="() => {$emit('open', 'feedback')}")
         .scroll-block
             span(@click="scrollToSection('description')")
                 Arrow
