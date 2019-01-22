@@ -60,10 +60,10 @@
         text-align center
         z-index 1000
         position fixed
-        top: 0
-        bottom 0
-        left 0
-        right 0
+        top calc(50% - 250px)
+        left calc(50% - 300px)
+        width 600px
+        height 500px
         transition all .5s ease-in-out
 
         .prices_inner-container
