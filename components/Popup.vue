@@ -95,17 +95,18 @@
                 height 5px
                 width 100%
                 background orangeMain
-        svg
-            position absolute
-            right 30px
-            top 30px
-            cursor pointer
-            fill #000
-            opacity 0.5
+        .close_btn
+            svg
+                position absolute
+                right 30px
+                top 30px
+                cursor pointer
+                fill #000
+                opacity 0.5
 
-            &:hover
-                opacity 1
-                fill orangeMain
+                &:hover
+                    opacity 1
+                    fill orangeMain
 
         h2.title-popup
             color #000

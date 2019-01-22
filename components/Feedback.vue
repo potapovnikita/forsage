@@ -2,6 +2,7 @@
     .feedback_container
         h2.title.title-feedback Начать танцевать
         h3.title Запишись на занятия и получи скидку 50% на свой первый абонемент!
+            Gift
         form(v-on:submit.prevent="submitForm()")
             .input
                 input(type="text" :class="{error: !name && errorName}" v-model="name" placeholder="Имя")
@@ -23,6 +24,7 @@
 <script>
     import Button from '~/components/Button.vue'
     import * as emailjs from 'emailjs-com/dist/email'
+    import Gift from '~/assets/img/gift.svg'
     import Contacts from '~/assets/staticData/contacts.json'
 
 
@@ -39,7 +41,8 @@
             }
         },
         components: {
-            Button
+            Button,
+            Gift,
         },
         methods: {
             submitForm() {
@@ -106,7 +109,17 @@
 
         h3.title
             color orangeMain
-            margin-bottom 25px
+            margin-bottom 45px
+            position relative
+            svg
+                width 70px
+                height  70px
+                position absolute
+                top 35px
+                left calc(50% - 35px)
+                path
+                    stroke orangeMain !important
+
 
         form
             display flex
