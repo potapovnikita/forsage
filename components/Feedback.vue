@@ -2,7 +2,7 @@
     .feedback_container
         h2.title.title-feedback Начать танцевать
         h3.title Запишись на занятия и получи скидку 50% на свой первый абонемент!
-            Gift
+        Gift
         form(v-on:submit.prevent="submitForm()")
             .input
                 input(type="text" :class="{error: !name && errorName}" v-model="name" placeholder="Имя")
@@ -109,16 +109,11 @@
 
         h3.title
             color orangeMain
-            margin-bottom 45px
-            position relative
-            svg
-                width 70px
-                height  70px
-                position absolute
-                top 35px
-                left calc(50% - 35px)
-                path
-                    stroke orangeMain !important
+        svg
+            width 70px
+            height  70px
+            path
+                stroke orangeMain !important
 
 
         form
