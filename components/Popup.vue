@@ -4,14 +4,13 @@
         .popup_container(:class="{'popup-close': !isOpenPopup}")
             .popup_inner-container
                 div(v-if="component === 'prices'")
-                    <!--Prices-->
+                    Prices
                 div(v-if="component === 'feedback'")
                     Feedback
 
                 .popup_border-top
                 .close_btn(@click="$emit('close')")
                     CloseLogo
-                <!--h2.title.title-popup Цены на абонементы-->
 
 
 
@@ -21,6 +20,7 @@
     import Button from '~/components/Button.vue'
     import CloseLogo from '~/assets/img/close.svg'
     import Feedback from '~/components/Feedback.vue'
+    import Prices from '~/components/Prices.vue'
 
 
     export default {
@@ -33,7 +33,8 @@
         components: {
             Button,
             CloseLogo,
-            Feedback
+            Feedback,
+            Prices
         },
         methods: {
         },
