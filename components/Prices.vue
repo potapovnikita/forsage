@@ -1,6 +1,24 @@
 <template lang="pug">
     .prices_container
         h2.title.title-prices Цены на абонементы
+        .prices_table
+            .header
+                .item Возраст
+                .item Разовое посещение
+                .item Абонемент на&nbsp;месяц
+                .item Примечание
+            .body
+                .section(v-for="category in prices")
+                    .row_category {{category.Name}}
+                    .row(v-for="item in category.Items")
+                        .cell {{item.Age}}
+                        .cell {{item.SinglePrice}}
+                        .cell {{item.MonthPrice}}
+
+
+
+
+
 
 
 
@@ -13,7 +31,7 @@
     export default {
         data() {
             return {
-                prices: Prices,
+                prices: Prices.Categories,
             }
         },
         components: {
@@ -27,6 +45,7 @@
 
         },
         mounted() {
+            console.log(this.prices)
         },
     }
 
@@ -42,6 +61,45 @@
 
         h3.title
             color orangeMain
+
+        .prices_table
+            border 1px solid orangeMain
+            width 500px
+            margin 0 auto
+
+            .header
+                display inline-flex
+                background orangeMain
+                font-family $FuturaFont
+                width 100%
+
+                .item
+                    max-width 125px
+                    min-width 125px
+                    color whiteMain
+                    padding 5px 8px
+                    display flex
+                    justify-content center
+                    align-items center
+            .body
+                .section
+                    background whiteMain
+                    .row_category
+                        background #e5e5e5
+                        color #000
+                        padding 3px 8px
+                    .row
+                        display inline-flex
+                        width 100%
+
+                        .cell
+                            max-width 125px
+                            min-width 125px
+                            padding 3px 8px
+
+
+
+
 
 
     @media only screen and (max-width 767px)

@@ -87,7 +87,7 @@
             position relative
             background-color whiteMain
             height 100%
-            padding $PaddingContainers
+            padding $PaddingContainersMobile
 
             .popup_border-top
                 position absolute
@@ -119,6 +119,4 @@
             left 0
             width 100%
             height 100%
-            .popup_inner-container
-                padding $PaddingContainersMobile
 </style>
