@@ -63,7 +63,7 @@
             color orangeMain
 
         .prices_table
-            border 1px solid orangeMain
+            /*border 1px solid orangeMain*/
             width 500px
             margin 0 auto
 
@@ -84,18 +84,34 @@
             .body
                 .section
                     background whiteMain
+
                     .row_category
                         background #e5e5e5
                         color #000
                         padding 3px 8px
+                        border 1px solid orangeMain
+                        border-top none
+                        font-family $ProximaNovaFont
+                        font-size 15px
+                        font-weight bold
+
                     .row
                         display inline-flex
                         width 100%
 
                         .cell
+                            display flex
+                            justify-content center
+                            align-items center
                             max-width 125px
                             min-width 125px
                             padding 3px 8px
+                            border 1px solid orangeMain
+                            border-top none
+                            border-right none
+                            font-family $FuturaFont
+                            font-size 13px
+
 
 
 
