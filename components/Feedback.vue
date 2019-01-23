@@ -1,7 +1,7 @@
 <template lang="pug">
     .feedback_container
         h2.title.title-feedback Начать танцевать
-        h3.title Запишись на занятия и получи скидку 50% на свой первый абонемент!
+        h3.title Запишись на занятия и получи скидку 50% на&nbsp;свой&nbsp;первый абонемент!
         Gift
         form(v-on:submit.prevent="submitForm()")
             .input

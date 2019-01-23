@@ -11,7 +11,7 @@
                     | ЧЕМПИОНЫ <span>РОССИИ</span> И <span>МИРА</span>
             .description
                 h2.title.description_title Современная школа танцев в Екатеринбурге
-                .description_text.text_default(v-html='description')
+                <!--.description_text.text_default(v-html='description')-->
                 .description_advantages
                     .item(v-for='item, index in advantages')
                         .point
@@ -96,8 +96,9 @@
             padding 30px 0 0 0
 
             &_title
-                margin-bottom 30px
-                text-align left
+                text-align center
+                max-width 400px
+                margin 0 auto 30px
 
             &_text
                 margin-bottom 40px

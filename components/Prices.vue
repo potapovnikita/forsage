@@ -1,6 +1,6 @@
 <template lang="pug">
     .prices_container
-        h2.title.title-prices Цены на абонименты
+        h2.title.title-prices Цены на абонементы
 
 
 
