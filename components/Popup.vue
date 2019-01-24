@@ -76,7 +76,7 @@
         top calc(50% - 250px)
         left calc(50% - 300px)
         width 600px
-        height 500px
+        height 520px
         opacity 1
         transition all .5s ease-in-out
         &.popup-close
@@ -119,4 +119,10 @@
             left 0
             width 100%
             height 100%
+            overflow scroll
+
+    @media only screen and (max-width 400px)
+        .popup_container
+            .popup_inner-container
+                padding 20px 10px
 </style>

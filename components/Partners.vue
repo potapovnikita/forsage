@@ -4,6 +4,7 @@
         .partners_list
             .partners_item
                 img(src="~assets/img/partners/HHU.png")
+                .text Генеральный спонсор
         .company
             | FORSAGE DANCE SCHOOL
             br
@@ -60,6 +61,8 @@
                 margin 30px
             &_item
                 margin 20px
+                .text
+                    color whiteMain
 
 
     .company
