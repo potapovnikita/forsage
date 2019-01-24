@@ -5,7 +5,7 @@
         .row_category_mobile
             .row_category(v-for="(category, index) in prices"
                 v-if="(index+1) === mobileSection"
-                :class="['section-'+(index+1)]" @click="changeSectionRight()") {{category.Name}}
+                :class="['section-'+(index+1)]" @click="changeSectionRight()" v-html="category.Name")
             div(@click="changeSectionLeft()")
                 Arrow.left
             div(@click="changeSectionRight()")
@@ -19,20 +19,20 @@
                 .item.desktop Примечание
             .body
                 .section.desktop(v-for="(category, index) in prices")
-                    .row_category {{category.Name}}
+                    .row_category(v-html="category.Name")
                     .row(v-for="item in category.Items")
-                        .cell {{item.Age}}
-                        .cell {{item.SinglePrice}}
-                        .cell {{item.MonthPrice}}
-                        .cell.note_cell(v-if="item.Note") {{item.Note}}
-                    .note(v-if="category.Note" :style="{height: category.Items.length * 24 + 'px'}") {{category.Note}}
+                        .cell(v-html="item.Age")
+                        .cell(v-html="item.SinglePrice")
+                        .cell(v-html="item.MonthPrice")
+                        .cell.note_cell(v-if="item.Note" v-html="item.Note")
+                    .note(v-if="category.Note" :style="{height: category.Items.length * 24 + 'px'}" v-html="category.Note")
 
                 .section.mobile(v-for="(category, index) in prices" v-if="(index+1) === mobileSection")
                     .row(v-for="item in category.Items")
-                        .cell {{item.Age}}
-                            span(v-if="item.Note") {{item.Note}}
-                        .cell {{item.SinglePrice}}
-                        .cell {{item.MonthPrice}}
+                        .cell(v-html="item.Age")
+                            span(v-if="item.Note")
+                        .cell(v-html="item.SinglePrice")
+                        .cell(v-html="item.MonthPrice")
 
         h3.title.title-prices
             | Не можешь выбрать?
