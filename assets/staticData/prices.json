@@ -19,7 +19,7 @@
         {
           "Age": "10-12 лет",
           "SinglePrice": "300 руб.",
-          "MonthPrice": "2100 руб.",
+          "MonthPrice": "2400 руб.",
           "Note": ""
         },
         {
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "Name": "ГРУППЫ отдельных ТАНЦЕВАЛЬНЫХ НАПРАВЛЕНИЙ (Hip-Hop, Dancehall, Vogue, Break dance)",
+      "Name": "ГРУППЫ отдельных ТАНЦЕВАЛЬНЫХ НАПРАВЛЕНИЙ<br>(Hip-Hop, Dancehall, Vogue, Break dance)",
       "Note": "",
       "Items": [
         {
@@ -65,7 +65,7 @@
           "Note": "2 раза в неделю"
         },
         {
-          "Age": "1от 10 лет",
+          "Age": "от 10 лет",
           "SinglePrice": "350 руб.",
           "MonthPrice": "2400 руб.",
           "Note": "3 раза в неделю"
