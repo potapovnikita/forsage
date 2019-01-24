@@ -125,4 +125,8 @@
         .popup_container
             .popup_inner-container
                 padding 20px 10px
+
+    @media only screen and (max-height 500px)
+        .popup_container
+            height 500px
 </style>
