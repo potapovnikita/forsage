@@ -51,12 +51,17 @@
         methods: {
             closePopup() {
                 this.isOpenPopup = false
-                document.getElementsByTagName('body')[0].style.overflow = 'inherit'
+                const elem = document.getElementsByTagName('body')[0].style
+                elem.overflow = 'inherit'
+                elem.position = 'inherit'
             },
             openPopup(component = '') {
                 this.component = component
                 this.isOpenPopup = true
-                document.getElementsByTagName('body')[0].style.overflow = 'hidden'
+                const elem = document.getElementsByTagName('body')[0].style
+                elem.overflow = 'hidden'
+                elem.position = 'relative'
+
             },
             scrollToHead() {
                 zenscroll.to(document.getElementById('header'))
