@@ -13,14 +13,14 @@
                             :class="{'photo_active': selectedTeacher === teacher}")
                     #active
                     .teacher_description
-                        .name {{selectedTeacher.Name}}
+                        .name(v-html="selectedTeacher.Name")
                             .social
                                 a.social-link(:href="selectedTeacher.Instagram", target="_blank")
                                     InstaLogo
                                 a.social-link(:href="selectedTeacher.Vk", target="_blank")
                                     VkLogo
-                        .style {{selectedTeacher.Styles}}
-                        .description.text_default {{selectedTeacher.Description}}
+                        .style(v-html="selectedTeacher.Styles")
+                        .description.text_default(v-html="selectedTeacher.Description")
                         <!--.social-->
                             <!--a.social-link(:href="selectedTeacher.Instagram", target="_blank")-->
                                 <!--InstaLogo-->
