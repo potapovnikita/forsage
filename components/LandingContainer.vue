@@ -60,7 +60,7 @@
                 this.isOpenPopup = true
                 const elem = document.getElementsByTagName('body')[0].style
                 elem.overflow = 'hidden'
-                elem.position = 'relative'
+                elem.position = 'fixed'
 
             },
             scrollToHead() {
