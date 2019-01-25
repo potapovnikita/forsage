@@ -36,7 +36,8 @@
                 teachers: Data.Teachers,
                 selectedTeacher: Data.Teachers[0],
                 selectedTeacherIndex: 0,
-                previousOffset: 0
+                previousOffset: 0,
+                rowVol: 0
             }
         },
         components: {
@@ -58,11 +59,21 @@
                     this.previousOffset = offsetTop
                 }
 
-                // высота фото и слайдеера (могут отличаться в зависимости от разрешения экрана)
+                // высота фото и слайдера (могут отличаться в зависимости от разрешения экрана)
                 const heightPhoto = Array.from(document.getElementsByClassName('photo'))[index].clientHeight
                 const heightSlider = document.getElementById('active').clientHeight
 
-                activeSlider.transform = `translate(${offsetLeft}px, ${offsetTop-heightPhoto-heightSlider}px)`
+                console.log('offsetTop', offsetTop)
+                console.log('heightPhoto+heightSlider', heightPhoto + heightSlider)
+
+
+                const indexRow = this.rowVol - Math.ceil((index + 1) / 4)
+
+
+                console.log('indexRow', indexRow)
+                console.log('this.rowVol', this.rowVol)
+                console.log('offset', offsetTop - ((heightPhoto + heightSlider) * indexRow))
+                activeSlider.transform = `translate(${offsetLeft}px, ${-(heightPhoto + heightSlider) * indexRow}px)`
                 setTimeout(() => {
                     activeSlider.opacity = '1'
                 }, 300)
@@ -73,12 +84,17 @@
         },
         mounted() {
             let elems = Array.from(document.getElementsByClassName('photo-click'));
-            const halfElemsLength = elems.length/2
-            const photos = elems.slice(0, Math.floor(halfElemsLength))
-            photos.forEach(item => {
+
+            elems.forEach((item, index) => {
+                if((index + 1) % 4 === 0) item.style.marginRight = '0' // каждый 4 элемент без маргина справа
+            })
+
+            const fullRow = (elems.length % 4) * 4 // количество преподов в полном ряду
+            const photosMarginRight = elems.slice(0, fullRow)
+
+            photosMarginRight.forEach((item) => {
                 item.style.marginBottom = '15px'
             })
-            photos[halfElemsLength-1].style.marginRight = '0'
 
             this.onTeacherClick(this.teachers[0])
 
@@ -86,6 +102,8 @@
                 document.getElementById('active').style.display = 'none'
                 this.onTeacherClick(this.selectedTeacher, this.selectedTeacherIndex)
             });
+
+            this.rowVol = Math.ceil(elems.length / 4)
 
         },
     }

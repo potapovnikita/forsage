@@ -22,8 +22,6 @@
             Popup(:isOpenPopup="isOpenPopup", @close="closePopup", :component="component")
         .button_top(@click="scrollToHead()")
             Top
-            <!--span Наверх-->
-
 
 </template>
 
@@ -52,15 +50,17 @@
             closePopup() {
                 this.isOpenPopup = false
                 const elem = document.getElementsByTagName('body')[0].style
+                const elemWrap = document.getElementById('container').style
                 elem.overflow = 'inherit'
-                elem.position = 'inherit'
+                elemWrap.position = 'inherit'
             },
             openPopup(component = '') {
                 this.component = component
                 this.isOpenPopup = true
                 const elem = document.getElementsByTagName('body')[0].style
+                const elemWrap = document.getElementById('container').style
                 elem.overflow = 'hidden'
-                elem.position = 'fixed'
+                elemWrap.position = 'static'
 
             },
             scrollToHead() {
