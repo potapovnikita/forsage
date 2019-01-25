@@ -112,6 +112,7 @@
         cursor pointer
         border 1px solid orangeMain
         background orangeMain
+        z-index 10
         &:hover
             background whiteMain
             svg
