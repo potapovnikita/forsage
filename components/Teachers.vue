@@ -62,17 +62,7 @@
                 // высота фото и слайдера (могут отличаться в зависимости от разрешения экрана)
                 const heightPhoto = Array.from(document.getElementsByClassName('photo'))[index].clientHeight
                 const heightSlider = document.getElementById('active').clientHeight
-
-                console.log('offsetTop', offsetTop)
-                console.log('heightPhoto+heightSlider', heightPhoto + heightSlider)
-
-
                 const indexRow = this.rowVol - Math.ceil((index + 1) / 4)
-
-
-                console.log('indexRow', indexRow)
-                console.log('this.rowVol', this.rowVol)
-                console.log('offset', offsetTop - ((heightPhoto + heightSlider) * indexRow))
                 activeSlider.transform = `translate(${offsetLeft}px, ${-(heightPhoto + heightSlider) * indexRow}px)`
                 setTimeout(() => {
                     activeSlider.opacity = '1'
