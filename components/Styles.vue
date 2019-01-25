@@ -130,8 +130,12 @@
                 left 0
                 width 100%
                 height 100%
-
+    @media only screen and (max-width 1500px)
+        .styles_inner-container
+            background-image url('~assets/img/background-styles@2x-min.png')
     @media only screen and (max-width 1000px)
+        .styles_inner-container
+            background-image url('~assets/img/background-styles.png')
         .styles_list
             margin 0 auto
             max-width 400px
@@ -144,6 +148,7 @@
 
     @media only screen and (max-width 450px)
         .styles_inner-container
+            background-image url('~assets/img/background-styles-min.png')
             .styles-top
                 .title-text
                     padding-top 0

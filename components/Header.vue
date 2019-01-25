@@ -278,6 +278,10 @@
 
 
 
+    @media only screen and (max-width 1500px)
+        .header_container
+            background-image url('~assets/img/header-background-min.png')
+
     @media only screen and (max-width 1200px)
         .menu
             .menu_left, .menu_right
