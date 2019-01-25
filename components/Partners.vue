@@ -58,7 +58,7 @@
                 display flex
                 justify-content center
                 flex-wrap wrap
-                margin 30px
+                margin 10px
             &_item
                 margin 20px
                 .text
