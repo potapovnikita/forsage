@@ -76,7 +76,7 @@
         top calc(50% - 250px)
         left calc(50% - 300px)
         width 600px
-        height 520px
+        /*height 520px*/
         opacity 1
         transition all .5s ease-in-out
         &.popup-close
