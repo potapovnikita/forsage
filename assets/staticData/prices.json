@@ -27,6 +27,18 @@
           "SinglePrice": "300 руб.",
           "MonthPrice": "2400 руб.",
           "Note": ""
+        },
+        {
+          "Age": "от 18 лет",
+          "SinglePrice": "300 руб.",
+          "MonthPrice": "2600 руб.",
+          "Note": ""
+        },
+        {
+          "Age": "от 30 лет",
+          "SinglePrice": "300 руб.",
+          "MonthPrice": "2600 руб.",
+          "Note": ""
         }
       ]
     },
