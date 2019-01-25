@@ -86,15 +86,13 @@
                 item.style.marginBottom = '15px'
             })
 
-            this.onTeacherClick(this.teachers[0])
-
             window.addEventListener('resize', () => {
                 document.getElementById('active').style.display = 'none'
                 this.onTeacherClick(this.selectedTeacher, this.selectedTeacherIndex)
             });
 
             this.rowVol = Math.ceil(elems.length / 4)
-
+            this.onTeacherClick(this.teachers[0])
         },
     }
 
