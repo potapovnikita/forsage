@@ -14,6 +14,7 @@
     "deploy": "gulp deploy:production"
   },
   "dependencies": {
+    "@nuxtjs/yandex-metrika": "^0.1.1",
     "axios": "^0.18.0",
     "emailjs-com": "^2.3.2",
     "gulp": "^3.9.1",

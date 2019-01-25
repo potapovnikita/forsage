@@ -12,6 +12,18 @@ module.exports = {
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
     },
+    modules: [
+        [
+            '@nuxtjs/yandex-metrika',
+            {
+                id: '52066491',
+                webvisor: true,
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true,
+            }
+        ],
+    ],
     css: [
         '~assets/styles/fonts.styl',
         '~assets/styles/global.styl',
