@@ -110,13 +110,15 @@
         justify-content center
         align-items center
         cursor pointer
+        border 1px solid orangeMain
+        background orangeMain
         &:hover
-            background orangeMain
+            background whiteMain
             svg
                 stroke-width 10px
-                fill whiteMain
+                fill orangeMain
         svg
             transform rotate(180deg) scale(.8)
-            fill orangeMain
+            fill whiteMain
 
 </style>
