@@ -15,6 +15,7 @@ export default {
       meta: [
         { name: 'description', hid: 'description', content: 'Начни танцевать прямо сейчас' },
         { name: 'yandex-verification', content: '485b955cf4f2b178' },
+        { name: 'google-site-verification', content: 'FADBUe6o6qRd_Tx-A7le_zE46341TfCqNWA31PsXYug' },
         // Open Graph
         { property: 'og:title', content: 'Forsage Dance School' },
         { property: 'og:description', content: 'Начни танцевать прямо сейчас' },
