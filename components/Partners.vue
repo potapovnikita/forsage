@@ -3,7 +3,7 @@
         h2.title.title-partners Партнеры
         .partners_list
             a.partners_item(v-for="partner in partners" :href="partner.Link ? partner.Link : null" target="_blank")
-                img(:src="getBgImg(partner.ImagePath)")
+                img(:src="getBgImg(partner.ImagePath)" v-if="partner.ImagePath")
                 .text(v-if="partner.Name" v-html="partner.Name")
         .company
             | FORSAGE DANCE SCHOOL
