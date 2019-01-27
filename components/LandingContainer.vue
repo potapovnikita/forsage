@@ -50,17 +50,13 @@
             closePopup() {
                 this.isOpenPopup = false
                 const elem = document.getElementsByTagName('body')[0].style
-                const elemWrap = document.getElementById('container').style
                 elem.overflow = 'inherit'
-                elemWrap.position = 'inherit'
             },
             openPopup(component = '') {
                 this.component = component
                 this.isOpenPopup = true
                 const elem = document.getElementsByTagName('body')[0].style
-                const elemWrap = document.getElementById('container').style
                 elem.overflow = 'hidden'
-                elemWrap.position = 'static'
 
             },
             scrollToHead() {

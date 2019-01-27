@@ -2,9 +2,9 @@
     .partners_container
         h2.title.title-partners Партнеры
         .partners_list
-            .partners_item
-                img(src="~assets/img/partners/HHU.png")
-                .text Генеральный спонсор
+            a.partners_item(v-for="partner in partners" :href="partner.Link ? partner.Link : null" target="_blank")
+                img(:src="getBgImg(partner.ImagePath)")
+                .text(v-if="partner.Name" v-html="partner.Name")
         .company
             | FORSAGE DANCE SCHOOL
             br
@@ -19,17 +19,24 @@
 
 <script>
     import InstaLogo from '~/assets/img/social/instagram-logo.svg'
+    import Data from '~/assets/staticData/partners.json'
+
 
     export default {
         data() {
             return {
+                partners: Data.Partners
             }
         },
         components: {
             InstaLogo
         },
         methods: {
-
+            getBgImg(url) {
+                // ~/assets/img/teachers/image-vanya@2x.png
+                const imageUrl = require('~/assets/' + `${url}`)
+                return url ? `${imageUrl}` : ''
+            },
         },
         computed: {
 
@@ -46,7 +53,7 @@
 
 <style lang="stylus">
     .partners_container
-        padding $PaddingContainers
+        padding $PaddingContainersMobile
         text-align center
         background-image linear-gradient(237deg, #0c1135, #080634)
 

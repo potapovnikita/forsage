@@ -1,7 +1,7 @@
 <template lang="pug">
     .teachers_container
         .teachers_inner-container
-            .teachers_photo
+            .teachers_photo(v-if="selectedTeacher.ImagePath" :style="{backgroundImage: getBgImg(selectedTeacher.ImagePath)}")
             .teachers_list
                 h2.title.title-teachers Преподаватели
                 .teachers_slider
@@ -10,10 +10,12 @@
                             v-for="(teacher, index) in teachers",
                             :key="teacher.name",
                             @click="onTeacherClick(teacher, index)",
-                            :class="{'photo_active': selectedTeacher === teacher}")
+                            :class="{'photo_active': selectedTeacher === teacher}"
+                            :style="{backgroundImage: getBgImg(selectedTeacher.ImagePath)}")
                     #active
                     .teacher_description
-                        .name(v-html="selectedTeacher.Name")
+                        .name
+                            span(v-html="selectedTeacher.Name")
                             .social
                                 a.social-link(:href="selectedTeacher.Instagram", target="_blank")
                                     InstaLogo
@@ -28,7 +30,6 @@
     import Data from '~/assets/staticData/teachers.json'
     import InstaLogo from '~/assets/img/social/instagram-logo.svg'
     import VkLogo from '~/assets/img/social/vk-logo.svg'
-
 
     export default {
         data() {
@@ -45,6 +46,11 @@
             VkLogo
         },
         methods: {
+            getBgImg(url) {
+                // ~/assets/img/teachers/image-vanya@2x.png
+                const imageUrl = require('~/assets/' + `${url}`)
+                return url ? `url(${imageUrl})` : ''
+            },
             onTeacherClick(teacher, index = 0) {
                 this.selectedTeacher = teacher
                 this.selectedTeacherIndex = index
@@ -93,6 +99,8 @@
 
             this.rowVol = Math.ceil(elems.length / 4)
             this.onTeacherClick(this.teachers[0])
+
+            this.getBgImg(this.selectedTeacher.ImagePath)
         },
     }
 
@@ -109,11 +117,11 @@
         background-color whiteInnerBackground
         padding $PaddingContainers
         padding-bottom 0
+        padding-top 0
 
     .teachers
         &_photo
             min-width 50%
-            background-image url('~assets/img/teachers/image-vanya@2x.png')
             background-repeat no-repeat
             background-size contain
             background-position bottom
@@ -139,7 +147,10 @@
                 .photo
                     width 100px
                     height 100px
-                    background-color gray
+                    background-color #d8d8d8
+                    background-position center
+                    background-size contain
+                    background-repeat no-repeat
                     margin 0 12px 0 0
                     cursor pointer
                     font-size 14px
@@ -147,7 +158,7 @@
                     &:last-child
                         margin-right 0
                     &_active
-                        background-color darkgray
+                        background-color rgba(orangeMain, 0.1)
 
             .teacher_description
                 min-height 270px
@@ -169,6 +180,21 @@
                     font-weight bold
                     letter-spacing 0.4px
 
+                    .social
+                        display flex
+
+                        .social-link
+                            cursor pointer
+                            margin-left 15px
+                            svg
+                                width 30px
+                                height 30px
+                                fill white
+                                opacity 0.5
+                            &:hover
+                                svg
+                                    opacity 1
+
                 .style
                     margin-bottom 22px
                     opacity 0.5
@@ -179,20 +205,6 @@
                 .description
                     color whiteMain
                     margin-bottom 20px
-
-                .social
-                    display flex
-                    .social-link
-                        cursor pointer
-                        margin-left 15px
-                        svg
-                            width 30px
-                            height 30px
-                            fill white
-                            opacity 0.5
-                        &:hover
-                            svg
-                                opacity 1
 
 
             #active

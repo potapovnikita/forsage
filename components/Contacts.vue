@@ -137,7 +137,7 @@
 
 
         .contacts_sticker
-            padding 65px 60px
+            padding 40px 60px
             position absolute
             width 380px
             height 430px

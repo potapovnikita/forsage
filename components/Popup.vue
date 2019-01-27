@@ -1,7 +1,7 @@
 <template lang="pug">
     .popup-wrapper
         .popup_overlay(:class="{'popup-close': !isOpenPopup}")
-        .popup_container(:class="{'popup-close': !isOpenPopup}")
+        .popup_container(:class="{'popup-close': !isOpenPopup}" v-click-outside="onClickOutside")
             .popup_inner-container
                 div(v-if="component === 'prices'")
                     Prices
@@ -17,6 +17,8 @@
 </template>
 
 <script>
+    import vClickOutside from 'v-click-outside'
+
     import Button from '~/components/Button.vue'
     import CloseLogo from '~/assets/img/close.svg'
     import Feedback from '~/components/Feedback.vue'
@@ -30,6 +32,9 @@
             }
         },
         props: ['isOpenPopup', 'close', 'component'],
+        directives: {
+            clickOutside: vClickOutside.directive
+        },
         components: {
             Button,
             CloseLogo,
@@ -37,6 +42,9 @@
             Prices
         },
         methods: {
+            onClickOutside (event) {
+                if(this.isOpenPopup) this.$emit('close')
+            }
         },
         computed: {
 

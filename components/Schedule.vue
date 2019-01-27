@@ -66,11 +66,10 @@
             return {
                 shedule: Shedule,
                 activeHall: 0,
-                activeDay: new Date().getDay() - 1,
-                activeDayDesktop: new Date().getDay() - 1,
+                activeDay: new Date().getDay() === 0 ? 6 : new Date().getDay() - 1 ,
+                activeDayDesktop: new Date().getDay() === 0 ? 6 : new Date().getDay() - 1 ,
                 scheduleTimes: scheduleTimes,
                 scheduleHallByDay: [],
-                scheduleWeek: [],
                 dayShort: dayShort,
             }
         },
