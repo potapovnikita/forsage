@@ -1,6 +1,10 @@
 {
   "Styles": [
     {
+      "StyleName": "ПРОМО-ВИДЕО",
+      "YouTubeLink": "https://www.youtube.com/embed/K6tz-4d7XNk"
+    },
+    {
       "StyleName": "HIP-HOP",
       "YouTubeLink": "https://www.youtube.com/embed/K6tz-4d7XNk"
     },
@@ -13,10 +17,6 @@
       "YouTubeLink": "https://www.youtube.com/embed/IwpFnZfbVBI"
     },
     {
-      "StyleName": "HOUSE DANCE",
-      "YouTubeLink": "https://www.youtube.com/embed/4tA5BvF3jic"
-    },
-    {
       "StyleName": "BREAKING",
       "YouTubeLink": "https://www.youtube.com/embed/x6kBn0ilxYg"
     },
@@ -26,15 +26,11 @@
     },
     {
       "StyleName": "POPPING",
-      "YouTubeLink": "https://www.youtube.com/embed/2eWhFmUD_6g"
-    },
-    {
-      "StyleName": "WAACKING",
-      "YouTubeLink": "https://www.youtube.com/embed/Pq3zILlpUws"
+      "YouTubeLink": "https://www.youtube.com/embed/ELtqefMviW4"
     },
     {
       "StyleName": "ХОРЕОГРАФИЯ",
-      "YouTubeLink": "https://www.youtube.com/embed/qGa0JWUqqgk"
+      "YouTubeLink": "https://www.youtube.com/embed/2eWhFmUD_6g"
     }
   ]
 }
