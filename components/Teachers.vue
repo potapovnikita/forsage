@@ -204,7 +204,6 @@
 
                 .description
                     color whiteMain
-                    margin-bottom 20px
 
 
             #active
