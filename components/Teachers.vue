@@ -11,7 +11,7 @@
                             :key="teacher.name",
                             @click="onTeacherClick(teacher, index)",
                             :class="{'photo_active': selectedTeacher === teacher}"
-                            :style="{backgroundImage: getBgImg(selectedTeacher.ImagePath)}")
+                            :style="{backgroundImage: getBgImg(selectedTeacher.SmallImagePath)}")
                     #active
                     .teacher_description
                         .name
