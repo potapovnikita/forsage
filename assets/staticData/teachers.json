@@ -10,85 +10,13 @@
         "Vk":"https://vk.com/kelik_vanches"
     },
     {
-        "Name": "ДАНИЛ БУХАРОВ",
+        "Name": "Угадай кто?",
         "Styles": "All Styles, тренер команд",
         "Description":"Хореограф ХИП-ХОП СТУДИИ ФОРСАЖ<br>Многократный призер и чемпион России, Европы и Мира по версии Hip Hop Unite.<br><br>Тренер юниорской команды FANTASY FORCE<br>Универсальный танцор. Хореограф.<br>Постановщик танцевальных шоу.",
-        "ImagePath":"img/teachers/buharov.png",
-        "SmallImagePath":"img/teachers/buharov2.png",
-        "Instagram":"https://www.instagram.com/melky_forsage/",
-        "Vk":"https://vk.com/melky_forsage"
-    },
-    { 
-        "Name": "ЛИЛИЯ ГАЙФУЛЛИНА",
-        "Styles": "Dancehall, Vogue, тренер команд",
-        "Description":"Танцевальный стаж – 8 лет, преподавательский – 5 лет.<br>Многократный призер и чемпион России, Европы и Мира по версии Hip Hop Unite.<br>Осваивала направления: dancehall, vogue, waacking, locking, hip-hop, house, breaking.<br>КМС по хип-хопу.",
-        "ImagePath":"img/teachers/image-vanya@2x.png",
-        "SmallImagePath":"img/teachers/image-vanya@2x.png",
-        "Instagram":"https://www.instagram.com/lili_gaifullina/",
-        "Vk":"https://vk.com/lili_gaifullina"
-    },
-    {
-        "Name": "ТАТЬЯНА САРТАКОВА",
-        "Styles": "Vogue, Mother kiki house of FORSAGE",
-        "Description":"Танцует уличные направления с 2010 года.",
-        "ImagePath":"img/teachers/image-vanya@2x.png",
-        "SmallImagePath":"img/teachers/image-vanya@2x.png",
-        "Instagram":"https://www.instagram.com/sartakova.t/",
-        "Vk":"https://vk.com/tatianasartakova"
-    },
-    {
-        "Name": "АННА КОСЬЯНОВА",
-        "Styles": "Преподаватель групп базовой подготовки",
-        "Description":"Танцует уличные направления с 2010 года. Чемпион ВСЕ ЧТО МОЖНО",
-        "ImagePath":"img/teachers/image-vanya@2x.png",
-        "SmallImagePath":"img/teachers/image-vanya@2x.png",
-        "Instagram":"https://www.instagram.com/anchous1581/",
-        "Vk":"https://vk.com/anchous1581"
-    },
-    {
-        "Name": "АЛЕКСАНДР СТАРКОВ",
-        "Styles": "Hip-Hop Choreo, House Dance",
-        "Description":"Руководитель ХИП-ХОП СТУДИИ ФОРСАЖ<br>Действующий тренер команды ФОРСАЖ<br><br>Многократный призер и чемпион России, Европы и Мира по версии Hip Hop Unite.",
-        "ImagePath":"img/teachers/image-vanya@2x.png",
-        "SmallImagePath":"img/teachers/image-vanya@2x.png",
-        "Instagram":"https://www.instagram.com/sanyajka_forsage/",
-        "Vk":"https://vk.com/sanyajka_forsage"
-    },
-    {
-        "Name": "ЛАДА ИСАКОВА",
-        "Styles": "All Styles, тренер команд",
-        "Description":"Танцует уличные направления с 2010 года.",
-        "ImagePath":"img/teachers/image-vanya@2x.png",
-        "SmallImagePath":"img/teachers/image-vanya@2x.png",
-        "Instagram":"https://www.instagram.com/l_isakova16/",
-        "Vk":"https://vk.com/mega_ladon16"
-    },
-    {
-        "Name": "АРИНА СУЛЕЙМАНОВА",
-        "Styles": "House Dance, Popping, Hip-Hop",
-        "Description":"Танцует уличные направления с 2010 года.",
-        "ImagePath":"img/teachers/image-vanya@2x.png",
-        "SmallImagePath":"img/teachers/image-vanya@2x.png",
-        "Instagram":"https://www.instagram.com/daamn_ara/",
-        "Vk":"https://vk.com/ara_uzu"
-    },
-    {
-        "Name": "ЕКАТЕРИНА АЛЕШИНА",
-        "Styles": "Преподаватель групп базовой подготовки",
-        "Description":"Танцует уличные направления с 2010 года. Чемпион ВСЕ ЧТО МОЖНО",
-        "ImagePath":"img/teachers/image-vanya@2x.png",
-        "SmallImagePath":"img/teachers/image-vanya@2x.png",
-        "Instagram":"https://www.instagram.com/ale_ale_aleshina/",
-        "Vk":"https://vk.com/ale_ale_aleshina"
-    },
-    {
-        "Name": "ИВАН СЕМИКИН",
-        "Styles": "Breaking",
-        "Description":"Участник команды BREAK THE BANK<br><br>Победитель и призер батлов: «Ural Open Cup», «Take It Make It», «EKB Pоpping Jam», «IDD Grand Event», «Все стили в силе»!<br><br>Участник проекта ТАНЦЫ на ТНТ 5 сезон.",
-        "ImagePath":"img/teachers/image-vanya@2x.png",
-        "SmallImagePath":"img/teachers/image-vanya@2x.png",
-        "Instagram":"https://www.instagram.com/ivansem_/",
-        "Vk":"https://vk.com/ivansemikin"
+        "ImagePath":"img/teachers/unname.png",
+        "SmallImagePath":"img/teachers/unname.png",
+        "Instagram":"",
+        "Vk":""
     }
   ]
 }
