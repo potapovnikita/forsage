@@ -9,9 +9,9 @@
                 a.news_item(v-for="item in news", :href="item.PostLink", target="_blank")
                     img.photo(:src="getImg(item.ImageLink)", :alt="item.Name")
                     .text
-                        h3.title.head {{item.Name}}
-                        .date {{item.Date}}
-                        .description.text_default {{item.Description}}
+                        h3.title.head(v-html="item.Name")
+                        .date(v-html="item.Date")
+                        .description.text_default(v-html="item.Description")
 
 
 
