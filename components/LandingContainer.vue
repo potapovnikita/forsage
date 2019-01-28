@@ -50,7 +50,7 @@
             closePopup() {
                 this.isOpenPopup = false
                 const elem = document.getElementsByTagName('body')[0].style
-                elem.overflow = 'auto'
+                elem.overflow = 'inherit'
             },
             openPopup(component = '') {
                 this.component = component

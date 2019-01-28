@@ -16,8 +16,6 @@ html {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    margin-left: calc(100vw - 100%);
-    margin-right: 0;
 }
 
 *, *:before, *:after {
