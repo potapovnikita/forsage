@@ -12,7 +12,7 @@
                             @click="onTeacherClick(teacher, index)",
                             :class="{'photo_active': selectedTeacher === teacher}"
                             :style="{backgroundImage: getBgImg(selectedTeacher.ImagePath)}")
-                        #active
+                    #active
                     .teacher_description
                         .name
                             span(v-html="selectedTeacher.Name")
@@ -55,9 +55,6 @@
                 this.selectedTeacher = teacher
                 this.selectedTeacherIndex = index
                 const offsetLeft = Array.from(document.getElementsByClassName('photo'))[index].offsetLeft
-                // test
-                const offset = (Array.from(document.getElementsByClassName('photo'))[index].clientWidth + 12)*2;
-
                 const offsetTop = Array.from(document.getElementsByClassName('photo'))[index].offsetTop
                 document.getElementById('active').style.display = 'block' // костыль
                 let activeSlider = document.getElementById('active').style
@@ -72,7 +69,7 @@
                 const heightPhoto = Array.from(document.getElementsByClassName('photo'))[index].clientHeight
                 const heightSlider = document.getElementById('active').clientHeight
                 const indexRow = this.rowVol - Math.ceil((index + 1) / 4)
-                activeSlider.transform = `translate(${offsetLeft - offset}px, ${(-(heightPhoto + heightSlider) * indexRow) + heightPhoto}px)`
+                activeSlider.transform = `translate(${offsetLeft}px, ${-(heightPhoto + heightSlider) * indexRow}px)`
                 setTimeout(() => {
                     activeSlider.opacity = '1'
                 }, 300)
@@ -86,8 +83,6 @@
 
             elems.forEach((item, index) => {
                 if((index + 1) % 4 === 0) item.style.marginRight = '0' // каждый 4 элемент без маргина справа
-                // тест
-                item.style.marginBottom = '15px'
             })
 
             const fullRow = (elems.length % 4) * 4 // количество преподов в полном ряду
@@ -148,8 +143,6 @@
                 flex-direction row
                 /*justify-content space-between*/
                 position relative
-                overflow scroll
-                max-height 230px
 
                 .photo
                     width 100px
@@ -254,7 +247,6 @@
                         width 80px
 
                     .photos
-                        max-height 190px
                         .photo
                             width 80px
                             height 80px
@@ -269,7 +261,6 @@
                         width 70px
 
                     .photos
-                        max-height 170px
                         .photo
                             width 70px
                             height 70px
