@@ -143,22 +143,28 @@
           "WeekDay": "ПОНЕДЕЛЬНИК",
           "Groups":[
             {
-              "Name": "BABY I</br>(5-6 лет)",
-              "Teacher": "Косьянова Анна",
-              "LessonStart": "17:00",
+              "Name": "VARSITY I</br>(12-17 лет)",
+              "Teacher": "Идёт набор",
+              "LessonStart": "10:30",
+              "LessonEnd": "12:00"
+            },
+            {
+              "Name": "JUNIORS I</br>(10-12 лет)",
+              "Teacher": "Идёт набор",
+              "LessonStart": "16:30",
               "LessonEnd": "18:00"
             },
             {
-              "Name": "CADETS I</br>(7-9 лет)",
+              "Name": "BABY I</br>(5-6 лет)",
               "Teacher": "Косьянова Анна",
               "LessonStart": "18:00",
               "LessonEnd": "19:00"
             },
             {
-              "Name": "JUNIORS I</br>(10-12 лет)",
-              "Teacher": "Исакова Лада",
+              "Name": "CADETS I</br>(7-9 лет)",
+              "Teacher": "Косьянова Анна",
               "LessonStart": "19:00",
-              "LessonEnd": "20:30"
+              "LessonEnd": "20:00"
             }
           ]
         },
