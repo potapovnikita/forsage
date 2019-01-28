@@ -1,74 +1,94 @@
 {
-  "Teachers": [
+    "Teachers": [
     {
-      "Name": "ИВАН КЕЛИК",
-      "Styles": "All Styles, тренер команд, руководитель школы",
-      "Description":"Хореограф ХИП-ХОП СТУДИИ ФОРСАЖ<br>Многократный призер и чемпион России, Европы и Мира по версии Hip Hop Unite.<br><br>Тренер юниорской команды FUNKY FORCE<br>(ТОП-4 Европы, ТОП-5 Мира)<br><br>Участник многих российских и мировых баттлов по hip-hop, popping, all styles!<br>Участник проекта ТАНЦЫ на ТНТ 5 сезон.",
-      "ImagePath":"img/teachers/image-vanya@2x.png",
-      "SmallImagePath":"img/teachers/image-vanya@2x.png"
-    },
-    {
-      "Name": "ДАНИЛ БУХАРОВ (MELKY)",
-      "Styles": "All Styles, тренер команд",
-      "Description":"Хореограф ХИП-ХОП СТУДИИ ФОРСАЖ<br>Многократный призер и чемпион России, Европы и Мира по версии Hip Hop Unite.<br><br>Тренер юниорской команды FANTASY FORCE<br>Универсальный танцор. Хореограф.<br>Постановщик танцевальных шоу.",
-      "ImagePath":"img/teachers/image-vanya@2x.png",
-      "SmallImagePath":"img/teachers/image-vanya@2x.png"
+        "Name": "ИВАН КЕЛИК",
+        "Styles": "All Styles, тренер команд, руководитель школы",
+        "Description":"Хореограф ХИП-ХОП СТУДИИ ФОРСАЖ<br>Многократный призер и чемпион России, Европы и Мира по версии Hip Hop Unite.<br><br>Тренер юниорской команды FUNKY FORCE<br>(ТОП-4 Европы, ТОП-5 Мира)<br><br>Участник многих российских и мировых баттлов по hip-hop, popping, all styles!<br>Участник проекта ТАНЦЫ на ТНТ 5 сезон.",
+        "ImagePath":"img/teachers/image-vanya@2x.png",
+        "SmallImagePath":"img/teachers/image-vanya@2x.png",
+        "Instagram":"https://www.instagram.com/kelik_vanches/",
+        "Vk":"https://vk.com/kelik_vanches
     },
     {
-      "Name": "ЛИЛИЯ ГАЙФУЛЛИНА",
-      "Styles": "Dancehall, Vogue, тренер команд",
-      "Description":"Танцевальный стаж – 8 лет, преподавательский – 5 лет.<br>Многократный призер и чемпион России, Европы и Мира по версии Hip Hop Unite.<br>Осваивала направления: dancehall, vogue, waacking, locking, hip-hop, house, breaking.<br>КМС по хип-хопу.",
-      "ImagePath":"img/teachers/image-vanya@2x.png",
-      "SmallImagePath":"img/teachers/image-vanya@2x.png"
+        "Name": "ДАНИЛ БУХАРОВ (MELKY)",
+        "Styles": "All Styles, тренер команд",
+        "Description":"Хореограф ХИП-ХОП СТУДИИ ФОРСАЖ<br>Многократный призер и чемпион России, Европы и Мира по версии Hip Hop Unite.<br><br>Тренер юниорской команды FANTASY FORCE<br>Универсальный танцор. Хореограф.<br>Постановщик танцевальных шоу.",
+        "ImagePath":"img/teachers/image-vanya@2x.png",
+        "SmallImagePath":"img/teachers/image-vanya@2x.png",
+        "Instagram":"https://www.instagram.com/kelik_vanches/",
+        "Vk":"https://vk.com/kelik_vanches
+    },
+    { 
+        "Name": "ЛИЛИЯ ГАЙФУЛЛИНА",
+        "Styles": "Dancehall, Vogue, тренер команд",
+        "Description":"Танцевальный стаж – 8 лет, преподавательский – 5 лет.<br>Многократный призер и чемпион России, Европы и Мира по версии Hip Hop Unite.<br>Осваивала направления: dancehall, vogue, waacking, locking, hip-hop, house, breaking.<br>КМС по хип-хопу.",
+        "ImagePath":"img/teachers/image-vanya@2x.png",
+        "SmallImagePath":"img/teachers/image-vanya@2x.png",
+        "Instagram":"https://www.instagram.com/kelik_vanches/",
+        "Vk":"https://vk.com/kelik_vanches
     },
     {
-      "Name": "ТАТЬЯНА САРТАКОВА",
-      "Styles": "Vogue, Mother kiki house of FORSAGE",
-      "Description":"Танцует уличные направления с 2010 года.",
-      "ImagePath":"img/teachers/image-vanya@2x.png",
-      "SmallImagePath":"img/teachers/image-vanya@2x.png"
+        "Name": "ТАТЬЯНА САРТАКОВА",
+        "Styles": "Vogue, Mother kiki house of FORSAGE",
+        "Description":"Танцует уличные направления с 2010 года.",
+        "ImagePath":"img/teachers/image-vanya@2x.png",
+        "SmallImagePath":"img/teachers/image-vanya@2x.png",
+        "Instagram":"https://www.instagram.com/kelik_vanches/",
+        "Vk":"https://vk.com/kelik_vanches
     },
     {
-      "Name": "АННА КОСЬЯНОВА",
-      "Styles": "Преподаватель групп базовой подготовки",
-      "Description":"Танцует уличные направления с 2010 года. Чемпион ВСЕ ЧТО МОЖНО",
-      "ImagePath":"img/teachers/image-vanya@2x.png",
-      "SmallImagePath":"img/teachers/image-vanya@2x.png"
+        "Name": "АННА КОСЬЯНОВА",
+        "Styles": "Преподаватель групп базовой подготовки",
+        "Description":"Танцует уличные направления с 2010 года. Чемпион ВСЕ ЧТО МОЖНО",
+        "ImagePath":"img/teachers/image-vanya@2x.png",
+        "SmallImagePath":"img/teachers/image-vanya@2x.png",
+        "Instagram":"https://www.instagram.com/kelik_vanches/",
+        "Vk":"https://vk.com/kelik_vanches
     },
     {
-      "Name": "ЕКАТЕРИНА АЛЕШИНА",
-      "Styles": "Преподаватель групп базовой подготовки",
-      "Description":"Танцует уличные направления с 2010 года. Чемпион ВСЕ ЧТО МОЖНО",
-      "ImagePath":"img/teachers/image-vanya@2x.png",
-      "SmallImagePath":"img/teachers/image-vanya@2x.png"
+        "Name": "ЕКАТЕРИНА АЛЕШИНА",
+        "Styles": "Преподаватель групп базовой подготовки",
+        "Description":"Танцует уличные направления с 2010 года. Чемпион ВСЕ ЧТО МОЖНО",
+        "ImagePath":"img/teachers/image-vanya@2x.png",
+        "SmallImagePath":"img/teachers/image-vanya@2x.png",
+        "Instagram":"https://www.instagram.com/kelik_vanches/",
+        "Vk":"https://vk.com/kelik_vanches
     },
     {
-      "Name": "ЛАДА ИСАКОВА",
-      "Styles": "All Styles, тренер команд",
-      "Description":"Танцует уличные направления с 2010 года.",
-      "ImagePath":"img/teachers/image-vanya@2x.png",
-      "SmallImagePath":"img/teachers/image-vanya@2x.png"
+        "Name": "ЛАДА ИСАКОВА",
+        "Styles": "All Styles, тренер команд",
+        "Description":"Танцует уличные направления с 2010 года.",
+        "ImagePath":"img/teachers/image-vanya@2x.png",
+        "SmallImagePath":"img/teachers/image-vanya@2x.png",
+        "Instagram":"https://www.instagram.com/kelik_vanches/",
+        "Vk":"https://vk.com/kelik_vanches
     },
     {
-      "Name": "АРИНА СУЛЕЙМАНОВА",
-      "Styles": "House dance",
-      "Description":"Танцует уличные направления с 2010 года.",
-      "ImagePath":"img/teachers/image-vanya@2x.png",
-      "SmallImagePath":"img/teachers/image-vanya@2x.png"
+        "Name": "АРИНА СУЛЕЙМАНОВА",
+        "Styles": "House dance",
+        "Description":"Танцует уличные направления с 2010 года.",
+        "ImagePath":"img/teachers/image-vanya@2x.png",
+        "SmallImagePath":"img/teachers/image-vanya@2x.png",
+        "Instagram":"https://www.instagram.com/kelik_vanches/",
+        "Vk":"https://vk.com/kelik_vanches
     },
-     {
-      "Name": "АЛЕКСАНДР СТАРКОВ",
-      "Styles": "Hip-Hop Choreo",
-      "Description":"Танцует уличные направления с 2010 года.",
-      "ImagePath":"img/teachers/image-vanya@2x.png",
-      "SmallImagePath":"img/teachers/image-vanya@2x.png"
+    {
+        "Name": "АЛЕКСАНДР СТАРКОВ",
+        "Styles": "Hip-Hop Choreo",
+        "Description":"Танцует уличные направления с 2010 года.",
+        "ImagePath":"img/teachers/image-vanya@2x.png",
+        "SmallImagePath":"img/teachers/image-vanya@2x.png",
+        "Instagram":"https://www.instagram.com/kelik_vanches/",
+        "Vk":"https://vk.com/kelik_vanches
     },
-      {
-      "Name": "ИВАН СЕМИКИН",
-      "Styles": "Breaking",
-      "Description":"Танцует уличные направления с 2010 года.",
-      "ImagePath":"img/teachers/image-vanya@2x.png",
-      "SmallImagePath":"img/teachers/image-vanya@2x.png"
+    {
+        "Name": "ИВАН СЕМИКИН",
+        "Styles": "Breaking",
+        "Description":"Танцует уличные направления с 2010 года.",
+        "ImagePath":"img/teachers/image-vanya@2x.png",
+        "SmallImagePath":"img/teachers/image-vanya@2x.png",
+        "Instagram":"https://www.instagram.com/kelik_vanches/",
+        "Vk":"https://vk.com/kelik_vanches
     }
   ]
 }
