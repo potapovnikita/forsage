@@ -7,7 +7,7 @@
                 span Посмотреть все события
             .news_list
                 a.news_item(v-for="item in news", :href="item.PostLink", target="_blank")
-                    img.photo(:src="item.ImageLink", :alt="item.Name")
+                    img.photo(:src="getImg(item.ImageLink)", :alt="item.Name")
                     .text
                         h3.title.head {{item.Name}}
                         .date {{item.Date}}
@@ -20,7 +20,6 @@
 <script>
     import Data from '~/assets/staticData/news.json'
     import DataContacts from '~/assets/staticData/contacts.json'
-
     import VkLogo from '~/assets/img/social/vk-logo.svg'
 
 
@@ -37,6 +36,10 @@
         methods: {
             selectStyle(index) {
                 this.activeStyle = index
+            },
+            getImg(url) {
+                const imageUrl = require('~/assets/' + `${url}`)
+                return url ? `${imageUrl}` : ''
             },
         },
         computed: {
