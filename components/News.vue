@@ -38,8 +38,11 @@
                 this.activeStyle = index
             },
             getImg(url) {
-                const imageUrl = require('~/assets/' + `${url}`)
-                return url ? `${imageUrl}` : ''
+                if (url.indexOf('http') === -1) {
+                    const imageUrl = require('~/assets/' + `${url}`)
+                    return url ? `${imageUrl}` : ''
+                }
+                return url
             },
         },
         computed: {
