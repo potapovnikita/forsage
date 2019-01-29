@@ -131,7 +131,7 @@
           "WeekDay": "ПОНЕДЕЛЬНИК",
           "Groups":[
             {
-              "Name": "VARSITY I</br>(12-17 лет)",
+              "Name": "JUNIORS III</br>(8-12 лет)",
               "Teacher": "Идёт набор",
               "LessonStart": "10:30",
               "LessonEnd": "12:00"
@@ -160,7 +160,7 @@
           "WeekDay": "ВТОРНИК",
           "Groups":[
             {
-              "Name": "VARSITY II</br>(12-17 лет)",
+              "Name": "JUNIORS IV</br>(8-12 лет)",
               "Teacher": "Идёт набор",
               "LessonStart": "10:30",
               "LessonEnd": "12:00"
@@ -189,7 +189,7 @@
           "WeekDay": "СРЕДА",
           "Groups":[
             {
-              "Name": "VARSITY I</br>(12-17 лет)",
+              "Name": "JUNIORS III</br>(8-12 лет)",
               "Teacher": "Идёт набор",
               "LessonStart": "10:30",
               "LessonEnd": "12:00"
@@ -218,7 +218,7 @@
           "WeekDay": "ЧЕТВЕРГ",
           "Groups":[
             {
-              "Name": "VARSITY II</br>(12-17 лет)",
+              "Name": "JUNIORS IV</br>(8-12 лет)",
               "Teacher": "Идёт набор",
               "LessonStart": "10:30",
               "LessonEnd": "12:00"
@@ -247,7 +247,7 @@
           "WeekDay": "ПЯТНИЦА",
           "Groups":[
             {
-              "Name": "VARSITY I</br>(12-17 лет)",
+              "Name": "JUNIORS III</br>(8-12 лет)",
               "Teacher": "Идёт набор",
               "LessonStart": "10:30",
               "LessonEnd": "12:00"
@@ -276,7 +276,7 @@
           "WeekDay": "СУББОТА",
           "Groups":[
             {
-              "Name": "VARSITY II</br>(12-17 лет)",
+              "Name": "JUNIORS IV</br>(8-12 лет)",
               "Teacher": "Идёт набор",
               "LessonStart": "10:30",
               "LessonEnd": "12:00"
@@ -362,8 +362,8 @@
             {
               "Name": "BREAK DANCE",
               "Teacher": "Семикин</br>Иван",
-              "LessonStart": "15:00",
-              "LessonEnd": "17:00"
+              "LessonStart": "16:00",
+              "LessonEnd": "17:30"
             },
             {
               "Name": "L-CREW",
