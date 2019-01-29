@@ -81,7 +81,7 @@
         text-align center
         z-index 1000
         position fixed
-        top calc(50% - 250px)
+        top calc(50% - 300px)
         left calc(50% - 300px)
         width 600px
         /*height 520px*/
@@ -128,6 +128,9 @@
             width 100%
             height 100%
             overflow scroll
+
+            .close_btn svg
+                transform scale(0.9)
 
     @media only screen and (max-width 400px)
         .popup_container

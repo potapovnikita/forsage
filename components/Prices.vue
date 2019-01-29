@@ -85,7 +85,7 @@
             color orangeMain
 
             &.title-prices
-                margin-top 5px
+                margin-top 20px
                 animation Blick 2s infinite linear
 
 
@@ -218,10 +218,10 @@
                         fill orangeMain
                         opacity 1
                 .left
-                    transform rotate(90deg)
+                    transform rotate(90deg) scale(0.9)
                     left 0
                 .right
-                    transform rotate(-90deg)
+                    transform rotate(-90deg) scale(0.9)
                     right 0
 
 
