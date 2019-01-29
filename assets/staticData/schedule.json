@@ -172,6 +172,12 @@
           "WeekDay": "ВТОРНИК",
           "Groups":[
             {
+              "Name": "VARSITY II</br>(12-17 лет)",
+              "Teacher": "Идёт набор",
+              "LessonStart": "10:30",
+              "LessonEnd": "12:00"
+            },
+            {
               "Name": "BABY II</br>(5-6 лет)",
               "Teacher": "Косьянова Анна",
               "LessonStart": "17:00",
@@ -194,6 +200,12 @@
         {
           "WeekDay": "СРЕДА",
           "Groups":[
+            {
+              "Name": "VARSITY I</br>(12-17 лет)",
+              "Teacher": "Идёт набор",
+              "LessonStart": "10:30",
+              "LessonEnd": "12:00"
+            },
             {
               "Name": "BABY I</br>(5-6 лет)",
               "Teacher": "Косьянова Анна",
@@ -218,6 +230,12 @@
           "WeekDay": "ЧЕТВЕРГ",
           "Groups":[
             {
+              "Name": "VARSITY II</br>(12-17 лет)",
+              "Teacher": "Идёт набор",
+              "LessonStart": "10:30",
+              "LessonEnd": "12:00"
+            },
+            {
               "Name": "BABY II</br>(5-6 лет)",
               "Teacher": "Косьянова Анна",
               "LessonStart": "17:00",
@@ -241,6 +259,12 @@
           "WeekDay": "ПЯТНИЦА",
           "Groups":[
             {
+              "Name": "VARSITY I</br>(12-17 лет)",
+              "Teacher": "Идёт набор",
+              "LessonStart": "10:30",
+              "LessonEnd": "12:00"
+            },
+            {
               "Name": "BABY I</br>(5-6 лет)",
               "Teacher": "Косьянова Анна",
               "LessonStart": "17:00",
@@ -263,6 +287,12 @@
         {
           "WeekDay": "СУББОТА",
           "Groups":[
+            {
+              "Name": "VARSITY II</br>(12-17 лет)",
+              "Teacher": "Идёт набор",
+              "LessonStart": "10:30",
+              "LessonEnd": "12:00"
+            },
             {
               "Name": "BABY II</br>(5-6 лет)",
               "Teacher": "Косьянова Анна",
