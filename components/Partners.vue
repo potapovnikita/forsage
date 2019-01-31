@@ -96,5 +96,7 @@
     @media only screen and (max-width 767px)
         .partners_container
             padding $PaddingContainersMobile
+            .partners_item
+                margin 5px 20px
 
 </style>

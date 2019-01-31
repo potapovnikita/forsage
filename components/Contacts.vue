@@ -14,7 +14,8 @@
                     a(:href="contacts.Instagram", target="_blank")
                         instaLogo
 
-            h2.title.phone {{contacts.Phone}}
+            h2.title.phone
+                a(href="tel:") {{contacts.Phone}}
             .time {{contacts.WorkTime}}
             Button(name="Записаться онлайн" type="small" :clickAction="() => {$emit('open', 'feedback')}")
 
@@ -32,7 +33,8 @@
                     a(:href="contacts.Instagram", target="_blank")
                         instaLogo
 
-            h2.title.phone {{contacts.Phone}}
+            h2.title.phone
+                a(href="tel:") {{contacts.Phone}}
             .time {{contacts.WorkTime}}
             Button(name="Записаться онлайн" type="small" :clickAction="() => {$emit('open', 'feedback')}")
 
@@ -199,6 +201,7 @@
                 display none
             .contacts_sticker_mobile
                 padding $PaddingContainersMobile
+                padding-top 0
                 width $ContainersWidthMobile
                 display block
 
