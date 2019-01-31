@@ -15,7 +15,7 @@
                         instaLogo
 
             h2.title.phone
-                a(href="tel:") {{contacts.Phone}}
+                a(:href="'tel: ' + contacts.Phone") {{contacts.Phone}}
             .time {{contacts.WorkTime}}
             Button(name="Записаться онлайн" type="small" :clickAction="() => {$emit('open', 'feedback')}")
 
@@ -34,7 +34,7 @@
                         instaLogo
 
             h2.title.phone
-                a(href="tel:") {{contacts.Phone}}
+                a(:href="'tel: ' + contacts.Phone") {{contacts.Phone}}
             .time {{contacts.WorkTime}}
             Button(name="Записаться онлайн" type="small" :clickAction="() => {$emit('open', 'feedback')}")
 
