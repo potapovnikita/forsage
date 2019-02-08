@@ -19,13 +19,22 @@
         "Vk":"https://vk.com/melky_forsage"
     },
     { 
-        "Name": "Угадай кто?",
+        "Name": "ЛИЛИЯ ГАЙФУЛЛИНА",
         "Styles": "Dancehall, Vogue, тренер команд",
         "Description":"Танцевальный стаж – 8 лет,<br>преподавательский – 5 лет.<br>Многократный призер и чемпион России, Европы и Мира по версии Hip Hop Unite.<br><br>Осваивала направления: dancehall, vogue, waacking, locking, hip-hop, house, breaking.<br><br>КМС по хип-хопу. Педагог доп образования!",
-        "ImagePath":"img/teachers/unname.png",
-        "SmallImagePath":"img/teachers/unname.png",
-        "Instagram":"https://vk.com/forsage_dance_school",
-        "Vk":"https://vk.com/forsage_dance_school"
+        "ImagePath":"img/teachers/lili.png",
+        "SmallImagePath":"img/teachers/lili2.png",
+        "Instagram":"https://www.instagram.com/lili_gaifullina/",
+        "Vk":"https://vk.com/lili_gaifullina"
+    },
+    {
+        "Name": "ТАТЬЯНА САРТАКОВА",
+        "Styles": "Vogue, Mother kiki house of FORSAGE",
+        "Description":"Участник команды Ural Federal Force<br>Серебрянный призер Чемпионата Европы по версии Hip Hop Unite<br><br>Участница Barbara's team",
+        "ImagePath":"img/teachers/sartakova.png",
+        "SmallImagePath":"img/teachers/sartakova2.png",
+        "Instagram":"https://www.instagram.com/sartakova.t/",
+        "Vk":"https://vk.com/tatianasartakova"
     }
   ]
 }
