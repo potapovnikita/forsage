@@ -29,8 +29,8 @@
 
                 .section.mobile(v-for="(category, index) in prices" v-if="(index+1) === mobileSection")
                     .row(v-for="item in category.Items")
-                        .cell(v-html="item.Age")
-                            span(v-if="item.Note")
+                        .cell {{item.Age}}
+                            span(v-html="item.Note")
                         .cell(v-html="item.SinglePrice")
                         .cell(v-html="item.MonthPrice")
 
