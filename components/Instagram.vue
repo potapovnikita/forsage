@@ -24,6 +24,8 @@
 
 <script>
     import axios from 'axios'
+    import jsonp from 'jsonp'
+
     import InstaLogo from '~/assets/img/social/instagram-logo.svg'
 
     import Data from '~/assets/staticData/contacts.json'
@@ -50,16 +52,24 @@
             const TOKEN = '5615810087.b6a16de.e9f5397658b946afa8d21d135862fd63' // токен для доступа к api
             const USER_ID = 'self' // id пользователя
 
-            await axios.get(`https://api.instagram.com/v1/users/${USER_ID}/media/recent/?access_token=${TOKEN}`)
-                .then((res) => {
+            jsonp(`https://api.instagram.com/v1/users/${USER_ID}/media/recent/?access_token=${TOKEN}`, null, (err, res) => {
+                if (err) {
+                    console.error("Возникла ощибка", err.message);
+                } else {
                     // оставляем только последние 6 фотографий профиля
-                    this.photos = res.data.data.splice(0, 6)
-                })
-                .catch((err) => {
-                    this.error = err
-                    console.log("Возникла ощибка", err)
-
-                })
+                    this.photos = res.data.splice(0, 6)
+                }
+            });
+            // await axios.get(`https://api.instagram.com/v1/users/${USER_ID}/media/recent/?access_token=${TOKEN}`)
+            //     .then((res) => {
+            //         // оставляем только последние 6 фотографий профиля
+            //         this.photos = res.data.data.splice(0, 6)
+            //     })
+            //     .catch((err) => {
+            //         this.error = err
+            //         console.log("Возникла ощибка", err)
+            //
+            //     })
         },
         mounted() {
 
