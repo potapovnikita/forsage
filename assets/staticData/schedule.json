@@ -137,46 +137,22 @@
           "WeekDay": "ПОНЕДЕЛЬНИК",
           "Groups":[
             {
-              "Name": "JUNIORS III</br>(8-12 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "10:30",
-              "LessonEnd": "12:00"
-            },
-            {
-              "Name": "JUNIORS I</br>(10-12 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "16:00",
-              "LessonEnd": "17:30"
-            },
-            {
               "Name": "BABY I</br>(5-6 лет)",
               "Teacher": "Косьянова Анна",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:00"
+              "LessonStart": "17:00",
+              "LessonEnd": "18:00"
             },
             {
               "Name": "CADETS I</br>(7-9 лет)",
               "Teacher": "Косьянова Анна",
-              "LessonStart": "19:00",
-              "LessonEnd": "20:00"
+              "LessonStart": "18:30",
+              "LessonEnd": "19:30"
             }
           ]
         },
         {
           "WeekDay": "ВТОРНИК",
           "Groups":[
-            {
-              "Name": "JUNIORS IV</br>(8-12 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "10:30",
-              "LessonEnd": "12:00"
-            },
-            {
-              "Name": "JUNIORS II</br>(10-12 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "16:00",
-              "LessonEnd": "17:30"
-            },
             {
               "Name": "BABY II</br>(5-6 лет)",
               "Teacher": "Алёшина Катя",
@@ -195,46 +171,22 @@
           "WeekDay": "СРЕДА",
           "Groups":[
             {
-              "Name": "JUNIORS III</br>(8-12 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "10:30",
-              "LessonEnd": "12:00"
-            },
-            {
-              "Name": "JUNIORS I</br>(10-12 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "16:00",
-              "LessonEnd": "17:30"
-            },
-            {
               "Name": "BABY I</br>(5-6 лет)",
               "Teacher": "Косьянова Анна",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:00"
+              "LessonStart": "17:00",
+              "LessonEnd": "18:00"
             },
             {
               "Name": "CADETS I</br>(7-9 лет)",
               "Teacher": "Косьянова Анна",
-              "LessonStart": "19:00",
-              "LessonEnd": "20:00"
+              "LessonStart": "18:30",
+              "LessonEnd": "19:30"
             }
           ]
         },
         {
           "WeekDay": "ЧЕТВЕРГ",
           "Groups":[
-            {
-              "Name": "JUNIORS IV</br>(8-12 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "10:30",
-              "LessonEnd": "12:00"
-            },
-            {
-              "Name": "JUNIORS II</br>(10-12 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "16:00",
-              "LessonEnd": "17:30"
-            },
             {
               "Name": "BABY II</br>(5-6 лет)",
               "Teacher": "Алёшина Катя",
@@ -253,28 +205,16 @@
           "WeekDay": "ПЯТНИЦА",
           "Groups":[
             {
-              "Name": "JUNIORS III</br>(8-12 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "10:30",
-              "LessonEnd": "12:00"
-            },
-            {
-              "Name": "JUNIORS I</br>(10-12 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "16:00",
-              "LessonEnd": "17:30"
-            },
-            {
               "Name": "BABY I</br>(5-6 лет)",
               "Teacher": "Косьянова Анна",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:00"
+              "LessonStart": "17:00",
+              "LessonEnd": "18:00"
             },
             {
               "Name": "CADETS I</br>(7-9 лет)",
               "Teacher": "Косьянова Анна",
-              "LessonStart": "19:00",
-              "LessonEnd": "20:00"
+              "LessonStart": "18:30",
+              "LessonEnd": "19:30"
             }
           ]
         },
@@ -282,28 +222,16 @@
           "WeekDay": "СУББОТА",
           "Groups":[
             {
-              "Name": "JUNIORS IV</br>(8-12 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "10:30",
-              "LessonEnd": "12:00"
-            },
-            {
-              "Name": "JUNIORS II</br>(10-12 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "16:00",
-              "LessonEnd": "17:30"
-            },
-            {
               "Name": "BABY II</br>(5-6 лет)",
               "Teacher": "Алёшина Катя",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:00"
+              "LessonStart": "12:00",
+              "LessonEnd": "13:00"
             },
             {
               "Name": "CADETS II</br>(7-9 лет)",
               "Teacher": "Алёшина Катя",
-              "LessonStart": "19:00",
-              "LessonEnd": "20:00"
+              "LessonStart": "13:00",
+              "LessonEnd": "14:00"
             }
           ]
         },
