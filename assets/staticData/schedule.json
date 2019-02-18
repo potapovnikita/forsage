@@ -248,7 +248,7 @@
           "WeekDay": "ПОНЕДЕЛЬНИК",
           "Groups":[
             {
-              "Name": "JUNIORS II</br>(8-12 лет)",
+              "Name": "JUNIORS II</br>(10-15 лет)",
               "Teacher": "Исакова Лада",
               "LessonStart": "10:30",
               "LessonEnd": "12:00"
@@ -271,7 +271,7 @@
           "WeekDay": "ВТОРНИК",
           "Groups":[
             {
-              "Name": "JUNIORS I</br>(10-12 лет)",
+              "Name": "JUNIORS I</br>(10-15 лет)",
               "Teacher": "Бухаров Данил",
               "LessonStart": "16:00",
               "LessonEnd": "17:30"
@@ -294,7 +294,7 @@
           "WeekDay": "СРЕДА",
           "Groups":[
             {
-              "Name": "JUNIORS II</br>(8-12 лет)",
+              "Name": "JUNIORS II</br>(10-15 лет)",
               "Teacher": "Исакова Лада",
               "LessonStart": "10:30",
               "LessonEnd": "12:00"
@@ -317,13 +317,13 @@
           "WeekDay": "ЧЕТВЕРГ",
           "Groups":[
             {
-              "Name": "JUNIORS II</br>(8-12 лет)",
+              "Name": "JUNIORS II</br>(10-15 лет)",
               "Teacher": "Исакова Лада",
               "LessonStart": "10:30",
               "LessonEnd": "12:00"
             },
             {
-              "Name": "JUNIORS I</br>(10-12 лет)",
+              "Name": "JUNIORS I</br>(10-15 лет)",
               "Teacher": "Бухаров Данил",
               "LessonStart": "16:00",
               "LessonEnd": "17:30"
@@ -363,7 +363,7 @@
           "WeekDay": "СУББОТА",
           "Groups":[
             {
-              "Name": "JUNIORS I</br>(10-12 лет)",
+              "Name": "JUNIORS I</br>(10-15 лет)",
               "Teacher": "Бухаров Данил",
               "LessonStart": "16:00",
               "LessonEnd": "17:30"
