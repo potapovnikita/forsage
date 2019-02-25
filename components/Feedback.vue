@@ -1,9 +1,9 @@
 <template lang="pug">
     .feedback_container
-        h2.title.title-feedback Начать танцевать
-        h3.title Запишись на занятия и получи скидку 50% на&nbsp;свой&nbsp;первый абонемент!
+        h2.title.title-feedback {{statusSuccess ? 'СПАСИБО!' : 'Начать танцевать'}}
+        h3.title(v-html="statusSuccess && emailStatus ? emailStatus : formDesc")
         Gift
-        form(v-on:submit.prevent="submitForm()")
+        form(v-if="!statusSuccess" v-on:submit.prevent="submitForm()")
             .input
                 input(type="text" :class="{error: !name && errorName}" v-model="name" placeholder="Имя")
                 <!--.error_text(v-if="!name && errorName") Введите имя-->
@@ -36,10 +36,12 @@
                 phone: '',
                 errorName: false,
                 errorPhone: false,
+                formDesc: 'Запишись на занятия и получи скидку 50% на&nbsp;свой&nbsp;первый абонемент!',
                 emailStatus: '',
                 emailStatusErr: '',
                 phoneNumber: Contacts.Contacts.Phone,
                 preload: false,
+                statusSuccess: false,
             }
         },
         components: {
@@ -80,9 +82,11 @@
                             this.name = ''
                             this.phone = ''
                             this.preload = false
+                            this.statusSuccess = true
                         }, (error) => {
                             this.emailStatusErr = `Что-то пошло не так, попробуйте позже или свяжитесь с нами по телефону ${phoneNumber}`
                             this.preload = false
+                            this.statusSuccess = false
                         });
                 }
             }
@@ -94,6 +98,7 @@
 
         },
         mounted() {
+            this.statusSuccess = false;
         },
     }
 
