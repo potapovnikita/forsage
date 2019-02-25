@@ -16,6 +16,7 @@
             Button(name="ЗАПИСАТЬСЯ" type="small")
             .lds-dual-ring(v-if="preload")
             .message(v-if="emailStatus") {{ emailStatus }}
+            .message.err(v-if="emailStatusErr") {{ emailStatusErr }}
 
 
 
@@ -36,6 +37,7 @@
                 errorName: false,
                 errorPhone: false,
                 emailStatus: '',
+                emailStatusErr: '',
                 phoneNumber: Contacts.Contacts.Phone,
                 preload: false,
             }
@@ -47,6 +49,7 @@
         methods: {
             submitForm() {
                 this.emailStatus = ''
+                this.emailStatusErr = ''
 
                 const data = {
                     service_id: 'forsage_service',
@@ -78,7 +81,7 @@
                             this.phone = ''
                             this.preload = false
                         }, (error) => {
-                            this.emailStatus = `Что-то пошло не так, попробуйте позже или свяжитесь с нами по телефону ${phoneNumber}`
+                            this.emailStatusErr = `Что-то пошло не так, попробуйте позже или свяжитесь с нами по телефону ${phoneNumber}`
                             this.preload = false
                         });
                 }
@@ -153,6 +156,8 @@
                 position relative
                 top 10px
                 color green
+                &.err
+                    color red
 
     .lds-dual-ring {
         display: inline-block;
