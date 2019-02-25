@@ -100,6 +100,9 @@
         mounted() {
             this.statusSuccess = false;
         },
+        destroyed() {
+            this.statusSuccess = false
+        }
     }
 
 </script>
