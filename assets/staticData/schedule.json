@@ -7,14 +7,14 @@
           "WeekDay": "ПОНЕДЕЛЬНИК",
           "Groups":[
             {
-              "Name": "DANCEHALL</br>(Beginners)",
+              "Name": "DANCEHALL",
               "Teacher": "Гайфуллина Лилия",
               "LessonStart": "18:00",
               "LessonEnd": "19:30"
             },
             {
-              "Name": "HIP-HOP</br>(Advance)",
-              "Teacher": "Келик Иван/</br>Бухаров Данил",
+              "Name": "L-CREW",
+              "Teacher": "Гайфуллина Лилия",
               "LessonStart": "19:30",
               "LessonEnd": "21:00"
             }
@@ -24,16 +24,16 @@
           "WeekDay": "ВТОРНИК",
           "Groups":[
             {
-              "Name": "DANCEHALL</br>(Advance)",
-              "Teacher": "Гайфуллина Лилия",
+              "Name": "Hip-Hop",
+              "Teacher": "Келик Иван/</br>Бухаров Данил",
               "LessonStart": "18:00",
               "LessonEnd": "19:30"
             },
             {
-              "Name": "VOGUE</br>(Beginners)",
-              "Teacher": "Сартакова Татьяна",
-              "LessonStart": "19:30",
-              "LessonEnd": "21:00"
+              "Name": "FUNKY FORCE",
+              "Teacher": "Келик Иван",
+              "LessonStart": "20:00",
+              "LessonEnd": "21:30"
             }
           ]
         },
@@ -41,14 +41,20 @@
           "WeekDay": "СРЕДА",
           "Groups":[
             {
-              "Name": "HIP-HOP</br>(Beginners)",
-              "Teacher": "Келик Иван/</br>Бухаров Данил",
+              "Name": "BREAKING",
+              "Teacher": "Семикин Иван",
+              "LessonStart": "16:00",
+              "LessonEnd": "17:30"
+            },
+            {
+              "Name": "VOGUE",
+              "Teacher": "Сартакова Татьяна",
               "LessonStart": "18:00",
               "LessonEnd": "19:30"
             },
             {
-              "Name": "VOGUE</br>(Advance)",
-              "Teacher": "Сартакова Татьяна",
+              "Name": "FANTASY</br>FORCE",
+              "Teacher": "Бухаров Данил",
               "LessonStart": "19:30",
               "LessonEnd": "21:00"
             }
@@ -58,14 +64,14 @@
           "WeekDay": "ЧЕТВЕРГ",
           "Groups":[
             {
-              "Name": "DANCEHALL</br>(Beginners)",
+              "Name": "DANCEHALL",
               "Teacher": "Гайфуллина Лилия",
               "LessonStart": "18:00",
               "LessonEnd": "19:30"
             },
             {
-              "Name": "HIP-HOP</br>(Advance)",
-              "Teacher": "Келик Иван/</br>Бухаров Данил",
+              "Name": "L-CREW",
+              "Teacher": "Исакова Лада",
               "LessonStart": "19:30",
               "LessonEnd": "21:00"
             }
@@ -75,16 +81,16 @@
           "WeekDay": "ПЯТНИЦА",
           "Groups":[
             {
-              "Name": "DANCEHALL</br>(Advance)",
-              "Teacher": "Гайфуллина Лилия",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:30"
+              "Name": "VOGUE",
+              "Teacher": "Сартакова Татьяна",
+              "LessonStart": "18:30",
+              "LessonEnd": "20:00"
             },
             {
-              "Name": "VOGUE</br>(Beginners)",
-              "Teacher": "Сартакова Татьяна",
-              "LessonStart": "19:30",
-              "LessonEnd": "21:00"
+              "Name": "FUNKY FORCE",
+              "Teacher": "Келик Иван",
+              "LessonStart": "20:00",
+              "LessonEnd": "21:30"
             }
           ]
         },
@@ -92,14 +98,14 @@
           "WeekDay": "СУББОТА",
           "Groups":[
             {
-              "Name": "HIP-HOP</br>(Beginners)",
+              "Name": "HIP-HOP",
               "Teacher": "Келик Иван/</br>Бухаров Данил",
               "LessonStart": "18:00",
               "LessonEnd": "19:30"
             },
             {
-              "Name": "VOGUE (Advance)",
-              "Teacher": "Сартакова Татьяна",
+              "Name": "FANTASY FORCE",
+              "Teacher": "Бухаров Данил",
               "LessonStart": "19:30",
               "LessonEnd": "21:00"
             }
@@ -109,16 +115,16 @@
           "WeekDay": "ВОСКРЕСЕНЬЕ",
           "Groups":[
             {
+              "Name": "BREAKING",
+              "Teacher": "Семикин Иван",
+              "LessonStart": "12:00",
+              "LessonEnd": "13:30"
+            },
+            {
               "Name": "DUO</br>WORKSHOP",
               "Teacher": "Презентер 1</br>Презентер 2",
               "LessonStart": "16:00",
               "LessonEnd": "17:30"
-            },
-            {
-              "Name": "FUNNY</br>SUNDAY",
-              "Teacher": "Презентер",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:30"
             }
           ]
         }
@@ -131,46 +137,22 @@
           "WeekDay": "ПОНЕДЕЛЬНИК",
           "Groups":[
             {
-              "Name": "JUNIORS III</br>(8-12 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "10:30",
-              "LessonEnd": "12:00"
-            },
-            {
-              "Name": "JUNIORS I</br>(10-12 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "16:00",
-              "LessonEnd": "17:30"
-            },
-            {
               "Name": "BABY I</br>(5-6 лет)",
               "Teacher": "Косьянова Анна",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:00"
+              "LessonStart": "17:00",
+              "LessonEnd": "18:00"
             },
             {
               "Name": "CADETS I</br>(7-9 лет)",
               "Teacher": "Косьянова Анна",
-              "LessonStart": "19:00",
-              "LessonEnd": "20:00"
+              "LessonStart": "18:30",
+              "LessonEnd": "19:30"
             }
           ]
         },
         {
           "WeekDay": "ВТОРНИК",
           "Groups":[
-            {
-              "Name": "JUNIORS IV</br>(8-12 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "10:30",
-              "LessonEnd": "12:00"
-            },
-            {
-              "Name": "JUNIORS II</br>(10-12 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "16:00",
-              "LessonEnd": "17:30"
-            },
             {
               "Name": "BABY II</br>(5-6 лет)",
               "Teacher": "Алёшина Катя",
@@ -189,46 +171,22 @@
           "WeekDay": "СРЕДА",
           "Groups":[
             {
-              "Name": "JUNIORS III</br>(8-12 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "10:30",
-              "LessonEnd": "12:00"
-            },
-            {
-              "Name": "JUNIORS I</br>(10-12 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "16:00",
-              "LessonEnd": "17:30"
-            },
-            {
               "Name": "BABY I</br>(5-6 лет)",
               "Teacher": "Косьянова Анна",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:00"
+              "LessonStart": "17:00",
+              "LessonEnd": "18:00"
             },
             {
               "Name": "CADETS I</br>(7-9 лет)",
               "Teacher": "Косьянова Анна",
-              "LessonStart": "19:00",
-              "LessonEnd": "20:00"
+              "LessonStart": "18:30",
+              "LessonEnd": "19:30"
             }
           ]
         },
         {
           "WeekDay": "ЧЕТВЕРГ",
           "Groups":[
-            {
-              "Name": "JUNIORS IV</br>(8-12 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "10:30",
-              "LessonEnd": "12:00"
-            },
-            {
-              "Name": "JUNIORS II</br>(10-12 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "16:00",
-              "LessonEnd": "17:30"
-            },
             {
               "Name": "BABY II</br>(5-6 лет)",
               "Teacher": "Алёшина Катя",
@@ -247,28 +205,16 @@
           "WeekDay": "ПЯТНИЦА",
           "Groups":[
             {
-              "Name": "JUNIORS III</br>(8-12 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "10:30",
-              "LessonEnd": "12:00"
-            },
-            {
-              "Name": "JUNIORS I</br>(10-12 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "16:00",
-              "LessonEnd": "17:30"
-            },
-            {
               "Name": "BABY I</br>(5-6 лет)",
               "Teacher": "Косьянова Анна",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:00"
+              "LessonStart": "17:00",
+              "LessonEnd": "18:00"
             },
             {
               "Name": "CADETS I</br>(7-9 лет)",
               "Teacher": "Косьянова Анна",
-              "LessonStart": "19:00",
-              "LessonEnd": "20:00"
+              "LessonStart": "18:30",
+              "LessonEnd": "19:30"
             }
           ]
         },
@@ -276,28 +222,16 @@
           "WeekDay": "СУББОТА",
           "Groups":[
             {
-              "Name": "JUNIORS IV</br>(8-12 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "10:30",
-              "LessonEnd": "12:00"
-            },
-            {
-              "Name": "JUNIORS II</br>(10-12 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "16:00",
-              "LessonEnd": "17:30"
-            },
-            {
               "Name": "BABY II</br>(5-6 лет)",
               "Teacher": "Алёшина Катя",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:00"
+              "LessonStart": "12:00",
+              "LessonEnd": "13:00"
             },
             {
               "Name": "CADETS II</br>(7-9 лет)",
               "Teacher": "Алёшина Катя",
-              "LessonStart": "19:00",
-              "LessonEnd": "20:00"
+              "LessonStart": "13:00",
+              "LessonEnd": "14:00"
             }
           ]
         },
@@ -314,22 +248,22 @@
           "WeekDay": "ПОНЕДЕЛЬНИК",
           "Groups":[
             {
-              "Name": "L-CREW",
-              "Teacher": "Гайфуллина Лилия",
-              "LessonStart": "17:30",
-              "LessonEnd": "19:00"
+              "Name": "JUNIORS II</br>(10-15 лет)",
+              "Teacher": "Исакова Лада",
+              "LessonStart": "10:30",
+              "LessonEnd": "12:00"
             },
             {
               "Name": "FUNKY</br>FORCE",
               "Teacher": "Келик Иван",
-              "LessonStart": "19:00",
-              "LessonEnd": "20:30"
+              "LessonStart": "18:00",
+              "LessonEnd": "19:30"
             },
             {
-              "Name": "FANTASY</br>FORCE",
+              "Name": "FANTASY FORCE",
               "Teacher": "Бухаров Данил",
-              "LessonStart": "20:30",
-              "LessonEnd": "22:00"
+              "LessonStart": "19:30",
+              "LessonEnd": "21:00"
             }
           ]
         },
@@ -337,22 +271,22 @@
           "WeekDay": "ВТОРНИК",
           "Groups":[
             {
+              "Name": "JUNIORS I</br>(10-15 лет)",
+              "Teacher": "Бухаров Данил",
+              "LessonStart": "16:00",
+              "LessonEnd": "17:30"
+            },
+            {
               "Name": "L-CREW",
               "Teacher": "Гайфуллина Лилия",
-              "LessonStart": "17:30",
-              "LessonEnd": "19:00"
+              "LessonStart": "18:30",
+              "LessonEnd": "20:00"
             },
             {
               "Name": "FANTASY</br>FORCE",
               "Teacher": "Бухаров Данил",
-              "LessonStart": "19:00",
-              "LessonEnd": "20:30"
-            },
-            {
-              "Name": "FUNKY</br>FORCE",
-              "Teacher": "Келик Иван",
-              "LessonStart": "20:30",
-              "LessonEnd": "22:00"
+              "LessonStart": "20:00",
+              "LessonEnd": "21:30"
             }
           ]
         },
@@ -360,28 +294,22 @@
           "WeekDay": "СРЕДА",
           "Groups":[
             {
-              "Name": "BREAK DANCE",
-              "Teacher": "Семикин</br>Иван",
-              "LessonStart": "16:00",
-              "LessonEnd": "17:30"
-            },
-            {
-              "Name": "L-CREW",
+              "Name": "JUNIORS II</br>(10-15 лет)",
               "Teacher": "Исакова Лада",
-              "LessonStart": "17:30",
-              "LessonEnd": "19:00"
+              "LessonStart": "10:30",
+              "LessonEnd": "12:00"
             },
             {
               "Name": "FUNKY</br>FORCE",
               "Teacher": "Келик Иван",
-              "LessonStart": "19:00",
-              "LessonEnd": "20:30"
+              "LessonStart": "18:00",
+              "LessonEnd": "19:30"
             },
             {
-              "Name": "FANTASY</br>FORCE",
-              "Teacher": "Бухаров Данил",
-              "LessonStart": "20:30",
-              "LessonEnd": "22:00"
+              "Name": "L-CREW",
+              "Teacher": "Исакова Лада",
+              "LessonStart": "19:30",
+              "LessonEnd": "21:00"
             }
           ]
         },
@@ -389,22 +317,28 @@
           "WeekDay": "ЧЕТВЕРГ",
           "Groups":[
             {
-              "Name": "L-CREW",
+              "Name": "JUNIORS II</br>(10-15 лет)",
               "Teacher": "Исакова Лада",
-              "LessonStart": "17:30",
-              "LessonEnd": "19:00"
+              "LessonStart": "10:30",
+              "LessonEnd": "12:00"
             },
             {
-              "Name": "FANTASY</br>FORCE",
+              "Name": "JUNIORS I</br>(10-15 лет)",
               "Teacher": "Бухаров Данил",
-              "LessonStart": "19:00",
-              "LessonEnd": "20:30"
+              "LessonStart": "16:00",
+              "LessonEnd": "17:30"
             },
             {
               "Name": "FUNKY</br>FORCE",
               "Teacher": "Келик Иван",
-              "LessonStart": "20:30",
-              "LessonEnd": "22:00"
+              "LessonStart": "18:00",
+              "LessonEnd": "19:30"
+            },
+            {
+              "Name": "FANTASY FORCE",
+              "Teacher": "Бухаров Данил",
+              "LessonStart": "19:30",
+              "LessonEnd": "21:00"
             }
           ]
         },
@@ -414,20 +348,14 @@
             {
               "Name": "L-CREW",
               "Teacher": "Исакова Лада",
-              "LessonStart": "17:30",
-              "LessonEnd": "19:00"
-            },
-            {
-              "Name": "FUNKY</br>FORCE",
-              "Teacher": "Келик Иван",
-              "LessonStart": "19:00",
-              "LessonEnd": "20:30"
+              "LessonStart": "18:30",
+              "LessonEnd": "20:00"
             },
             {
               "Name": "FANTASY</br>FORCE",
               "Teacher": "Бухаров Данил",
-              "LessonStart": "20:30",
-              "LessonEnd": "22:00"
+              "LessonStart": "20:00",
+              "LessonEnd": "21:30"
             }
           ]
         },
@@ -435,35 +363,22 @@
           "WeekDay": "СУББОТА",
           "Groups":[
             {
-              "Name": "L-CREW",
-              "Teacher": "Гайфуллина Лилия",
-              "LessonStart": "17:30",
-              "LessonEnd": "19:00"
-            },
-            {
-              "Name": "FANTASY</br>FORCE",
+              "Name": "JUNIORS I</br>(10-15 лет)",
               "Teacher": "Бухаров Данил",
-              "LessonStart": "19:00",
-              "LessonEnd": "20:30"
+              "LessonStart": "16:00",
+              "LessonEnd": "17:30"
             },
             {
               "Name": "FUNKY</br>FORCE",
               "Teacher": "Келик Иван",
-              "LessonStart": "20:30",
-              "LessonEnd": "22:00"
+              "LessonStart": "19:30",
+              "LessonEnd": "21:00"
             }
           ]
         },
         {
           "WeekDay": "ВОСКРЕСЕНЬЕ",
-          "Groups":[
-            {
-              "Name": "BREAK DANCE",
-              "Teacher": "Семикин<br>Иван",
-              "LessonStart": "12:00",
-              "LessonEnd": "14:00"
-            }
-          ]
+          "Groups":[]
         }
       ]
     }
