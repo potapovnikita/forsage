@@ -82,9 +82,6 @@
                             this.preload = false
                         });
                 }
-
-
-
             }
         },
         computed: {
@@ -155,8 +152,7 @@
             .message
                 position relative
                 top 10px
-                color whiteMain
-
+                color green
 
     .lds-dual-ring {
         display: inline-block;
