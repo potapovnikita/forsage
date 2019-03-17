@@ -64,17 +64,17 @@
           "WeekDay": "ЧЕТВЕРГ",
           "Groups":[
             {
-              "Name": "DANCEHALL",
-              "Teacher": "Гайфуллина Лилия",
+              "Name": "L-CREW",
+              "Teacher": "Исакова Лада",
               "LessonStart": "18:00",
               "LessonEnd": "19:30"
             },
             {
-              "Name": "L-CREW",
-              "Teacher": "Исакова Лада",
+              "Name": "DANCEHALL",
+              "Teacher": "Гайфуллина Лилия",
               "LessonStart": "19:30",
               "LessonEnd": "21:00"
-            }
+            }        
           ]
         },
         {
