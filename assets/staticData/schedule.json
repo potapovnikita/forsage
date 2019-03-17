@@ -24,16 +24,16 @@
           "WeekDay": "ВТОРНИК",
           "Groups":[
             {
-              "Name": "Hip-Hop",
+              "Name": "HIP-HOP",
               "Teacher": "Келик Иван/</br>Бухаров Данил",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:30"
+              "LessonStart": "19:00",
+              "LessonEnd": "20:30"
             },
             {
-              "Name": "FUNKY FORCE",
+              "Name": "FUNKY</br>FORCE",
               "Teacher": "Келик Иван",
-              "LessonStart": "20:00",
-              "LessonEnd": "21:30"
+              "LessonStart": "20:30",
+              "LessonEnd": "22:00"
             }
           ]
         },
@@ -81,16 +81,22 @@
           "WeekDay": "ПЯТНИЦА",
           "Groups":[
             {
-              "Name": "VOGUE",
-              "Teacher": "Сартакова Татьяна",
-              "LessonStart": "18:30",
-              "LessonEnd": "20:00"
+              "Name": "BREAKING",
+              "Teacher": "Семикин Иван",
+              "LessonStart": "16:00",
+              "LessonEnd": "17:30"
             },
             {
-              "Name": "FUNKY FORCE",
+              "Name": "FUNKY</br>FORCE",
               "Teacher": "Келик Иван",
-              "LessonStart": "20:00",
-              "LessonEnd": "21:30"
+              "LessonStart": "18:00",
+              "LessonEnd": "19:30"
+            },
+            {
+              "Name": "VOGUE",
+              "Teacher": "Сартакова Татьяна",
+              "LessonStart": "19:30",
+              "LessonEnd": "21:00"
             }
           ]
         },
@@ -104,7 +110,7 @@
               "LessonEnd": "19:30"
             },
             {
-              "Name": "FANTASY FORCE",
+              "Name": "FANTASY</br>FORCE",
               "Teacher": "Бухаров Данил",
               "LessonStart": "19:30",
               "LessonEnd": "21:00"
@@ -113,20 +119,7 @@
         },
         {
           "WeekDay": "ВОСКРЕСЕНЬЕ",
-          "Groups":[
-            {
-              "Name": "BREAKING",
-              "Teacher": "Семикин Иван",
-              "LessonStart": "12:00",
-              "LessonEnd": "13:30"
-            },
-            {
-              "Name": "DUO</br>WORKSHOP",
-              "Teacher": "Презентер 1</br>Презентер 2",
-              "LessonStart": "16:00",
-              "LessonEnd": "17:30"
-            }
-          ]
+          "Groups":[]
         }
       ]
     },
@@ -260,7 +253,7 @@
               "LessonEnd": "19:30"
             },
             {
-              "Name": "FANTASY FORCE",
+              "Name": "FANTASY</br>FORCE",
               "Teacher": "Бухаров Данил",
               "LessonStart": "19:30",
               "LessonEnd": "21:00"
@@ -335,7 +328,7 @@
               "LessonEnd": "19:30"
             },
             {
-              "Name": "FANTASY FORCE",
+              "Name": "FANTASY</br>FORCE",
               "Teacher": "Бухаров Данил",
               "LessonStart": "19:30",
               "LessonEnd": "21:00"
@@ -348,14 +341,14 @@
             {
               "Name": "L-CREW",
               "Teacher": "Исакова Лада",
-              "LessonStart": "18:30",
-              "LessonEnd": "20:00"
+              "LessonStart": "18:00",
+              "LessonEnd": "19:30"
             },
             {
               "Name": "FANTASY</br>FORCE",
               "Teacher": "Бухаров Данил",
-              "LessonStart": "20:00",
-              "LessonEnd": "21:30"
+              "LessonStart": "19:30",
+              "LessonEnd": "21:00"
             }
           ]
         },
