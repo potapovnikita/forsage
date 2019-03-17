@@ -272,14 +272,14 @@
             {
               "Name": "L-CREW",
               "Teacher": "Гайфуллина Лилия",
-              "LessonStart": "18:30",
-              "LessonEnd": "20:00"
+              "LessonStart": "18:00",
+              "LessonEnd": "19:30"
             },
             {
               "Name": "FANTASY</br>FORCE",
               "Teacher": "Бухаров Данил",
-              "LessonStart": "20:00",
-              "LessonEnd": "21:30"
+              "LessonStart": "19:30",
+              "LessonEnd": "21:00"
             }
           ]
         },
