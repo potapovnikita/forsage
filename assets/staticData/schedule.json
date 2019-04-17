@@ -100,8 +100,8 @@
             {
               "Name": "КОМАНДЫ",
               "Teacher": "Funky, Fantasy, L-Crew",
-              "LessonStart": "19:00",
-              "LessonEnd": "20:30"
+              "LessonStart": "18:00",
+              "LessonEnd": "19:30"
             }
           ]
         },
@@ -235,6 +235,12 @@
               "LessonEnd": "12:00"
             },
             {
+              "Name": "JUNIORS III</br>(10-15 лет)",
+              "Teacher": "Сулейманова Арина/</br>Исакова Лада",
+              "LessonStart": "16:00",
+              "LessonEnd": "17:30"
+            },
+            {
               "Name": "FUNKY</br>FORCE",
               "Teacher": "Келик Иван",
               "LessonStart": "18:00",
@@ -281,6 +287,12 @@
               "LessonEnd": "12:00"
             },
             {
+              "Name": "JUNIORS III</br>(10-15 лет)",
+              "Teacher": "Сулейманова Арина/</br>Исакова Лада",
+              "LessonStart": "16:00",
+              "LessonEnd": "17:30"
+            },
+            {
               "Name": "VOGUE",
               "Teacher": "Сартакова Татьяна",
               "LessonStart": "18:00",
@@ -319,6 +331,12 @@
               "Teacher": "Косьянова Анна",
               "LessonStart": "10:30",
               "LessonEnd": "12:00"
+            },
+            {
+              "Name": "JUNIORS III</br>(10-15 лет)",
+              "Teacher": "Сулейманова Арина/</br>Исакова Лада",
+              "LessonStart": "16:00",
+              "LessonEnd": "17:30"
             },
             {
               "Name": "L-CREW",
