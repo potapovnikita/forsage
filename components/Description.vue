@@ -41,11 +41,43 @@
             Cup,
         },
         methods: {
+            visible: (el) => {
+                const targetPosition = {
+                        top: window.pageYOffset + el.getBoundingClientRect().top,
+                        left: window.pageXOffset + el.getBoundingClientRect().left,
+                        right: window.pageXOffset + el.getBoundingClientRect().right,
+                        bottom: window.pageYOffset + el.getBoundingClientRect().bottom
+                    }
+
+                const windowPosition = {
+                        top: window.pageYOffset,
+                        left: window.pageXOffset,
+                        right: window.pageXOffset + document.documentElement.clientWidth,
+                        bottom: window.pageYOffset + document.documentElement.clientHeight
+                    };
+
+                if (targetPosition.bottom > windowPosition.top && // Если позиция нижней части элемента больше позиции верхней чайти окна, то элемент виден сверху
+                    targetPosition.top < windowPosition.bottom && // Если позиция верхней части элемента меньше позиции нижней чайти окна, то элемент виден снизу
+                    targetPosition.right > windowPosition.left && // Если позиция правой стороны элемента больше позиции левой части окна, то элемент виден слева
+                    targetPosition.left < windowPosition.right) { // Если позиция левой стороны элемента меньше позиции правой чайти окна, то элемент виден справа
+                    el.style.left = '0'
+                    el.style.opacity = '1'
+                } else {
+                    el.style.left = '20%'
+                    el.style.opacity = '0'
+                };
+            }
         },
         computed: {
             advantages: () => Data.Advantages.split('|')
         },
         mounted() {
+            const el = document.getElementsByClassName('description_advantages')[0]
+            // Запускаем функцию при прокрутке страницы
+            document.addEventListener('scroll', () => {
+                this.visible(el);
+            });
+
         },
         created() {},
     }
@@ -104,6 +136,10 @@
                 margin-bottom 40px
             &_advantages
                 margin-bottom 50px
+                position relative
+                left 25%
+                transition all .4s ease-in-out
+                opacity 0
                 .item
                     display flex
                     .point
