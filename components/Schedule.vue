@@ -151,10 +151,16 @@
                     bottom: window.pageYOffset + document.documentElement.clientHeight,
                 };
 
-                if (targetPositionEl1.bottom < targetPositionEl2.top || targetPositionEl1.bottom >= targetPositionEl2.bottom) el1.style.position = 'absolute'
-                else if (windowPosition.top > targetPositionEl1.top
+                if (targetPositionEl1.bottom < targetPositionEl2.top || targetPositionEl1.bottom >= targetPositionEl2.bottom) {
+                    el1.style.position = 'absolute'
+                    el1.style.top = `-${el1.offsetHeight}px`
+                } else if (windowPosition.top > targetPositionEl1.top
                     && targetPositionEl1.bottom <= targetPositionEl2.bottom
-                    && windowPosition.top < targetPositionEl2.bottom - el1.offsetHeight) el1.style.position = 'fixed'
+                    && windowPosition.top < targetPositionEl2.bottom - el1.offsetHeight) {
+                    el1.style.position = 'fixed'
+                    el1.style.top = `${-el1.offsetHeight + el1.offsetHeight}px`
+
+                }
 
             },
             listener() {
