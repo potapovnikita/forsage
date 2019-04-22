@@ -378,6 +378,7 @@
                             div
                                 flex-direction row
                                 justify-content space-around
+                                align-items center
 
                                 .name
                                     order 2
