@@ -133,10 +133,41 @@
                     })
                 })
                 return arr
+            },
+
+            visible: (el1, el2) => {
+                const targetPositionEl1 = {
+                    top: window.pageYOffset + el1.getBoundingClientRect().top,
+                    bottom: window.pageYOffset + el1.getBoundingClientRect().bottom,
+                }
+
+                const targetPositionEl2 = {
+                    top: window.pageYOffset + el2.getBoundingClientRect().top,
+                    bottom: window.pageYOffset + el2.getBoundingClientRect().bottom,
+                }
+
+                const windowPosition = {
+                    top: window.pageYOffset,
+                    bottom: window.pageYOffset + document.documentElement.clientHeight,
+                };
+
+                if (targetPositionEl1.bottom < targetPositionEl2.top || targetPositionEl1.bottom >= targetPositionEl2.bottom) el1.style.position = 'absolute'
+                else if (windowPosition.top > targetPositionEl1.top
+                    && targetPositionEl1.bottom <= targetPositionEl2.bottom
+                    && windowPosition.top < targetPositionEl2.bottom - el1.offsetHeight) el1.style.position = 'fixed'
+
             }
         },
         mounted() {
             this.scheduleHallByDay = this.calculateScheduleTable(this.activeHall)
+
+            const elHead = document.getElementsByClassName('days-slider_mobile')[0]
+            const elTable = document.getElementsByClassName('schedule')[0]
+            // Запускаем функцию при прокрутке страницы
+            document.addEventListener('scroll', () => {
+                this.visible(elHead, elTable);
+            });
+            this.visible(elHead, elTable);
         },
     }
 
@@ -266,17 +297,21 @@
     @media only screen and (max-width 1200px)
         .halls-schedule
             .schedule
+                width 100%
                 .days
+                    width 100%
                     .days-slider_mobile
                         position absolute
-                        left 1px
+                        left 0
                         right 0
-                        top 1px
+                        top 0
                         background-color whiteMain
                         display flex
                         justify-content space-evenly
                         align-items center
                         height 45px
+                        border-bottom 1px solid #d9d9d9
+                        z-index 1
                         .item
                             display flex
                             align-items center
@@ -294,10 +329,13 @@
                             &.active
                                 color orangeMain
                                 border-color orangeMain
+                    .cell.day_head
+                        display none
 
                     for index in 0..6
                         .day-{index}
-                            width 300px
+                            min-width 300px
+                            width 100%
                             display none
                     .visible
                         display block
@@ -308,8 +346,8 @@
     @media only screen and (max-width 767px)
         .schedule_inner-container
             width $ContainersWidthMobile
-            padding $PaddingContainersMobile
-            padding-bottom 0
+            padding 0
+            padding-top $PaddingContainersMobile
 
     @media only screen and (max-width 480px)
         .halls-schedule
@@ -317,7 +355,7 @@
                 .days
                     for index in 0..6
                         .day-{index}
-                            width 240px
+                            min-width 240px
 
     @media only screen and (max-width 380px)
         .halls-schedule
@@ -325,9 +363,9 @@
                 .days
                     for index in 0..6
                         .day-{index}
-                            width 200px
+                            min-width 200px
                     .day.empty
-                        width 60px
+                        min-width 60px
 
 
 
