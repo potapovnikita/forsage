@@ -26,10 +26,10 @@
                                 :class="['day-'+indexDay, { visible: indexDay === activeDay}]")
 
                                 .cell.day_head(:class="{active: indexDay === activeDayDesktop}") {{hall.WeekDay}}
-                                .day_schedule(v-for="(daySchedule) in scheduleHallByDay[activeHall][indexDay].fullShedule")
+                                .day_schedule(v-for="(daySchedule, index) in scheduleHallByDay[activeHall][indexDay].fullShedule")
                                     .cell.cell_schedule
                                         div(v-if="daySchedule.lesson"
-                                            :style="{ height: calcHeight(daySchedule.lesson.diff, 80), top: daySchedule.lesson.offset }")
+                                            :style="{ height: calcHeight(daySchedule.lesson.diff), top: daySchedule.lesson.offset }")
                                             span.name(v-html="daySchedule.lesson.Name")
                                             span.teacher(v-html="daySchedule.lesson.Teacher")
                                             span.start(v-html="daySchedule.lesson.LessonStart + '-' + daySchedule.lesson.LessonEnd")
@@ -71,6 +71,7 @@
                 scheduleTimes: scheduleTimes,
                 scheduleHallByDay: [],
                 dayShort: dayShort,
+                elCellHeight: 80,
             }
         },
         components: {
@@ -108,8 +109,8 @@
                 }
                 return diff
             },
-            calcHeight(heightCell, defaultHeightCell) {
-                return `${(defaultHeightCell * heightCell) - 1}px`
+            calcHeight(heightCell) {
+                return `${(this.elCellHeight * heightCell) - 1}px`
             },
 
             calculateScheduleTable(index) {
@@ -121,13 +122,12 @@
                         dayWeek.Groups.forEach((lesson, lessonIndex) => { // перебираем все расписание  для каждого дня
                             if (lesson.LessonStart.slice(0,2) === shed.time.slice(0,2)) {
                                 if (lesson.LessonStart.slice(3,5) === '30') {
-                                    lesson.offset = '40px'
+                                    lesson.offset = `${this.elCellHeight/2}px`
                                 }
 
                                 lesson.diff = this.subtractiontime(lesson.LessonStart, lesson.LessonEnd)
 
                                 shed.lesson = lesson
-
                             }
                         })
                     })
@@ -156,9 +156,15 @@
                     && targetPositionEl1.bottom <= targetPositionEl2.bottom
                     && windowPosition.top < targetPositionEl2.bottom - el1.offsetHeight) el1.style.position = 'fixed'
 
+            },
+            listener() {
+                this.scheduleHallByDay = this.calculateScheduleTable(this.activeHall)
             }
         },
         mounted() {
+            window.addEventListener('resize', this.listener);
+
+            this.elCellHeight = document.getElementsByClassName('day_schedule')[0].offsetHeight
             this.scheduleHallByDay = this.calculateScheduleTable(this.activeHall)
 
             const elHead = document.getElementsByClassName('days-slider_mobile')[0]
@@ -169,6 +175,9 @@
             });
             this.visible(elHead, elTable);
         },
+        destroyed() {
+            window.removeEventListener('resize', this.listener);
+        }
     }
 
 </script>
@@ -192,6 +201,7 @@
     .halls-switch
         display flex
         justify-content center
+        z-index 1
         .hall
             font-size $FontSize16
             font-family $FuturaFont
@@ -296,6 +306,7 @@
 
     @media only screen and (max-width 1200px)
         .halls-schedule
+            margin-top 50px
             .schedule
                 width 100%
                 .days
@@ -304,14 +315,16 @@
                         position absolute
                         left 0
                         right 0
-                        top 0
+                        top -45px
                         background-color whiteMain
                         display flex
                         justify-content space-evenly
                         align-items center
                         height 45px
                         border-bottom 1px solid #d9d9d9
+                        border-top 1px solid #d9d9d9
                         z-index 1
+
                         .item
                             display flex
                             align-items center
@@ -348,6 +361,35 @@
             width $ContainersWidthMobile
             padding 0
             padding-top $PaddingContainersMobile
+
+        .halls-schedule
+            .schedule
+                .days
+                    box-shadow none
+
+                    .cell
+                        border-bottom $borderCell
+                        border-left $borderCell
+                        height 50px
+
+                        &.cell_schedule
+                            height 50px
+
+                            div
+                                flex-direction row
+                                justify-content space-around
+
+                                .name
+                                    order 2
+
+                                .teacher
+                                    order 3
+
+                                .start
+                                .finish
+                                    order 1
+                                span
+                                    width auto
 
     @media only screen and (max-width 480px)
         .halls-schedule
