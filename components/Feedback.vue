@@ -1,9 +1,9 @@
 <template lang="pug">
     .feedback_container
-        h2.title.title-feedback Начать танцевать
-        h3.title Запишись на занятия и получи скидку 50% на&nbsp;свой&nbsp;первый абонемент!
+        h2.title.title-feedback {{statusSuccess ? 'СПАСИБО!' : 'Начать танцевать'}}
+        h3.title(v-html="statusSuccess && emailStatus ? emailStatus : formDesc")
         Gift
-        form(v-on:submit.prevent="submitForm()")
+        form(v-if="!statusSuccess" v-on:submit.prevent="submitForm()")
             .input
                 input(type="text" :class="{error: !name && errorName}" v-model="name" placeholder="Имя")
                 <!--.error_text(v-if="!name && errorName") Введите имя-->
@@ -16,6 +16,7 @@
             Button(name="ЗАПИСАТЬСЯ" type="small")
             .lds-dual-ring(v-if="preload")
             .message(v-if="emailStatus") {{ emailStatus }}
+            .message.err(v-if="emailStatusErr") {{ emailStatusErr }}
 
 
 
@@ -35,9 +36,12 @@
                 phone: '',
                 errorName: false,
                 errorPhone: false,
+                formDesc: 'Запишись на занятия и получи скидку 25% на&nbsp;свой&nbsp;первый абонемент!',
                 emailStatus: '',
+                emailStatusErr: '',
                 phoneNumber: Contacts.Contacts.Phone,
                 preload: false,
+                statusSuccess: false,
             }
         },
         components: {
@@ -47,6 +51,7 @@
         methods: {
             submitForm() {
                 this.emailStatus = ''
+                this.emailStatusErr = ''
 
                 const data = {
                     service_id: 'forsage_service',
@@ -77,14 +82,13 @@
                             this.name = ''
                             this.phone = ''
                             this.preload = false
+                            this.statusSuccess = true
                         }, (error) => {
-                            this.emailStatus = `Что-то пошло не так, попробуйте позже или свяжитесь с нами по телефону ${phoneNumber}`
+                            this.emailStatusErr = `Что-то пошло не так, попробуйте позже или свяжитесь с нами по телефону ${phoneNumber}`
                             this.preload = false
+                            this.statusSuccess = false
                         });
                 }
-
-
-
             }
         },
         computed: {
@@ -94,7 +98,11 @@
 
         },
         mounted() {
+            this.statusSuccess = false;
         },
+        destroyed() {
+            this.statusSuccess = false
+        }
     }
 
 </script>
@@ -155,8 +163,9 @@
             .message
                 position relative
                 top 10px
-                color whiteMain
-
+                color green
+                &.err
+                    color red
 
     .lds-dual-ring {
         display: inline-block;

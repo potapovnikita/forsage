@@ -56,6 +56,7 @@
                 this.isOpenPopup = false
                 const elem = document.getElementsByTagName('body')[0].style
                 elem.overflow = 'inherit'
+                setTimeout(() => { this.component = '' }, 500)
             },
             openPopup(component = '') {
                 this.component = component

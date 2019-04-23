@@ -100,6 +100,7 @@
         color #000
         cursor pointer
         width 170px
+        padding-right 32px
 
         svg
             fill #7F7F7F
@@ -192,6 +193,9 @@
 
             .title
                 padding 0
+
+        .instagram_link
+            padding-right 0
 
         .instagram_photos
             flex-direction column
