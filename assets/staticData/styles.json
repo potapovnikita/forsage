@@ -1,6 +1,10 @@
 {
   "Styles": [
     {
+      "StyleName": "НАША СТУДИЯ",
+      "YouTubeLink": "https://www.youtube.com/embed/wxeUoyRo37M?rel=0"
+    },
+    {
       "StyleName": "ПРОМО-ВИДЕО",
       "YouTubeLink": "https://www.youtube.com/embed/wRANz_fVu0s?rel=0"
     },
@@ -27,10 +31,6 @@
     {
       "StyleName": "POPPING",
       "YouTubeLink": "https://www.youtube.com/embed/ELtqefMviW4?rel=0"
-    },
-    {
-      "StyleName": "ХОРЕОГРАФИЯ",
-      "YouTubeLink": "https://www.youtube.com/embed/2eWhFmUD_6g?rel=0"
     }
   ]
 }
