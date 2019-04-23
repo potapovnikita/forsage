@@ -2,15 +2,18 @@
     .teams_container
         .teams_inner-container
             .teams-top
-                h1.title.title-text Команды
+                h1.title.title-text Наши команды
                     .line
                 .teams_list
                     .teams_list-item(
                     v-for="(item, index) in teams",
-                    :class="{active: index === activeStyle}",
-                    @click="selectStyle(index)") {{item.StyleName}}
-            .teams_video
-                div
+                    :class="{active: index === activeCrew}",
+                    @click="selectCrew(index)") {{item.CrewName}}
+            .teams_content
+                .teams_text
+                    h3.title.teams_description(v-html="crewDescription" v-if="crewDescription")
+                    .text_default-white.teams_description(v-html="crewAwards" v-if="crewAwards")
+                .teams_video
                     iframe(:src="videoUrl"
                     frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -22,14 +25,14 @@
 </template>
 
 <script>
-    import Data from '~/assets/staticData/styles.json'
+    import Data from '~/assets/staticData/crews.json'
 
 
     export default {
         data() {
             return {
-                teams: Data.Styles,
-                activeStyle: 0,
+                teams: Data.Crews,
+                activeCrew: 0,
             }
         },
         components: {
@@ -37,13 +40,20 @@
         },
         methods: {
             // выбор стиля
-            selectStyle(index) {
-                this.activeStyle = index
+            selectCrew(index) {
+                this.activeCrew = index
             },
         },
         computed: {
             videoUrl() {
-                return this.teams[this.activeStyle].YouTubeLink
+                return this.teams[this.activeCrew].YouTubeLink
+            },
+
+            crewDescription() {
+                return this.teams[this.activeCrew].Description
+            },
+            crewAwards() {
+                return this.teams[this.activeCrew].Awards
             }
         },
         created() {
@@ -69,7 +79,7 @@
         .teams-top
             margin-bottom 40px
             .title-text
-                max-width 430px
+                max-width 470px
                 padding-top 35px
                 padding-bottom 50px
                 position relative
@@ -82,6 +92,20 @@
                     background orangeMain
                     top 35px
                     right 0
+        .teams_content
+            display flex
+            flex-direction row
+            flex-wrap wrap
+            justify-content center
+
+            .teams_text
+                width 50%
+                min-width 300px
+                padding 10px
+
+                .teams_description
+                    margin-bottom 15px
+                    color whiteMain
     .teams_list
         display flex
         justify-content center
@@ -116,20 +140,17 @@
             opacity 1
 
     .teams_video
-        div
-            position relative
-            margin 0 auto
-            width 60%
-            padding-bottom 32%
-            padding-top 25px
-            height 0
+        position relative
+        width 50%
+        min-width 300px
+        height 200px
 
-            iframe
-                position absolute
-                top 0
-                left 0
-                width 100%
-                height 100%
+        iframe
+            position absolute
+            top 0
+            left 0
+            width 100%
+            height 100%
     @media only screen and (max-width 1500px)
         .teams_inner-container
             background-image url('~assets/img/background-styles@2x-min.png')
@@ -145,6 +166,18 @@
         .teams_inner-container
             width $ContainersWidthMobile
             padding $PaddingContainersMobile
+
+            .teams_content
+                flex-direction column
+                align-items center
+
+                .teams_text,
+                .teams_video
+                    width 100%
+
+                .teams_video
+                    max-width 300px
+
 
     @media only screen and (max-width 450px)
         .teams_inner-container
