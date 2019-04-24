@@ -24,6 +24,12 @@
           "WeekDay": "ВТОРНИК",
           "Groups":[
             {
+              "Name": "JUNIORS I</br>(10-15 лет)",
+              "Teacher": "Бухаров Данил",
+              "LessonStart": "16:00",
+              "LessonEnd": "17:30"
+            },
+            {
               "Name": "HIP-HOP",
               "Teacher": "Келик Иван/</br>Бухаров Данил",
               "LessonStart": "19:00",
@@ -58,6 +64,12 @@
           "WeekDay": "ЧЕТВЕРГ",
           "Groups":[
             {
+              "Name": "JUNIORS I</br>(10-15 лет)",
+              "Teacher": "Бухаров Данил",
+              "LessonStart": "16:00",
+              "LessonEnd": "17:30"
+            },
+            {
               "Name": "L-CREW",
               "Teacher": "Исакова Лада",
               "LessonStart": "18:00",
@@ -91,6 +103,12 @@
         {
           "WeekDay": "СУББОТА",
           "Groups":[
+            {
+              "Name": "JUNIORS I</br>(10-15 лет)",
+              "Teacher": "Бухаров Данил",
+              "LessonStart": "16:00",
+              "LessonEnd": "17:30"
+            },
             {
               "Name": "КОМАНДЫ",
               "Teacher": "FF и L-Crew",
@@ -258,12 +276,6 @@
           "WeekDay": "ВТОРНИК",
           "Groups":[
             {
-              "Name": "JUNIORS I</br>(10-15 лет)",
-              "Teacher": "Бухаров Данил",
-              "LessonStart": "16:00",
-              "LessonEnd": "17:30"
-            },
-            {
               "Name": "L-CREW",
               "Teacher": "Гайфуллина Лилия",
               "LessonStart": "18:00",
@@ -303,12 +315,6 @@
         {
           "WeekDay": "ЧЕТВЕРГ",
           "Groups":[
-            {
-              "Name": "JUNIORS I</br>(10-15 лет)",
-              "Teacher": "Бухаров Данил",
-              "LessonStart": "16:00",
-              "LessonEnd": "17:30"
-            },
             {
               "Name": "FUNKY</br>FORCE",
               "Teacher": "Келик Иван",
@@ -355,12 +361,6 @@
         {
           "WeekDay": "СУББОТА",
           "Groups":[
-            {
-              "Name": "JUNIORS I</br>(10-15 лет)",
-              "Teacher": "Бухаров Данил",
-              "LessonStart": "16:00",
-              "LessonEnd": "17:30"
-            },
             {
               "Name": "CADETS PRO</br>(8-10 лет)",
               "Teacher": "Идёт набор",
