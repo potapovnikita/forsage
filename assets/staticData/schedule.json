@@ -41,16 +41,16 @@
           "WeekDay": "СРЕДА",
           "Groups":[
             {
-              "Name": "BREAKING",
-              "Teacher": "Семикин Иван",
-              "LessonStart": "16:00",
-              "LessonEnd": "17:30"
+              "Name": "VOGUE",
+              "Teacher": "Сартакова Татьяна",
+              "LessonStart": "18:00",
+              "LessonEnd": "19:30"
             },
             {
               "Name": "КОМАНДЫ",
               "Teacher": "FF и L-Crew",
-              "LessonStart": "19:00",
-              "LessonEnd": "20:30"
+              "LessonStart": "19:30",
+              "LessonEnd": "21:00"
             }
           ]
         },
@@ -77,18 +77,12 @@
             {
               "Name": "BREAKING",
               "Teacher": "Семикин Иван",
-              "LessonStart": "16:00",
-              "LessonEnd": "17:30"
-            },
-            {
-              "Name": "FUNKY</br>FORCE",
-              "Teacher": "Келик Иван",
               "LessonStart": "18:00",
               "LessonEnd": "19:30"
             },
             {
-              "Name": "VOGUE",
-              "Teacher": "Сартакова Татьяна",
+              "Name": "FUNKY</br>FORCE",
+              "Teacher": "Келик Иван",
               "LessonStart": "19:30",
               "LessonEnd": "21:00"
             }
@@ -236,7 +230,7 @@
             },
             {
               "Name": "JUNIORS III</br>(10-15 лет)",
-              "Teacher": "Исакова Лада/</br>Сулейманова Арина",
+              "Teacher": "Идёт набор",
               "LessonStart": "16:00",
               "LessonEnd": "17:30"
             },
@@ -288,13 +282,13 @@
             },
             {
               "Name": "JUNIORS III</br>(10-15 лет)",
-              "Teacher": "Исакова Лада/</br>Сулейманова Арина",
+              "Teacher": "Идёт набор",
               "LessonStart": "16:00",
               "LessonEnd": "17:30"
             },
             {
-              "Name": "VOGUE",
-              "Teacher": "Сартакова Татьяна",
+              "Name": "CADETS PRO (8-10 лет)",
+              "Teacher": "Идёт набор",
               "LessonStart": "18:00",
               "LessonEnd": "19:30"
             }
@@ -334,7 +328,7 @@
             },
             {
               "Name": "JUNIORS III</br>(10-15 лет)",
-              "Teacher": "Исакова Лада/</br>Сулейманова Арина",
+              "Teacher": "Идёт набор",
               "LessonStart": "16:00",
               "LessonEnd": "17:30"
             },
