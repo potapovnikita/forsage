@@ -96,6 +96,12 @@
               "Teacher": "FF и L-Crew",
               "LessonStart": "18:00",
               "LessonEnd": "19:30"
+            },
+            {
+              "Name": "HIP-HOP",
+              "Teacher": "Келик Иван/</br>Бухаров Данил",
+              "LessonStart": "19:30",
+              "LessonEnd": "21:00"
             }
           ]
         },
@@ -287,7 +293,7 @@
               "LessonEnd": "17:30"
             },
             {
-              "Name": "CADETS PRO (8-10 лет)",
+              "Name": "CADETS PRO</br>(8-10 лет)",
               "Teacher": "Идёт набор",
               "LessonStart": "18:00",
               "LessonEnd": "19:30"
@@ -356,8 +362,8 @@
               "LessonEnd": "17:30"
             },
             {
-              "Name": "HIP-HOP",
-              "Teacher": "Келик Иван/</br>Бухаров Данил",
+              "Name": "CADETS PRO</br>(8-10 лет)",
+              "Teacher": "Идёт набор",
               "LessonStart": "18:00",
               "LessonEnd": "19:30"
             }
