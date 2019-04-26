@@ -149,7 +149,7 @@
                     .icon
                         margin-right 10px
                         svg
-                            transform scale(0.8)
+                            transform scale(0.6)
     .teams_list
         display flex
         justify-content center
