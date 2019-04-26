@@ -145,8 +145,11 @@
                     color whiteMain
                     display inline-flex
                     span
-                        display inline-block
+                        display flex
+                        align-items center
                     .icon
+                        display flex
+                        align-items flex-start
                         margin-right 10px
                         svg
                             transform scale(0.6)
