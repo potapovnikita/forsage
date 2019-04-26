@@ -210,7 +210,7 @@
                 min-height 300px
                 width 100%
 
-    /*@media only screen and (max-width 1000px)*/
+    @media only screen and (max-width 1000px)
         /*.teams_inner-container*/
             /*background-image url('~assets/img/background-styles.png')*/
 
