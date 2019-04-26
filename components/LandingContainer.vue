@@ -10,6 +10,8 @@
             Styles
         section#news
             News
+        section#teams
+            Teams
         section#schedule
             Schedule(@open="openPopup")
         section#instagram
@@ -27,6 +29,7 @@
 
 <script>
     import zenscroll from 'zenscroll'
+
     import Header from '~/components/Header.vue'
     import Description from '~/components/Description.vue'
     import Teachers from '~/components/Teachers.vue'
@@ -37,6 +40,8 @@
     import Contacts from '~/components/Contacts.vue'
     import Schedule from '~/components/Schedule.vue'
     import Popup from '~/components/Popup.vue'
+    import Teams from '~/components/Teams.vue'
+
     import Top from '~/assets/img/arrow.svg'
 
     export default {
@@ -76,6 +81,7 @@
             Schedule,
             Popup,
             Top,
+            Teams,
         },
         mounted() {
             const headerHeight = document.getElementsByClassName('header_container')[0].offsetHeight

@@ -26,10 +26,10 @@
                                 :class="['day-'+indexDay, { visible: indexDay === activeDay}]")
 
                                 .cell.day_head(:class="{active: indexDay === activeDayDesktop}") {{hall.WeekDay}}
-                                .day_schedule(v-for="(daySchedule) in scheduleHallByDay[activeHall][indexDay].fullShedule")
+                                .day_schedule(v-for="(daySchedule, index) in scheduleHallByDay[activeHall][indexDay].fullShedule")
                                     .cell.cell_schedule
                                         div(v-if="daySchedule.lesson"
-                                            :style="{ height: calcHeight(daySchedule.lesson.diff, 80), top: daySchedule.lesson.offset }")
+                                            :style="{ height: calcHeight(daySchedule.lesson.diff), top: daySchedule.lesson.offset }")
                                             span.name(v-html="daySchedule.lesson.Name")
                                             span.teacher(v-html="daySchedule.lesson.Teacher")
                                             span.start(v-html="daySchedule.lesson.LessonStart + '-' + daySchedule.lesson.LessonEnd")
@@ -71,6 +71,7 @@
                 scheduleTimes: scheduleTimes,
                 scheduleHallByDay: [],
                 dayShort: dayShort,
+                elCellHeight: 80,
             }
         },
         components: {
@@ -108,8 +109,8 @@
                 }
                 return diff
             },
-            calcHeight(heightCell, defaultHeightCell) {
-                return `${(defaultHeightCell * heightCell) - 1}px`
+            calcHeight(heightCell) {
+                return `${(this.elCellHeight * heightCell) - 1}px`
             },
 
             calculateScheduleTable(index) {
@@ -121,23 +122,68 @@
                         dayWeek.Groups.forEach((lesson, lessonIndex) => { // перебираем все расписание  для каждого дня
                             if (lesson.LessonStart.slice(0,2) === shed.time.slice(0,2)) {
                                 if (lesson.LessonStart.slice(3,5) === '30') {
-                                    lesson.offset = '40px'
+                                    lesson.offset = `${this.elCellHeight/2}px`
                                 }
 
                                 lesson.diff = this.subtractiontime(lesson.LessonStart, lesson.LessonEnd)
 
                                 shed.lesson = lesson
-
                             }
                         })
                     })
                 })
                 return arr
+            },
+
+            visible: (el1, el2) => {
+                const targetPositionEl1 = {
+                    top: window.pageYOffset + el1.getBoundingClientRect().top,
+                    bottom: window.pageYOffset + el1.getBoundingClientRect().bottom,
+                }
+
+                const targetPositionEl2 = {
+                    top: window.pageYOffset + el2.getBoundingClientRect().top,
+                    bottom: window.pageYOffset + el2.getBoundingClientRect().bottom,
+                }
+
+                const windowPosition = {
+                    top: window.pageYOffset,
+                    bottom: window.pageYOffset + document.documentElement.clientHeight,
+                };
+
+                if (targetPositionEl1.bottom < targetPositionEl2.top || targetPositionEl1.bottom >= targetPositionEl2.bottom) {
+                    el1.style.position = 'absolute'
+                    el1.style.top = `-${el1.offsetHeight}px`
+                } else if (windowPosition.top > targetPositionEl1.top
+                    && targetPositionEl1.bottom <= targetPositionEl2.bottom
+                    && windowPosition.top < targetPositionEl2.bottom - el1.offsetHeight) {
+                    el1.style.position = 'fixed'
+                    el1.style.top = `${-el1.offsetHeight + el1.offsetHeight}px`
+
+                }
+
+            },
+            listener() {
+                this.scheduleHallByDay = this.calculateScheduleTable(this.activeHall)
             }
         },
         mounted() {
+            window.addEventListener('resize', this.listener);
+
+            this.elCellHeight = document.getElementsByClassName('day_schedule')[0].offsetHeight
             this.scheduleHallByDay = this.calculateScheduleTable(this.activeHall)
+
+            const elHead = document.getElementsByClassName('days-slider_mobile')[0]
+            const elTable = document.getElementsByClassName('schedule')[0]
+            // Запускаем функцию при прокрутке страницы
+            document.addEventListener('scroll', () => {
+                this.visible(elHead, elTable);
+            });
+            this.visible(elHead, elTable);
         },
+        destroyed() {
+            window.removeEventListener('resize', this.listener);
+        }
     }
 
 </script>
@@ -161,6 +207,7 @@
     .halls-switch
         display flex
         justify-content center
+        z-index 1
         .hall
             font-size $FontSize16
             font-family $FuturaFont
@@ -265,18 +312,25 @@
 
     @media only screen and (max-width 1200px)
         .halls-schedule
+            margin-top 50px
             .schedule
+                width 100%
                 .days
+                    width 100%
                     .days-slider_mobile
                         position absolute
-                        left 1px
+                        left 0
                         right 0
-                        top 1px
+                        top -45px
                         background-color whiteMain
                         display flex
                         justify-content space-evenly
                         align-items center
                         height 45px
+                        border-bottom 1px solid #d9d9d9
+                        border-top 1px solid #d9d9d9
+                        z-index 1
+
                         .item
                             display flex
                             align-items center
@@ -294,10 +348,13 @@
                             &.active
                                 color orangeMain
                                 border-color orangeMain
+                    .cell.day_head
+                        display none
 
                     for index in 0..6
                         .day-{index}
-                            width 300px
+                            min-width 300px
+                            width 100%
                             display none
                     .visible
                         display block
@@ -308,8 +365,38 @@
     @media only screen and (max-width 767px)
         .schedule_inner-container
             width $ContainersWidthMobile
-            padding $PaddingContainersMobile
-            padding-bottom 0
+            padding 0
+            padding-top $PaddingContainersMobile
+
+        .halls-schedule
+            .schedule
+                .days
+                    box-shadow none
+
+                    .cell
+                        border-bottom $borderCell
+                        border-left $borderCell
+                        height 50px
+
+                        &.cell_schedule
+                            height 50px
+
+                            div
+                                flex-direction row
+                                justify-content space-around
+                                align-items center
+
+                                .name
+                                    order 2
+
+                                .teacher
+                                    order 3
+
+                                .start
+                                .finish
+                                    order 1
+                                span
+                                    width auto
 
     @media only screen and (max-width 480px)
         .halls-schedule
@@ -317,7 +404,7 @@
                 .days
                     for index in 0..6
                         .day-{index}
-                            width 240px
+                            min-width 240px
 
     @media only screen and (max-width 380px)
         .halls-schedule
@@ -325,9 +412,9 @@
                 .days
                     for index in 0..6
                         .day-{index}
-                            width 200px
+                            min-width 200px
                     .day.empty
-                        width 60px
+                        min-width 60px
 
 
 

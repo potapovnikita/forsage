@@ -1,0 +1,78 @@
+{
+  "Crews": [
+    {
+      "CrewName": "FUNKY FORCE",
+      "Description": "Команда основана в 2016 г.</br>Тренер: Келик Иван",
+      "ImagePath":"img/news/news1.png",
+      "Awards": 
+      [
+        "2 место - Чемпионат и Первенство УрФО, Екатеринбург, 10 марта 2019, по версии Hip-Hop Unite",
+        "3 место - Чемпионат и Первенство России, Москва, 1-2 апреля 2019, по версии Hip-Hop Unite"
+      ],
+      "YouTubeLinks": 
+      [
+        "https://www.youtube.com/embed/2eWhFmUD_6g?rel=0",
+        "https://www.youtube.com/embed/2eWhFmUD_6g?rel=0"
+      ]
+    },
+    {
+      "CrewName": "FANTASY FORCE",
+      "Description": "Команда основана в 2017 г.</br>Тренер: Бухаров Данил",
+      "ImagePath":"img/news/news2.png",
+      "Awards": 
+      [
+        "5 место - Чемпионат и Первенство УрФО, Екатеринбург, 10 марта 2019, по версии Hip-Hop Unite",
+        "2 место -'WHO IS THE CHAMPION?' (ном. VARSITY PRO), 17 марта 2019"
+      ],
+      "YouTubeLinks": 
+      [
+        "https://www.youtube.com/embed/qGa0JWUqqgk?rel=0",
+        "https://www.youtube.com/embed/qGa0JWUqqgk?rel=0"
+      ]
+    },
+    {
+      "CrewName": "ФОРСАЖ",
+      "Description": "Команда основана в 2009 г.</br>Тренер: Старков Александр",
+      "ImagePath":"img/news/news3.png",
+      "Awards": 
+      [
+        "1 место - Чемпионат Европы, Чехия (Прага), Adults, 10-12 мая 2018, по версии Hip-Hop Unite",
+        "3 место - Чемпионат и Первенство России, Москва, 1-2 апреля 2019, по версии Hip-Hop Unite"
+      ],
+      "YouTubeLinks": 
+      [
+        "https://www.youtube.com/embed/4tA5BvF3jic?rel=0",
+        "https://www.youtube.com/embed/4tA5BvF3jic?rel=0"
+      ]
+    },
+    {
+      "CrewName": "UFF",
+      "Description": "Команда основана в 2012 г.</br>Тренер: Вахонина Ирина",
+      "ImagePath":"img/news/news1.png",
+      "Awards": 
+      [
+        "2 место - Чемпионат Европы, Чехия (Прага), Adults, 10-12 мая 2018, по версии Hip-Hop Unite",
+        "4 место - Чемпионат и Первенство России, Москва, 1-2 апреля 2019, по версии Hip-Hop Unite"
+      ],
+      "YouTubeLinks": 
+      [
+        "https://www.youtube.com/embed/Pq3zILlpUws?rel=0",
+        "https://www.youtube.com/embed/Pq3zILlpUws?rel=0"
+      ]
+    },
+    {
+      "CrewName": "FORCE CREW",
+      "Description": "Команда основана в 2014 г.</br>Тренер: Микрюков Николай",
+      "ImagePath":"img/news/news2.png",
+      "Awards": 
+      [
+        "1 место - Чемпионат и Первенство России, Москва, 1-2 апреля 2018, по версии Hip-Hop Unite",
+        "2 место - Чемпионат Европы, Чехия (Прага), Megacrew, 10-12 мая 2018, по версии Hip-Hop Unite"
+      ],
+      "YouTubeLinks": 
+      [
+        "https://www.youtube.com/embed/n8lA_1VUaqk?rel=0"
+      ]
+    }
+  ]
+}

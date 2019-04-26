@@ -19,7 +19,7 @@ pipeline:
         - npm run generate
       when:
         branch:
-          include: [ master, feature/* ]
+          include: [ master ]
         event:
           - push
           - pull_request

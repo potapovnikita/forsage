@@ -27,6 +27,10 @@ module.exports = {
     css: [
         '~assets/styles/fonts.styl',
         '~assets/styles/global.styl',
+        'swiper/dist/css/swiper.css',
+    ],
+    plugins: [
+        { src: '~/plugins/swiper.js', ssr: false },
     ],
     /*
     ** Build configuration

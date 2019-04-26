@@ -162,6 +162,7 @@
 
             .teacher_description
                 min-height 270px
+                height 350px
                 background-image linear-gradient(360deg, orangeGrad, orangeMain)
                 color whiteMain
                 padding 25px 28px
@@ -250,6 +251,9 @@
                         .photo
                             width 80px
                             height 80px
+
+                    .teacher_description
+                        height auto
 
     @media only screen and (max-width 360px)
         .teachers_inner-container
