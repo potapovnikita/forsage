@@ -15,12 +15,12 @@
   },
   "engines": {
     "node": "^11.0.0"
-  },  
+  },
   "dependencies": {
     "@nuxtjs/yandex-metrika": "^0.1.1",
     "axios": "^0.18.0",
     "emailjs-com": "^2.3.2",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.1",
     "gulp-sftp": "^0.1.5",
     "jsonp": "^0.2.1",
     "nuxt": "^2.0.0",
