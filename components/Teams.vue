@@ -12,31 +12,52 @@
             .teams_content
                 .teams_text
                     h3.title.teams_description(v-html="crewDescription" v-if="crewDescription")
-                    .text_default-white.teams_description(v-html="crewAwards" v-if="crewAwards")
+                    .text_default-white.teams_description(v-for="award in crewAwards" v-if="crewAwards.length")
+                        span.icon
+                            Cup
+                        span(v-html="award")
                 .teams_video
                     iframe(:src="videoUrl"
                     frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen)
-
-
+                    <!--div.my-swiper(v-swiper:mySwiper="swiperOption")-->
+                        <!--.swiper-wrapper-->
+                            <!--.swiper-slide(v-for="video in videoUrls")-->
+                                <!---->
+                        <!--.swiper-pagination-->
+                        <!--.swiper-button-prev(slot="button-prev")-->
+                        <!--.swiper-button-next(slot="button-next")-->
 
 
 </template>
 
 <script>
     import Data from '~/assets/staticData/crews.json'
-
+    import Cup from '~/assets/img/cup.svg'
 
     export default {
         data() {
             return {
                 teams: Data.Crews,
                 activeCrew: 0,
+                // swiperOption: {
+                //     slidesPerView: 1,
+                //     spaceBetween: 30,
+                //     loop: true,
+                //     pagination: {
+                //         el: '.swiper-pagination',
+                //         clickable: true
+                //     },
+                //     navigation: {
+                //         nextEl: '.swiper-button-next',
+                //         prevEl: '.swiper-button-prev'
+                //     },
+                // }
             }
         },
         components: {
-
+            Cup,
         },
         methods: {
             // выбор стиля
@@ -46,7 +67,7 @@
         },
         computed: {
             videoUrl() {
-                return this.teams[this.activeCrew].YouTubeLink
+                return this.teams[this.activeCrew].YouTubeLinks[0]
             },
 
             crewDescription() {
@@ -67,6 +88,22 @@
 </script>
 
 <style lang="stylus">
+    /*.my-swiper
+        height: 300px;
+        width: 100%;
+
+        .swiper-slide
+            text-align: center;
+            font-size: 38px;
+            font-weight: 700;
+            background-color: #eee;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        .swiper-pagination
+            position inherit */
+
     .teams_inner-container
         background-color #000
         background-image url('~assets/img/background-styles@2x.png')
@@ -106,6 +143,13 @@
                 .teams_description
                     margin-bottom 15px
                     color whiteMain
+                    display inline-flex
+                    span
+                        display inline-block
+                    .icon
+                        margin-right 10px
+                        svg
+                            transform scale(0.8)
     .teams_list
         display flex
         justify-content center
@@ -143,20 +187,33 @@
         position relative
         width 50%
         min-width 300px
-        height 200px
-
         iframe
-            position absolute
-            top 0
-            left 0
+            min-height 500px
             width 100%
-            height 100%
+
     @media only screen and (max-width 1500px)
         .teams_inner-container
             background-image url('~assets/img/background-styles@2x-min.png')
+        .teams_video
+            iframe
+                min-height 400px
+                width 100%
+
+    @media only screen and (max-width 1200px)
+        .teams_video
+            iframe
+                min-height 300px
+                width 100%
+
     @media only screen and (max-width 1000px)
         .teams_inner-container
             background-image url('~assets/img/background-styles.png')
+
+        .teams_video
+            iframe
+                min-height 220px
+                width 100%
+
         .teams_list
             margin 0 auto
             max-width 400px
@@ -176,7 +233,11 @@
                     width 100%
 
                 .teams_video
-                    max-width 300px
+                    max-width 500px
+
+                    iframe
+                        min-height 280px
+                        width 100%
 
 
     @media only screen and (max-width 450px)
@@ -188,14 +249,12 @@
 
                     .line
                         top 0
-
+            .teams_content
+                .teams_video
+                    iframe
+                        min-height 200px
         .teams_list-item
             margin-right 15px
-
-        .teams_video
-            div
-                width 100%
-                padding-bottom 48%
 
 
 </style>
