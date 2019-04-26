@@ -18,7 +18,7 @@
     "axios": "^0.18.0",
     "emailjs-com": "^2.3.2",
     "fs": "0.0.1-security",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.1",
     "gulp-sftp": "^0.1.5",
     "gulp-ssh": "^0.7.0",
     "jsonp": "^0.2.1",
