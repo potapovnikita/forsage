@@ -1,6 +1,6 @@
 <template lang="pug">
     .teams_container
-        .teams_inner-container
+        #teams_bg.teams_inner-container
             .teams-top
                 h1.title.title-text Наши команды
                     .line
@@ -75,13 +75,17 @@
             },
             crewAwards() {
                 return this.teams[this.activeCrew].Awards
-            }
+            },
+            bgUrl() {
+                return this.teams[this.activeCrew].backgroundImage
+            },
         },
         created() {
 
         },
         mounted() {
-
+            document.getElementById('teams_bg').style.backgroundImage = `url(${require('assets/img/background-styles@2x.png')})`
+                // + `${bgUrl}`
         },
     }
 
@@ -106,7 +110,6 @@
 
     .teams_inner-container
         background-color #000
-        background-image url('~assets/img/background-styles@2x.png')
         background-position 50%
         background-repeat no-repeat
         background-size cover
@@ -195,8 +198,7 @@
             width 100%
 
     @media only screen and (max-width 1500px)
-        .teams_inner-container
-            background-image url('~assets/img/background-styles@2x-min.png')
+        /*.teams_inner-container*/
         .teams_video
             iframe
                 min-height 400px
@@ -208,9 +210,9 @@
                 min-height 300px
                 width 100%
 
-    @media only screen and (max-width 1000px)
-        .teams_inner-container
-            background-image url('~assets/img/background-styles.png')
+    /*@media only screen and (max-width 1000px)*/
+        /*.teams_inner-container*/
+            /*background-image url('~assets/img/background-styles.png')*/
 
         .teams_video
             iframe
@@ -245,7 +247,7 @@
 
     @media only screen and (max-width 450px)
         .teams_inner-container
-            background-image url('~assets/img/background-styles-min.png')
+            /*background-image url('~assets/img/background-styles-min.png')*/
             .teams-top
                 .title-text
                     padding-top 0
