@@ -84,8 +84,8 @@
 
         },
         mounted() {
-            document.getElementById('teams_bg').style.backgroundImage = `url(${require('assets/img/background-styles@2x.png')})`
-                // + `${bgUrl}` добавить это потом
+            // document.getElementById('teams_bg').style.backgroundImage = `url(${require('assets/img/background-styles@2x.png')})`
+                // + `${bgUrl}`
         },
     }
 
@@ -111,6 +111,7 @@
     .teams_inner-container
         background-color #000
         background-position 50%
+        background-image url('~assets/img/background-styles@2x.png')
         background-repeat no-repeat
         background-size cover
         padding $PaddingContainers
@@ -198,7 +199,8 @@
             width 100%
 
     @media only screen and (max-width 1500px)
-        /*.teams_inner-container*/
+        .teams_inner-container
+            background-image url('~assets/img/background-styles@2x-min.png')
         .teams_video
             iframe
                 min-height 400px
@@ -211,8 +213,8 @@
                 width 100%
 
     @media only screen and (max-width 1000px)
-        /*.teams_inner-container*/
-            /*background-image url('~assets/img/background-styles.png')*/
+        .teams_inner-container
+            background-image url('~assets/img/background-styles.png')
 
         .teams_video
             iframe
@@ -247,7 +249,7 @@
 
     @media only screen and (max-width 450px)
         .teams_inner-container
-            /*background-image url('~assets/img/background-styles-min.png')*/
+            background-image url('~assets/img/background-styles-min.png')
             .teams-top
                 .title-text
                     padding-top 0
