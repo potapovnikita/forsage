@@ -4,8 +4,8 @@
         "Name": "ИВАН КЕЛИК",
         "Styles": "All Styles, тренер команд, руководитель школы",
         "Description":"Хореограф ХИП-ХОП СТУДИИ ФОРСАЖ<br>Многократный призер и чемпион России, Европы и Мира по версии Hip Hop Unite.<br><br>Тренер юниорской команды FUNKY FORCE<br>(ТОП-4 Европы, ТОП-5 Мира)<br><br>Участник многих российских и мировых баттлов по hip-hop, popping, all styles!<br><br>Участник проекта ТАНЦЫ на ТНТ 5 сезон.",
-        "ImagePath":"img/teachers/buharov3.png",
-        "SmallImagePath":"img/teachers/buharov3.png",
+        "ImagePath":"img/teachers/buharov.png",
+        "SmallImagePath":"img/teachers/buharov.png",
         "Instagram":"https://www.instagram.com/kelik_vanches/",
         "Vk":"https://vk.com/kelik_vanches"
     },
@@ -13,8 +13,8 @@
         "Name": "ДАНИЛ БУХАРОВ",
         "Styles": "All Styles, тренер команд",
         "Description":"Хореограф ХИП-ХОП СТУДИИ ФОРСАЖ<br>Многократный призер и чемпион России, Европы и Мира по версии Hip Hop Unite.<br><br>Тренер юниорской команды FANTASY FORCE<br><br>Универсальный танцор. Хореограф.<br>Постановщик танцевальных шоу.",
-        "ImagePath":"img/teachers/buharov3.png",
-        "SmallImagePath":"img/teachers/buharov3.png",
+        "ImagePath":"img/teachers/buharov.png",
+        "SmallImagePath":"img/teachers/buharov.png",
         "Instagram":"https://www.instagram.com/melky_forsage/",
         "Vk":"https://vk.com/melky_forsage"
     },
@@ -22,17 +22,26 @@
         "Name": "ЛИЛИЯ ГАЙФУЛЛИНА",
         "Styles": "Dancehall, Vogue, тренер команд",
         "Description":"Танцевальный стаж – 8 лет,<br>преподавательский – 5 лет.<br>Многократный призер и чемпион России, Европы и Мира по версии Hip Hop Unite.<br><br>Осваивала направления: dancehall, vogue, waacking, locking, hip-hop, house, breaking.<br><br>КМС по хип-хопу. Педагог доп образования!",
-        "ImagePath":"img/teachers/buharov3.png",
-        "SmallImagePath":"img/teachers/buharov3.png",
+        "ImagePath":"img/teachers/buharov.png",
+        "SmallImagePath":"img/teachers/buharov.png",
         "Instagram":"https://www.instagram.com/lili_gaifullina/",
         "Vk":"https://vk.com/lili_gaifullina"
+    },
+    {
+        "Name": "АННА КОСЬЯНОВА",
+        "Styles": "Преподаватель групп базовой подготовки",
+        "Description":"Участник команды ФОРСАЖ</br>Чемпион Европы по версии Hip Hop Unite",
+        "ImagePath":"img/teachers/buharov.png",
+        "SmallImagePath":"img/teachers/buharov.png",
+        "Instagram":"https://www.instagram.com/anchous1581/",
+        "Vk":"https://vk.com/anchous1581"
     },
     {
         "Name": "ТАТЬЯНА САРТАКОВА",
         "Styles": "Vogue, Mother kiki House of FORSAGE",
         "Description":"Участник команды Ural Federal Force<br>Чемпион России в составе FORCE CREW<br>Серебрянный призер Чемпионата Европы в категориях Adults и Megacrew Hip Hop Unite<br><br>Участница BARBARA'S TEAM<br>3 место Projects818 RDC17<br><br>Участница многих vogue балов!<br>Winner Old Way #voguewithbarbara ball IV",
-        "ImagePath":"img/teachers/buharov3.png",
-        "SmallImagePath":"img/teachers/buharov3.png",
+        "ImagePath":"img/teachers/buharov.png",
+        "SmallImagePath":"img/teachers/buharov.png",
         "Instagram":"https://www.instagram.com/sartakova.t/",
         "Vk":"https://vk.com/tatianasartakova"
     }
