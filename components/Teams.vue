@@ -85,7 +85,7 @@
         },
         mounted() {
             document.getElementById('teams_bg').style.backgroundImage = `url(${require('assets/img/background-styles@2x.png')})`
-                // + `${bgUrl}`
+                // + `${bgUrl}` добавить это потом
         },
     }
 
