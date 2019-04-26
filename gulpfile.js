@@ -7,6 +7,7 @@ gulp.task('deploy:production', function () {
             host: '31.31.196.165',
             user: 'u0635367',
             pass: 'UoBU4yG_',
-            remotePath: 'www/forsagedanceschool.ru/'
+            remotePath: 'www/forsagedanceschool.ru/',
+            timeout: 60000,
         }));
 });
