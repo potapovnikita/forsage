@@ -13,6 +13,10 @@
     "heroku-postbuild": "npm run build",
     "deploy": "gulp deploy:production"
   },
+  {
+    "engines": {
+        "node": "^11.0.0"
+  },  
   "dependencies": {
     "@nuxtjs/yandex-metrika": "^0.1.1",
     "axios": "^0.18.0",
