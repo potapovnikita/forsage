@@ -21,7 +21,7 @@ export default {
         { property: 'og:description', content: 'Начни танцевать прямо сейчас' },
         { property: 'og:type', content: 'website' },
         { property: 'og:url', content: 'forsagedanceschool.ru' },
-        { property: 'og:image', content: 'https://forsagedanceschool.ru/favicon.png' }
+        { property: 'og:image', content: 'https://forsagedanceschool.ru/social.png' }
       ]
   }
 }
