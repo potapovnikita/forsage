@@ -2,9 +2,9 @@
     "Teachers": [
     {
         "Name": "ИВАН КЕЛИК",
-        "Styles": "All Styles, тренер команд, руководитель школы",
-        "Description":"Хореограф ХИП-ХОП СТУДИИ ФОРСАЖ<br>Многократный призер и чемпион России, Европы и Мира по версии Hip Hop Unite.<br><br>Тренер юниорской команды FUNKY FORCE<br>(ТОП-3 России, ТОП-4 Европы, ТОП-5 Мира)<br><br>Участник многих российских и мировых баттлов по hip-hop, popping, all styles!<br><br>Участник проекта ТАНЦЫ на ТНТ 5 сезон.",
-        "ImagePath":"img/teachers/kelik2.png",
+        "Styles": "All Styles, тренер команд",
+        "Description":"Руководитель FORSAGE DANCE SCHOOL<br><br>Многократный призер и чемпион России, Европы и Мира по версии Hip Hop Unite.<br><br>Тренер юниорской команды FUNKY FORCE<br>(ТОП-3 России, ТОП-4 Европы, ТОП-5 Мира)<br><br>Участник многих российских и мировых баттлов по hip-hop, popping, all styles!<br><br>Участник проекта ТАНЦЫ на ТНТ 5 сезон.",
+        "ImagePath":"img/teachers/kelik.png",
         "SmallImagePath":"img/teachers/kelik2.png",
         "Instagram":"https://www.instagram.com/kelik_vanches/",
         "Vk":"https://vk.com/kelik_vanches"
@@ -12,36 +12,36 @@
     {
         "Name": "ДАНИЛ БУХАРОВ",
         "Styles": "All Styles, тренер команд",
-        "Description":"Хореограф ХИП-ХОП СТУДИИ ФОРСАЖ<br>Многократный призер и чемпион России, Европы и Мира по версии Hip Hop Unite.<br><br>Тренер юниорской команды FANTASY FORCE<br><br>Универсальный танцор. Хореограф.<br>Постановщик танцевальных шоу.",
+        "Description":"Многократный призер и чемпион России, Европы и Мира по версии Hip Hop Unite.<br><br>Тренер юниорской команды FANTASY FORCE<br><br>Универсальный танцор. Хореограф.<br>Постановщик танцевальных шоу.<br><br>КМС по хип-хопу.",
         "ImagePath":"img/teachers/buharov.png",
-        "SmallImagePath":"img/teachers/buharov.png",
+        "SmallImagePath":"img/teachers/buharov2.png",
         "Instagram":"https://www.instagram.com/melky_forsage/",
         "Vk":"https://vk.com/melky_forsage"
     },
     {
         "Name": "ЛИЛИЯ ГАЙФУЛЛИНА",
         "Styles": "Dancehall, Vogue, тренер команд",
-        "Description":"Танцевальный стаж – 8 лет,<br>преподавательский – 5 лет.<br>Многократный призер и чемпион России, Европы и Мира по версии Hip Hop Unite.<br><br>Осваивала направления: dancehall, vogue, waacking, locking, hip-hop, house, breaking.<br><br>КМС по хип-хопу. Педагог доп образования!",
+        "Description":"Многократный призер и чемпион России, Европы и Мира по версии Hip Hop Unite.<br><br>Тренер юниорской команды L-CREW<br><br>Осваивала направления: dancehall, vogue, waacking, locking, hip-hop, house, breaking.<br><br>КМС по хип-хопу. Педагог доп образования!",
         "ImagePath":"img/teachers/lili.png",
-        "SmallImagePath":"img/teachers/lili.png",
+        "SmallImagePath":"img/teachers/lili2.png",
         "Instagram":"https://www.instagram.com/lili_gaifullina/",
         "Vk":"https://vk.com/lili_gaifullina"
     },
     {
         "Name": "АННА КОСЬЯНОВА",
         "Styles": "Преподаватель групп базовой подготовки",
-        "Description":"Участник команды ФОРСАЖ</br>Чемпион Европы по версии Hip Hop Unite",
+        "Description":"Участник команды ФОРСАЖ</br>Серебрянный призер чемпионата России,</br>Чемпион Европы по версии Hip Hop Unite<br><br>Чемпион России и серебрянный призер Европы в составе FORCE CREW<br><br>КМС по хип-хопу.",
         "ImagePath":"img/teachers/kosyanova.png",
-        "SmallImagePath":"img/teachers/kosyanova.png",
+        "SmallImagePath":"img/teachers/kosyanova2.png",
         "Instagram":"https://www.instagram.com/anchous1581/",
         "Vk":"https://vk.com/anchous1581"
     },
     {
         "Name": "ТАТЬЯНА САРТАКОВА",
         "Styles": "Vogue, Mother kiki House of FORSAGE",
-        "Description":"Участник команды Ural Federal Force<br>Чемпион России в составе FORCE CREW<br>Серебрянный призер Чемпионата Европы в категориях Adults и Megacrew Hip Hop Unite<br><br>Участница BARBARA'S TEAM<br>3 место Projects818 RDC17<br><br>Участница многих vogue балов!<br>Winner Old Way #voguewithbarbara ball IV",
+        "Description":"Участник команды Ural Federal Force<br>Серебрянный призер Чемпионата Европы в категориях Adults и Megacrew Hip Hop Unite<br><br>Чемпион России в составе FORCE CREW<br>КМС по хип-хопу.<br><br>Участница BARBARA'S TEAM<br>3 место Projects818 RDC17<br><br>Участница многих vogue балов!<br>Winner Old Way #voguewithbarbara ball IV",
         "ImagePath":"img/teachers/sartakova.png",
-        "SmallImagePath":"img/teachers/sartakova.png",
+        "SmallImagePath":"img/teachers/sartakova2.png",
         "Instagram":"https://www.instagram.com/sartakova.t/",
         "Vk":"https://vk.com/tatianasartakova"
     },
@@ -50,52 +50,52 @@
         "Styles": "Breaking",
         "Description":"Участник команды BREAK THE BANK<br><br>Победитель и призер батлов: «Ural Open Cup», «Take It Make It», «EKB Pоpping Jam», «IDD Grand Event», «Все стили в силе»!<br><br>Участник проекта ТАНЦЫ на ТНТ 5 сезон.",
         "ImagePath":"img/teachers/semikin.png",
-        "SmallImagePath":"img/teachers/semikin.png",
+        "SmallImagePath":"img/teachers/semikin2.png",
         "Instagram":"https://www.instagram.com/ivansem_/",
         "Vk":"https://vk.com/ivansemikin"
     },
     {
         "Name": "ЛАДА ИСАКОВА",
         "Styles": "All Styles, тренер команд",
-        "Description":"Танцует уличные направления с 2010 года.",
+        "Description":"Участник команды ФОРСАЖ</br>Многократный призер и чемпион России, Европы и Мира по версии Hip Hop Unite.<br><br>Тренер юниорской команды L-CREW<br><br>КМС по хип-хопу.",
         "ImagePath":"img/teachers/ladon.png",
-        "SmallImagePath":"img/teachers/ladon.png",
+        "SmallImagePath":"img/teachers/ladon2.png",
         "Instagram":"https://www.instagram.com/l_isakova16/",
         "Vk":"https://vk.com/mega_ladon16"
     },
     {
         "Name": "ЕКАТЕРИНА АЛЕШИНА",
         "Styles": "Преподаватель групп базовой подготовки",
-        "Description":"Танцует уличные направления с 2010 года.",
+        "Description":"Тренер и капитан команды Force Majeure<br><br>Чемпион всероссийских соревнований 'Уральский пьедестал'<br>Победитель Student Dance Fest<br><br>Призёр чемпионата области и УрФО",
         "ImagePath":"img/teachers/aleshina.png",
-        "SmallImagePath":"img/teachers/aleshina.png",
+        "SmallImagePath":"img/teachers/aleshina2.png",
         "Instagram":"https://www.instagram.com/ale_ale_aleshina/",
         "Vk":"https://vk.com/ale_ale_aleshina"
     },
     {
         "Name": "АРИНА СУЛЕЙМАНОВА",
-        "Styles": "House Dance, Popping, Hip-Hop",
-        "Description":"Танцует уличные направления с 2010 года.",
+        "Styles": "House Dance, Hip-Hop",
+        "Description":"Участник команды Ural Federal Force<br>Серебрянный призер Чемпионата Европы в категориях Adults и Megacrew Hip Hop Unite<br><br>Чемпион России в составе FORCE CREW<br>КМС по хип-хопу.",
         "ImagePath":"img/teachers/arisha.png",
-        "SmallImagePath":"img/teachers/arisha.png",
+        "SmallImagePath":"img/teachers/arisha2.png",
         "Instagram":"https://www.instagram.com/daamn_ara/",
         "Vk":"https://vk.com/ara_uzu"
     },
     {
         "Name": "АЛЕКСАНДР СТАРКОВ",
         "Styles": "Hip-Hop Choreo, House Dance",
-        "Description":"Руководитель ХИП-ХОП СТУДИИ ФОРСАЖ<br>Действующий тренер команды ФОРСАЖ<br><br>Многократный призер и чемпион России, Европы и Мира по версии Hip Hop Unite.",
+        "Description":"Руководитель ХИП-ХОП СТУДИИ ФОРСАЖ<br>Тренер команды ФОРСАЖ<br><br>Многократный призер и чемпион России, Европы и Мира по версии Hip Hop Unite.<br><br>КМС по хип-хопу.",
         "ImagePath":"img/teachers/starkov.png",
-        "SmallImagePath":"img/teachers/starkov.png",
+        "SmallImagePath":"img/teachers/starkov2.png",
         "Instagram":"https://www.instagram.com/sanyajka_forsage/",
         "Vk":"https://vk.com/sanyajka_forsage"
     },
     {
         "Name": "ИРИНА ВАХОНИНА",
         "Styles": "All Styles, тренер команд",
-        "Description":"Танцует уличные направления с 2010 года.",
+        "Description":"Тренер команды Ural Federal Force<br>Серебрянный призер Чемпионата Европы в категориях Adults и Megacrew Hip Hop Unite<br><br>Чемпион России в составе FORCE CREW<br>КМС по хип-хопу.",
         "ImagePath":"img/teachers/irina.png",
-        "SmallImagePath":"img/teachers/irina.png",
+        "SmallImagePath":"img/teachers/irina2.png",
         "Instagram":"https://www.instagram.com/vahonina_irishka/",
         "Vk":"https://vk.com/vahonina_irishka"
     }
