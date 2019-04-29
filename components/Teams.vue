@@ -118,7 +118,7 @@
         padding-bottom 80px
 
         .teams-top
-            margin-bottom 40px
+            margin-bottom 25px
             .title-text
                 max-width 470px
                 padding-top 35px
@@ -142,7 +142,7 @@
             .teams_text
                 width 50%
                 min-width 300px
-                padding 10px
+                padding 0 10px 10px 10px
 
                 .teams_description
                     margin-bottom 15px
