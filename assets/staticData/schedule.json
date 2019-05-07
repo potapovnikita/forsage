@@ -13,8 +13,8 @@
               "LessonEnd": "19:30"
             },
             {
-              "Name": "L-CREW",
-              "Teacher": "Гайфуллина Лилия",
+              "Name": "КОМАНДЫ",
+              "Teacher": "FF и L-Crew",
               "LessonStart": "19:30",
               "LessonEnd": "21:00"
             }
@@ -53,8 +53,8 @@
               "LessonEnd": "19:30"
             },
             {
-              "Name": "КОМАНДЫ",
-              "Teacher": "FF и L-Crew",
+              "Name": "L-CREW",
+              "Teacher": "Гайфуллина Лилия",
               "LessonStart": "19:30",
               "LessonEnd": "21:00"
             }
@@ -70,17 +70,11 @@
               "LessonEnd": "17:30"
             },
             {
-              "Name": "L-CREW",
-              "Teacher": "Исакова Лада",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:30"
-            },
-            {
-              "Name": "DANCEHALL",
-              "Teacher": "Гайфуллина Лилия",
+              "Name": "КОМАНДЫ",
+              "Teacher": "FF и L-Crew",
               "LessonStart": "19:30",
               "LessonEnd": "21:00"
-            }        
+            }     
           ]
         },
         {
@@ -110,127 +104,10 @@
               "LessonEnd": "17:30"
             },
             {
-              "Name": "КОМАНДЫ",
-              "Teacher": "FF и L-Crew",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:30"
-            },
-            {
-              "Name": "HIP-HOP",
+              "Name": "ТВОРЧЕСКАЯ",
               "Teacher": "Келик Иван/</br>Бухаров Данил",
-              "LessonStart": "19:30",
-              "LessonEnd": "21:00"
-            }
-          ]
-        },
-        {
-          "WeekDay": "ВОСКРЕСЕНЬЕ",
-          "Groups":[]
-        }
-      ]
-    },
-    {
-      "HallName": "МАЛЫЙ ЗАЛ",
-      "HallSchedule": [
-        {
-          "WeekDay": "ПОНЕДЕЛЬНИК",
-          "Groups":[
-            {
-              "Name": "BABY I</br>(5-6 лет)",
-              "Teacher": "Косьянова Анна",
-              "LessonStart": "17:00",
-              "LessonEnd": "18:00"
-            },
-            {
-              "Name": "CADETS I</br>(7-9 лет)",
-              "Teacher": "Косьянова Анна",
-              "LessonStart": "18:30",
-              "LessonEnd": "19:30"
-            }
-          ]
-        },
-        {
-          "WeekDay": "ВТОРНИК",
-          "Groups":[
-            {
-              "Name": "BABY II</br>(5-6 лет)",
-              "Teacher": "Алёшина Катя",
               "LessonStart": "18:00",
-              "LessonEnd": "19:00"
-            },
-            {
-              "Name": "CADETS II</br>(7-9 лет)",
-              "Teacher": "Алёшина Катя",
-              "LessonStart": "19:00",
               "LessonEnd": "20:00"
-            }
-          ]
-        },
-        {
-          "WeekDay": "СРЕДА",
-          "Groups":[
-            {
-              "Name": "BABY I</br>(5-6 лет)",
-              "Teacher": "Косьянова Анна",
-              "LessonStart": "17:00",
-              "LessonEnd": "18:00"
-            },
-            {
-              "Name": "CADETS I</br>(7-9 лет)",
-              "Teacher": "Косьянова Анна",
-              "LessonStart": "18:30",
-              "LessonEnd": "19:30"
-            }
-          ]
-        },
-        {
-          "WeekDay": "ЧЕТВЕРГ",
-          "Groups":[
-            {
-              "Name": "BABY II</br>(5-6 лет)",
-              "Teacher": "Алёшина Катя",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:00"
-            },
-            {
-              "Name": "CADETS II</br>(7-9 лет)",
-              "Teacher": "Алёшина Катя",
-              "LessonStart": "19:00",
-              "LessonEnd": "20:00"
-            }
-          ]
-        },
-        {
-          "WeekDay": "ПЯТНИЦА",
-          "Groups":[
-            {
-              "Name": "BABY I</br>(5-6 лет)",
-              "Teacher": "Косьянова Анна",
-              "LessonStart": "17:00",
-              "LessonEnd": "18:00"
-            },
-            {
-              "Name": "CADETS I</br>(7-9 лет)",
-              "Teacher": "Косьянова Анна",
-              "LessonStart": "18:30",
-              "LessonEnd": "19:30"
-            }
-          ]
-        },
-        {
-          "WeekDay": "СУББОТА",
-          "Groups":[
-            {
-              "Name": "BABY II</br>(5-6 лет)",
-              "Teacher": "Алёшина Катя",
-              "LessonStart": "12:00",
-              "LessonEnd": "13:00"
-            },
-            {
-              "Name": "CADETS II</br>(7-9 лет)",
-              "Teacher": "Алёшина Катя",
-              "LessonStart": "13:00",
-              "LessonEnd": "14:00"
             }
           ]
         },
@@ -366,6 +243,117 @@
               "Teacher": "Идёт набор",
               "LessonStart": "18:00",
               "LessonEnd": "19:30"
+            }
+          ]
+        },
+        {
+          "WeekDay": "ВОСКРЕСЕНЬЕ",
+          "Groups":[]
+        }
+      ]
+    },
+    {
+      "HallName": "МАЛЫЙ ЗАЛ",
+      "HallSchedule": [
+        {
+          "WeekDay": "ПОНЕДЕЛЬНИК",
+          "Groups":[
+            {
+              "Name": "BABY I</br>(5-6 лет)",
+              "Teacher": "Косьянова Анна",
+              "LessonStart": "17:00",
+              "LessonEnd": "18:00"
+            },
+            {
+              "Name": "CADETS I</br>(7-9 лет)",
+              "Teacher": "Косьянова Анна",
+              "LessonStart": "18:30",
+              "LessonEnd": "19:30"
+            }
+          ]
+        },
+        {
+          "WeekDay": "ВТОРНИК",
+          "Groups":[
+            {
+              "Name": "BABY II</br>(5-6 лет)",
+              "Teacher": "Алёшина Катя",
+              "LessonStart": "18:00",
+              "LessonEnd": "19:00"
+            },
+            {
+              "Name": "CADETS II</br>(7-9 лет)",
+              "Teacher": "Алёшина Катя",
+              "LessonStart": "19:00",
+              "LessonEnd": "20:00"
+            }
+          ]
+        },
+        {
+          "WeekDay": "СРЕДА",
+          "Groups":[
+            {
+              "Name": "BABY I</br>(5-6 лет)",
+              "Teacher": "Косьянова Анна",
+              "LessonStart": "17:00",
+              "LessonEnd": "18:00"
+            },
+            {
+              "Name": "CADETS I</br>(7-9 лет)",
+              "Teacher": "Косьянова Анна",
+              "LessonStart": "18:30",
+              "LessonEnd": "19:30"
+            }
+          ]
+        },
+        {
+          "WeekDay": "ЧЕТВЕРГ",
+          "Groups":[
+            {
+              "Name": "BABY II</br>(5-6 лет)",
+              "Teacher": "Алёшина Катя",
+              "LessonStart": "18:00",
+              "LessonEnd": "19:00"
+            },
+            {
+              "Name": "CADETS II</br>(7-9 лет)",
+              "Teacher": "Алёшина Катя",
+              "LessonStart": "19:00",
+              "LessonEnd": "20:00"
+            }
+          ]
+        },
+        {
+          "WeekDay": "ПЯТНИЦА",
+          "Groups":[
+            {
+              "Name": "BABY I</br>(5-6 лет)",
+              "Teacher": "Косьянова Анна",
+              "LessonStart": "17:00",
+              "LessonEnd": "18:00"
+            },
+            {
+              "Name": "CADETS I</br>(7-9 лет)",
+              "Teacher": "Косьянова Анна",
+              "LessonStart": "18:30",
+              "LessonEnd": "19:30"
+            }
+          ]
+        },
+        {
+          "WeekDay": "СУББОТА",
+          "Groups":[
+            {
+              "Name": "BABY II</br>(5-6 лет)",
+              "Teacher": "Алёшина Катя",
+              "LessonStart": "12:00",
+              "LessonEnd": "13:00"
+            },
+            {
+              "Name": "CADETS II</br>(7-9 лет)",
+              "Teacher": "Алёшина Катя",
+              "LessonStart": "13:00",
+              "LessonEnd": "14:00"
             }
           ]
         },
