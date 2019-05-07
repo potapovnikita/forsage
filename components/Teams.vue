@@ -148,6 +148,7 @@
                     margin-bottom 15px
                     color whiteMain
                     display inline-flex
+                    width 100%
                     span
                         display flex
                         align-items center
