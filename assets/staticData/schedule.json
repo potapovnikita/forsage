@@ -136,14 +136,8 @@
               "LessonEnd": "17:30"
             },
             {
-              "Name": "FUNKY</br>FORCE",
-              "Teacher": "Келик Иван",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:30"
-            },
-            {
-              "Name": "FANTASY</br>FORCE",
-              "Teacher": "Бухаров Данил",
+              "Name": "ГРУППА 35+",
+              "Teacher": "Вахонина Ирина",
               "LessonStart": "19:30",
               "LessonEnd": "21:00"
             }
@@ -182,17 +176,6 @@
               "LessonEnd": "17:30"
             },
             {
-              "Name": "CADETS PRO</br>(8-10 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:30"
-            }
-          ]
-        },
-        {
-          "WeekDay": "ЧЕТВЕРГ",
-          "Groups":[
-            {
               "Name": "FUNKY</br>FORCE",
               "Teacher": "Келик Иван",
               "LessonStart": "18:00",
@@ -201,6 +184,17 @@
             {
               "Name": "FANTASY</br>FORCE",
               "Teacher": "Бухаров Данил",
+              "LessonStart": "19:30",
+              "LessonEnd": "21:00"
+            }
+          ]
+        },
+        {
+          "WeekDay": "ЧЕТВЕРГ",
+          "Groups":[
+            {
+              "Name": "ГРУППА 35+",
+              "Teacher": "Вахонина Ирина",
               "LessonStart": "19:30",
               "LessonEnd": "21:00"
             }
