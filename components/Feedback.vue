@@ -6,7 +6,7 @@
         form(v-if="!statusSuccess" v-on:submit.prevent="submitForm()")
             .input
                 input(type="text" :class="{error: !name && errorName}" v-model="name" placeholder="Имя")
-                <!--.error_text(v-if="!name && errorName") Введите имя-->
+                .error_text(v-if="!name && errorName") Введите имя
                     div
             .input
                 input(type="text" :class="{error: !phone && errorPhone}" v-model="phone" placeholder="Номер телефона")
