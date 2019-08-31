@@ -24,6 +24,12 @@
           "WeekDay": "ВТОРНИК",
           "Groups":[
             {
+              "Name": "JUNIORS II</br>(10-15 лет)",
+              "Teacher": "Идёт набор",
+              "LessonStart": "10:30",
+              "LessonEnd": "12:00"
+            },
+            {
               "Name": "JUNIORS I</br>(10-15 лет)",
               "Teacher": "Бухаров Данил",
               "LessonStart": "16:00",
@@ -64,6 +70,12 @@
           "WeekDay": "ЧЕТВЕРГ",
           "Groups":[
             {
+              "Name": "JUNIORS II</br>(10-15 лет)",
+              "Teacher": "Идёт набор",
+              "LessonStart": "10:30",
+              "LessonEnd": "12:00"
+            },
+            {
               "Name": "JUNIORS I</br>(10-15 лет)",
               "Teacher": "Бухаров Данил",
               "LessonStart": "16:00",
@@ -98,7 +110,7 @@
           "WeekDay": "СУББОТА",
           "Groups":[
             {
-              "Name": "JUNIORS I</br>(10-15 лет)",
+              "Name": "JUNIORS I/II</br>(10-15 лет)",
               "Teacher": "Бухаров Данил",
               "LessonStart": "16:00",
               "LessonEnd": "17:30"
@@ -124,18 +136,6 @@
           "WeekDay": "ПОНЕДЕЛЬНИК",
           "Groups":[
             {
-              "Name": "JUNIORS II</br>(10-15 лет)",
-              "Teacher": "Косьянова Анна",
-              "LessonStart": "10:30",
-              "LessonEnd": "12:00"
-            },
-            {
-              "Name": "JUNIORS III</br>(10-15 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "16:00",
-              "LessonEnd": "17:30"
-            },
-            {
               "Name": "ГРУППА 35+",
               "Teacher": "Вахонина Ирина",
               "LessonStart": "19:30",
@@ -147,34 +147,16 @@
           "WeekDay": "ВТОРНИК",
           "Groups":[
             {
-              "Name": "L-CREW",
-              "Teacher": "Гайфуллина Лилия",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:30"
-            },
-            {
-              "Name": "FANTASY</br>FORCE",
-              "Teacher": "Бухаров Данил",
-              "LessonStart": "19:30",
-              "LessonEnd": "21:00"
+              "Name": "JUNIORS III</br>(10-15 лет)",
+              "Teacher": "Идёт набор",
+              "LessonStart": "15:00",
+              "LessonEnd": "16:30"
             }
           ]
         },
         {
           "WeekDay": "СРЕДА",
           "Groups":[
-            {
-              "Name": "JUNIORS II</br>(10-15 лет)",
-              "Teacher": "Косьянова Анна",
-              "LessonStart": "10:30",
-              "LessonEnd": "12:00"
-            },
-            {
-              "Name": "JUNIORS III</br>(10-15 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "16:00",
-              "LessonEnd": "17:30"
-            },
             {
               "Name": "FUNKY</br>FORCE",
               "Teacher": "Келик Иван",
@@ -193,6 +175,12 @@
           "WeekDay": "ЧЕТВЕРГ",
           "Groups":[
             {
+              "Name": "JUNIORS III</br>(10-15 лет)",
+              "Teacher": "Идёт набор",
+              "LessonStart": "15:00",
+              "LessonEnd": "16:30"
+            },
+            {
               "Name": "ГРУППА 35+",
               "Teacher": "Вахонина Ирина",
               "LessonStart": "19:30",
@@ -204,20 +192,20 @@
           "WeekDay": "ПЯТНИЦА",
           "Groups":[
             {
-              "Name": "JUNIORS II</br>(10-15 лет)",
-              "Teacher": "Косьянова Анна",
-              "LessonStart": "10:30",
-              "LessonEnd": "12:00"
+              "Name": "JUNIORS III</br>(10-15 лет)",
+              "Teacher": "Идёт набор",
+              "LessonStart": "15:00",
+              "LessonEnd": "16:30"
             },
             {
               "Name": "CADETS II</br>(7-9 лет)",
-              "Teacher": "",
+              "Teacher": "Идёт набор",
               "LessonStart": "17:00",
               "LessonEnd": "18:00"
             },
             {
               "Name": "BABY II</br>(5-6 лет)",
-              "Teacher": "",
+              "Teacher": "Идёт набор",
               "LessonStart": "18:00",
               "LessonEnd": "19:00"
             }
@@ -225,14 +213,7 @@
         },
         {
           "WeekDay": "СУББОТА",
-          "Groups":[
-            {
-              "Name": "CADETS PRO</br>(8-10 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:30"
-            }
-          ]
+          "Groups":[]
         },
         {
           "WeekDay": "ВОСКРЕСЕНЬЕ",
@@ -265,13 +246,13 @@
           "Groups":[
             {
               "Name": "CADETS II</br>(7-9 лет)",
-              "Teacher": "",
+              "Teacher": "Идёт набор",
               "LessonStart": "17:00",
               "LessonEnd": "18:00"
             },
             {
               "Name": "BABY II</br>(5-6 лет)",
-              "Teacher": "",
+              "Teacher": "Идёт набор",
               "LessonStart": "18:00",
               "LessonEnd": "19:00"
             }
@@ -299,13 +280,13 @@
           "Groups":[
             {
               "Name": "CADETS II</br>(7-9 лет)",
-              "Teacher": "",
+              "Teacher": "Идёт набор",
               "LessonStart": "17:00",
               "LessonEnd": "18:00"
             },
             {
               "Name": "BABY II</br>(5-6 лет)",
-              "Teacher": "",
+              "Teacher": "Идёт набор",
               "LessonStart": "18:00",
               "LessonEnd": "19:00"
             }
