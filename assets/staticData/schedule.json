@@ -9,14 +9,8 @@
             {
               "Name": "DANCEHALL",
               "Teacher": "Гайфуллина Лилия",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:30"
-            },
-            {
-              "Name": "КОМАНДЫ",
-              "Teacher": "FF и L-Crew",
-              "LessonStart": "19:30",
-              "LessonEnd": "21:00"
+              "LessonStart": "19:00",
+              "LessonEnd": "20:30"
             }
           ]
         },
@@ -36,8 +30,8 @@
               "LessonEnd": "17:30"
             },
             {
-              "Name": "HIP-HOP",
-              "Teacher": "Келик Иван/</br>Бухаров Данил",
+              "Name": "НОВИЧКИ (15+)",
+              "Teacher": "",
               "LessonStart": "19:00",
               "LessonEnd": "20:30"
             },
@@ -53,16 +47,16 @@
           "WeekDay": "СРЕДА",
           "Groups":[
             {
-              "Name": "VOGUE",
-              "Teacher": "Сартакова Татьяна",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:30"
+              "Name": "VOGUE/CONTEMP",
+              "Teacher": "",
+              "LessonStart": "19:00",
+              "LessonEnd": "20:30"
             },
             {
-              "Name": "L-CREW",
-              "Teacher": "Гайфуллина Лилия",
-              "LessonStart": "19:30",
-              "LessonEnd": "21:00"
+              "Name": "FUNKY</br>FORCE",
+              "Teacher": "Келик Иван",
+              "LessonStart": "20:30",
+              "LessonEnd": "22:00"
             }
           ]
         },
@@ -82,27 +76,27 @@
               "LessonEnd": "17:30"
             },
             {
-              "Name": "КОМАНДЫ",
-              "Teacher": "FF и L-Crew",
-              "LessonStart": "19:30",
-              "LessonEnd": "21:00"
-            }     
+              "Name": "НОВИЧКИ (15+)",
+              "Teacher": "",
+              "LessonStart": "19:00",
+              "LessonEnd": "20:30"
+            },    
           ]
         },
         {
           "WeekDay": "ПЯТНИЦА",
           "Groups":[
             {
-              "Name": "BREAKING",
-              "Teacher": "Семикин Иван",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:30"
+              "Name": "HIP-HOP",
+              "Teacher": "Келик Иван",
+              "LessonStart": "19:00",
+              "LessonEnd": "20:30"
             },
             {
               "Name": "FUNKY</br>FORCE",
               "Teacher": "Келик Иван",
-              "LessonStart": "19:30",
-              "LessonEnd": "21:00"
+              "LessonStart": "20:30",
+              "LessonEnd": "22:00"
             }
           ]
         },
@@ -116,11 +110,11 @@
               "LessonEnd": "17:30"
             },
             {
-              "Name": "ТВОРЧЕСКАЯ",
-              "Teacher": "Келик Иван/</br>Бухаров Данил",
-              "LessonStart": "18:00",
-              "LessonEnd": "20:00"
-            }
+              "Name": "BREAKING",
+              "Teacher": "Семикин Иван",
+              "LessonStart": "17:30",
+              "LessonEnd": "19:00"
+            },
           ]
         },
         {
@@ -135,6 +129,12 @@
         {
           "WeekDay": "ПОНЕДЕЛЬНИК",
           "Groups":[
+            {
+              "Name": "FUNKY</br>FORCE",
+              "Teacher": "Келик Иван",
+              "LessonStart": "18:00",
+              "LessonEnd": "19:30"
+            },
             {
               "Name": "ГРУППА 35+",
               "Teacher": "Вахонина Ирина",
