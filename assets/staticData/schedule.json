@@ -210,22 +210,16 @@
               "LessonEnd": "12:00"
             },
             {
-              "Name": "JUNIORS III</br>(10-15 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "16:00",
-              "LessonEnd": "17:30"
+              "Name": "CADETS II</br>(7-9 лет)",
+              "Teacher": "",
+              "LessonStart": "17:00",
+              "LessonEnd": "18:00"
             },
             {
-              "Name": "L-CREW",
-              "Teacher": "Исакова Лада",
+              "Name": "BABY II</br>(5-6 лет)",
+              "Teacher": "",
               "LessonStart": "18:00",
-              "LessonEnd": "19:30"
-            },
-            {
-              "Name": "FANTASY</br>FORCE",
-              "Teacher": "Бухаров Данил",
-              "LessonStart": "19:30",
-              "LessonEnd": "21:00"
+              "LessonEnd": "19:00"
             }
           ]
         },
@@ -255,8 +249,8 @@
             {
               "Name": "BABY I</br>(5-6 лет)",
               "Teacher": "Косьянова Анна",
-              "LessonStart": "17:00",
-              "LessonEnd": "18:00"
+              "LessonStart": "17:30",
+              "LessonEnd": "18:30"
             },
             {
               "Name": "CADETS I</br>(7-9 лет)",
@@ -270,16 +264,16 @@
           "WeekDay": "ВТОРНИК",
           "Groups":[
             {
-              "Name": "BABY II</br>(5-6 лет)",
-              "Teacher": "Алёшина Катя",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:00"
+              "Name": "CADETS II</br>(7-9 лет)",
+              "Teacher": "",
+              "LessonStart": "17:00",
+              "LessonEnd": "18:00"
             },
             {
-              "Name": "CADETS II</br>(7-9 лет)",
-              "Teacher": "Алёшина Катя",
-              "LessonStart": "19:00",
-              "LessonEnd": "20:00"
+              "Name": "BABY II</br>(5-6 лет)",
+              "Teacher": "",
+              "LessonStart": "18:00",
+              "LessonEnd": "19:00"
             }
           ]
         },
@@ -289,8 +283,8 @@
             {
               "Name": "BABY I</br>(5-6 лет)",
               "Teacher": "Косьянова Анна",
-              "LessonStart": "17:00",
-              "LessonEnd": "18:00"
+              "LessonStart": "17:30",
+              "LessonEnd": "18:30"
             },
             {
               "Name": "CADETS I</br>(7-9 лет)",
@@ -304,16 +298,16 @@
           "WeekDay": "ЧЕТВЕРГ",
           "Groups":[
             {
-              "Name": "BABY II</br>(5-6 лет)",
-              "Teacher": "Алёшина Катя",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:00"
+              "Name": "CADETS II</br>(7-9 лет)",
+              "Teacher": "",
+              "LessonStart": "17:00",
+              "LessonEnd": "18:00"
             },
             {
-              "Name": "CADETS II</br>(7-9 лет)",
-              "Teacher": "Алёшина Катя",
-              "LessonStart": "19:00",
-              "LessonEnd": "20:00"
+              "Name": "BABY II</br>(5-6 лет)",
+              "Teacher": "",
+              "LessonStart": "18:00",
+              "LessonEnd": "19:00"
             }
           ]
         },
@@ -323,8 +317,8 @@
             {
               "Name": "BABY I</br>(5-6 лет)",
               "Teacher": "Косьянова Анна",
-              "LessonStart": "17:00",
-              "LessonEnd": "18:00"
+              "LessonStart": "17:30",
+              "LessonEnd": "18:30"
             },
             {
               "Name": "CADETS I</br>(7-9 лет)",
@@ -336,20 +330,7 @@
         },
         {
           "WeekDay": "СУББОТА",
-          "Groups":[
-            {
-              "Name": "BABY II</br>(5-6 лет)",
-              "Teacher": "Алёшина Катя",
-              "LessonStart": "12:00",
-              "LessonEnd": "13:00"
-            },
-            {
-              "Name": "CADETS II</br>(7-9 лет)",
-              "Teacher": "Алёшина Катя",
-              "LessonStart": "13:00",
-              "LessonEnd": "14:00"
-            }
-          ]
+          "Groups":[]
         },
         {
           "WeekDay": "ВОСКРЕСЕНЬЕ",
