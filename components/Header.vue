@@ -5,7 +5,7 @@
 
             span.hamburger_menu
                 span.hamburger
-            .hamburger_menu-items_container
+            nav.hamburger_menu-items_container
                 .menu_item(@click="scrollToSection('teachers')") ПРЕПОДАВАТЕЛИ
                 .menu_item(@click="scrollToSection('styles')") НАПРАВЛЕНИЯ
                 .menu_item(@click="scrollToSection('schedule')") РАСПИСАНИЕ
@@ -17,13 +17,13 @@
                     | {{contacts.Address.toUpperCase()}}
                     .menu_item-text Посмотреть на карте
         .menu
-            .menu_left
+            nav.menu_left
                 .menu_item(@click="scrollToSection('teachers')") ПРЕПОДАВАТЕЛИ
                 .menu_item(@click="scrollToSection('styles')") НАПРАВЛЕНИЯ
                 .menu_item(@click="scrollToSection('schedule')") РАСПИСАНИЕ
             .menu_icon-container
                 img.menu_icon(src="~/assets/img/logotip.png")
-            .menu_right
+            nav.menu_right
                 .menu_item(@click="scrollToSection('news')") НОВОСТИ
                 .menu_item(@click="$emit('open', 'prices')") ЦЕНЫ
                 .menu_item(@click="scrollToSection('contacts')") КОНТАКТЫ
