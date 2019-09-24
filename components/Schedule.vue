@@ -272,7 +272,7 @@
                             .teacher
                                 opacity 0.5
                                 font-family $LucidaGrandeFont
-                                font-size 11px
+                                font-size 10px
                                 font-weight bold
 
                             .start
