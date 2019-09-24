@@ -142,7 +142,7 @@
           "Groups":[
             {
               "Name": "JUNIORS III</br>(10-15 лет)",
-              "Teacher": "Идёт набор",
+              "Teacher": "Сёмина Анастасия",
               "LessonStart": "15:00",
               "LessonEnd": "16:30"
             }
@@ -170,7 +170,7 @@
           "Groups":[
             {
               "Name": "JUNIORS III</br>(10-15 лет)",
-              "Teacher": "Идёт набор",
+              "Teacher": "Сёмина Анастасия",
               "LessonStart": "15:00",
               "LessonEnd": "16:30"
             },
@@ -187,21 +187,9 @@
           "Groups":[
             {
               "Name": "JUNIORS III</br>(10-15 лет)",
-              "Teacher": "Идёт набор",
+              "Teacher": "Сёмина Анастасия",
               "LessonStart": "15:00",
               "LessonEnd": "16:30"
-            },
-            {
-              "Name": "BABY II</br>(5-6 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:00"
-            },
-            {
-              "Name": "KIDS II</br>(7-9 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "19:00",
-              "LessonEnd": "20:00"
             }
           ]
         },
@@ -239,14 +227,14 @@
           "WeekDay": "ВТОРНИК",
           "Groups":[
             {
-              "Name": "BABY II</br>(4-5 лет)",
-              "Teacher": "Идёт набор",
+              "Name": "BABY II</br>(3-4 года)",
+              "Teacher": "Коюмджян Елена",
               "LessonStart": "18:00",
               "LessonEnd": "19:00"
             },
             {
               "Name": "KIDS II</br>(7-9 лет)",
-              "Teacher": "Идёт набор",
+              "Teacher": "Ивонина Екатерина",
               "LessonStart": "19:00",
               "LessonEnd": "20:00"
             }
@@ -273,14 +261,14 @@
           "WeekDay": "ЧЕТВЕРГ",
           "Groups":[
             {
-              "Name": "BABY II</br>(4-5 лет)",
-              "Teacher": "Идёт набор",
+              "Name": "BABY II</br>(3-4 года)",
+              "Teacher": "Коюмджян Елена",
               "LessonStart": "18:00",
               "LessonEnd": "19:00"
             },
             {
               "Name": "KIDS II</br>(7-9 лет)",
-              "Teacher": "Идёт набор",
+              "Teacher": "Ивонина Екатерина",
               "LessonStart": "19:00",
               "LessonEnd": "20:00"
             }
@@ -305,7 +293,14 @@
         },
         {
           "WeekDay": "СУББОТА",
-          "Groups":[]
+          "Groups":[
+            {
+              "Name": "KIDS II</br>(7-9 лет)",
+              "Teacher": "Ивонина Екатерина",
+              "LessonStart": "16:00",
+              "LessonEnd": "17:00"
+            }
+          ]
         },
         {
           "WeekDay": "ВОСКРЕСЕНЬЕ",
