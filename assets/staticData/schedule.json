@@ -153,7 +153,7 @@
               "LessonEnd": "19:00"
             },
             {
-              "Name": "DANCE MIX (15+)</br>Beginners",
+              "Name": "DANCE MIX (15+)</br>НОВИЧКИ",
               "Teacher": "",
               "LessonStart": "19:00",
               "LessonEnd": "20:30"
@@ -221,7 +221,7 @@
           "WeekDay": "СУББОТА",
           "Groups":[
             {
-              "Name": "DANCE MIX (15+)</br>Beginners",
+              "Name": "DANCE MIX (15+)</br>НОВИЧКИ",
               "Teacher": "",
               "LessonStart": "19:00",
               "LessonEnd": "20:30"
@@ -240,6 +240,12 @@
         {
           "WeekDay": "ПОНЕДЕЛЬНИК",
           "Groups":[
+            {
+              "Name": "АРЕНДА",
+              "Teacher": "ЗАНЯТО",
+              "LessonStart": "16:00",
+              "LessonEnd": "17:00"
+            },
             {
               "Name": "BABY I</br>(5-6 лет)",
               "Teacher": "Косьянова Анна",
@@ -269,6 +275,12 @@
           "WeekDay": "СРЕДА",
           "Groups":[
             {
+              "Name": "АРЕНДА",
+              "Teacher": "ЗАНЯТО",
+              "LessonStart": "16:00",
+              "LessonEnd": "17:00"
+            },
+            {
               "Name": "BABY I</br>(5-6 лет)",
               "Teacher": "Косьянова Анна",
               "LessonStart": "17:30",
@@ -296,6 +308,12 @@
         {
           "WeekDay": "ПЯТНИЦА",
           "Groups":[
+            {
+              "Name": "АРЕНДА",
+              "Teacher": "ЗАНЯТО",
+              "LessonStart": "16:00",
+              "LessonEnd": "17:00"
+            },
             {
               "Name": "BABY I</br>(5-6 лет)",
               "Teacher": "Косьянова Анна",
