@@ -151,6 +151,12 @@
               "Teacher": "Коюмджян Елена",
               "LessonStart": "18:00",
               "LessonEnd": "19:00"
+            },
+            {
+              "Name": "DANCE MIX (15+)</br>Beginners",
+              "Teacher": "",
+              "LessonStart": "19:00",
+              "LessonEnd": "20:30"
             }
           ]
         },
@@ -213,7 +219,14 @@
         },
         {
           "WeekDay": "СУББОТА",
-          "Groups":[]
+          "Groups":[
+            {
+              "Name": "DANCE MIX (15+)</br>Beginners",
+              "Teacher": "",
+              "LessonStart": "19:00",
+              "LessonEnd": "20:30"
+            }
+          ]
         },
         {
           "WeekDay": "ВОСКРЕСЕНЬЕ",
