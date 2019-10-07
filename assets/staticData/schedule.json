@@ -188,8 +188,8 @@
               "LessonEnd": "19:30"
             },
             {
-              "Name": "FANTASY</br>FORCE",
-              "Teacher": "Бухаров Данил",
+              "Name": "FUNKY</br>FORCE",
+              "Teacher": "Келик Иван",
               "LessonStart": "19:30",
               "LessonEnd": "21:00"
             }
@@ -232,6 +232,12 @@
               "Teacher": "Косьянова Анна",
               "LessonStart": "18:30",
               "LessonEnd": "19:30"
+            },
+            {
+              "Name": "FANTASY</br>FORCE",
+              "Teacher": "Бухаров Данил",
+              "LessonStart": "19:30",
+              "LessonEnd": "21:00"
             }
           ]
         },
