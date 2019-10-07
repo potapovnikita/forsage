@@ -124,9 +124,9 @@
           "WeekDay": "ПОНЕДЕЛЬНИК",
           "Groups":[
             {
-              "Name": "FUNKY</br>FORCE",
-              "Teacher": "Келик Иван",
-              "LessonStart": "18:00",
+              "Name": "KIDS I</br>(7-9 лет)",
+              "Teacher": "Косьянова Анна",
+              "LessonStart": "18:30",
               "LessonEnd": "19:30"
             },
             {
@@ -145,6 +145,12 @@
               "Teacher": "Сёмина Анастасия",
               "LessonStart": "15:00",
               "LessonEnd": "16:30"
+            },
+            {
+              "Name": "BABY III</br>(3-4 года)",
+              "Teacher": "Коюмджян Елена",
+              "LessonStart": "18:00",
+              "LessonEnd": "19:00"
             }
           ]
         },
@@ -152,9 +158,9 @@
           "WeekDay": "СРЕДА",
           "Groups":[
             {
-              "Name": "FUNKY</br>FORCE",
-              "Teacher": "Келик Иван",
-              "LessonStart": "18:00",
+              "Name": "KIDS I</br>(7-9 лет)",
+              "Teacher": "Косьянова Анна",
+              "LessonStart": "18:30",
               "LessonEnd": "19:30"
             },
             {
@@ -175,10 +181,16 @@
               "LessonEnd": "16:30"
             },
             {
+              "Name": "BABY III</br>(3-4 года)",
+              "Teacher": "Коюмджян Елена",
+              "LessonStart": "18:00",
+              "LessonEnd": "19:00"
+            },
+            {
               "Name": "ГРУППА 35+",
               "Teacher": "Вахонина Ирина",
-              "LessonStart": "19:30",
-              "LessonEnd": "21:00"
+              "LessonStart": "19:00",
+              "LessonEnd": "20:30"
             }
           ]
         },
@@ -190,7 +202,13 @@
               "Teacher": "Сёмина Анастасия",
               "LessonStart": "15:00",
               "LessonEnd": "16:30"
-            }
+            },
+            {
+              "Name": "KIDS I</br>(7-9 лет)",
+              "Teacher": "Косьянова Анна",
+              "LessonStart": "18:30",
+              "LessonEnd": "19:30"
+            },
           ]
         },
         {
@@ -214,12 +232,6 @@
               "Teacher": "Косьянова Анна",
               "LessonStart": "17:30",
               "LessonEnd": "18:30"
-            },
-            {
-              "Name": "KIDS I</br>(7-9 лет)",
-              "Teacher": "Косьянова Анна",
-              "LessonStart": "18:30",
-              "LessonEnd": "19:30"
             }
           ]
         },
@@ -227,8 +239,8 @@
           "WeekDay": "ВТОРНИК",
           "Groups":[
             {
-              "Name": "BABY II</br>(3-4 года)",
-              "Teacher": "Коюмджян Елена",
+              "Name": "BABY II</br>(5-6 лет)",
+              "Teacher": "Крутикова Алёна",
               "LessonStart": "18:00",
               "LessonEnd": "19:00"
             },
@@ -248,12 +260,6 @@
               "Teacher": "Косьянова Анна",
               "LessonStart": "17:30",
               "LessonEnd": "18:30"
-            },
-            {
-              "Name": "KIDS I</br>(7-9 лет)",
-              "Teacher": "Косьянова Анна",
-              "LessonStart": "18:30",
-              "LessonEnd": "19:30"
             }
           ]
         },
@@ -261,8 +267,8 @@
           "WeekDay": "ЧЕТВЕРГ",
           "Groups":[
             {
-              "Name": "BABY II</br>(3-4 года)",
-              "Teacher": "Коюмджян Елена",
+              "Name": "BABY II</br>(5-6 лет)",
+              "Teacher": "Крутикова Алёна",
               "LessonStart": "18:00",
               "LessonEnd": "19:00"
             },
@@ -284,23 +290,16 @@
               "LessonEnd": "18:30"
             },
             {
-              "Name": "KIDS I</br>(7-9 лет)",
-              "Teacher": "Косьянова Анна",
-              "LessonStart": "18:30",
-              "LessonEnd": "19:30"
+              "Name": "KIDS II</br>(7-9 лет)",
+              "Teacher": "Ивонина Катя",
+              "LessonStart": "19:00",
+              "LessonEnd": "20:00"
             }
           ]
         },
         {
           "WeekDay": "СУББОТА",
-          "Groups":[
-            {
-              "Name": "KIDS II</br>(7-9 лет)",
-              "Teacher": "Ивонина Катя",
-              "LessonStart": "16:00",
-              "LessonEnd": "17:00"
-            }
-          ]
+          "Groups":[]
         },
         {
           "WeekDay": "ВОСКРЕСЕНЬЕ",
