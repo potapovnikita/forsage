@@ -7,6 +7,12 @@
           "WeekDay": "ПОНЕДЕЛЬНИК",
           "Groups":[
             {
+              "Name": "JUNIORS IV</br>(10-15 лет)",
+              "Teacher": "Идёт набор",
+              "LessonStart": "15:00",
+              "LessonEnd": "16:30"
+            },
+            {
               "Name": "DANCEHALL",
               "Teacher": "Гайфуллина Лилия",
               "LessonStart": "19:00",
@@ -47,6 +53,12 @@
           "WeekDay": "СРЕДА",
           "Groups":[
             {
+              "Name": "JUNIORS IV</br>(10-15 лет)",
+              "Teacher": "Идёт набор",
+              "LessonStart": "15:00",
+              "LessonEnd": "16:30"
+            },
+            {
               "Name": "VOGUE/CONTEMP",
               "Teacher": "",
               "LessonStart": "19:00",
@@ -86,6 +98,12 @@
         {
           "WeekDay": "ПЯТНИЦА",
           "Groups":[
+            {
+              "Name": "JUNIORS IV</br>(10-15 лет)",
+              "Teacher": "Идёт набор",
+              "LessonStart": "15:00",
+              "LessonEnd": "16:30"
+            },
             {
               "Name": "HIP-HOP",
               "Teacher": "Келик Иван",
