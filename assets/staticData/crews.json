@@ -1,6 +1,52 @@
 {
   "Crews": [
     {
+      "CrewName": "FUNKY FORCE",
+      "Description": "Команда основана в 2016 г.</br>Тренер: Келик Иван",
+      "ImagePath":"img/news/news1.png",
+      "Awards": 
+      [
+          "3 место - Первенство УрФО Hip Hop Unite, Курган, 2017-2018",
+          "1 место - MDC (ном. Street Show Varsity), 18 марта 2017",
+          "5 место - Первенство России Hip Hop Unite, Москва, 2017-2018",
+          "5 место - Чемпионат Мира Hip Hop Unite, Лейден (Нидерланды), Juniors, 19-21 октября 2017",
+          "2 место - IDD (ном. Street Show Teen Pro), 29 апреля 2018",
+          "4 место - Чемпионат Европы Hip Hop Unite, Прага(Чехия), Juniors, 10-12 мая 2018",
+          "1 место - UDC (ном. Best Show Varsity Prof) в рамках DANCEKB, 18 августа 2018",
+          "1 место - Первенство Свердл. обл-ти (ном. Юниоры), 17 февраля 2019",
+          "2 место - Ural Open Cup (ном. Varsity Pro), 24 февраля 2019",
+          "2 место - Первенство УрФО Hip Hop Unite, Екатеринбург, 10 марта 2019",
+          "3 место - Первенство России Hip Hop Unite, Москва, 1-2 апреля 2019",
+          "1 место - Кубок России Hip Hop Unite, Йошкар-Ола, 21-22 сентября 2019",
+          "3 место - Чемпионат Мира Hip Hop Unite, Лейден (Нидерланды), Juniors, 17-19 октября 2019"
+      ],
+      "YouTubeLinks": 
+      [
+        "https://www.youtube.com/embed/PSZS2X5Xveo?rel=0",
+        "https://www.youtube.com/embed/2eWhFmUD_6g?rel=0"
+      ]
+    },
+    {
+      "CrewName": "FANTASY FORCE",
+      "Description": "Команда основана в 2017 г.</br>Тренер: Бухаров Данил",
+      "ImagePath":"img/news/news2.png",
+      "Awards": 
+      [
+          "3 место - Всероссийский чемпионат 'Уральский пьедестал', г. Челябинск, 28 апреля 2018",
+          "3 место - Кубок Области (ном. Юниоры), 23 декабря 2018",
+          "2 место - Первенство Екатеринбурга (ном. Юниоры), 10 февраля 2019",
+          "3 место - Первенство Свердл. обл-ти (ном. Юниоры), 17 февраля 2019",
+          "1 место - MDC (ном. Varsity Pro), 3 марта 2019",
+          "5 место - Первенство УрФО Hip Hop Unite, Екатеринбург, 10 марта 2019",
+          "2 место -'WHO IS THE CHAMPION?' (ном. VARSITY PRO), 17 марта 2019"
+      ],
+      "YouTubeLinks": 
+      [
+        "https://www.youtube.com/embed/ZJF-Q6bqf0s?rel=0",
+        "https://www.youtube.com/embed/qGa0JWUqqgk?rel=0"
+      ]
+    },
+    {
       "CrewName": "ФОРСАЖ",
       "Description": "Команда основана в 2009 г.</br>Тренер: Старков Александр",
       "ImagePath":"img/news/news3.png",
@@ -64,51 +110,6 @@
       "YouTubeLinks": 
       [
         "https://www.youtube.com/embed/n8lA_1VUaqk?rel=0"
-      ]
-    },
-    {
-      "CrewName": "FUNKY FORCE",
-      "Description": "Команда основана в 2016 г.</br>Тренер: Келик Иван",
-      "ImagePath":"img/news/news1.png",
-      "Awards": 
-      [
-          "3 место - Первенство УрФО Hip Hop Unite, Курган, 2017-2018",
-          "1 место - MDC (ном. Street Show Varsity), 18 марта 2017",
-          "5 место - Первенство России Hip Hop Unite, Москва, 2017-2018",
-          "5 место - Чемпионат Мира Hip Hop Unite, Лейден(Нидерланды), Juniors, 19-21 октября 2017",
-          "2 место - IDD (ном. Street Show Teen Pro), 29 апреля 2018",
-          "4 место - Чемпионат Европы Hip Hop Unite, Прага(Чехия), Juniors, 10-12 мая 2018",
-          "1 место - UDC (ном. Best Show Varsity Prof) в рамках DANCEKB, 18 августа 2018",
-          "1 место - Первенство Свердл. обл-ти (ном. Юниоры), 17 февраля 2019",
-          "2 место - Ural Open Cup (ном. Varsity Pro), 24 февраля 2019",
-          "2 место - Первенство УрФО Hip Hop Unite, Екатеринбург, 10 марта 2019",
-          "3 место - Первенство России Hip Hop Unite, Москва, 1-2 апреля 2019",
-          "1 место - Кубок России Hip Hop Unite, Йошкар-Ола, 21-22 сентября 2019"
-      ],
-      "YouTubeLinks": 
-      [
-        "https://www.youtube.com/embed/PSZS2X5Xveo?rel=0",
-        "https://www.youtube.com/embed/2eWhFmUD_6g?rel=0"
-      ]
-    },
-    {
-      "CrewName": "FANTASY FORCE",
-      "Description": "Команда основана в 2017 г.</br>Тренер: Бухаров Данил",
-      "ImagePath":"img/news/news2.png",
-      "Awards": 
-      [
-          "3 место - Всероссийский чемпионат 'Уральский пьедестал', г. Челябинск, 28 апреля 2018",
-          "3 место - Кубок Области (ном. Юниоры), 23 декабря 2018",
-          "2 место - Первенство Екатеринбурга (ном. Юниоры), 10 февраля 2019",
-          "3 место - Первенство Свердл. обл-ти (ном. Юниоры), 17 февраля 2019",
-          "1 место - MDC (ном. Varsity Pro), 3 марта 2019",
-          "5 место - Первенство УрФО Hip Hop Unite, Екатеринбург, 10 марта 2019",
-          "2 место -'WHO IS THE CHAMPION?' (ном. VARSITY PRO), 17 марта 2019"
-      ],
-      "YouTubeLinks": 
-      [
-        "https://www.youtube.com/embed/ZJF-Q6bqf0s?rel=0",
-        "https://www.youtube.com/embed/qGa0JWUqqgk?rel=0"
       ]
     },
     {
