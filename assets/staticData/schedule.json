@@ -8,9 +8,9 @@
           "Groups":[
             {
               "Name": "JUNIORS IV</br>(10-15 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "15:00",
-              "LessonEnd": "16:30"
+              "Teacher": "Келик Иван",
+              "LessonStart": "17:30",
+              "LessonEnd": "19:00"
             },
             {
               "Name": "DANCEHALL",
@@ -54,9 +54,9 @@
           "Groups":[
             {
               "Name": "JUNIORS IV</br>(10-15 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "15:00",
-              "LessonEnd": "16:30"
+              "Teacher": "Келик Иван",
+              "LessonStart": "17:30",
+              "LessonEnd": "19:00"
             },
             {
               "Name": "VOGUE/CONTEMP",
@@ -100,21 +100,15 @@
           "Groups":[
             {
               "Name": "JUNIORS IV</br>(10-15 лет)",
-              "Teacher": "Идёт набор",
-              "LessonStart": "15:00",
-              "LessonEnd": "16:30"
+              "Teacher": "Келик Иван",
+              "LessonStart": "17:30",
+              "LessonEnd": "19:00"
             },
             {
               "Name": "HIP-HOP",
               "Teacher": "Келик Иван",
               "LessonStart": "19:00",
               "LessonEnd": "20:30"
-            },
-            {
-              "Name": "FUNKY</br>FORCE",
-              "Teacher": "Келик Иван",
-              "LessonStart": "20:30",
-              "LessonEnd": "22:00"
             }
           ]
         },
@@ -126,6 +120,12 @@
               "Teacher": "Бухаров Данил",
               "LessonStart": "16:00",
               "LessonEnd": "17:30"
+            },
+            {
+              "Name": "FUNKY</br>FORCE",
+              "Teacher": "Келик Иван",
+              "LessonStart": "19:00",
+              "LessonEnd": "20:30"
             }
           ]
         },
