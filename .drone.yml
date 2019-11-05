@@ -10,6 +10,7 @@ steps:
     branch:
       include: [ master ]
     event:
+      - commit
       - push
       - pull_request
 
