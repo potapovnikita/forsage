@@ -19,7 +19,7 @@ steps:
 - name: build/client
   image: node:alpine
   environment:
-    - NODE_ENV=production
+    - NODE_ENV: production
   secrets: [ ssh_key ]
   commands:
     - npm run generate
