@@ -1,6 +1,7 @@
 kind: pipeline
 name: default
 
+
 steps:
 - name: install
   image: node:alpine
@@ -13,6 +14,7 @@ steps:
       - commit
       - push
       - pull_request
+
 
 - name: build/client
   image: node:alpine
@@ -27,6 +29,7 @@ steps:
     event:
       - push
       - pull_request
+      
       
 - name: deploy
   image: node:alpine
