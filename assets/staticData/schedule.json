@@ -95,7 +95,7 @@
             },
             {
               "Name": "MEGACREW</br>(12+)",
-              "Teacher": "",
+              "Teacher": "Келик/Бухаров",
               "LessonStart": "19:00",
               "LessonEnd": "20:30"
             },
@@ -132,6 +132,12 @@
               "Teacher": "Бухаров Данил",
               "LessonStart": "16:00",
               "LessonEnd": "17:30"
+            },
+            {
+              "Name": "MEGACREW</br>(12+)",
+              "Teacher": "Келик/Бухаров",
+              "LessonStart": "18:00",
+              "LessonEnd": "19:30"
             },
             {
               "Name": "FUNKY</br>FORCE",
