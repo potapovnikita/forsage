@@ -17,6 +17,12 @@
               "Teacher": "Гайфуллина Лилия",
               "LessonStart": "19:00",
               "LessonEnd": "20:30"
+            },
+            {
+              "Name": "FANTASY</br>FORCE",
+              "Teacher": "Бухаров Данил",
+              "LessonStart": "20:30",
+              "LessonEnd": "22:00"
             }
           ]
         },
@@ -37,7 +43,7 @@
             },
             {
               "Name": "VOGUE(12+)",
-              "Teacher": "Тимирбаева Диана",
+              "Teacher": "Тимирбаева</br>Диана",
               "LessonStart": "19:00",
               "LessonEnd": "20:30"
             },
@@ -59,8 +65,8 @@
               "LessonEnd": "19:00"
             },
             {
-              "Name": "ALL STYLES",
-              "Teacher": "",
+              "Name": "SPECIAL CLASS",
+              "Teacher": "Unknown</br>resenter",
               "LessonStart": "19:00",
               "LessonEnd": "20:30"
             },
@@ -124,8 +130,8 @@
             {
               "Name": "FUNKY</br>FORCE",
               "Teacher": "Келик Иван",
-              "LessonStart": "19:00",
-              "LessonEnd": "20:30"
+              "LessonStart": "19:30",
+              "LessonEnd": "21:00"
             }
           ]
         },
@@ -190,8 +196,8 @@
             {
               "Name": "FUNKY</br>FORCE",
               "Teacher": "Келик Иван",
-              "LessonStart": "19:30",
-              "LessonEnd": "21:00"
+              "LessonStart": "20:30",
+              "LessonEnd": "22:00"
             }
           ]
         },
@@ -247,8 +253,14 @@
             {
               "Name": "DANCE MIX (15+)</br>НОВИЧКИ",
               "Teacher": "",
-              "LessonStart": "19:00",
-              "LessonEnd": "20:30"
+              "LessonStart": "18:00",
+              "LessonEnd": "19:30"
+            },
+            {
+              "Name": "FANTASY</br>FORCE",
+              "Teacher": "Бухаров Данил",
+              "LessonStart": "19:30",
+              "LessonEnd": "21:00"
             }
           ]
         },
