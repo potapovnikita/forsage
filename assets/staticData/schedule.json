@@ -263,6 +263,12 @@
           "WeekDay": "СУББОТА",
           "Groups":[
             {
+              "Name": "KIDS PRO</br>(7-10 лет)",
+              "Teacher": "Келик Иван",
+              "LessonStart": "16:00",
+              "LessonEnd": "17:30"
+            },
+            {
               "Name": "DANCE MIX (15+)</br>НОВИЧКИ",
               "Teacher": "",
               "LessonStart": "18:00",
