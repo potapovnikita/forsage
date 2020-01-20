@@ -295,8 +295,8 @@
             {
               "Name": "KIDS PRO</br>(7-10 лет)",
               "Teacher": "Келик Иван",
-              "LessonStart": "16:00",
-              "LessonEnd": "17:30"
+              "LessonStart": "15:00",
+              "LessonEnd": "16:30"
             },
             {
               "Name": "DANCE MIX (15+)</br>НОВИЧКИ",
@@ -335,6 +335,12 @@
         {
           "WeekDay": "ВТОРНИК",
           "Groups":[
+            {
+              "Name": "ПИЛАТЕС",
+              "Teacher": "Горбунова Ирина",
+              "LessonStart": "15:00",
+              "LessonEnd": "16:00"
+            },
             {
               "Name": "BABY II</br>(5-6 лет)",
               "Teacher": "Крутикова Алёна",
@@ -402,7 +408,14 @@
         },
         {
           "WeekDay": "СУББОТА",
-          "Groups":[]
+          "Groups":[
+            {
+              "Name": "ПИЛАТЕС",
+              "Teacher": "Горбунова Ирина",
+              "LessonStart": "11:00",
+              "LessonEnd": "12:00"
+            },
+          ]
         },
         {
           "WeekDay": "ВОСКРЕСЕНЬЕ",
