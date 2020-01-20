@@ -13,7 +13,7 @@
               "LessonEnd": "19:00"
             },
             {
-              "Name": "DANCEHALL",
+              "Name": "JUNIORS V</br>(10-16 лет)",
               "Teacher": "Гайфуллина Лилия",
               "LessonStart": "19:00",
               "LessonEnd": "20:30"
@@ -42,8 +42,8 @@
               "LessonEnd": "17:30"
             },
             {
-              "Name": "VOGUE(12+)",
-              "Teacher": "Тимирбаева</br>Диана",
+              "Name": "AnukaNaka Crew",
+              "Teacher": "Келик/Бухаров",
               "LessonStart": "19:00",
               "LessonEnd": "20:30"
             },
@@ -65,8 +65,8 @@
               "LessonEnd": "19:00"
             },
             {
-              "Name": "SPECIAL CLASS",
-              "Teacher": "Special</br>presenter",
+              "Name": "JUNIORS V</br>(10-16 лет)",
+              "Teacher": "Бухаров/Сулейманова",
               "LessonStart": "19:00",
               "LessonEnd": "20:30"
             },
@@ -94,7 +94,7 @@
               "LessonEnd": "17:30"
             },
             {
-              "Name": "MEGACREW</br>(12+)",
+              "Name": "AnukaNaka Crew",
               "Teacher": "Келик/Бухаров",
               "LessonStart": "19:00",
               "LessonEnd": "20:30"
@@ -117,8 +117,8 @@
               "LessonEnd": "19:00"
             },
             {
-              "Name": "HIP-HOP",
-              "Teacher": "Келик Иван",
+              "Name": "JUNIORS V</br>(10-16 лет)",
+              "Teacher": "Келик/Сысоев",
               "LessonStart": "19:00",
               "LessonEnd": "20:30"
             }
@@ -134,16 +134,16 @@
               "LessonEnd": "17:30"
             },
             {
-              "Name": "MEGACREW</br>(12+)",
+              "Name": "AnukaNaka Crew",
               "Teacher": "Келик/Бухаров",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:30"
+              "LessonStart": "17:30",
+              "LessonEnd": "19:00"
             },
             {
               "Name": "FUNKY</br>FORCE",
               "Teacher": "Келик Иван",
-              "LessonStart": "19:30",
-              "LessonEnd": "21:00"
+              "LessonStart": "19:00",
+              "LessonEnd": "20:30"
             }
           ]
         },
