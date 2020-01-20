@@ -160,6 +160,12 @@
           "WeekDay": "ПОНЕДЕЛЬНИК",
           "Groups":[
             {
+              "Name": "BABY I</br>(5-6 лет)",
+              "Teacher": "Косьянова Анна",
+              "LessonStart": "17:30",
+              "LessonEnd": "18:30"
+            },
+            {
               "Name": "KIDS I</br>(7-9 лет)",
               "Teacher": "Косьянова Анна",
               "LessonStart": "18:30",
@@ -177,6 +183,12 @@
           "WeekDay": "ВТОРНИК",
           "Groups":[
             {
+              "Name": "KIDS III</br>(7-9 лет)",
+              "Teacher": "Открыт набор!",
+              "LessonStart": "10:30",
+              "LessonEnd": "11:30"
+            },
+            {
               "Name": "JUNIORS III</br>(10-15 лет)",
               "Teacher": "Сёмина Анастасия",
               "LessonStart": "15:00",
@@ -184,7 +196,7 @@
             },
             {
               "Name": "BABY III</br>(3-4 года)",
-              "Teacher": "Коюмджян Елена",
+              "Teacher": "Открыт набор!",
               "LessonStart": "18:00",
               "LessonEnd": "19:00"
             },
@@ -199,6 +211,12 @@
         {
           "WeekDay": "СРЕДА",
           "Groups":[
+            {
+              "Name": "BABY I</br>(5-6 лет)",
+              "Teacher": "Косьянова Анна",
+              "LessonStart": "17:30",
+              "LessonEnd": "18:30"
+            },
             {
               "Name": "KIDS I</br>(7-9 лет)",
               "Teacher": "Косьянова Анна",
@@ -217,6 +235,12 @@
           "WeekDay": "ЧЕТВЕРГ",
           "Groups":[
             {
+              "Name": "KIDS III</br>(7-9 лет)",
+              "Teacher": "Открыт набор!",
+              "LessonStart": "10:30",
+              "LessonEnd": "11:30"
+            },
+            {
               "Name": "JUNIORS III</br>(10-15 лет)",
               "Teacher": "Сёмина Анастасия",
               "LessonStart": "15:00",
@@ -224,7 +248,7 @@
             },
             {
               "Name": "BABY III</br>(3-4 года)",
-              "Teacher": "Коюмджян Елена",
+              "Teacher": "Открыт набор!",
               "LessonStart": "18:00",
               "LessonEnd": "19:00"
             },
@@ -250,6 +274,12 @@
               "Teacher": "Сёмина Анастасия",
               "LessonStart": "15:00",
               "LessonEnd": "16:30"
+            },
+            {
+              "Name": "BABY I</br>(5-6 лет)",
+              "Teacher": "Косьянова Анна",
+              "LessonStart": "17:30",
+              "LessonEnd": "18:30"
             },
             {
               "Name": "KIDS I</br>(7-9 лет)",
@@ -299,12 +329,6 @@
               "Teacher": "ЗАНЯТО",
               "LessonStart": "16:00",
               "LessonEnd": "17:00"
-            },
-            {
-              "Name": "BABY I</br>(5-6 лет)",
-              "Teacher": "Косьянова Анна",
-              "LessonStart": "17:30",
-              "LessonEnd": "18:30"
             }
           ]
         },
@@ -333,12 +357,6 @@
               "Teacher": "ЗАНЯТО",
               "LessonStart": "16:00",
               "LessonEnd": "17:00"
-            },
-            {
-              "Name": "BABY I</br>(5-6 лет)",
-              "Teacher": "Косьянова Анна",
-              "LessonStart": "17:30",
-              "LessonEnd": "18:30"
             }
           ]
         },
@@ -369,10 +387,10 @@
               "LessonEnd": "17:00"
             },
             {
-              "Name": "BABY I</br>(5-6 лет)",
-              "Teacher": "Косьянова Анна",
-              "LessonStart": "17:30",
-              "LessonEnd": "18:30"
+              "Name": "BABY II</br>(5-6 лет)",
+              "Teacher": "Крутикова Алёна",
+              "LessonStart": "18:00",
+              "LessonEnd": "19:00"
             },
             {
               "Name": "KIDS II</br>(7-9 лет)",
