@@ -308,7 +308,14 @@
         },
         {
           "WeekDay": "ВОСКРЕСЕНЬЕ",
-          "Groups":[]
+          "Groups":[
+            {
+              "Name": "FUNKY</br>FORCE",
+              "Teacher": "Келик Иван",
+              "LessonStart": "12:00",
+              "LessonEnd": "14:00"
+            }
+          ]
         }
       ]
     },
