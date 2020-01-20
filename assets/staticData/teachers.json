@@ -20,7 +20,7 @@
     },
     {
         "Name": "ЛИЛИЯ ГАЙФУЛЛИНА",
-        "Styles": "Dancehall, Vogue, тренер команд",
+        "Styles": "Dancehall, хореография",
         "Description":"Многократный призер и чемпион России, Европы и Мира по версии Hip Hop Unite.<br><br>Тренер юниорской команды L-CREW<br><br>Осваивала направления: dancehall, vogue, waacking, locking, hip-hop, house, breaking.<br><br>КМС по хип-хопу. Педагог доп образования!",
         "ImagePath":"img/teachers/lili.png",
         "SmallImagePath":"img/teachers/lili2.png",
@@ -29,7 +29,7 @@
     },
     {
         "Name": "АННА КОСЬЯНОВА",
-        "Styles": "Преподаватель групп базовой подготовки",
+        "Styles": "Преподаватель групп BABY и KIDS",
         "Description":"Участник команды ФОРСАЖ</br>Серебряный призер чемпионата России,</br>Чемпион Европы по версии Hip Hop Unite<br><br>Чемпион России и серебрянный призер Европы в составе FORCE CREW<br><br>КМС по хип-хопу.",
         "ImagePath":"img/teachers/kosyanova.png",
         "SmallImagePath":"img/teachers/kosyanova2.png",
@@ -38,16 +38,25 @@
     },
     {
         "Name": "ЕКАТЕРИНА ИВОНИНА",
-        "Styles": "Преподаватель групп базовой подготовки",
+        "Styles": "Преподаватель групп BABY и KIDS",
         "Description":"",
-        "ImagePath":"img/teachers/kosyanova.png",
-        "SmallImagePath":"img/teachers/kosyanova2.png",
-        "Instagram":"https://www.instagram.com/anchous1581/",
-        "Vk":"https://vk.com/anchous1581"
+        "ImagePath":"img/teachers/ivonina.png",
+        "SmallImagePath":"img/teachers/ivonina2.png",
+        "Instagram":"https://www.instagram.com/_iva__k/",
+        "Vk":"https://vk.com/id57413448"
+    },
+    {
+        "Name": "КРУТИКОВА АЛЕНА",
+        "Styles": "Преподаватель групп BABY",
+        "Description":"",
+        "ImagePath":"img/teachers/krutikova.png",
+        "SmallImagePath":"img/teachers/krutikova2.png",
+        "Instagram":"https://www.instagram.com/allen_twist/",
+        "Vk":"https://vk.com/id184062194"
     },
     {
         "Name": "ЛАДА ИСАКОВА",
-        "Styles": "All Styles, тренер команд",
+        "Styles": "Locking/Workout",
         "Description":"Участник команды ФОРСАЖ</br>Многократный призер и чемпион России, Европы и Мира по версии Hip Hop Unite.<br><br>Тренер юниорской команды L-CREW<br><br>КМС по хип-хопу.",
         "ImagePath":"img/teachers/ladon.png",
         "SmallImagePath":"img/teachers/ladon2.png",
@@ -56,7 +65,7 @@
     },
     {
         "Name": "ЕКАТЕРИНА АЛЕШИНА",
-        "Styles": "Преподаватель групп базовой подготовки",
+        "Styles": "Dancehall",
         "Description":"Тренер и капитан команды Force Majeure<br><br>Чемпион всероссийских соревнований 'Уральский пьедестал'<br>Победитель Student Dance Fest<br><br>Призёр чемпионата области и УрФО",
         "ImagePath":"img/teachers/aleshina.png",
         "SmallImagePath":"img/teachers/aleshina2.png",
@@ -74,7 +83,7 @@
     },
     {
         "Name": "ИРИНА ВАХОНИНА",
-        "Styles": "All Styles, тренер команд",
+        "Styles": "Преподаватель группы 30+",
         "Description":"Тренер команды Ural Federal Force<br>Серебряный призер Чемпионата Европы в категориях Adults и Megacrew Hip Hop Unite<br><br>Чемпион России в составе FORCE CREW<br>КМС по хип-хопу.",
         "ImagePath":"img/teachers/irina.png",
         "SmallImagePath":"img/teachers/irina2.png",
