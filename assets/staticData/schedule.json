@@ -195,9 +195,9 @@
               "LessonEnd": "16:30"
             },
             {
-              "Name": "BABY III</br>(3-4 года)",
-              "Teacher": "Открыт набор!",
-              "LessonStart": "18:00",
+              "Name": "АРЕНДА",
+              "Teacher": "ЗАНЯТО",
+              "LessonStart": "17:00",
               "LessonEnd": "19:00"
             },
             {
@@ -245,12 +245,6 @@
               "Teacher": "Сёмина Анастасия",
               "LessonStart": "15:00",
               "LessonEnd": "16:30"
-            },
-            {
-              "Name": "BABY III</br>(3-4 года)",
-              "Teacher": "Открыт набор!",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:00"
             },
             {
               "Name": "KIDS II</br>(7-9 лет)",
@@ -337,6 +331,12 @@
           "WeekDay": "ВТОРНИК",
           "Groups":[
             {
+              "Name": "АРЕНДА",
+              "Teacher": "ЗАНЯТО",
+              "LessonStart": "11:00",
+              "LessonEnd": "12:00"
+            },
+            {
               "Name": "BABY II</br>(5-6 лет)",
               "Teacher": "Крутикова Алёна",
               "LessonStart": "18:00",
@@ -370,6 +370,12 @@
         {
           "WeekDay": "ЧЕТВЕРГ",
           "Groups":[
+            {
+              "Name": "АРЕНДА",
+              "Teacher": "ЗАНЯТО",
+              "LessonStart": "11:00",
+              "LessonEnd": "12:00"
+            },
             {
               "Name": "BABY II</br>(5-6 лет)",
               "Teacher": "Крутикова Алёна",
@@ -413,8 +419,8 @@
             {
               "Name": "ПИЛАТЕС",
               "Teacher": "Горбунова Ирина",
-              "LessonStart": "11:00",
-              "LessonEnd": "12:00"
+              "LessonStart": "17:00",
+              "LessonEnd": "18:00"
             },
             {
               "Name": "KIDS PRO</br>(7-10 лет)",
