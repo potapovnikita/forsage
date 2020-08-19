@@ -70,7 +70,7 @@
                 const heightSlider = document.getElementById('active').clientHeight
                 const indexRow = this.rowVol - Math.ceil((index + 1) / 4)
                 const heightSliderConst =  this.rowVol > 1 ? heightSlider : 0
-                activeSlider.transform = `translate(${offsetLeft}px, ${-(heightPhoto + heightSlider) * indexRow - heightSliderConst}px)`
+                activeSlider.transform = `translate(${offsetLeft}px, ${-(heightPhoto + heightSlider) * indexRow /*- heightSliderConst*/}px)`
                 setTimeout(() => {
                     activeSlider.opacity = '1'
                 }, 300)
