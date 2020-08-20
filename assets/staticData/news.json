@@ -1,25 +1,25 @@
 {
   "News": [
     {
-      "ImageLink": "img/news/new1.jpg",
-      "Name": "KFC BATTLE",
-      "Date": "15 ИЮНЯ",
-      "Description": "ПОБЕДА НАША🔥<br><br>Суперфинал в Москве.",
-      "PostLink": "https://vk.com/forsage_dance_school?w=wall-120234843_932"
+      "ImageLink": "img/news/newseason.png",
+      "Name": "НОВЫЙ НАБОР 2020",
+      "Date": "20 августа",
+      "Description": "Успевай присоединиться к большой танцевальной семье🔥",
+      "PostLink": "https://vk.com/forsage_dance_school?w=wall-120234843_1509"
     },
     {
-      "ImageLink": "img/news/new3.jpg",
-      "Name": "URAL DANCE CAMP",
-      "Date": "23 АВГУСТА",
-      "Description": "ТАНЦЕВАЛЬНЫЙ ЛАГЕРЬ В САМОМ СЕРДЦЕ УРАЛА<br><br>Получи 3 дня БЕСПЛАТНО!",
-      "PostLink": "https://vk.com/ural_dance_camp?w=wall-170177924_54"
+      "ImageLink": "img/news/clothes.png",
+      "Name": "НОВАЯ КОЛЛЕКЦИЯ",
+      "Date": "31 июля",
+      "Description": "Купи костюм по выгодной цене!",
+      "PostLink": "https://vk.com/forsage_dance_school?w=wall-120234843_1502"
     },
     {
-      "ImageLink": "img/news/new4.jpg",
-      "Name": "DANCEHALL PULL UP",
-      "Date": "23 НОЯБРЯ",
-      "Description": "МАСТЕР-КЛАССЫ, БАТЛЫ и ВЕЧЕРИНКА<br><br>ПРЕЗЕНТЕР и ГЛАВНЫЙ СУДЬЯ: НЮТА ВАСИЛЕНКО",
-      "PostLink": "https://vk.com/dh_pull_up?w=wall-187089111_9"
+      "ImageLink": "img/news/choreo.png",
+      "Name": "BEST CHOREO",
+      "Date": "1 июня",
+      "Description": "Результаты нашего конкурса BEST CHOREO ONLINE CONTEST.",
+      "PostLink": "https://vk.com/forsage_dance_school?w=wall-120234843_1478"
     }
   ]
 }
