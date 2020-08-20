@@ -111,7 +111,7 @@
     .teams_inner-container
         background-color #000
         background-position 50%
-        background-image url('~assets/img/background-ourteams.png')
+        background-image url('~assets/img/backgrounds/teams.png')
         background-repeat no-repeat
         background-size cover
         padding $PaddingContainers
@@ -201,7 +201,7 @@
 
     @media only screen and (max-width 1500px)
         .teams_inner-container
-            background-image url('~assets/img/background-ourteams.png')
+            background-image url('~assets/img/backgrounds/teams.png')
         .teams_video
             iframe
                 min-height 400px
@@ -215,7 +215,7 @@
 
     @media only screen and (max-width 1000px)
         .teams_inner-container
-            background-image url('~assets/img/background-ourteams.png')
+            background-image url('~assets/img/backgrounds/teams.png')
 
         .teams_video
             iframe
@@ -250,7 +250,7 @@
 
     @media only screen and (max-width 450px)
         .teams_inner-container
-            background-image url('~assets/img/background-ourteams-min.png')
+            background-image url('~assets/img/backgrounds/teams-min.png')
             .teams-top
                 .title-text
                     padding-top 0
