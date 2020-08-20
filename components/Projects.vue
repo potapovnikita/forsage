@@ -64,7 +64,7 @@
         .projects-top
             margin-bottom 40px
             .title-text
-                max-width 430px
+                max-width 470px
                 padding-top 35px
                 padding-bottom 50px
                 position relative
