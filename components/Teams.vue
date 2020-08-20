@@ -201,7 +201,7 @@
 
     @media only screen and (max-width 1500px)
         .teams_inner-container
-            background-image url('~assets/img/background-ourteams-min.png')
+            background-image url('~assets/img/background-ourteams.png')
         .teams_video
             iframe
                 min-height 400px
