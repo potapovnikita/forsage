@@ -2,17 +2,27 @@
   "Partners": [
     {
       "Name": "",
-      "ImagePath": "img/partners/HHU.png",
+      "ImagePath": "img/partners/pullup_min.png",
       "Link": ""
     },
     {
       "Name": "",
-      "ImagePath": "img/partners/FORSAGE.png",
+      "ImagePath": "img/partners/hhu_min.png",
       "Link": ""
     },
     {
       "Name": "",
-      "ImagePath": "img/partners/URFU.png",
+      "ImagePath": "img/partners/forsage_min.png",
+      "Link": ""
+    },
+    {
+      "Name": "",
+      "ImagePath": "img/partners/udc_min.png",
+      "Link": ""
+    },
+    {
+      "Name": "",
+      "ImagePath": "img/partners/urfu_min.png",
       "Link": ""
     }
   ]
