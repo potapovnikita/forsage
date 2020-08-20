@@ -22,7 +22,7 @@
 </template>
 
 <script>
-    import Data from '~/assets/staticData/styles.json'
+    import Data from '~/assets/staticData/projects.json'
 
     export default {
         data() {
@@ -58,7 +58,7 @@
 <style lang="stylus">
     .styles_inner-container
         background-color #000
-        background-image url('~assets/img/background-styles.png')
+        background-image url('~assets/img/background-projects.png')
         background-position 50%
         background-repeat no-repeat
         background-size cover
