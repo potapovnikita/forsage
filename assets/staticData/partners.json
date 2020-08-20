@@ -2,27 +2,32 @@
   "Partners": [
     {
       "Name": "",
-      "ImagePath": "img/partners/pullup_min.png",
+      "ImagePath": "img/partners/pullup.png",
       "Link": ""
     },
     {
       "Name": "",
-      "ImagePath": "img/partners/hhu_min.png",
+      "ImagePath": "img/partners/hhu.png",
       "Link": ""
     },
     {
       "Name": "",
-      "ImagePath": "img/partners/forsage_min.png",
+      "ImagePath": "img/partners/forsage.png",
       "Link": ""
     },
     {
       "Name": "",
-      "ImagePath": "img/partners/udc_min.png",
+      "ImagePath": "img/partners/udc.png",
       "Link": ""
     },
     {
       "Name": "",
-      "ImagePath": "img/partners/urfu_min.png",
+      "ImagePath": "img/partners/urfu.png",
+      "Link": ""
+    },
+    {
+      "Name": "",
+      "ImagePath": "img/partners/lighthouse.png",
       "Link": ""
     }
   ]
