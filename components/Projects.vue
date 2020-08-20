@@ -6,7 +6,7 @@
                     .line
                 .projects_list
                     .projects_list-item(
-                        v-for="(item, index) in styles",
+                        v-for="(item, index) in projects",
                         :class="{active: index === activeProject}",
                         @click="selectProject(index)") {{item.ProjectName}}
             .projects_video
