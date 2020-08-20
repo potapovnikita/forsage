@@ -1,15 +1,15 @@
 <template lang="pug">
-    .styles_container
-        .styles_inner-container
-            .styles-top
+    .projects_container
+        .projects_inner-container
+            .projects-top
                 h1.title.title-text Наши проекты
                     .line
-                .styles_list
-                    .styles_list-item(
+                .projects_list
+                    .projects_list-item(
                         v-for="(item, index) in styles",
-                        :class="{active: index === activeStyle}",
-                        @click="selectStyle(index)") {{item.StyleName}}
-            .styles_video
+                        :class="{active: index === activeProject}",
+                        @click="selectProject(index)") {{item.ProjectName}}
+            .projects_video
                 div
                     iframe(:src="videoUrl"
                         frameborder="0"
@@ -23,8 +23,8 @@
     export default {
         data() {
             return {
-                styles: Data.Styles,
-                activeStyle: 0,
+                projects: Data.Projects,
+                activeProject: 0,
             }
         },
         components: {
@@ -32,13 +32,13 @@
         },
         methods: {
             // выбор стиля
-            selectStyle(index) {
-                this.activeStyle = index
+            selectProject(index) {
+                this.activeProject = index
             },
         },
         computed: {
             videoUrl() {
-                return this.styles[this.activeStyle].YouTubeLink
+                return this.projects[this.activeProject].YouTubeLink
             }
         },
         created() {
@@ -52,7 +52,7 @@
 </script>
 
 <style lang="stylus">
-    .styles_inner-container
+    .projects_inner-container
         background-color #000
         background-image url('~assets/img/backgrounds/projects.png')
         background-position 50%
@@ -61,7 +61,7 @@
         padding $PaddingContainers
         padding-bottom 80px
 
-        .styles-top
+        .projects-top
             margin-bottom 40px
             .title-text
                 max-width 430px
@@ -77,7 +77,7 @@
                     background orangeMain
                     top 35px
                     right 0
-    .styles_list
+    .projects_list
         display flex
         justify-content center
 
@@ -110,7 +110,7 @@
             border-bottom 2px solid orangeMain
             opacity 1
 
-    .styles_video
+    .projects_video
         div
             position relative
             margin 0 auto
@@ -126,38 +126,37 @@
                 width 100%
                 height 100%
     @media only screen and (max-width 1500px)
-        .styles_inner-container
+        .projects_inner-container
             background-image url('~assets/img/backgrounds/projects.png')
     @media only screen and (max-width 1000px)
-        .styles_inner-container
+        .projects_inner-container
             background-image url('~assets/img/backgrounds/projects.png')
-        .styles_list
+        .projects_list
             margin 0 auto
             max-width 400px
             flex-wrap wrap
 
     @media only screen and (max-width 767px)
-        .styles_inner-container
+        .projects_inner-container
             width $ContainersWidthMobile
             padding $PaddingContainersMobile
 
     @media only screen and (max-width 450px)
-        .styles_inner-container
+        .projects_inner-container
             background-image url('~assets/img/backgrounds/projects-min.png')
-            .styles-top
+            .projects-top
                 .title-text
                     padding-top 0
 
                     .line
                         top 0
 
-        .styles_list-item
+        .projects_list-item
             margin-right 15px
 
-        .styles_video
+        .projects_video
             div
                 width 100%
                 padding-bottom 48%
-
 
 </style>
