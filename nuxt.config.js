@@ -3,10 +3,11 @@ module.exports = {
     ** Headers of the page
     */
     head: {
-    title: 'Forsage Dance School',
+    title: 'Школа танцев Forsage Dance School в Екатеринбурге, танцы Екатеринбург, школа танцев, научиться танцевать, студия танца, занятия танцами в Екатеринбурге',
     meta: [
         { charset: 'utf-8' },
-        { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'description', content: 'Современная школа танцев для детей и взрослых обучает танцам различных направлений.'}
     ],
     link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
