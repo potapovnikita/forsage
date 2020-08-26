@@ -40,10 +40,24 @@
                "WeekDay":"ВТОРНИК",
                "Groups":[
                   {
-                     "Name":"AnukaNaka</br>CREW",
-                     "Teacher":"Келик/Бухаров",
+                     "Name":"KIDS III</br>(7-9 лет)",
+                     "Teacher":"Открыт набор!",
+                     "LessonStart":"16:00",
+                     "LessonEnd":"17:30",
+                     "IsGeneral":true
+                  },
+                  {
+                     "Name":"ADULTS(17+)",
+                     "Teacher":"Келик",
                      "LessonStart":"19:00",
                      "LessonEnd":"20:30",
+                     "IsGeneral":true
+                  },
+                  {
+                     "Name":"AnukaNaka</br>CREW",
+                     "Teacher":"Келик",
+                     "LessonStart":"20:30",
+                     "LessonEnd":"22:00",
                      "IsGeneral":true
                   }
                ]
@@ -85,8 +99,15 @@
                "WeekDay":"ЧЕТВЕРГ",
                "Groups":[
                   {
-                     "Name":"AnukaNaka</br>CREW",
-                     "Teacher":"Келик/Бухаров",
+                     "Name":"KIDS III</br>(7-9 лет)",
+                     "Teacher":"Открыт набор!",
+                     "LessonStart":"16:00",
+                     "LessonEnd":"17:30",
+                     "IsGeneral":true
+                  },
+                  {
+                     "Name":"ADULTS(17+)",
+                     "Teacher":"Тимирбаева Диана",
                      "LessonStart":"19:00",
                      "LessonEnd":"20:30",
                      "IsGeneral":true
@@ -135,6 +156,20 @@
                      "LessonStart":"16:00",
                      "LessonEnd":"17:30",
                      "IsGeneral":true
+                  },
+                  {
+                     "Name":"AnukaNaka</br>CREW",
+                     "Teacher":"Келик/Бухаров",
+                     "LessonStart":"17:30",
+                     "LessonEnd":"19:00",
+                     "IsGeneral":true
+                  },
+                  {
+                     "Name":"ADULTS(17+)",
+                     "Teacher":"",
+                     "LessonStart":"19:00",
+                     "LessonEnd":"20:30",
+                     "IsGeneral":true
                   }
                ]
             },
@@ -171,13 +206,6 @@
                "WeekDay":"ВТОРНИК",
                "Groups":[
                   {
-                     "Name":"KIDS III</br>(7-9 лет)",
-                     "Teacher":"Открыт набор!",
-                     "LessonStart":"10:30",
-                     "LessonEnd":"11:30",
-                     "IsGeneral":true
-                  },
-                  {
                      "Name":"JUNIORS IV</br>(10-15 лет)",
                      "Teacher":"Открыт набор",
                      "LessonStart":"16:00",
@@ -209,26 +237,12 @@
                      "LessonStart":"18:30",
                      "LessonEnd":"19:30",
                      "IsGeneral":true
-                  },
-                  {
-                     "Name":"FUNKY</br>FORCE",
-                     "Teacher":"Келик Иван",
-                     "LessonStart":"20:30",
-                     "LessonEnd":"22:00",
-                     "IsGeneral":true
                   }
                ]
             },
             {
                "WeekDay":"ЧЕТВЕРГ",
                "Groups":[
-                  {
-                     "Name":"KIDS III</br>(7-9 лет)",
-                     "Teacher":"Открыт набор!",
-                     "LessonStart":"10:30",
-                     "LessonEnd":"11:30",
-                     "IsGeneral":true
-                  },
                   {
                      "Name":"JUNIORS IV</br>(10-15 лет)",
                      "Teacher":"Открыт набор",
@@ -293,13 +307,6 @@
                      "Teacher":"Келик",
                      "LessonStart":"15:00",
                      "LessonEnd":"16:30",
-                     "IsGeneral":true
-                  },
-                  {
-                     "Name":"DANCE MIX (15+)</br>НОВИЧКИ",
-                     "Teacher":"",
-                     "LessonStart":"18:00",
-                     "LessonEnd":"19:30",
                      "IsGeneral":true
                   }
                ]
