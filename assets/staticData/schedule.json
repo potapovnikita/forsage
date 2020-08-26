@@ -425,13 +425,6 @@
           "WeekDay": "СУББОТА",
           "Groups":[
             {
-              "Name": "ПИЛАТЕС",
-              "Teacher": "Горбунова Ирина",
-              "LessonStart": "17:00",
-              "LessonEnd": "18:00",
-              "IsGeneral": false
-            },
-            {
               "Name": "KIDS PRO</br>(7-10 лет)",
               "Teacher": "Келик",
               "LessonStart": "15:00",
