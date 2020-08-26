@@ -22,14 +22,14 @@
                   },
                   {
                      "Name":"JUNIORS III</br>(10-15 лет)",
-                     "Teacher":"",
+                     "Teacher":"Швецов Никита",
                      "LessonStart":"17:30",
                      "LessonEnd":"19:00",
                      "IsGeneral":true
                   },
                   {
                      "Name":"JUNIORS PRO</br>(10-16 лет)",
-                     "Teacher":"",
+                     "Teacher":"Гайфуллина Лилия",
                      "LessonStart":"19:00",
                      "LessonEnd":"20:30",
                      "IsGeneral":true
@@ -48,14 +48,14 @@
                   },
                   {
                      "Name":"ADULTS(17+)",
-                     "Teacher":"Келик",
+                     "Teacher":"Келик Иван",
                      "LessonStart":"19:00",
                      "LessonEnd":"20:30",
                      "IsGeneral":true
                   },
                   {
                      "Name":"AnukaNaka</br>CREW",
-                     "Teacher":"Келик",
+                     "Teacher":"Келик Иван",
                      "LessonStart":"20:30",
                      "LessonEnd":"22:00",
                      "IsGeneral":true
@@ -106,6 +106,13 @@
                      "IsGeneral":true
                   },
                   {
+                     "Name":"JUNIORS III</br>(10-15 лет)",
+                     "Teacher":"Тимирбаева Диана",
+                     "LessonStart":"17:30",
+                     "LessonEnd":"19:00",
+                     "IsGeneral":true
+                  },
+                  {
                      "Name":"ADULTS(17+)",
                      "Teacher":"Тимирбаева Диана",
                      "LessonStart":"19:00",
@@ -132,17 +139,17 @@
                      "IsGeneral":true
                   },
                   {
-                     "Name":"JUNIORS III</br>(10-15 лет)",
-                     "Teacher":"",
-                     "LessonStart":"17:30",
-                     "LessonEnd":"19:00",
+                     "Name":"KIDS I</br>(7-9 лет)",
+                     "Teacher":"Келик Иван",
+                     "LessonStart":"18:30",
+                     "LessonEnd":"19:30",
                      "IsGeneral":true
                   },
                   {
                      "Name":"JUNIORS PRO</br>(10+)",
-                     "Teacher":"",
-                     "LessonStart":"19:00",
-                     "LessonEnd":"20:30",
+                     "Teacher":"Келик Иван",
+                     "LessonStart":"19:30",
+                     "LessonEnd":"21:00",
                      "IsGeneral":true
                   }
                ]
@@ -166,7 +173,7 @@
                   },
                   {
                      "Name":"ADULTS(17+)",
-                     "Teacher":"",
+                     "Teacher":"Сулейманова/Алёшина",
                      "LessonStart":"19:00",
                      "LessonEnd":"20:30",
                      "IsGeneral":true
@@ -291,8 +298,8 @@
                      "IsGeneral":true
                   },
                   {
-                     "Name":"KIDS I</br>(7-9 лет)",
-                     "Teacher":"Келик Иван",
+                     "Name":"KIDS II</br>(7-9 лет)",
+                     "Teacher":"Ивонина Катя",
                      "LessonStart":"18:30",
                      "LessonEnd":"19:30",
                      "IsGeneral":true
@@ -304,7 +311,7 @@
                "Groups":[
                    {
                      "Name":"KIDS PRO</br>(7-10 лет)",
-                     "Teacher":"Келик",
+                     "Teacher":"Келик Иван",
                      "LessonStart":"15:00",
                      "LessonEnd":"16:30",
                      "IsGeneral":true
@@ -386,13 +393,6 @@
                      "LessonStart":"17:00",
                      "LessonEnd":"18:00",
                      "IsGeneral":false
-                  },
-                  {
-                     "Name":"KIDS II</br>(7-9 лет)",
-                     "Teacher":"Ивонина Катя",
-                     "LessonStart":"18:30",
-                     "LessonEnd":"19:30",
-                     "IsGeneral":true
                   }
                ]
             },
