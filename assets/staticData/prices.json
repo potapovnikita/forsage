@@ -2,41 +2,35 @@
   "Categories": [
     {
       "Name": "ГРУППЫ БАЗОВОЙ ПОДГОТОВКИ",
-      "Note": "3 раза в неделю. Изучаются стили: Hip-Hop, Dancehall, Locking, Breaking, Waacking, House dance и т.д.",
+      "Note": "Изучаются стили: Hip-Hop, Dancehall, Locking, Breaking, Waacking, House dance и т.д.<br><br>12 занятий (3 р/н)",
       "Items": [
         {
           "Age": "5 - 6 лет",
           "SinglePrice": "300 руб.",
-          "MonthPrice": "2100 руб.",
+          "MonthPrice": "2200 руб.",
           "Note": ""
         },
         {
           "Age": "7 - 9 лет",
           "SinglePrice": "300 руб.",
-          "MonthPrice": "2100 руб.",
+          "MonthPrice": "2200 руб.",
           "Note": ""
         },
         {
-          "Age": "10 - 12 лет",
-          "SinglePrice": "300 руб.",
-          "MonthPrice": "2400 руб.",
+          "Age": "10 - 16 лет",
+          "SinglePrice": "350 руб.",
+          "MonthPrice": "2500 руб.",
           "Note": ""
         },
         {
-          "Age": "12 - 17 лет",
-          "SinglePrice": "300 руб.",
-          "MonthPrice": "2400 руб.",
-          "Note": ""
-        },
-        {
-          "Age": "от 18 лет",
-          "SinglePrice": "300 руб.",
+          "Age": "от 17 лет",
+          "SinglePrice": "350 руб.",
           "MonthPrice": "2600 руб.",
           "Note": ""
         },
         {
           "Age": "от 30 лет",
-          "SinglePrice": "300 руб.",
+          "SinglePrice": "350 руб.",
           "MonthPrice": "2600 руб.",
           "Note": ""
         }
@@ -44,49 +38,43 @@
     },
     {
       "Name": "КОМАНДЫ",
-      "Note": "5-6 раз в неделю! Выезжаем на Российские и Международные соревнования",
+      "Note": "от 5 раз в неделю! Выезжаем на Российские и Международные соревнования",
       "Items": [
         {
           "Age": "7 - 9 лет",
           "SinglePrice": "-",
-          "MonthPrice": "3100 руб.",
+          "MonthPrice": "3200 руб.",
           "Note": ""
         },
         {
           "Age": "10 - 12 лет",
           "SinglePrice": "-",
-          "MonthPrice": "3100 руб.",
+          "MonthPrice": "3200 руб.",
           "Note": ""
         },
         {
           "Age": "12 - 17 лет",
           "SinglePrice": "-",
-          "MonthPrice": "3100 руб.",
+          "MonthPrice": "3200 руб.",
           "Note": ""
         }
       ]
     },
     {
-      "Name": "ГРУППЫ отдельных ТАНЦЕВАЛЬНЫХ НАПРАВЛЕНИЙ<br>(Hip-Hop, Dancehall, Vogue, Breaking)",
+      "Name": "ИНДИВИДУАЛЬНЫЕ ЗАНЯТИЯ",
       "Note": "",
       "Items": [
         {
-          "Age": "от 10 лет",
-          "SinglePrice": "350 руб.",
-          "MonthPrice": "2100 руб.",
+          "Age": "от 8 лет",
+          "SinglePrice": "1000 руб.",
+          "MonthPrice": "3200 руб.",
+          "Note": "1 раза в неделю"
+        },
+        {
+          "Age": "от 8 лет",
+          "SinglePrice": "1000 руб.",
+          "MonthPrice": "4800 руб.",
           "Note": "2 раза в неделю"
-        },
-        {
-          "Age": "от 10 лет",
-          "SinglePrice": "350 руб.",
-          "MonthPrice": "2600 руб.",
-          "Note": "3 раза в неделю"
-        },
-        {
-          "Age": "от 10 лет",
-          "SinglePrice": "350 руб.",
-          "MonthPrice": "3100 руб.",
-          "Note": "Безлимит"
         }
       ]
     }

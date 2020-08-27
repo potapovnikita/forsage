@@ -14,6 +14,8 @@
             Teams
         section#schedule
             Schedule(@open="openPopup")
+        section#projects
+            Projects
         section#instagram
             Instagram
         section#contacts
@@ -41,6 +43,7 @@
     import Schedule from '~/components/Schedule.vue'
     import Popup from '~/components/Popup.vue'
     import Teams from '~/components/Teams.vue'
+    import Projects from '~/components/Projects.vue'
 
     import Top from '~/assets/img/arrow.svg'
 
@@ -63,7 +66,6 @@
                 this.isOpenPopup = true
                 const elem = document.getElementsByTagName('body')[0].style
                 elem.overflow = 'hidden'
-
             },
             scrollToHead() {
                 zenscroll.to(document.getElementById('header'))
@@ -82,6 +84,7 @@
             Popup,
             Top,
             Teams,
+            Projects
         },
         mounted() {
             const headerHeight = document.getElementsByClassName('header_container')[0].offsetHeight

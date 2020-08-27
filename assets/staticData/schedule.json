@@ -1,312 +1,414 @@
 {
-  "Halls": [
-    {
-      "HallName": "БОЛЬШОЙ ЗАЛ",
-      "HallSchedule": [
-        {
-          "WeekDay": "ПОНЕДЕЛЬНИК",
-          "Groups":[
+   "Halls":[
+      {
+         "HallName":"БОЛЬШОЙ ЗАЛ",
+         "HallSchedule":[
             {
-              "Name": "DANCEHALL",
-              "Teacher": "Гайфуллина Лилия",
-              "LessonStart": "19:00",
-              "LessonEnd": "20:30"
-            }
-          ]
-        },
-        {
-          "WeekDay": "ВТОРНИК",
-          "Groups":[
-            {
-              "Name": "JUNIORS II</br>(10-15 лет)",
-              "Teacher": "Бухаров Данил",
-              "LessonStart": "10:30",
-              "LessonEnd": "12:00"
+               "WeekDay":"ПОНЕДЕЛЬНИК",
+               "Groups":[
+                   {
+                     "Name":"JUNIORS II</br>(10-15 лет)",
+                     "Teacher":"Бухаров Данил",
+                     "LessonStart":"10:30",
+                     "LessonEnd":"12:00",
+                     "IsGeneral":true
+                  },
+                  {
+                     "Name":"JUNIORS I</br>(10-15 лет)",
+                     "Teacher":"Бухаров Данил",
+                     "LessonStart":"16:00",
+                     "LessonEnd":"17:30",
+                     "IsGeneral":true
+                  },
+                  {
+                     "Name":"JUNIORS III</br>(10-15 лет)",
+                     "Teacher":"Швецов Никита",
+                     "LessonStart":"17:30",
+                     "LessonEnd":"19:00",
+                     "IsGeneral":true
+                  },
+                  {
+                     "Name":"JUNIORS PRO</br>(10-16 лет)",
+                     "Teacher":"Гайфуллина Лилия",
+                     "LessonStart":"19:00",
+                     "LessonEnd":"20:30",
+                     "IsGeneral":true
+                  }
+               ]
             },
             {
-              "Name": "JUNIORS I</br>(10-15 лет)",
-              "Teacher": "Бухаров Данил",
-              "LessonStart": "16:00",
-              "LessonEnd": "17:30"
+               "WeekDay":"ВТОРНИК",
+               "Groups":[
+                  {
+                     "Name":"KIDS III</br>(7-9 лет)",
+                     "Teacher":"Открыт набор!",
+                     "LessonStart":"16:00",
+                     "LessonEnd":"17:30",
+                     "IsGeneral":true
+                  },
+                  {
+                     "Name":"ADULTS(17+)",
+                     "Teacher":"Келик Иван",
+                     "LessonStart":"19:00",
+                     "LessonEnd":"20:30",
+                     "IsGeneral":true
+                  }
+               ]
             },
             {
-              "Name": "НОВИЧКИ</br>(15+)",
-              "Teacher": "",
-              "LessonStart": "19:00",
-              "LessonEnd": "20:30"
+               "WeekDay":"СРЕДА",
+               "Groups":[
+                  {
+                     "Name":"JUNIORS II</br>(10-15 лет)",
+                     "Teacher":"Бухаров Данил",
+                     "LessonStart":"10:30",
+                     "LessonEnd":"12:00",
+                     "IsGeneral":true
+                  },
+                  {
+                     "Name":"JUNIORS I</br>(10-15 лет)",
+                     "Teacher":"Бухаров Данил",
+                     "LessonStart":"16:00",
+                     "LessonEnd":"17:30",
+                     "IsGeneral":true
+                  },
+                  {
+                     "Name":"JUNIORS III</br>(10-15 лет)",
+                     "Teacher":"Сысоев Антон",
+                     "LessonStart":"17:30",
+                     "LessonEnd":"19:00",
+                     "IsGeneral":true
+                  },
+                  {
+                     "Name":"JUNIORS PRO</br>(10-16 лет)",
+                     "Teacher":"Сысоев Антон",
+                     "LessonStart":"19:00",
+                     "LessonEnd":"20:30",
+                     "IsGeneral":true
+                  }
+               ]
             },
             {
-              "Name": "FUNKY</br>FORCE",
-              "Teacher": "Келик Иван",
-              "LessonStart": "20:30",
-              "LessonEnd": "22:00"
-            }
-          ]
-        },
-        {
-          "WeekDay": "СРЕДА",
-          "Groups":[
-            {
-              "Name": "VOGUE/CONTEMP",
-              "Teacher": "",
-              "LessonStart": "19:00",
-              "LessonEnd": "20:30"
+               "WeekDay":"ЧЕТВЕРГ",
+               "Groups":[
+                  {
+                     "Name":"KIDS III</br>(7-9 лет)",
+                     "Teacher":"Открыт набор!",
+                     "LessonStart":"16:00",
+                     "LessonEnd":"17:30",
+                     "IsGeneral":true
+                  },
+                  {
+                     "Name":"JUNIORS III</br>(10-15 лет)",
+                     "Teacher":"Тимирбаева Диана",
+                     "LessonStart":"17:30",
+                     "LessonEnd":"19:00",
+                     "IsGeneral":true
+                  },
+                  {
+                     "Name":"ADULTS(17+)",
+                     "Teacher":"Тимирбаева Диана",
+                     "LessonStart":"19:00",
+                     "LessonEnd":"20:30",
+                     "IsGeneral":true
+                  }
+               ]
             },
             {
-              "Name": "FUNKY</br>FORCE",
-              "Teacher": "Келик Иван",
-              "LessonStart": "20:30",
-              "LessonEnd": "22:00"
-            }
-          ]
-        },
-        {
-          "WeekDay": "ЧЕТВЕРГ",
-          "Groups":[
-            {
-              "Name": "JUNIORS II</br>(10-15 лет)",
-              "Teacher": "Бухаров Данил",
-              "LessonStart": "10:30",
-              "LessonEnd": "12:00"
+               "WeekDay":"ПЯТНИЦА",
+               "Groups":[
+                   {
+                     "Name":"JUNIORS II</br>(10-15 лет)",
+                     "Teacher":"Бухаров Данил",
+                     "LessonStart":"10:30",
+                     "LessonEnd":"12:00",
+                     "IsGeneral":true
+                  },
+                  {
+                     "Name":"JUNIORS I</br>(10-15 лет)",
+                     "Teacher":"Швецов Никита",
+                     "LessonStart":"16:00",
+                     "LessonEnd":"17:30",
+                     "IsGeneral":true
+                  },
+                  {
+                     "Name":"KIDS I</br>(7-9 лет)",
+                     "Teacher":"Келик Иван",
+                     "LessonStart":"18:30",
+                     "LessonEnd":"19:30",
+                     "IsGeneral":true
+                  },
+                  {
+                     "Name":"JUNIORS PRO</br>(10-16 лет)",
+                     "Teacher":"Келик Иван",
+                     "LessonStart":"19:30",
+                     "LessonEnd":"21:00",
+                     "IsGeneral":true
+                  }
+               ]
             },
             {
-              "Name": "JUNIORS I</br>(10-15 лет)",
-              "Teacher": "Бухаров Данил",
-              "LessonStart": "16:00",
-              "LessonEnd": "17:30"
+               "WeekDay":"СУББОТА",
+               "Groups":[
+                  {
+                     "Name":"JUNIORS I/II/III</br>(10-15 лет)",
+                     "Teacher":"Сулейманова/Келик",
+                     "LessonStart":"16:00",
+                     "LessonEnd":"17:30",
+                     "IsGeneral":true
+                  },
+                  {
+                     "Name":"ADULTS(17+)",
+                     "Teacher":"Сулейманова/Алёшина",
+                     "LessonStart":"19:00",
+                     "LessonEnd":"20:30",
+                     "IsGeneral":true
+                  }
+               ]
             },
             {
-              "Name": "НОВИЧКИ</br>(15+)",
-              "Teacher": "",
-              "LessonStart": "19:00",
-              "LessonEnd": "20:30"
+               "WeekDay":"ВОСКРЕСЕНЬЕ",
+               "Groups":[
+               ]
             }
-          ]
-        },
-        {
-          "WeekDay": "ПЯТНИЦА",
-          "Groups":[
+         ]
+      },
+      {
+         "HallName":"ПРОФ ЗАЛ",
+         "HallSchedule":[
             {
-              "Name": "HIP-HOP",
-              "Teacher": "Келик Иван",
-              "LessonStart": "19:00",
-              "LessonEnd": "20:30"
+               "WeekDay":"ПОНЕДЕЛЬНИК",
+               "Groups":[
+                  {
+                     "Name":"KIDS I</br>(7-9 лет)",
+                     "Teacher":"Келик Иван",
+                     "LessonStart":"18:30",
+                     "LessonEnd":"19:30",
+                     "IsGeneral":true
+                  },
+                  {
+                     "Name":"SENIORS(30+)",
+                     "Teacher":"Вахонина Ирина",
+                     "LessonStart":"19:30",
+                     "LessonEnd":"21:00",
+                     "IsGeneral":true
+                  }
+               ]
             },
             {
-              "Name": "FUNKY</br>FORCE",
-              "Teacher": "Келик Иван",
-              "LessonStart": "20:30",
-              "LessonEnd": "22:00"
-            }
-          ]
-        },
-        {
-          "WeekDay": "СУББОТА",
-          "Groups":[
-            {
-              "Name": "JUNIORS I/II</br>(10-15 лет)",
-              "Teacher": "Бухаров Данил",
-              "LessonStart": "16:00",
-              "LessonEnd": "17:30"
-            }
-          ]
-        },
-        {
-          "WeekDay": "ВОСКРЕСЕНЬЕ",
-          "Groups":[]
-        }
-      ]
-    },
-    {
-      "HallName": "ПРОФ ЗАЛ",
-      "HallSchedule": [
-        {
-          "WeekDay": "ПОНЕДЕЛЬНИК",
-          "Groups":[
-            {
-              "Name": "FUNKY</br>FORCE",
-              "Teacher": "Келик Иван",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:30"
+               "WeekDay":"ВТОРНИК",
+               "Groups":[
+                  {
+                     "Name":"JUNIORS IV</br>(10-15 лет)",
+                     "Teacher":"Открыт набор",
+                     "LessonStart":"16:00",
+                     "LessonEnd":"17:30",
+                     "IsGeneral":true
+                  },
+                  {
+                     "Name":"BABY I</br>(5-6 лет)",
+                     "Teacher":"Ивонина Катя",
+                     "LessonStart":"17:30",
+                     "LessonEnd":"18:30",
+                     "IsGeneral":true
+                  },
+                  {
+                     "Name":"KIDS II</br>(7-9 лет)",
+                     "Teacher":"Ивонина Катя",
+                     "LessonStart":"18:30",
+                     "LessonEnd":"19:30",
+                     "IsGeneral":true
+                  },
+                  {
+                     "Name":"AnukaNaka</br>CREW",
+                     "Teacher":"Келик Иван",
+                     "LessonStart":"20:30",
+                     "LessonEnd":"22:00",
+                     "IsGeneral":true
+                  }
+               ]
             },
             {
-              "Name": "ГРУППА 35+",
-              "Teacher": "Вахонина Ирина",
-              "LessonStart": "19:30",
-              "LessonEnd": "21:00"
-            }
-          ]
-        },
-        {
-          "WeekDay": "ВТОРНИК",
-          "Groups":[
-            {
-              "Name": "JUNIORS III</br>(10-15 лет)",
-              "Teacher": "Сёмина Анастасия",
-              "LessonStart": "15:00",
-              "LessonEnd": "16:30"
-            }
-          ]
-        },
-        {
-          "WeekDay": "СРЕДА",
-          "Groups":[
-            {
-              "Name": "FUNKY</br>FORCE",
-              "Teacher": "Келик Иван",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:30"
+               "WeekDay":"СРЕДА",
+               "Groups":[
+                  {
+                     "Name":"KIDS I</br>(7-9 лет)",
+                     "Teacher":"Келик Иван",
+                     "LessonStart":"18:30",
+                     "LessonEnd":"19:30",
+                     "IsGeneral":true
+                  }
+               ]
             },
             {
-              "Name": "FANTASY</br>FORCE",
-              "Teacher": "Бухаров Данил",
-              "LessonStart": "19:30",
-              "LessonEnd": "21:00"
-            }
-          ]
-        },
-        {
-          "WeekDay": "ЧЕТВЕРГ",
-          "Groups":[
-            {
-              "Name": "JUNIORS III</br>(10-15 лет)",
-              "Teacher": "Сёмина Анастасия",
-              "LessonStart": "15:00",
-              "LessonEnd": "16:30"
+               "WeekDay":"ЧЕТВЕРГ",
+               "Groups":[
+                  {
+                     "Name":"JUNIORS IV</br>(10-15 лет)",
+                     "Teacher":"Открыт набор",
+                     "LessonStart":"16:00",
+                     "LessonEnd":"17:30",
+                     "IsGeneral":true
+                  },
+                  {
+                     "Name":"BABY I</br>(5-6 лет)",
+                     "Teacher":"Ивонина Катя",
+                     "LessonStart":"17:30",
+                     "LessonEnd":"18:30",
+                     "IsGeneral":true
+                  },
+                  {
+                     "Name":"KIDS II</br>(7-9 лет)",
+                     "Teacher":"Ивонина Катя",
+                     "LessonStart":"18:30",
+                     "LessonEnd":"19:30",
+                     "IsGeneral":true
+                  },
+                  {
+                     "Name":"SENIORS(30+)",
+                     "Teacher":"Вахонина Ирина",
+                     "LessonStart":"19:30",
+                     "LessonEnd":"21:00",
+                     "IsGeneral":true
+                  }
+               ]
             },
             {
-              "Name": "ГРУППА 35+",
-              "Teacher": "Вахонина Ирина",
-              "LessonStart": "19:30",
-              "LessonEnd": "21:00"
-            }
-          ]
-        },
-        {
-          "WeekDay": "ПЯТНИЦА",
-          "Groups":[
-            {
-              "Name": "JUNIORS III</br>(10-15 лет)",
-              "Teacher": "Сёмина Анастасия",
-              "LessonStart": "15:00",
-              "LessonEnd": "16:30"
-            }
-          ]
-        },
-        {
-          "WeekDay": "СУББОТА",
-          "Groups":[]
-        },
-        {
-          "WeekDay": "ВОСКРЕСЕНЬЕ",
-          "Groups":[]
-        }
-      ]
-    },
-    {
-      "HallName": "МАЛЫЙ ЗАЛ",
-      "HallSchedule": [
-        {
-          "WeekDay": "ПОНЕДЕЛЬНИК",
-          "Groups":[
-            {
-              "Name": "BABY I</br>(5-6 лет)",
-              "Teacher": "Косьянова Анна",
-              "LessonStart": "17:30",
-              "LessonEnd": "18:30"
+               "WeekDay":"ПЯТНИЦА",
+               "Groups":[
+                  {
+                     "Name":"JUNIORS IV</br>(10-15 лет)",
+                     "Teacher":"Открыт набор",
+                     "LessonStart":"16:00",
+                     "LessonEnd":"17:30",
+                     "IsGeneral":true
+                  },
+                  {
+                     "Name":"BABY I</br>(5-6 лет)",
+                     "Teacher":"Ивонина Катя",
+                     "LessonStart":"17:30",
+                     "LessonEnd":"18:30",
+                     "IsGeneral":true
+                  },
+                  {
+                     "Name":"KIDS II</br>(7-9 лет)",
+                     "Teacher":"Ивонина Катя",
+                     "LessonStart":"18:30",
+                     "LessonEnd":"19:30",
+                     "IsGeneral":true
+                  }
+               ]
             },
             {
-              "Name": "KIDS I</br>(7-9 лет)",
-              "Teacher": "Косьянова Анна",
-              "LessonStart": "18:30",
-              "LessonEnd": "19:30"
-            }
-          ]
-        },
-        {
-          "WeekDay": "ВТОРНИК",
-          "Groups":[
-            {
-              "Name": "BABY II</br>(3-4 года)",
-              "Teacher": "Коюмджян Елена",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:00"
+               "WeekDay":"СУББОТА",
+               "Groups":[
+                   {
+                     "Name":"KIDS PRO</br>(7-10 лет)",
+                     "Teacher":"Келик Иван",
+                     "LessonStart":"16:00",
+                     "LessonEnd":"17:30",
+                     "IsGeneral":true
+                  },
+                  {
+                     "Name":"AnukaNaka</br>CREW",
+                     "Teacher":"Келик/Бухаров",
+                     "LessonStart":"19:00",
+                     "LessonEnd":"20:30",
+                     "IsGeneral":true
+                  }
+               ]
             },
             {
-              "Name": "KIDS II</br>(7-9 лет)",
-              "Teacher": "Ивонина Катя",
-              "LessonStart": "19:00",
-              "LessonEnd": "20:00"
+               "WeekDay":"ВОСКРЕСЕНЬЕ",
+               "Groups":[
+                  
+               ]
             }
-          ]
-        },
-        {
-          "WeekDay": "СРЕДА",
-          "Groups":[
+         ]
+      },
+      {
+         "HallName":"МАЛЫЙ ЗАЛ",
+         "HallSchedule":[
             {
-              "Name": "BABY I</br>(5-6 лет)",
-              "Teacher": "Косьянова Анна",
-              "LessonStart": "17:30",
-              "LessonEnd": "18:30"
+               "WeekDay":"ПОНЕДЕЛЬНИК",
+               "Groups":[
+                  {
+                     "Name":"АРЕНДА",
+                     "Teacher":"ЗАНЯТО",
+                     "LessonStart":"17:00",
+                     "LessonEnd":"18:00",
+                     "IsGeneral":false
+                  },
+                  {
+                     "Name":"BABY II</br>(5-6 лет)",
+                     "Teacher":"Крутикова Алёна",
+                     "LessonStart":"18:00",
+                     "LessonEnd":"19:00",
+                     "IsGeneral":true
+                  }
+               ]
             },
             {
-              "Name": "KIDS I</br>(7-9 лет)",
-              "Teacher": "Косьянова Анна",
-              "LessonStart": "18:30",
-              "LessonEnd": "19:30"
-            }
-          ]
-        },
-        {
-          "WeekDay": "ЧЕТВЕРГ",
-          "Groups":[
-            {
-              "Name": "BABY II</br>(3-4 года)",
-              "Teacher": "Коюмджян Елена",
-              "LessonStart": "18:00",
-              "LessonEnd": "19:00"
+               "WeekDay":"ВТОРНИК",
+               "Groups":[
+               ]
             },
             {
-              "Name": "KIDS II</br>(7-9 лет)",
-              "Teacher": "Ивонина Катя",
-              "LessonStart": "19:00",
-              "LessonEnd": "20:00"
-            }
-          ]
-        },
-        {
-          "WeekDay": "ПЯТНИЦА",
-          "Groups":[
-            {
-              "Name": "BABY I</br>(5-6 лет)",
-              "Teacher": "Косьянова Анна",
-              "LessonStart": "17:30",
-              "LessonEnd": "18:30"
+               "WeekDay":"СРЕДА",
+               "Groups":[
+                  {
+                     "Name":"АРЕНДА",
+                     "Teacher":"ЗАНЯТО",
+                     "LessonStart":"17:00",
+                     "LessonEnd":"18:00",
+                     "IsGeneral":false
+                  },
+                  {
+                     "Name":"BABY II</br>(5-6 лет)",
+                     "Teacher":"Крутикова Алёна",
+                     "LessonStart":"18:00",
+                     "LessonEnd":"19:00",
+                     "IsGeneral":true
+                  }
+               ]
             },
             {
-              "Name": "KIDS I</br>(7-9 лет)",
-              "Teacher": "Косьянова Анна",
-              "LessonStart": "18:30",
-              "LessonEnd": "19:30"
-            }
-          ]
-        },
-        {
-          "WeekDay": "СУББОТА",
-          "Groups":[
+               "WeekDay":"ЧЕТВЕРГ",
+               "Groups":[
+                  {
+                     "Name":"BABY II</br>(5-6 лет)",
+                     "Teacher":"Крутикова Алёна",
+                     "LessonStart":"18:00",
+                     "LessonEnd":"19:00",
+                     "IsGeneral":true
+                  }
+               ]
+            },
             {
-              "Name": "KIDS II</br>(7-9 лет)",
-              "Teacher": "Ивонина Катя",
-              "LessonStart": "16:00",
-              "LessonEnd": "17:00"
+               "WeekDay":"ПЯТНИЦА",
+               "Groups":[
+                  {
+                     "Name":"АРЕНДА",
+                     "Teacher":"ЗАНЯТО",
+                     "LessonStart":"17:00",
+                     "LessonEnd":"18:00",
+                     "IsGeneral":false
+                  }
+               ]
+            },
+            {
+               "WeekDay":"СУББОТА",
+               "Groups":[
+                  
+               ]
+            },
+            {
+               "WeekDay":"ВОСКРЕСЕНЬЕ",
+               "Groups":[
+                  
+               ]
             }
-          ]
-        },
-        {
-          "WeekDay": "ВОСКРЕСЕНЬЕ",
-          "Groups":[]
-        }
-      ]
-    }
-  ]
+         ]
+      }
+   ]
 }

@@ -49,7 +49,7 @@
         },
         // de1341bf598a4f26ad8401379fce5535
         async created() {
-            const TOKEN = '5615810087.b6a16de.e9f5397658b946afa8d21d135862fd63' // токен для доступа к api
+            const TOKEN = '5615810087.b6a16de.2719937d14504052806ea94e0baebec4' // токен для доступа к api
             const USER_ID = 'self' // id пользователя
 
             jsonp(`https://api.instagram.com/v1/users/${USER_ID}/media/recent/?access_token=${TOKEN}`, null, (err, res) => {

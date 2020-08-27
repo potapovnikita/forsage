@@ -15,15 +15,10 @@
                         frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen)
-
-
-
-
 </template>
 
 <script>
     import Data from '~/assets/staticData/styles.json'
-
 
     export default {
         data() {
@@ -59,7 +54,7 @@
 <style lang="stylus">
     .styles_inner-container
         background-color #000
-        background-image url('~assets/img/background-styles@2x.png')
+        background-image url('~assets/img/backgrounds/styles.png')
         background-position 50%
         background-repeat no-repeat
         background-size cover
@@ -132,10 +127,10 @@
                 height 100%
     @media only screen and (max-width 1500px)
         .styles_inner-container
-            background-image url('~assets/img/background-styles@2x-min.png')
+            background-image url('~assets/img/backgrounds/styles.png')
     @media only screen and (max-width 1000px)
         .styles_inner-container
-            background-image url('~assets/img/background-styles.png')
+            background-image url('~assets/img/backgrounds/styles.png')
         .styles_list
             margin 0 auto
             max-width 400px
@@ -148,7 +143,7 @@
 
     @media only screen and (max-width 450px)
         .styles_inner-container
-            background-image url('~assets/img/background-styles-min.png')
+            background-image url('~assets/img/backgrounds/styles-min.png')
             .styles-top
                 .title-text
                     padding-top 0
@@ -163,6 +158,4 @@
             div
                 width 100%
                 padding-bottom 48%
-
-
 </style>

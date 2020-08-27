@@ -35,11 +35,6 @@
                                             span.start(v-html="daySchedule.lesson.LessonStart + '-' + daySchedule.lesson.LessonEnd")
                     Button(name="ЗАПИСАТЬСЯ" type="small", :clickAction="() => {$emit('open', 'feedback')}")
 
-
-
-
-
-
 </template>
 
 <script>
@@ -230,7 +225,8 @@
         align-items center
 
         button
-            margin-top 40px
+            margin-top 30px
+            margin-bottom 30px
 
         .schedule
             display inline-flex

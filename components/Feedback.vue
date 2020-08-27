@@ -1,6 +1,6 @@
 <template lang="pug">
     .feedback_container
-        h2.title.title-feedback {{statusSuccess ? 'СПАСИБО!' : 'Начать танцевать'}}
+        h2.title.title-feedback {{statusSuccess ? 'СПАСИБО!' : 'Начни танцевать'}}
         h3.title(v-html="statusSuccess && emailStatus ? emailStatus : formDesc")
         Gift
         form(v-if="!statusSuccess" v-on:submit.prevent="submitForm()")
