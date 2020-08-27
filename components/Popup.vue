@@ -1,5 +1,5 @@
 <template lang="pug">
-    .popup-wrapper
+    .popup-wrapper(v-if="isOpenPopup")
         .popup_overlay(:class="{'popup-close': !isOpenPopup}")
         .popup_container(:class="{'popup-close': !isOpenPopup}" v-click-outside="onClickOutside")
             .popup_inner-container
@@ -43,7 +43,7 @@
         },
         methods: {
             onClickOutside (event) {
-                if(this.isOpenPopup) this.$emit('close')
+                if (this.isOpenPopup) this.$emit('close')
             }
         },
         computed: {
