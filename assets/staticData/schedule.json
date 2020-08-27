@@ -52,13 +52,6 @@
                      "LessonStart":"19:00",
                      "LessonEnd":"20:30",
                      "IsGeneral":true
-                  },
-                  {
-                     "Name":"AnukaNaka</br>CREW",
-                     "Teacher":"Келик Иван",
-                     "LessonStart":"20:30",
-                     "LessonEnd":"22:00",
-                     "IsGeneral":true
                   }
                ]
             },
@@ -159,16 +152,9 @@
                "Groups":[
                   {
                      "Name":"JUNIORS I/II/III</br>(10-15 лет)",
-                     "Teacher":"Бухаров Данил",
+                     "Teacher":"Сулейманова/Келик",
                      "LessonStart":"16:00",
                      "LessonEnd":"17:30",
-                     "IsGeneral":true
-                  },
-                  {
-                     "Name":"AnukaNaka</br>CREW",
-                     "Teacher":"Келик/Бухаров",
-                     "LessonStart":"17:30",
-                     "LessonEnd":"19:00",
                      "IsGeneral":true
                   },
                   {
@@ -231,6 +217,13 @@
                      "Teacher":"Ивонина Катя",
                      "LessonStart":"18:30",
                      "LessonEnd":"19:30",
+                     "IsGeneral":true
+                  },
+                  {
+                     "Name":"AnukaNaka</br>CREW",
+                     "Teacher":"Келик Иван",
+                     "LessonStart":"20:30",
+                     "LessonEnd":"22:00",
                      "IsGeneral":true
                   }
                ]
@@ -314,6 +307,13 @@
                      "Teacher":"Келик Иван",
                      "LessonStart":"16:00",
                      "LessonEnd":"17:30",
+                     "IsGeneral":true
+                  },
+                  {
+                     "Name":"AnukaNaka</br>CREW",
+                     "Teacher":"Келик/Бухаров",
+                     "LessonStart":"19:00",
+                     "LessonEnd":"20:30",
                      "IsGeneral":true
                   }
                ]
