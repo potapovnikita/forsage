@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@nuxtjs/yandex-metrika": "^0.1.1",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "emailjs-com": "^2.3.2",
     "fs": "0.0.1-security",
     "gulp": "^4.0.1",
